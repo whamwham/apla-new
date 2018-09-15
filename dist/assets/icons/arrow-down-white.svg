@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="23px" height="25px" viewBox="0 0 23 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>arrow-down</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Apla-StyleGuide-Exportable" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-271.000000, -485.000000)">
+        <g id="arrow-down" transform="translate(283.000000, 497.000000) rotate(-90.000000) translate(-283.000000, -497.000000) translate(270.000000, 484.000000)" fill="#FFFFFF">
+            <g id="Group-2" transform="translate(12.828439, 13.084933) rotate(-315.000000) translate(-12.828439, -13.084933) translate(3.828439, 4.084933)">
+                <rect id="Rectangle-3" x="0.0361291288" y="1.58639865" width="2" height="16" rx="1"></rect>
+                <rect id="Rectangle-3-Copy-2" transform="translate(9.277250, 8.345278) scale(-1, 1) rotate(-45.000000) translate(-9.277250, -8.345278) " x="8.2772499" y="-2.30942688" width="2" height="21.3094095" rx="1"></rect>
+                <rect id="Rectangle-3-Copy" transform="translate(8.036129, 16.586399) rotate(-270.000000) translate(-8.036129, -16.586399) " x="7.03612913" y="8.58639865" width="2" height="16" rx="1"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

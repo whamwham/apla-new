@@ -1,0 +1,45 @@
+<svg width="60" height="60" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>icon-Business-licence-issurance</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-3257 -4125)">
+<g id="icon-Business-licence-issurance">
+<g id="Rectangle 2 Copy">
+<use xlink:href="#path0_fill" transform="translate(3260 4179)" fill="#1C1A1A"/>
+</g>
+<g id="Group">
+<g id="Rectangle">
+<mask id="mask0_outline_ins">
+<use xlink:href="#path1_fill" fill="white" transform="matrix(0.866025 0.5 -0.5 0.866025 3290.62 4125.55)"/>
+</mask>
+<g mask="url(#mask0_outline_ins)">
+<use xlink:href="#path2_stroke_2x" transform="matrix(0.866025 0.5 -0.5 0.866025 3290.62 4125.55)" fill="#1C1A1A"/>
+</g>
+</g>
+<g id="Rectangle 2 Copy 2">
+<use xlink:href="#path3_fill" transform="matrix(0.5 -0.866025 0.866025 0.5 3272.28 4177.31)" fill="#1C1A1A"/>
+</g>
+<g id="Rectangle 2 Copy 3">
+<use xlink:href="#path4_fill" transform="matrix(0.5 -0.866025 0.866025 0.5 3280.28 4163.46)" fill="#1C1A1A"/>
+</g>
+<g id="Rectangle 2 Copy 4">
+<use xlink:href="#path5_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 3285.99 4135.58)" fill="#1C1A1A"/>
+</g>
+<g id="Rectangle 3">
+<use xlink:href="#path6_fill" transform="matrix(-0.866025 0.5 -0.5 -0.866025 3289.33 4172.43)" fill="#1C1A1A"/>
+</g>
+<g id="Rectangle 3 Copy">
+<use xlink:href="#path6_fill" transform="matrix(0 1 -1 0 3283.36 4161.77)" fill="#1C1A1A"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 0 1.5C 0 0.671573 0.671573 0 1.5 0L 52.5 0C 53.3284 0 54 0.671573 54 1.5C 54 2.32843 53.3284 3 52.5 3L 1.5 3C 0.671573 3 0 2.32843 0 1.5Z"/>
+<path id="path1_fill" fill-rule="evenodd" d="M 2.59561e-15 4C 2.20674e-15 1.79086 1.79086 1.478e-15 4 2.18847e-15L 19 7.01251e-15C 21.2091 7.72297e-15 23 1.79086 23 4L 23 42.8833L 11.5 52L 9.44026e-15 42.8833L 2.59561e-15 4Z"/>
+<path id="path2_stroke_2x" d="M 23 42.8833L 24.8637 45.2342L 26 44.3334L 26 42.8833L 23 42.8833ZM 11.5 52L 9.63632 54.3509L 11.5 55.8283L 13.3637 54.3509L 11.5 52ZM 9.44026e-15 42.8833L -3 42.8833L -3 44.3334L -1.86368 45.2342L 9.44026e-15 42.8833ZM 19 7.01251e-15L 19 -3L 19 7.01251e-15ZM 4 2.18847e-15L 4 3L 4 2.18847e-15ZM 4 3L 19 3L 19 -3L 4 -3L 4 3ZM 20 4L 20 42.8833L 26 42.8833L 26 4L 20 4ZM 21.1363 40.5324L 9.63632 49.6491L 13.3637 54.3509L 24.8637 45.2342L 21.1363 40.5324ZM 13.3637 49.6491L 1.86368 40.5324L -1.86368 45.2342L 9.63632 54.3509L 13.3637 49.6491ZM 3 42.8833L 3 4L -3 4L -3 42.8833L 3 42.8833ZM 19 3C 19.5523 3 20 3.44772 20 4L 26 4C 26 0.134007 22.866 -3 19 -3L 19 3ZM 4 -3C 0.134006 -3 -3 0.134008 -3 4L 3 4C 3 3.44772 3.44772 3 4 3L 4 -3Z"/>
+<path id="path3_fill" fill-rule="evenodd" d="M 0 1.5C 0 0.671573 0.671573 0 1.5 0L 3.5 0C 4.32843 0 5 0.671573 5 1.5C 5 2.32843 4.32843 3 3.5 3L 1.5 3C 0.671573 3 0 2.32843 0 1.5Z"/>
+<path id="path4_fill" fill-rule="evenodd" d="M 0 1.5C 0 0.671573 0.671573 0 1.5 0L 24.5 0C 25.3284 0 26 0.671573 26 1.5C 26 2.32843 25.3284 3 24.5 3L 1.5 3C 0.671573 3 0 2.32843 0 1.5Z"/>
+<path id="path5_fill" fill-rule="evenodd" d="M 0 1.5C 0 0.671573 0.671573 0 1.5 0L 20.5 0C 21.3284 0 22 0.671573 22 1.5C 22 2.32843 21.3284 3 20.5 3L 1.5 3C 0.671573 3 0 2.32843 0 1.5Z"/>
+<path id="path6_fill" fill-rule="evenodd" d="M 0 0L 3 0L 3 12.4942L 0 12.4942L 0 0Z"/>
+</defs>
+</svg>

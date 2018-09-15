@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="46px" viewBox="0 0 48 46" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>arrow-left-pressed</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Apla-StyleGuide-Exportable" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-950.000000, -474.000000)">
+        <g id="arrow-left-pressed" transform="translate(951.000000, 475.000000)">
+            <path d="M44.4019666,28.0977762 C46.5326778,24.323836 46.5326778,19.6753996 44.4019666,15.9014593 C42.6757166,12.8453092 40.5921053,9.15392634 38.8658554,6.09777623 C36.7351441,2.32460042 32.7974402,0 28.5360177,0 L17.4637954,0 C13.2023729,0 9.26466896,2.32460042 7.1339577,6.09777623 C5.4084554,9.15392634 3.32409646,12.8453092 1.59859415,15.9014593 C-0.532864718,19.6753996 -0.532864718,24.323836 1.59859415,28.0977762 C3.32409646,31.1546908 5.4084554,34.8453092 7.1339577,37.9022238 C9.26466896,41.6753996 13.2023729,44 17.4637954,44 L28.5360177,44 C32.7974402,44 36.7351441,41.6753996 38.8658554,37.9022238 C40.5921053,34.8453092 42.6757166,31.1546908 44.4019666,28.0977762 Z" id="coursor-copy-11" stroke="#3AC28B" stroke-width="2" fill="#3AC28B"></path>
+            <g id="Group-3-Copy-9" transform="translate(23.000000, 21.000000) rotate(-360.000000) translate(-23.000000, -21.000000) translate(10.000000, 8.000000)" fill="#FFFFFF">
+                <g id="Group-2" transform="translate(12.828439, 13.084933) rotate(-315.000000) translate(-12.828439, -13.084933) translate(3.828439, 4.084933)">
+                    <rect id="Rectangle-3" x="0.0361291288" y="1.58639865" width="2" height="16" rx="1"></rect>
+                    <rect id="Rectangle-3-Copy-2" transform="translate(9.277250, 8.345278) scale(-1, 1) rotate(-45.000000) translate(-9.277250, -8.345278) " x="8.2772499" y="-2.30942688" width="2" height="21.3094095" rx="1"></rect>
+                    <rect id="Rectangle-3-Copy" transform="translate(8.036129, 16.586399) rotate(-270.000000) translate(-8.036129, -16.586399) " x="7.03612913" y="8.58639865" width="2" height="16" rx="1"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,42 @@
+<svg width="60" height="60" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>icon-soft</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-10123 -6512)">
+<g id="icon-soft">
+<g id="Rectangle 21">
+<mask id="mask0_outline_ins">
+<use xlink:href="#path0_fill" fill="white" transform="translate(10131 6520)"/>
+</mask>
+<g mask="url(#mask0_outline_ins)">
+<use xlink:href="#path1_stroke_2x" transform="translate(10131 6520)" fill="#FFFFFF"/>
+</g>
+</g>
+<g id="Rectangle 21 Copy">
+<mask id="mask1_outline_ins">
+<use xlink:href="#path2_fill" fill="white" transform="translate(10146 6549)"/>
+</mask>
+<g mask="url(#mask1_outline_ins)">
+<use xlink:href="#path3_stroke_2x" transform="translate(10146 6549)" fill="#FFFFFF"/>
+</g>
+</g>
+<g id="Rectangle 22">
+<use xlink:href="#path4_fill" transform="translate(10132 6558)" fill="#FFFFFF"/>
+</g>
+<g id="Rectangle 22 Copy">
+<use xlink:href="#path5_fill" transform="translate(10137 6526)" fill="#FFFFFF"/>
+</g>
+<g id="Rectangle 22 Copy 2">
+<use xlink:href="#path6_fill" transform="translate(10137 6533)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 0 4C 0 1.79086 1.79086 0 4 0L 40 0C 42.2091 0 44 1.79086 44 4L 44 28C 44 30.2091 42.2091 32 40 32L 4 32C 1.79086 32 0 30.2091 0 28L 0 4Z"/>
+<path id="path1_stroke_2x" d="M 4 3L 40 3L 40 -3L 4 -3L 4 3ZM 41 4L 41 28L 47 28L 47 4L 41 4ZM 40 29L 4 29L 4 35L 40 35L 40 29ZM 3 28L 3 4L -3 4L -3 28L 3 28ZM 4 29C 3.44772 29 3 28.5523 3 28L -3 28C -3 31.866 0.134007 35 4 35L 4 29ZM 41 28C 41 28.5523 40.5523 29 40 29L 40 35C 43.866 35 47 31.866 47 28L 41 28ZM 40 3C 40.5523 3 41 3.44772 41 4L 47 4C 47 0.134007 43.866 -3 40 -3L 40 3ZM 4 -3C 0.134007 -3 -3 0.134007 -3 4L 3 4C 3 3.44772 3.44772 3 4 3L 4 -3Z"/>
+<path id="path2_fill" fill-rule="evenodd" d="M 0 0L 14 0L 14 12L 0 12L 0 0Z"/>
+<path id="path3_stroke_2x" d="M 0 0L 0 -3L -3 -3L -3 0L 0 0ZM 14 0L 17 0L 17 -3L 14 -3L 14 0ZM 14 12L 14 15L 17 15L 17 12L 14 12ZM 0 12L -3 12L -3 15L 0 15L 0 12ZM 0 3L 14 3L 14 -3L 0 -3L 0 3ZM 11 0L 11 12L 17 12L 17 0L 11 0ZM 14 9L 0 9L 0 15L 14 15L 14 9ZM 3 12L 3 0L -3 0L -3 12L 3 12Z"/>
+<path id="path4_fill" fill-rule="evenodd" d="M 0 1.5C 0 0.671573 0.671573 0 1.5 0L 40.5 0C 41.3284 0 42 0.671573 42 1.5L 42 1.5C 42 2.32843 41.3284 3 40.5 3L 1.5 3C 0.671573 3 0 2.32843 0 1.5L 0 1.5Z"/>
+<path id="path5_fill" fill-rule="evenodd" d="M 0 1.5C 0 0.671573 0.671573 0 1.5 0L 12.5 0C 13.3284 0 14 0.671573 14 1.5L 14 1.5C 14 2.32843 13.3284 3 12.5 3L 1.5 3C 0.671573 3 0 2.32843 0 1.5L 0 1.5Z"/>
+<path id="path6_fill" fill-rule="evenodd" d="M 0 1.5C 0 0.671573 0.671573 0 1.5 0L 27.5 0C 28.3284 0 29 0.671573 29 1.5L 29 1.5C 29 2.32843 28.3284 3 27.5 3L 1.5 3C 0.671573 3 0 2.32843 0 1.5L 0 1.5Z"/>
+</defs>
+</svg>

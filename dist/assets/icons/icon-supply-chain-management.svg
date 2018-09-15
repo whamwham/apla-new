@@ -1,0 +1,70 @@
+<svg width="60" height="60" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>icon-Supply-chain-management</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-3257 -4444)">
+<g id="icon-Supply-chain-management">
+<g id="Polygon">
+<use xlink:href="#path0_stroke" transform="matrix(-1.83697e-16 1 -1 -1.83697e-16 3309 4452)" fill="#1C1A1A"/>
+</g>
+<g id="Rectangle 4">
+<use xlink:href="#path1_fill" transform="translate(3270 4448)" fill="#FFFFFF"/>
+<mask id="mask0_outline_ins">
+<use xlink:href="#path1_fill" fill="white" transform="translate(3270 4448)"/>
+</mask>
+<g mask="url(#mask0_outline_ins)">
+<use xlink:href="#path2_stroke_2x" transform="translate(3270 4448)" fill="#1C1A1A"/>
+</g>
+</g>
+<g id="Rectangle 4 Copy 2">
+<use xlink:href="#path1_fill" transform="translate(3270 4486)" fill="#FFFFFF"/>
+<mask id="mask1_outline_ins">
+<use xlink:href="#path1_fill" fill="white" transform="translate(3270 4486)"/>
+</mask>
+<g mask="url(#mask1_outline_ins)">
+<use xlink:href="#path2_stroke_2x" transform="translate(3270 4486)" fill="#1C1A1A"/>
+</g>
+</g>
+<g id="Rectangle 4 Copy 4">
+<use xlink:href="#path1_fill" transform="translate(3260 4468)" fill="#FFFFFF"/>
+<mask id="mask2_outline_ins">
+<use xlink:href="#path1_fill" fill="white" transform="translate(3260 4468)"/>
+</mask>
+<g mask="url(#mask2_outline_ins)">
+<use xlink:href="#path2_stroke_2x" transform="translate(3260 4468)" fill="#1C1A1A"/>
+</g>
+</g>
+<g id="Rectangle 4 Copy 5">
+<use xlink:href="#path1_fill" transform="translate(3301 4468)" fill="#FFFFFF"/>
+<mask id="mask3_outline_ins">
+<use xlink:href="#path1_fill" fill="white" transform="translate(3301 4468)"/>
+</mask>
+<g mask="url(#mask3_outline_ins)">
+<use xlink:href="#path2_stroke_2x" transform="translate(3301 4468)" fill="#1C1A1A"/>
+</g>
+</g>
+<g id="Rectangle 4 Copy">
+<use xlink:href="#path1_fill" transform="translate(3290 4448)" fill="#FFFFFF"/>
+<mask id="mask4_outline_ins">
+<use xlink:href="#path1_fill" fill="white" transform="translate(3290 4448)"/>
+</mask>
+<g mask="url(#mask4_outline_ins)">
+<use xlink:href="#path2_stroke_2x" transform="translate(3290 4448)" fill="#1C1A1A"/>
+</g>
+</g>
+<g id="Rectangle 4 Copy 3">
+<use xlink:href="#path1_fill" transform="translate(3291 4486)" fill="#FFFFFF"/>
+<mask id="mask5_outline_ins">
+<use xlink:href="#path1_fill" fill="white" transform="translate(3291 4486)"/>
+</mask>
+<g mask="url(#mask5_outline_ins)">
+<use xlink:href="#path2_stroke_2x" transform="translate(3291 4486)" fill="#1C1A1A"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_stroke" d="M 22 0L 22.75 -1.29904L 22 -1.73205L 21.25 -1.29904L 22 0ZM 41.0526 11L 42.5526 11L 42.5526 10.134L 41.8026 9.70096L 41.0526 11ZM 41.0526 33L 41.8026 34.299L 42.5526 33.866L 42.5526 33L 41.0526 33ZM 22 44L 21.25 45.299L 22 45.7321L 22.75 45.299L 22 44ZM 2.94744 33L 1.44744 33L 1.44744 33.866L 2.19744 34.299L 2.94744 33ZM 2.94744 11L 2.19744 9.70096L 1.44744 10.134L 1.44744 11L 2.94744 11ZM 21.25 1.29904L 40.3026 12.299L 41.8026 9.70096L 22.75 -1.29904L 21.25 1.29904ZM 39.5526 11L 39.5526 33L 42.5526 33L 42.5526 11L 39.5526 11ZM 40.3026 31.701L 21.25 42.701L 22.75 45.299L 41.8026 34.299L 40.3026 31.701ZM 22.75 42.701L 3.69744 31.701L 2.19744 34.299L 21.25 45.299L 22.75 42.701ZM 4.44744 33L 4.44744 11L 1.44744 11L 1.44744 33L 4.44744 33ZM 3.69744 12.299L 22.75 1.29904L 21.25 -1.29904L 2.19744 9.70096L 3.69744 12.299Z"/>
+<path id="path1_fill" fill-rule="evenodd" d="M 0 4C 0 1.79086 1.79086 0 4 0L 9 0C 11.2091 0 13 1.79086 13 4L 13 9C 13 11.2091 11.2091 13 9 13L 4 13C 1.79086 13 0 11.2091 0 9L 0 4Z"/>
+<path id="path2_stroke_2x" d="M 4 3L 9 3L 9 -3L 4 -3L 4 3ZM 10 4L 10 9L 16 9L 16 4L 10 4ZM 9 10L 4 10L 4 16L 9 16L 9 10ZM 3 9L 3 4L -3 4L -3 9L 3 9ZM 4 10C 3.44772 10 3 9.55228 3 9L -3 9C -3 12.866 0.134007 16 4 16L 4 10ZM 10 9C 10 9.55228 9.55228 10 9 10L 9 16C 12.866 16 16 12.866 16 9L 10 9ZM 9 3C 9.55228 3 10 3.44772 10 4L 16 4C 16 0.134007 12.866 -3 9 -3L 9 3ZM 4 -3C 0.134007 -3 -3 0.134007 -3 4L 3 4C 3 3.44772 3.44772 3 4 3L 4 -3Z"/>
+</defs>
+</svg>

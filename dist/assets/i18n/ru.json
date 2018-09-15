@@ -1,0 +1,433 @@
+{
+	"LANGUAGE": "Русский",
+	"TITLE": "Apla – публичная блокчейн платформа для построения цифровых экосистем",
+	"GETSTARTED": "Начать Использование",
+	"MENU": {
+		"ABOUT": "О компании",
+		"CASES": "Кейсы",
+		"CAREER": "Карьера",
+		"FORBUSINESS": "Для бизнеса",
+		"FORGOVERNMENT": "Для правительства",
+		"BLOG": "Блог"
+	},
+	"NEWSLETTER": {
+		"TITLE": "Receive our newsletter",
+		"TITLEALT": "Want to see more cases?",
+		"TEXT": "Get exclusive content delivered right into your inbox.",
+		"BUTTON": "Подписаться",
+		"SUBSCRIBE": {
+			"PLACEHOLDER": "E-mail",
+			"REQUIRED": "E-mail обязателен.",
+			"INCORRECT": "Неверный e-mail адрес!",
+			"DUBLICATE": "Вы уже подписаны на новости!",
+			"READY": "Спасибо!"
+		}
+	},
+	"POPUPFORM": {
+		"TITLE": "Tell us about your needs",
+		"TEXT": "and we will come up with a personalized solution",
+		"BUTTON": "Send message",
+		"READY": "Thank you!",
+		"NAME": {
+			"PLACEHOLDER": "Your name *",
+			"REQUIRED": "Name is required."
+		},
+		"MESSAGE": {
+			"PLACEHOLDER": "Your message *",
+			"REQUIRED": "Message is required."
+		},
+		"EMAIL": {
+			"PLACEHOLDER": "Your email *",
+			"REQUIRED": "Email is required.",
+			"INCORRECT": "Incorrect email address!"
+		}
+	},
+	"FOOTER": {
+		"COPYRIGHT": "Apla, Все права защищены."
+	},
+	"MAIN": {
+		"SHOWREEL": {
+			"TITLE": "We are Apla",
+			"TEXT": "A tech company that uses distributed ledger technology to help organizations work faster, safer and with greater impact."
+		},
+		"BLOCKCHAIN": {
+			"TITLE": "Blockchain is a technology of efficiency",
+			"1": {
+				"TITLE": "Secure your data",
+				"TEXT": "Complex cryptography makes data safer. Moreоver, information is replicated on several servers so it cannot be falsified or lost."
+			},
+			"2": {
+				"TITLE": "Make business processes more productive",
+				"TEXT": "Automate outdated IT-workflow: reduce bureaucracy and optimize decision making efficiency. In blockchain all operations are executed instantaneously and transparently."
+			},
+			"3": {
+				"TITLE": "Embrace innovation",
+				"TEXT": "Correct application and implementation of blockchain naturally lifts an organization to a new level - it fosters increased trust amongst partners and users."
+			}
+		},
+		"CLIENTS": {
+			"TITLE": "Clients"
+		},
+		"FULLSERVICE": {
+			"TITLE": "Get the most of blockchain",
+			"TEXT": "We collaborate with clients to identify areas of growth, match business processes with technology features, carefully select use cases for digital transformation, educate clients’ teams, execute blockchain solutions and provide proactive support:",
+			"1": {
+				"TITLE": "Сonsult",
+				"TEXT": "Help organizations define practical use of blockchain"
+			},
+			"2": {
+				"TITLE": "Analyze",
+				"TEXT": "Match business needs with the right technology solution"
+			},
+			"3": {
+				"TITLE": "Prototype",
+				"TEXT": "Fast idea validation with a working demo"
+			},
+			"4": {
+				"TITLE": "Develop",
+				"TEXT": "Step by step implementation into existing IT systems"
+			},
+			"5": {
+				"TITLE": "Educate",
+				"TEXT": "Coach management and technical specialists"
+			},
+			"6": {
+				"TITLE": "Support",
+				"TEXT": "Maintain a healthy blockchain ecosystem"
+			}
+		},
+		"APLAFOR": {
+			"SUBHEAD": "Apla для",
+			"1": {
+				"TITLE": "Правительства",
+				"TEXT": "Practical use of blockchain impact on Foreign Direct Investment and Happiness Index ratings, raising citizens’ wellbeing."
+			},
+			"2": {
+				"TITLE": "Бизнеса",
+				"TEXT": "Blockchain makes businesses work more productively: significantly impacting on EBITDA."
+			}
+		},
+		"ADVANTAGE": {
+			"TITLE": "Technological advantage as a service: the Apla blockchain platform<sup>TM</sup>. It’s secure, scalable and easy to use",
+			"1": {
+				"TITLE": "Security on a new level",
+				"TEXT": "Complex cryptography improve cybersecurity - protecting your data more safer."
+			},
+			"2": {
+				"TITLE": "Flexible access rights",
+				"TEXT": "Our platform offers a multi-level rights management system allowing for full blockchain control and human factor prevention."
+			},
+			"3": {
+				"TITLE": "Rapid application development",
+				"TEXT": "Where others require half a year to develop a working application, our platform is ready to go in a couple of weeks."
+			},
+			"4": {
+				"TITLE": "Fast operations",
+				"TEXT": "Maximum performance speed matches organisations’ requirements."
+			},
+			"5": {
+				"TITLE": "Usability",
+				"TEXT": "The Apla platform is easy to use: users interact with visual interfaces, instead of code."
+			},
+			"6": {
+				"TITLE": "Cross-platform",
+				"TEXT": "Compatible for any device. Use blockchain on your desktop or smartphone."
+			}
+		},
+		"ENTERPRISE": {
+			"TITLE": "Trusted enterprise partner",
+			"TEXT": "We are proud to be work alongside system integrators like Finesse and BearingPoint. Our partnership program establishes valuable and long-term relationships with partners. Win-win success is our main KPI."
+		},
+		"BANNER": {
+			"TITLE": "Reach outstanding productivity",
+			"TEXT": "See how Apla could help to make you organization work more efficiently."
+		}
+	},
+	"VACANCIES": [
+		{
+			"COUNTRY": "Luxembourg",
+			"TOWN": "Luxembourg",
+			"VACANCY": [
+				{
+					"DEPARTMENT": "Marketing",
+					"TITLE": "Product director",
+					"PREAMBLE": "At Apla we are waiting for a hero. A leader. The CaseFather.<br />We do realise that your first word wasn’t ‘inspiration’ but it would be great if your professional life looks as if it actually was.",
+					"DESCRIPTION": "<p>This is a serious vacancy, so let’s just start straight away.</p><p>At Apla we are waiting for a hero. A leader. The CaseFather.</p><p>We do realise that your first word wasn’t ‘inspiration’ but it would be great if your professional life looks as if it actually was.</p><p>Apla is a company with 4 offices in different parts of the world. And its global performance fully relies on the climate in each residence. That is why we need someone who would grab the flag and initiate action. So that the others could follow, inspired, with the hearts full love and sincerity, into their grand battle of changing the world.</p><h5>WE WOULD WANT TO UNSEE YOU IF YOU ARE</h5><p>Egoistic<br/>Enjoying the process, irrespective to the result<br/>Ice-souled<br/>Bureaucratic<br/>Sexist<br/>Racist</p><p>We know, some points are missing. We just don’t want to teach you bad words. We need you innocent.</p><h5>WE SEE YOU</h5><p>Ambitious<br/>Agile<br/>Willing to innovate<br/>Flexible<br/>Versatile<br/>Independent<br/>Team building<br/>Humane</p><h5>HOW WE WANT YOU TO SEE US</h5><p>Imagine our future world. There is more than just innovation to it. This world is new. Built by our team. Built by you.</p><p>What about you?</p><p>There you are, with the prime ministers and others. Agreeing to speak at the best international conferences. Sending a selfie to your kids so that they smile proudly at their smartphone’s screen. Though there is nothing new – they have already seen you in the latest Forbes and TechCrunch.</p><p>Sounds good? We can do this for you. If you do the following for us:</p><h5>HOW WE SEE YOUR WORK:</h5><ul> <li>Managing the development and delivery of effective, stable and secure IT services aligned to the company and groups business requirements</li><li>Being responsible for all aspects of IT service delivery including business and manufacturing applications, networks, telecommunications, databases, Development, systems integration and staff management,</li><li>Collaborating with the corporate organization in the delivery of global services, projects and infrastructure.</li><li>Oversees IT Infrastructure / Service delivery for the company within the region</li><li>Recruiting, hiring, and managing a high performing IT Team.</li><li>Anticipating and handling multiple priorities and complex issues involving external and internal priorities</li><li>Applying the technologies, methods and techniques to develop, and deliver, effective and high quality business information systems;</li><li>Understanding and cooperating with other team members from different cultures;</li></ul><h5>THANKS FOR READING!</h5><p>(No extra words. We hope you are a serious manager and would never want to waste your time)</p><p>P.S. Just wanted to say. JOIN US.</p>"
+				},
+				{
+					"DEPARTMENT": "Marketing",
+					"TITLE": "Project manager",
+					"PREAMBLE": "Hello, our future Project Manager.<br/>In Apla we launch a lot of projects that we love to nurture and pamper all the way through. When they grow up, they become cases. We badly need your skills to bring up all our ideas successfully. We trust in you.",
+					"DESCRIPTION": "Hello, our future Project Manager.<br/><p>In Apla we launch a lot of projects that we love to nurture and pamper all the way through. When they grow up, they become cases. We badly need your skills to bring up all our ideas successfully. We trust in you.</p><h5>WHAT WE DO NOT NEED YOU TO DO</h5><p>To be responsible for delivering value through successful execution of projects within a dynamic working environment.</p><h5>WHAT WE NEED YOU TO DO</h5><p>Just be a nice project manager, okay? And please, do love that you do.</p><h5>WHAT YOU NEED US TO DO</h5><p>Here at Apla we promise you room for professional upgrade. Seriously. With a whole team made up with multinational specialists, great mentors and top level clients (quite challenging) you just have no chance not to mould yourself into a piece of project managing gold.</p><h5>A BIT MORE BORING BUT NECESSARY SPECIFICS</h5><p>If you know you can:<ul><li>Ensure successful leadership of projects (planning, executing, monitoring, reporting on key project deliverables, providing timely status and metrics to measure project performance)<li>Facilitate meetings with cross functional teams engaging key stakeholders in business, IT, and Ops groups.<li>Communicate project status, managing budget, track issues and risks, and assemble documentation that is needed to ensure key stakeholders and inform executives of project status.<li>Ensure all project documentation is completed and meets audit requirements</ul>we will embrace you as our brand new Project Manager immediately.</p><h5>IF YOU ARE STILL READING THIS VACANCY DESCRIPTION</h5><p>It would be great if you succeed the following:<ul><li>Bachelor’s degree (IT or Business Related) preferred<li>Minimum 6 years of progressive experience as a Project Manager with a strong background in managing complex IT related projects PMI or other Project Management Certification desirable<li>Excellent organizational, written, and oral communication skills required, as well as strong attention to detail, motivation, and initiative.<li>Strong interpersonal skills and ability to successfully maintain relationships within a dynamic environment<li>Expertise with Powerpoint and Excel</ul><h5>THANKS FOR READING! THE WORLD IS WAITING TO BE SAVED BY YOU.</h5><p>Oh, and we are waiting for you too.</p>"
+				},
+				{
+					"DEPARTMENT": "Marketing",
+					"TITLE": "Sales director",
+					"PREAMBLE": "At Apla we create projects based on super innovative technologies. Governments and big businesses make up our client list. We know they need us. But how do they know they need us? A question that we hope you can answer.",
+					"DESCRIPTION": "<p>At Apla we create projects based on super innovative technologies. Governments and big businesses make up our client list. We know they need us. But how do they know they need us? A question that we hope you can answer.</p><p>We are looking for someone to communicate effectively with cross-functional and cultural groups and build strategic relationships with client teams to further penetrate existing clients and develop new business based on credible relationships with top executives.</p><p>In other words, we need to be sold all over the world. Effectively. Just like that rhyme.</p><p>You will not be alone, though. There is a team to help you with that. And it needs special guiding. As well as attention.</p><p>So, please brace yourself and check our needy requirements below:<ul><li>You must have a proven track record of success selling high priced IT Products and conceptual services to C-Level Executives using consultative selling methods.<li>Sr Hunter with experience in 10M+ USD yearly targets<li>You must be resilient and excel in a fast paced, high energy, entrepreneurial environment.<li>You must also excel at finding and closing new opportunities in a highly competitive market and thrive as part of a fast growing, successful, expanding sales organization.<li>Experience with technology, software, hardware, services, equipment, major accounts, business solutions, consulting or subscriptions helpful but not required.</ul><p>THANKS FOR READING!</p><p>COME AND SELL YOURSELF TO OUR COZY OFFICE.<br/>WE ARE WAITING FOR YOU.</p>"
+				},
+				{
+					"DEPARTMENT": "Marketing",
+					"TITLE": "Partnership manager",
+					"PREAMBLE": "Apla is a big company with friends and partners all over the world. And we would love to keep it that way. How can we change the world if not all of us? Therefore, in our team your task will be a key one. ",
+					"DESCRIPTION": "<p>Apla is a big company with friends and partners all over the world. And we would love to keep it that way. How can we change the world if not all of us? Therefore, in our team your task will be a key one.</p><h5>YOUR TASK</h5><p>We would expect you to focus on optimizing our relationships with (other companies?) at the partner level. Which is why this position will require the ability to:<ul><li>Work credibly and productively with our current partners towards achieving healthy, long-term partnerships<li>Work as an integral part of Apla management team to maximize the financial success of the partnership<li>Manage and motivate high powered IT partners<li>Advise the partners in a way that they find meaningful on their financial investment in Apla facility<li>Negotiate partnership agreements<li>Close new partnership deals<li>Communicate in a credible way with Apla Senior Management regarding concerns and needs, both on an individual and partnership level<li>Establish strong working relationships, ensure complete and timely communication and coordination of partnership strategy</ul></p><h5>OUR TASK</h5><p>In Apla we will offer you a pool of highly qualified professionals great to build relations with. So, if you are really that good at what you do, just go and dive.</p><h5>ADDITIONAL TASK</h5><p>We see you as an exceptional person Someone who would become the voice of Apla to our partners. So, if you agree to do a bit of matching, please read the following characteristics:<ul><li>Strong negotiator<li>Decision-maker<li>Creative<li>Team player<li>Trust gainer<li>Alliance-builder<li>Perfect speaker<li>Good listener<li>Passion, energy, integrity and drive deliverer</ul></p><p>Please try matching all of these to you.<br/>All ticks?<br/>GET IN TOUCH WITH US.<br/>WE ARE WAITING FOR YOU.<br/>P.S. Thanks for reading. That was very partnerly of you.</p>"
+				},
+				{
+					"DEPARTMENT": "Marketing",
+					"TITLE": "Marketing manager",
+					"PREAMBLE": "Here is a really responsible position. <br>Marketing is a tricky one to master and we need the freshest ideas. With you at our marketing helm, there will be nothing to worry about.",
+					"DESCRIPTION": "<p>Here is a really responsible position. Marketing is a tricky one to master and we need the freshest ideas. With you at our marketing helm, there will be nothing to worry about.</p><h5>FOR YOU TO DO</h5><p>Apla is a strong, yet growing company using innovative technology quite specific and very breaking-through as well. Which is why market-wise we actually count on a nice place with a view.</p><p>To secure us on of those, we thought, you might as well occupy yourself in our team doing this:<ul><li>Leading market research<li>Driving the product into the correct market channel<li>Leading the design and development of our client’s software based products.<li>Working cross-functionally with different departments within the organization.<li>Creating content to spearhead the communicative marketing for the product.<li>Taking significant go-to-market strategy responsibilities.<li>Being the VOC.<li>Travelling to do all listed above in other parts of the world</ul></p><h5>FOR YOU TO BE</h5><p>We would love to see you as a part of our team. Especially, if you are:<ul> <li>Great analyser<li>Trend-follower<li>Strategy builder <li>Creative<li>Team player<li>Perfect speaker</ul> </p><h5>FOR YOU NOT TO BE</h5><ul> <li>Egoistic<li>Enjoying the process, irrespective to the result<li>Ice-souled<li>Bureaucratic <li>Sexist<li>Racist</ul> <h5>FOR US TO DO</h5><p>Hiring you to help us build strong marketing strategy and communication for Apla, we give you a share of the world we all wish to have – innovative, fast, easy, honest.<br/> This will be your best professional case on the market.</p><p>THANKS FOR READING!<br/>WE ARE WAITING FOR YOU.</p>"
+				},
+				{
+					"DEPARTMENT": "Marketing",
+					"TITLE": "Designer",
+					"PREAMBLE": "We could really just draw what we would love you to look like to get this position. The thing is, we need to see how you draw and how your work can help Apla conquet the highly developing world.",
+					"DESCRIPTION": "<p>We could really just draw what we would love you to look like to get this position. The thing is, we need to see how you draw and how your work can help Apla conquet the highly developing world.</p><h5>WHAT DESIGN MEANS FOR US</h5><p>We are looking for someone who is perfectly skilled not only at visual implementation, but also visual thinking and visual strategy.</p><p>You are totally free to choose your religion, only remember about the god of modern IT products : the User. This is the one we expect you to know, feel and care about. Grab his or her senses and find the perfectly matching solutions. </p><h5>WHAT DESIGNING FOR US MEANS FOR YOU</h5><ul><li>Working across media (web, print & ppt) and has a passion for graphic artistry<li>Being an advocate for top-tier design <li>Communicating complex concepts simply and accurately. <li>Developing the creative in multi-channel marketing campaigns -Supporting and collaborating with product marketing managers <li>Helping elevate Apla portfolio of products both internally and within the industry as a whole</ul><p>If you are the one we are looking for, you might as well have a great passion for detail. There you go:<h5>MUST-HAVE SKILLS</h5><ul><li>Excellent time management skills  <li>Advanced-level knowledge of page layout and typography  <li>Excellent presentation and verbal communication skills  <li>The ability to sell your work to internal stakeholders, as well as to take criticism constructively  <li>Ability to ask what might seem like dumb questions in front of others  <li>Willingness and ability to write copy: copy is interface  <li>Working understanding of print production techniques  <li>Ability to work as part of a design team </ul></p><h5>MUST-HAVE EXPERIENCE</h5><p>At least 3 years experience in graphic design, communication design, illustration or a related field. <br/> Yes, that’s all. Anyway, we need to see the whole picture. If you know what we mean.</p><h5>WHAT DESIGNING FOR US MEANS TO YOU</h5><p>Isn’t it the sweetest feeling when your work meets the eye of millions of people all over the world? We bet it is. Prepare a separate shelf for pride in your soul. </p><p>THANKS FOR READING!<br/>LOOKING FORWARD TO SEEING YOU AND WHAT YOU HAVE DRAWN WHILE READING ABOUT THIS POSITION.<br>P.S. Just kidding. Please, send us your portfolio, we meant.</p>"
+				},
+				{
+					"DEPARTMENT": "Marketing",
+					"TITLE": "Sales manager",
+					"PREAMBLE": "At Apla we create projects based on super innovative technologies. Governments and big businesses make up our client list. We know they need us. But how do they know they need us? A question that we hope you can answer as a part of our sales team.",
+					"DESCRIPTION": "<p>At Apla we create projects based on super innovative technologies. Governments and big businesses make up our client list. We know they need us. But how do they know they need us? A question that we hope you can answer as a part of our sales team.</p><h5>WHAT YOU WILL BE DOING FOR US</h5><p>To help us be perfectly sold all over the world, you will do the following:<ul><li>Hire, train and coach a team of sales personnel on their sales ability including managing to metrics.<li>Evaluate all sales personnel on their abilities<li>Manage performance that meets or fails to meet the set standards<li>Responsible for meeting designated team metrics provided by the partner and/or program management.<li>Manage your team to individual metrics via coaching, mentoring and counseling.<li>Maintain proper scheduling of resources and manage the team to maintain program service levels<li>Maintain integrity with teams accounts management, ownership and account profile.<li>Maintain open lines of communications with specified client contacts for the purpose of strengthening and enhancing Apla client relationship.</ul></p><h5>WHAT WE WILL BE DOING FOR YOU</h5><p>As part of Apla you will enjoy a fast-paced career that offers exciting professional development and career growth opportunities.</p><p>So jump on board, join our journey, and take your career amazing places along the way!</p><p>THANKS FOR READING!<br/>WE ARE WAITING FOR YOU!</p>"
+				},
+				{
+					"DEPARTMENT": "Marketing",
+					"TITLE": "Data miner",
+					"PREAMBLE": "So here we are, mining a perfect data miner on this recruitment resource. Great.<br/>Ironic as it might seem, we need you as a key specialist for our team. Apla is a company operating with the newest technologies, based on data. Which makes it the crucial ingredient in our world-changing recipe.",
+					"DESCRIPTION": "<p>So here we are, mining a perfect data miner on this recruitment resource. Great.<br/>Ironic as it might seem, we need you as a key specialist for our team. Apla is a company operating with the newest technologies, based on data. Which makes it the crucial ingredient in our world-changing recipe.</p><h5>HOW TO MINE DATA IN APLA</h5><p>As a part of our team, you will<ul><li>Develop various custom reports using Cognos (examples include the Monthly Operational Review which bring Real Estate, Space, Financial and HR Data together)<li>Build operations, project management, lease & portfolio, space & occupancy, compliance and management, performance metrics and other premise related reports<li>Additional expertise will be required during global system migration from existing real estate system REMS to new system REALM<li>Follow report life cycle by developing and publishing reports in various Cognos environments (IST, UST, PROD, COB)<li>Perform process improvements to more effectively retrieve data from different sources to develop reports for analyzing real estate data in conjunction with other data coming in from feeds (i.e. HR, Finance, etc) to ensure data integrity<li>Perform tool and application evaluations (i.e. Cognos upgrades, discovery and development of dashboards, etc)<li>Participate in the Global Strategic Operations Data Management and Reporting Team Meetings<li>Develop ad-hoc reports to support senior level management, the CRS regions, and business customers requests.<li>Work with CRS business partners to assess reporting and then develop reports and work with the users to test and publish the reports. Data Mapping and documentation.</ul><p>This has been lot of data on data mining. And here is a bit more:<h5>HOW TO START MINING DATA IN APLA</h5><ul><li>2+ Years - Data Mining, Data Analysis and Data Management experience including extensive report design and development<li>2+ Years - Experience working with relational databases, such as Oracle, and SQL Server<li>5+ Years - Experience and Knowledge of Software Development Life Cycle (SDLC)<li>5+ Years - Experience and highly proficient with Microsoft Office (excel, access, outlook, powerpoint)<li>2+ Years - Experience with Cognos BI toolsets such as Report Studio, Query Studio, and Framework Manager.</ul><p>THANKS FOR READING!<br/>WE LOVE YOUR ORGANIZATION AND CONCENTRATION SKILLS.<br/>WE ARE WAITING FOR YOU!</p>"
+				},
+				{
+					"DEPARTMENT": "Marketing",
+					"TITLE": "Blockchain team lead",
+					"PREAMBLE": "Blockchain is not just a word to us. This is the key to our ideas. Something that does the magic, leaving corruption and bureaucracy far behind in the gloomy past. We believe in blockchain technology and we are constantly working on its development.<br/>&nbsp;<br/> ",
+					"DESCRIPTION": "<p>Blockchain is not just a word to us. This is the key to our ideas. Something that does the magic, leaving corruption and bureaucracy far behind in the gloomy past. We believe in blockchain technology and we are constantly working on its development.<br/>At this point we need a strong lead to manage those who help us with the development.<br/>Yes, this is you.</p><h5>PLEASE DO:</h5><ul><li>Manage the development team<li>Develop new prototypes, pilots, and production applications using the latest blockchain technologies<li>Work with a design and technology services firm that builds innovative products for large enterprises and early stage startups.<li>Work with the custom solutions range from blockchain solutions to Search and Analytics-based solutions.<li>Design and implement decentralized applications and protocols<li>Rapidly develop enterprise software applications and platforms using blockchain technologies<li>Provide technical leadership on blockchain technologies and work across peer groups to develop blockchain solutions for the business Qualifications</ul><h5>PLEASE DON’T:</h5><ul><li>Be egoistic<li>Enjoy the process, irrespective to the result<li>Be ice-souled <li>Be bureaucratic <li>Be sexist<li>Be racist</ul><p>THANKS FOR READING!<br/>WE ARE WAITING FOR YOU!</p>"
+				},
+				{
+					"DEPARTMENT": "Marketing",
+					"TITLE": "Blockchain developer",
+					"PREAMBLE": "Blockchain is not just a word to us. This is the key to our ideas. Something that does the magic, leaving corruption and bureaucracy far behind in the gloomy past. We believe in blockchain technology and we are constantly working on its development.<br/>And that is where you come in.",
+					"DESCRIPTION": "<p>Blockchain is not just a word to us. This is the key to our ideas. Something that does the magic, leaving corruption and bureaucracy far behind in the gloomy past. We believe in blockchain technology and we are constantly working on its development.<br/>And that is where you come in.</p><h5>JUST ENUMERATING WHAT YOU USUALLY DO:</h5><p>As a Blockchain Developer for Apla you will be<ul><li>Developing new prototypes, pilots, and production applications using the latest blockchain technologies<li>Working with a design and technology services firm that builds innovative products for large enterprises and early stage startups.<li>Working with the custom solutions range from blockchain solutions to Search and Analytics-based solutions.<li>Designing and implement decentralized applications and protocols<li>Rapidly developing enterprise software applications and platforms using blockchain technologies<li>Providing technical leadership on blockchain technologies and work across peer groups to develop blockchain solutions for the business Qualifications</ul></p><h5>JUST PROMISING YOU THINGS</h5><p>At Apla you will be contributing to one of the great processes of today’s world. With your help we will build a better future. Because it needs to be different. And we will do it. Together. With the help of our large multinational team.<br/>THANKS FOR READING!<br/>WE ARE WAITING FOR YOU.</p>"
+				}
+			]
+		},
+		{
+			"COUNTRY": "Russia",
+			"TOWN": "Moscow",
+			"VACANCY": [
+				{
+					"DEPARTMENT": "Marketing",
+					"TITLE": "Project manager",
+					"PREAMBLE": "Hello, our future Project Manager.<br/>In Apla we launch a lot of projects that we love to nurture and pamper all the way through. When they grow up, they become cases. We badly need your skills to bring up all our ideas successfully. We trust in you.",
+					"DESCRIPTION": "Hello, our future Project Manager.<br/><p>In Apla we launch a lot of projects that we love to nurture and pamper all the way through. When they grow up, they become cases. We badly need your skills to bring up all our ideas successfully. We trust in you.</p><h5>WHAT WE DO NOT NEED YOU TO DO</h5><p>To be responsible for delivering value through successful execution of projects within a dynamic working environment.</p><h5>WHAT WE NEED YOU TO DO</h5><p>Just be a nice project manager, okay? And please, do love that you do.</p><h5>WHAT YOU NEED US TO DO</h5><p>Here at Apla we promise you room for professional upgrade. Seriously. With a whole team made up with multinational specialists, great mentors and top level clients (quite challenging) you just have no chance not to mould yourself into a piece of project managing gold.</p><h5>A BIT MORE BORING BUT NECESSARY SPECIFICS</h5><p>If you know you can:<ul><li>Ensure successful leadership of projects (planning, executing, monitoring, reporting on key project deliverables, providing timely status and metrics to measure project performance)<li>Facilitate meetings with cross functional teams engaging key stakeholders in business, IT, and Ops groups.<li>Communicate project status, managing budget, track issues and risks, and assemble documentation that is needed to ensure key stakeholders and inform executives of project status.<li>Ensure all project documentation is completed and meets audit requirements</ul>we will embrace you as our brand new Project Manager immediately.</p><h5>IF YOU ARE STILL READING THIS VACANCY DESCRIPTION</h5><p>It would be great if you succeed the following:<ul><li>Bachelor’s degree (IT or Business Related) preferred<li>Minimum 6 years of progressive experience as a Project Manager with a strong background in managing complex IT related projects PMI or other Project Management Certification desirable<li>Excellent organizational, written, and oral communication skills required, as well as strong attention to detail, motivation, and initiative.<li>Strong interpersonal skills and ability to successfully maintain relationships within a dynamic environment<li>Expertise with Powerpoint and Excel</ul><h5>THANKS FOR READING! THE WORLD IS WAITING TO BE SAVED BY YOU.</h5><p>Oh, and we are waiting for you too.</p>"
+				},
+				{
+					"DEPARTMENT": "Marketing",
+					"TITLE": "Sales director",
+					"PREAMBLE": "At Apla we create projects based on super innovative technologies. Governments and big businesses make up our client list. We know they need us. But how do they know they need us? A question that we hope you can answer.",
+					"DESCRIPTION": "<p>At Apla we create projects based on super innovative technologies. Governments and big businesses make up our client list. We know they need us. But how do they know they need us? A question that we hope you can answer.</p><p>We are looking for someone to communicate effectively with cross-functional and cultural groups and build strategic relationships with client teams to further penetrate existing clients and develop new business based on credible relationships with top executives.</p><p>In other words, we need to be sold all over the world. Effectively. Just like that rhyme.</p><p>You will not be alone, though. There is a team to help you with that. And it needs special guiding. As well as attention.</p><p>So, please brace yourself and check our needy requirements below:<ul><li>You must have a proven track record of success selling high priced IT Products and conceptual services to C-Level Executives using consultative selling methods.<li>Sr Hunter with experience in 10M+ USD yearly targets<li>You must be resilient and excel in a fast paced, high energy, entrepreneurial environment.<li>You must also excel at finding and closing new opportunities in a highly competitive market and thrive as part of a fast growing, successful, expanding sales organization.<li>Experience with technology, software, hardware, services, equipment, major accounts, business solutions, consulting or subscriptions helpful but not required.</ul><p>THANKS FOR READING!</p><p>COME AND SELL YOURSELF TO OUR COZY OFFICE.<br/>WE ARE WAITING FOR YOU.</p>"
+				},
+				{
+					"DEPARTMENT": "Marketing",
+					"TITLE": "Partnership manager",
+					"PREAMBLE": "Apla is a big company with friends and partners all over the world. And we would love to keep it that way. How can we change the world if not all of us? Therefore, in our team your task will be a key one. ",
+					"DESCRIPTION": "<p>Apla is a big company with friends and partners all over the world. And we would love to keep it that way. How can we change the world if not all of us? Therefore, in our team your task will be a key one.</p><h5>YOUR TASK</h5><p>We would expect you to focus on optimizing our relationships with (other companies?) at the partner level. Which is why this position will require the ability to:<ul><li>Work credibly and productively with our current partners towards achieving healthy, long-term partnerships<li>Work as an integral part of Apla management team to maximize the financial success of the partnership<li>Manage and motivate high powered IT partners<li>Advise the partners in a way that they find meaningful on their financial investment in Apla facility<li>Negotiate partnership agreements<li>Close new partnership deals<li>Communicate in a credible way with Apla Senior Management regarding concerns and needs, both on an individual and partnership level<li>Establish strong working relationships, ensure complete and timely communication and coordination of partnership strategy</ul></p><h5>OUR TASK</h5><p>In Apla we will offer you a pool of highly qualified professionals great to build relations with. So, if you are really that good at what you do, just go and dive.</p><h5>ADDITIONAL TASK</h5><p>We see you as an exceptional person Someone who would become the voice of Apla to our partners. So, if you agree to do a bit of matching, please read the following characteristics:<ul><li>Strong negotiator<li>Decision-maker<li>Creative<li>Team player<li>Trust gainer<li>Alliance-builder<li>Perfect speaker<li>Good listener<li>Passion, energy, integrity and drive deliverer</ul></p><p>Please try matching all of these to you.<br/>All ticks?<br/>GET IN TOUCH WITH US.<br/>WE ARE WAITING FOR YOU.<br/>P.S. Thanks for reading. That was very partnerly of you.</p>"
+				}
+			]
+		},
+		{
+			"COUNTRY": "UAE",
+			"TOWN": "Dubai",
+			"VACANCY": [
+				{
+					"DEPARTMENT": "Marketing",
+					"TITLE": "Project manager",
+					"PREAMBLE": "Hello, our future Project Manager.<br/>In Apla we launch a lot of projects that we love to nurture and pamper all the way through. When they grow up, they become cases. We badly need your skills to bring up all our ideas successfully. We trust in you.",
+					"DESCRIPTION": "Hello, our future Project Manager.<br/><p>In Apla we launch a lot of projects that we love to nurture and pamper all the way through. When they grow up, they become cases. We badly need your skills to bring up all our ideas successfully. We trust in you.</p><h5>WHAT WE DO NOT NEED YOU TO DO</h5><p>To be responsible for delivering value through successful execution of projects within a dynamic working environment.</p><h5>WHAT WE NEED YOU TO DO</h5><p>Just be a nice project manager, okay? And please, do love that you do.</p><h5>WHAT YOU NEED US TO DO</h5><p>Here at Apla we promise you room for professional upgrade. Seriously. With a whole team made up with multinational specialists, great mentors and top level clients (quite challenging) you just have no chance not to mould yourself into a piece of project managing gold.</p><h5>A BIT MORE BORING BUT NECESSARY SPECIFICS</h5><p>If you know you can:<ul><li>Ensure successful leadership of projects (planning, executing, monitoring, reporting on key project deliverables, providing timely status and metrics to measure project performance)<li>Facilitate meetings with cross functional teams engaging key stakeholders in business, IT, and Ops groups.<li>Communicate project status, managing budget, track issues and risks, and assemble documentation that is needed to ensure key stakeholders and inform executives of project status.<li>Ensure all project documentation is completed and meets audit requirements</ul>we will embrace you as our brand new Project Manager immediately.</p><h5>IF YOU ARE STILL READING THIS VACANCY DESCRIPTION</h5><p>It would be great if you succeed the following:<ul><li>Bachelor’s degree (IT or Business Related) preferred<li>Minimum 6 years of progressive experience as a Project Manager with a strong background in managing complex IT related projects PMI or other Project Management Certification desirable<li>Excellent organizational, written, and oral communication skills required, as well as strong attention to detail, motivation, and initiative.<li>Strong interpersonal skills and ability to successfully maintain relationships within a dynamic environment<li>Expertise with Powerpoint and Excel</ul><h5>THANKS FOR READING! THE WORLD IS WAITING TO BE SAVED BY YOU.</h5><p>Oh, and we are waiting for you too.</p>"
+				},
+				{
+					"DEPARTMENT": "Marketing",
+					"TITLE": "Marketing manager",
+					"PREAMBLE": "Here is a really responsible position. <br>Marketing is a tricky one to master and we need the freshest ideas. With you at our marketing helm, there will be nothing to worry about.",
+					"DESCRIPTION": "<p>Here is a really responsible position. Marketing is a tricky one to master and we need the freshest ideas. With you at our marketing helm, there will be nothing to worry about.</p><h5>FOR YOU TO DO</h5><p>Apla is a strong, yet growing company using innovative technology quite specific and very breaking-through as well. Which is why market-wise we actually count on a nice place with a view.</p><p>To secure us on of those, we thought, you might as well occupy yourself in our team doing this:<ul><li>Leading market research<li>Driving the product into the correct market channel<li>Leading the design and development of our client’s software based products.<li>Working cross-functionally with different departments within the organization.<li>Creating content to spearhead the communicative marketing for the product.<li>Taking significant go-to-market strategy responsibilities.<li>Being the VOC.<li>Travelling to do all listed above in other parts of the world</ul></p><h5>FOR YOU TO BE</h5><p>We would love to see you as a part of our team. Especially, if you are:<ul> <li>Great analyser<li>Trend-follower<li>Strategy builder <li>Creative<li>Team player<li>Perfect speaker</ul> </p><h5>FOR YOU NOT TO BE</h5><ul> <li>Egoistic<li>Enjoying the process, irrespective to the result<li>Ice-souled<li>Bureaucratic <li>Sexist<li>Racist</ul> <h5>FOR US TO DO</h5><p>Hiring you to help us build strong marketing strategy and communication for Apla, we give you a share of the world we all wish to have – innovative, fast, easy, honest.<br/> This will be your best professional case on the market.</p><p>THANKS FOR READING!<br/>WE ARE WAITING FOR YOU.</p>"
+				},
+				{
+					"DEPARTMENT": "Marketing",
+					"TITLE": "Designer",
+					"PREAMBLE": "We could really just draw what we would love you to look like to get this position. The thing is, we need to see how you draw and how your work can help Apla conquet the highly developing world.",
+					"DESCRIPTION": "<p>We could really just draw what we would love you to look like to get this position. The thing is, we need to see how you draw and how your work can help Apla conquet the highly developing world.</p><h5>WHAT DESIGN MEANS FOR US</h5><p>We are looking for someone who is perfectly skilled not only at visual implementation, but also visual thinking and visual strategy.</p><p>You are totally free to choose your religion, only remember about the god of modern IT products : the User. This is the one we expect you to know, feel and care about. Grab his or her senses and find the perfectly matching solutions. </p><h5>WHAT DESIGNING FOR US MEANS FOR YOU</h5><ul><li>Working across media (web, print & ppt) and has a passion for graphic artistry<li>Being an advocate for top-tier design <li>Communicating complex concepts simply and accurately. <li>Developing the creative in multi-channel marketing campaigns -Supporting and collaborating with product marketing managers <li>Helping elevate Apla portfolio of products both internally and within the industry as a whole</ul><p>If you are the one we are looking for, you might as well have a great passion for detail. There you go:<h5>MUST-HAVE SKILLS</h5><ul><li>Excellent time management skills  <li>Advanced-level knowledge of page layout and typography  <li>Excellent presentation and verbal communication skills  <li>The ability to sell your work to internal stakeholders, as well as to take criticism constructively  <li>Ability to ask what might seem like dumb questions in front of others  <li>Willingness and ability to write copy: copy is interface  <li>Working understanding of print production techniques  <li>Ability to work as part of a design team </ul></p><h5>MUST-HAVE EXPERIENCE</h5><p>At least 3 years experience in graphic design, communication design, illustration or a related field. <br/> Yes, that’s all. Anyway, we need to see the whole picture. If you know what we mean.</p><h5>WHAT DESIGNING FOR US MEANS TO YOU</h5><p>Isn’t it the sweetest feeling when your work meets the eye of millions of people all over the world? We bet it is. Prepare a separate shelf for pride in your soul. </p><p>THANKS FOR READING!<br/>LOOKING FORWARD TO SEEING YOU AND WHAT YOU HAVE DRAWN WHILE READING ABOUT THIS POSITION.<br>P.S. Just kidding. Please, send us your portfolio, we meant.</p>"
+				}
+			]
+		}
+	],
+	"ADVISORS": [
+		{
+			"NAME": "Evgeni Agronic",
+			"POSITION": "Head of Google Marketing Solutions (Russia)",
+			"IMG": "/assets/images/team/nope.png",
+			"SHORT": "An outstanding IT professional with a passion for building new businesses.",
+			"DESCR": "An outstanding IT professional with a passion for building new businesses. He brings a vast knowledge base which is driving Apla’s organizational performance to the top. At Google, Evgeni is responsible for sales, B2B Marketing, and customer experience for a wide range of clients. He has been leading sales teams and growing revenue in Africa, Israel, Turkey, and the Middle East. Evgeni is also a mentor at the startup accelerator, GTI Labs, and holds an MBA in Business Administration and Management."
+		},{
+			"NAME": "Konstantin Goldshtein",
+			"POSITION": "Senior System Analyst at Microsoft",
+			"IMG": "/assets/images/team/kg.png",
+			"SHORT": "Technology evangelist, business coach and consultant with vast experience.",
+			"DESCR": "Technology evangelist, business coach and consultant with more than 15 years of experience in the IT industry of Israel, the USA and Europe. Developed and promoted products used by companies from the Fortune 500 list. Created ISV — a program focussed on acceleration of startups and developers. Over the last two years, Konstantin has been focused on the examination and expansion of business developing cloud-based solutions."
+		},{
+			"NAME": "Ioannis Karamitsos",
+			"NAMED": "Ioannis <br>Karamitsos",
+			"POSITION": "Digital Transformation Technologist & Managing Consultant at Orange (UAE)",
+			"IMG": "/assets/images/team/ijk.png",
+			"SHORT": "A technology expert with over two decades’ experience in IT and over 30 technical papers published.",
+			"DESCR": "Ioannis is an expert in cybersecurity, cryptography, blockchain, smart contracts, SDN/DC, machine learning and internet of things. He is certified in security, cloud computing, data center, and IT governance, and has 23 years of experience in IT. Also, Ioannis was managing complicated smart cities projects in Europe and the Middle East. During his career he built many products ranging from embedded low-level systems to complex systems for telecoms networks. Author of over 30 papers and technical reports and a member of IEEE since 1997."
+		},{
+			"NAME": "Chris Bruck",
+			"POSITION": "Chief Marketing Officer of eGaaS S.A., Luxembourg",
+			"IMG": "/assets/images/team/cb.png",
+			"SHORT": "An entrepreneur with 30 years’ experience marketing cutting edge technology.",
+			"DESCR": "An entrepreneur with 30 years’ experience marketing cutting edge technology worldwide. Co-founded the first European web portal Europe Online in 1994, received strategic, financial, marketing and operational experience in Europe, Japan, and the US for major players and startups. Improved the Rolex brand impact online 2000% (2005-2008). Founder of Bespeak fashion technology start-up, former CEO of “Ashes and Snow” concept art project with more than 10 million visitors to date. Completed a Ph.D. and M.A. in Business and Commerce at Keio University, Tokyo, and a Juris Doctor at the University of Paris I., Panthéon-Sorbonne. Fluent in 5 languages, including Japanese."
+		}
+	],
+	"TOPMANAGMENT": [
+		{
+			"NAME": "Oleg Strelenko",
+			"NAMED": "Oleg <br>Strelenko",
+			"POSITION": "Chief Executive Officer",
+			"IMG": "/assets/images/team/os.png",
+			"SHORT": "Blockchain visionary, strong believer and creator of Apla’s unique technology.",
+			"DESCR": "Blockchain visionary, strong believer and creator of Apla’s unique technology. EAn early adopter of blockchain, Oleg created his own decentralized electronic currency DCoin in 2011. As he completed 73,000 lines Go code and attracted investors, he realized the future potential is much bigger. In 2016 Oleg launched eGaaS (electronic Government as a Service) and became one of the pioneers of ICO market. This work was crucial for the Apla project and built a solid foundation for the current progress."
+		},{
+			"NAME": "Michael Aprossine",
+			"NAMED": "Michael <br>Aprossine",
+			"POSITION": "Chief Business Development Officer",
+			"IMG": "/assets/images/team/ma-2.png",
+			"SHORT": "Michael is a blockchain evangelist and a serial entrepreneur.",
+			"DESCR": "Michael is a blockchain evangelist and a serial entrepreneur with more than 20 years’ experience in IT. Extensive industry knowledge and the desire to shake things up compelled Michael to launch a number of online startups from dotcoms to the internet of things and blockchain. An expert in strategic planning and new business model incorporation, Michael is developing Apla partnership programs and attracting customers around the world. He holds an Executive MBA and is a bachelor of Social Science. Worked as a co-founder and CEO of USDC SlotLogic S.A.R.L., as a marketing director at Korston Group, as BDO at FTS Maconomy and Ciscom."
+		},{
+			"NAME": "Vitaly Bondar",
+			"NAMED": "Vitaly <br>Bondar",
+			"POSITION": "Chief Legal Officer",
+			"IMG": "/assets/images/team/vb.png",
+			"SHORT": "Vitaly is an expert in legal regulation of blockchain, fintech and private international law.",
+			"DESCR": "Vitaly is an expert in legal regulation of blockchain, fintech and private international law. He is a Chief Legal Officer of Apla and a CEO of the Luxembourg-based law firm ChristmannSchmitt. Over the past 15 years, he has held senior positions at large international law firms and industrial companies with a focus on cross-border mergers and acquisitions, and transaction structuring. Vitaly holds an LL.M. (Legum Magister) degree in International Banking and Commercial Law after receiving advanced study at Queen Mary University in London."
+		},{
+			"NAME": "Muhammed Arafath",
+			"NAMED": "Muhammed <br>Arafath",
+			"POSITION": "Executive Director MENA",
+			"IMG": "/assets/images/team/mha.png",
+			"SHORT": "An outstanding expert in blockchain implementation and keynote speaker on a global scale.",
+			"DESCR": "An outstanding expert in digital transformation, Apla’s Executive Director and key speaker on a global scale. As a speaker or chair, he often attends the events like the Gartner Symposium/ITxpo, TRESCON and the World Blockchain Summit. A graduate from Southern Cross University (Australia), Muhammed is a certified Blockchain business analyst, and has over 10+ years of experience working with diverse industries and international markets. Не is actively working with governmentals and businesses to help them adopt blockchain. Advisor of the World Blockchain Foundation, former principal consultant at Finesse Global (Dubai), and business analyst at Quosphere and UXL Consulting."
+		}
+	],
+	"TEAM": [
+		{
+			"NAME": "Alexander Boldachev",
+			"NAMED": "Alexander <br>Boldachev",
+			"POSITION": "System Architect",
+			"IMG": "/assets/images/team/ab.png",
+			"SHORT": "Alexander is a futurologist and a blockchain architect",
+			"DESCR": "Alexander is a philosopher, analyst, and member of the Association of Russian Futurologists. His primary areas of research are: global evolutionism, temporal ontology, philosophy of artificial intelligence, and futurology. Works on the creation of a subject-event approach to complex systems modeling. Alexander created the concept of Smart Laws, developed an ideology for smart contracts and a number of Apla’s dApps and digital ecosystems. He is one of our key speakers at European events like Future Tech (St. Petersburg), Blockchain Weekend and #Decenter Cryptoevent (Moscow), Blockchain Conference (Kiev)."
+		},{
+			"NAME": "Nickolay Syusko",
+			"POSITION": "Head of Digital Transformation",
+			"IMG": "/assets/images/team/ns.png",
+			"SHORT": "Nick is a blockchain evangelist and a strong professional in business development, PR & marketing.",
+			"DESCR": "At Apla he defines areas of growth, drives sales activities, as well as defining brand and marketing strategy. With a wealth of experience in strategy and new business development for companies like Coca-Cola or Microsoft, Nick helps Apla to be at the forefront of tech innovation. Opinion leader on LinkedIn with 16K business network. Speaker at Future Cities Show ‘18 at Dubai. He has a Master’s degree in Economics."
+		},{
+			"NAME": "Dmitry Brovkin",
+			"POSITION": "Head of Developer Marketing",
+			"IMG": "/assets/images/team/db.png",
+			"SHORT": "Technical and business expert responsible for implementing blockchain.",
+			"DESCR": "Well-versed in both technical and business areas, Dmitry often represents Apla at international conferences, promoting the platform and training our partners in Europe and Asia. An entrepreneurial spirit combined with international business training and software development experience in the past makes Dmitry a valuable asset for the Apla team. He has a degree in Project Management."
+		},{
+			"NAME": "Anna Nosova",
+			"POSITION": "Business Development Manager",
+			"IMG": "/assets/images/team/an.png",
+			"SHORT": "Project promotion expert with over 5 years’ international experience.",
+			"DESCR": "Thanks to Anna’s management talents, Apla participates constantly in conferences and events around the world, always staying proactive in SMM, email-marketing, reports and ad campaigns. Moreover, Anna analyses the market to stay in the loop of current trends. She holds a Master's degree in Psychology and has 5 years’ experience in the field of project promotion. Anna has cooperated with international volunteer organizations such as Peace Corp, Spare, and the Biomass Project."
+		},{
+			"NAME": "Igor Chertov",
+			"POSITION": "Lead Front End Developer",
+			"IMG": "",
+			"SHORT": "A gifted developer and blockchain enthusiast.",
+			"DESCR": "Igor is a gifted developer and blockchain enthusiast. Has a deep knowledge of the full cycle development of cross-platform, hybrid mobile applications for web and desktop environments, as well as in relational SQL and document-based data stores. Igor received a degree in Information Technology and has since acquired the title of Microsoft-Certified Solutions Developer (MCSD)."
+		},{
+			"NAME": "Yuriy Lomakin",
+			"POSITION": "Front End Developer, Tester",
+			"IMG": "",
+			"SHORT": "UX/UI developer, JavaScript, Angular and jQuery ninja, HTML5 and CSS guru.",
+			"DESCR": "Yuriy has over 15 years of development experience. A UX/UI developer, JavaScript, Angular and jQuery ninja, HTML5 and CSS guru: he has solid skills and is a highly efficient team member. Yuriy has previously worked for major news portals and top advertising agencies with a very intense and diversified workload."
+		},{
+			"NAME": "Alexey Krivonogov",
+			"POSITION": "Lead Back End Developer",
+			"IMG": "/assets/images/team/ak.png",
+			"SHORT": "25 years’ programming experience and developer of entire platform programming interface.",
+			"DESCR": "After 25 years of self-perfection in programming, Alexey created essential solutions that provide the basis for Apla’s main benefits: its high usability and rapid application development. He constructed the programming languages Simvolio and Protypo, and the entire platform programming interface. Alexey became a co-developer of Apla’s predecessor project, DCoin cryptocurrency. Has a degree in Mathematics and Applied Mathematics."
+		},{
+			"NAME": "Peter Farbey",
+			"POSITION": "Chief Data Storyteller",
+			"IMG": "/assets/images/team/pf.png",
+			"SHORT": "Blockchain marketing consultant and award-winning advertising specialist.",
+			"DESCR": "Peter is a blockchain marketing consultant and award-winning advertising specialist, prize-holder of Cannes Lions, D&AD, ADCR. Working in advertising, he has helped to develop communications for global brands like Visa, Coca-Cola, Shell and many more. At Apla, Peter helps spread awareness about our unique technology, combining essential creativity with high project management skills. A specialist in Political science and Government, with a Master’s degree in Communication Strategy/Brand Strategy at BBDO Wordshop."
+		},{
+			"NAME": "Roman Potekhin",
+			"POSITION": "Tech Lead",
+			"IMG": "",
+			"SHORT": "Experienced Python 2.x, Erlang, and Golang programmer and NoSQL and column-store database specialist.",
+			"DESCR": "Roman has over 10 years of experience as a Python 2.x, Erlang, and Golang programmer, and as a relational, NoSQL and column-store database specialist. He implemented several highload projects for major companies throughout the CIS. At Apla, Roman is developing the platform architecture, making technical decisions and solving major tech problems."
+		},{
+			"NAME": "Vasily Starovetskiy",
+			"POSITION": "Platform Applications Developer",
+			"IMG": "/assets/images/team/vs.png",
+			"SHORT": "Master of Delphi, C++, PL/SQL, Unity (C#), with experience working for energy giants.",
+			"DESCR": "Master of Delphi, C++, PL/SQL, Unity (C#). Vasily has a degree in Engineering and Security of Information Systems. Before Apla, he worked as a programmer for an energy giant and the leader of sustainable energy market of CIS countries."
+		},{
+			"NAME": "Pavel Fedorov",
+			"POSITION": "Head of PMO",
+			"IMG": "/assets/images/team/pvf.png",
+			"SHORT": "Leading development process manager as scrum master.",
+			"DESCR": "At Apla, Pavel is leading the platform development processes as Scrum master. He helps to manage and coordinate workflows of the company's departments, administer the work environment, corporate tools and integration. Pavel has been managing digital projects since 2014, and has a degree in Communication Engineering. A crucial moment of his career was Haute Future Fashion Academy in Milan, where he gained his first points in digital marketing."
+		},{
+			"NAME": "Dmitry Chertkov",
+			"POSITION": "Senior Backend Developer",
+			"IMG": "/assets/images/team/dch.png",
+			"SHORT": "Outstanding professional in  PHP, Node.js and Golang with over 12 years’ experience.",
+			"DESCR": "With more than 12 years of experience in programming, Dmitry is an outstanding professional in  PHP, Node.js and Golang. He developed digital content for a major Russian telecom businesses and has more than 5 years of experience in leading programmers team."
+		},{
+			"NAME": "Ivan Rozhkov",
+			"POSITION": "",
+			"IMG": "/assets/images/team/ir.png",
+			"SHORT": "",
+			"DESCR": ""
+		},{
+			"NAME": "Alexandra Khasirdzeva",
+			"POSITION": "Business Analyst",
+			"IMG": "",
+			"SHORT": "Expert business strategist for expansion and created a global startup accelerator program in the UAE.",
+			"DESCR": "A global citizen who lived in Moscow, Jordan, Dubai and LA working in startups. Developing content on innovation and emerging tech, Alexandra had a chance to interact with many industry leaders and visionaries. Later she succeeded in developing new business strategies for expansion, and created a global startup accelerator program in the UAE. Alexandra studied at the University of Edinburgh and the University of Southern California, with a BA in Economics."
+		},{
+			"NAME": "Mohammed Saleem",
+			"POSITION": "Executive Director",
+			"IMG": "",
+			"SHORT": "Entrepreneur, investor, go getter, ideator, effective negotiator and people manager.",
+			"DESCR": "Entrepreneur, investor, go getter, ideator, effective negotiator and people manager. His key skills lies is conceptualising business platforms that cover a myriad of latest technologies connecting businesses, governments, corporates, startups and investors across the world. Always focuses actively on identifying key investment opportunities. Mohammed is also a CEO of World Blockchain Summit and the leader of Trescon."
+		},{
+			"NAME": "Fouad Rathie",
+			"POSITION": "Fintech advisor",
+			"IMG": "",
+			"SHORT": "Successful career spanning decades in banking and current President of the Luxembourg Arab Business Association.",
+			"DESCR": "After pursuing a credit career at Chase Manhattan Egypt, Credit Suisse, and Bank of America, Fouad emigrated to Luxembourg, founding the Ottoman Bank in Luxembourg (subsequently acquired by Garanti Bank). During his banking career, Mr. Rathle was also board member of the bankers’ association ABBL and its longest serving director, Chairman of the Banking Academy IFBL from 2004 until its sale to the chamber of Commerce of Luxembourg, founder and currently treasurer of the Russian Luxembourg Chamber, former president of Rotary Club Horizon, founder and President of Rotary Espoir micro-credit funds 2005-2011, and currently President of the Luxembourg Arab Business Association."
+		},{
+			"NAME": "Youssef Daoud",
+			"POSITION": "Social media manager",
+			"IMG": "",
+			"SHORT": "A strong IT professional with a Master's degree in Project Management in Innovation and Entrepreneurship from University of Nantes.",
+			"DESCR": "A strong IT professional with a Master's degree focused in Project Management in Innovation and Entrepreneurship from University of Nantes. Skilled in computer science and analytics, Youssef has a long history of working in the IT and services industry."
+		},{
+			"NAME": "Adam Yates",
+			"POSITION": "Content Lead",
+			"IMG": "/assets/images/team/ay.png",
+			"SHORT": "Adam is a content specialist with over 5 years experience in digital media.",
+			"DESCR": "Adam is a content specialist with over 5 years experience in digital media, working on a variety of projects in and around fintech. Adam has moved into the blockchain space, and is now helping Apla to put ideas across in a simple but effective manner. He holds a Master’s degree in IT & IP law."
+		}
+	]
+}

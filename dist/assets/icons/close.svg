@@ -1,0 +1,17 @@
+<svg width="16" height="16" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Group 2</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-4151 -3249)">
+<g id="Group 2">
+<g id="Rectangle 3 Copy 4">
+<use xlink:href="#path0_fill" transform="matrix(0.707107 -0.707107 0.707107 0.707107 4151.19 3250.6)" fill="#1C1A1A"/>
+</g>
+<g id="Rectangle 3 Copy 5">
+<use xlink:href="#path0_fill" transform="matrix(0.707107 0.707107 -0.707107 0.707107 4165.33 3249.19)" fill="#1C1A1A"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 1.05228e-12 1C 1.0573e-12 0.447715 0.447715 -4.14016e-13 1 -4.14332e-13C 1.55228 -4.14647e-13 2 0.447715 2 1L 2 19C 2 19.5523 1.55228 20 1 20C 0.447715 20 8.8359e-13 19.5523 8.88611e-13 19L 1.05228e-12 1Z"/>
+</defs>
+</svg>
