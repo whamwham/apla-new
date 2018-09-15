@@ -1,0 +1,60 @@
+@mixin min($width) {
+	@media (min-width: $width) {
+		@content;
+	}
+}
+@mixin max($width) {
+	@media screen and (max-width: $width - 1) {
+		@content;
+	}
+}
+@mixin font($weight) {
+	font-family: 'Noto Serif', serif;
+	font-weight: $weight;
+}
+@mixin font-family($font) { 
+	@if $font == $freg {
+		@include font(400);
+	} @else if $font == $fmed {
+		@include font(500);
+	} @else if $font == $fbold {
+		@include font(700);
+	} @else {
+		@if map-has-key($fonts, $font) {
+			font-family:"#{map-get($fonts, $font)}";
+		}
+		@else {
+			@warn "Unfortunately, no value could be retrieved from `#{$font}`. "
+				+ "Please make sure it is defined in `$fonts` map.";
+		}
+	}
+}
+@mixin text($family, $size, $color, $lheight, $transform) {
+	@if $family == $freg {
+		@include font(400);
+	} @else if $family == $fbold {
+		@include font(700);
+	} @else {
+		@include font-family($family);
+	}
+	font-size:$size;
+	color:$color;
+	line-height:$lheight;
+	text-transform:$transform;
+}
+@mixin clearfix() {
+	&:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+}
+@function str-replace($string, $search, $replace: "") {
+	$index: str-index($string, $search);
+
+	@if $index {
+		@return str-slice($string, 1, $index - 1) + $replace + str-replace(str-slice($string, $index + str-length($search)), $search, $replace);
+	}
+
+	@return $string;
+}

@@ -1,0 +1,327 @@
+&vehicle-registry {
+	height: 100%;
+	min-height: 100%;
+	.screen {
+		height: 100%;
+		min-height: 100%;
+		&-main {
+			background-image: url(/assets/images/cases/vehicle-registry/main-screen.jpg);
+			h4 {
+				max-width: 750px;
+			}
+		}
+		&-background {
+			min-height: 435px;
+			//background-image: url(/assets/images/cases/vehicle-registry/background-screen.jpg);
+			@include max($btablet) {
+				min-height: 1px;
+			}
+		}
+		&-challenge {
+			padding-top: 90px;
+			padding-bottom: 90px;
+			@include max($btablet) {
+				padding-top: 60px;
+				padding-bottom: 60px;
+			}
+			h2 {
+				margin-bottom: 50px;
+				@include max($btablet) {
+					margin-bottom: 20px;
+				}
+			}
+			section {
+				display: flex;
+				flex-flow: row nowrap;
+				justify-content: flex-start;
+				align-content: flex-start;
+				align-items: flex-start;
+				@include max($btablet) {
+					display: block;
+				}
+				ul {
+					width: 50%;
+					@include max($btablet) {
+						width: auto;
+					}
+					li {
+						& + li {
+							margin-top: 20px;
+							@include max($btablet) {
+								margin-top: 10px;
+							}
+						}
+					}
+				}
+			}
+		}
+		&-result {
+			min-height: 555px;
+			//background-image: url(/assets/images/cases/vehicle-registry/result-screen.jpg);
+			background-repeat: no-repeat;
+			background-position: center center;
+			background-size: cover;
+			padding-top: 90px;
+			padding-bottom: 90px;
+			@include max($btablet) {
+				min-height: 1px;
+				padding-top: 60px;
+				padding-bottom: 60px;
+			}
+			h5 {
+				text-transform: uppercase;
+				margin-bottom: 20px;
+				@include max($btablet) {
+					margin-bottom: 10px;
+				}
+			}
+			h4 {
+				max-width: 50%;
+			}
+		}
+		&-approach {
+			.steps {
+				h5 {
+					font-size: 20px;
+					line-height: 24px;
+				}
+			}
+		}
+		&-solution {
+			background-color: $black;
+			padding-top: 90px;
+			padding-bottom: 90px;
+			@include max($btablet) {
+				padding-top: 60px;
+				padding-bottom: 60px;
+			}
+			& * {
+				color: $white;
+			}
+			h2 {
+				margin-bottom: 30px;
+				@include max($btablet) {
+					margin-bottom: 20px;
+				}
+			}
+			& > * {
+				& > div {
+					display: flex;
+					flex-flow: row wrap;
+					justify-content: flex-start;
+					@include max($btablet) {
+						display: block;
+					}
+					p {
+						flex: 50%;
+						position: relative;
+						padding-left: 25px;
+						padding-right: 25px;
+						margin-top: 0px;
+						margin-bottom: 25px;
+						@include max($btablet) {
+							padding-right: 0px;
+							margin-bottom: 15px;
+						}
+						strong {
+							position: absolute;
+							left: 0px;
+							top: -2px;
+							@include text(bold, 24px, inherit, 28px, none);
+						}
+						@include min($btablet) {
+							&:nth-of-type(1) {
+								order: 1;
+							}
+							&:nth-of-type(2) {
+								order: 3;
+							}
+							&:nth-of-type(3) {
+								order: 2;
+							}
+							&:nth-of-type(4) {
+								order: 4;
+							}
+						}
+					}
+				}
+				& > section {
+					display: flex;
+					flex-flow: row nowrap;
+					justify-content: flex-start;
+					margin-top: 90px;
+					@include max($btablet) {
+						display: block;
+						margin-top: 60px;
+					}
+					article {
+						flex: 20%;
+						@include min($btablet) {
+							&:not(:nth-of-type(2)) {
+								div {
+									padding-top: 244px;
+								}
+							}
+						}
+						@include max($btablet) {
+							& + article {
+								margin-top: 40px;
+							}
+						}
+						div {
+							display: flex;
+							flex-flow: row wrap;
+							justify-content: flex-start;
+							align-content: center;
+							align-items: center;
+							@include max($btablet) {
+								display: block;
+							}
+							span {
+								display: block;
+								width: 128px;
+								height: 120px;
+								background-repeat: no-repeat;
+								background-position: left center;
+							}
+							em {
+								flex: auto;
+								display: block;
+								height: 27px;
+								background-image: url(/assets/images/cases/arrow.svg);
+								background-repeat: no-repeat;
+								background-position: right center;
+								background-size: auto 27px;
+								@include max($btablet) {
+									display: none;
+								}
+							}
+						}
+						p {
+							padding-right: 25px;
+							margin-top: 55px;
+							@include max($btablet) {
+								padding-right: 0px;
+								margin-top: 25px;
+							}
+						}
+						&:nth-of-type(1) {
+							div {
+								span {
+									width: 94px;
+									background-image: url(/assets/images/cases/vehicle-registry/icon-process-1.svg);
+									background-size: 94px 97px;
+								}
+							}
+						}
+						&:nth-of-type(2) {
+							div {
+								&:before {
+									content: "";
+									flex: auto;
+									display: block;
+									min-width: 128px;
+									max-width: 128px;
+									height: 244px;
+									background-image: url(/assets/images/cases/vehicle-registry/icon-process-2-1.svg);
+									background-repeat: no-repeat;
+									background-position: right center;
+									background-size: 128px 244px;
+								}
+								span {
+									background-image: url(/assets/images/cases/vehicle-registry/icon-process-2.svg);
+									background-size: 128px 120px;
+								}
+							}
+						}
+						&:nth-of-type(3) {
+							div {
+								span {
+									background-image: url(/assets/images/cases/vehicle-registry/icon-process-3.svg);
+									background-size: 128px 120px;
+								}
+							}
+						}
+						&:nth-of-type(4) {
+							div {
+								span {
+									background-image: url(/assets/images/cases/vehicle-registry/icon-process-4.svg);
+									background-size: 128px 120px;
+								}
+							}
+						}
+						&:nth-of-type(5) {
+							div {
+								span {
+									width: 70px;
+									background-image: url(/assets/images/cases/vehicle-registry/icon-process-5.svg);
+									background-size: 70px 64px;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		&-representative {
+			img {
+				width: 100%;
+			}
+		}
+		&-outcome {
+			section {
+				max-width: 790px;
+				margin-left: auto;
+				margin-right: auto;
+				&:nth-of-type(2) {
+					max-width: none;
+					article {
+						flex: 33.33%;
+						&:nth-of-type(1) {
+							span {
+								background-image: url(/assets/icons/icon-reduce-cost.svg);
+							}
+						}
+						&:nth-of-type(2) {
+							span {
+								background-image: url(/assets/icons/icon-increase.svg);
+							}
+						}
+						&:nth-of-type(3) {
+							span {
+								background-image: url(/assets/icons/icon-goverment-trust.svg);
+							}
+						}
+					}
+				}
+			}
+		}
+		&-status {
+			min-height: 745px;
+			//background-image: url(/assets/images/cases/vehicle-registry/status-screen.jpg);
+			background-repeat: no-repeat;
+			background-position: center center;
+			background-size: cover;
+			padding-top: 90px;
+			padding-bottom: 90px;
+			@include max($btablet) {
+				min-height: 1px;
+				padding-top: 60px;
+				padding-bottom: 60px;
+			}
+			& * {
+				color: $white;
+			}
+			h3 {
+				max-width: 975px;
+			}
+			h5 {
+				text-transform: uppercase;
+				margin-bottom: 15px;
+				@include max($btablet) {
+					margin-bottom: 10px;
+				}
+			}
+		}
+	}
+}

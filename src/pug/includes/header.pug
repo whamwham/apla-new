@@ -1,0 +1,15 @@
+app-header( class=( (currPage.navIsWhite)? "white":""  ) )
+    a.logo(href='/' data-click='isActive = false')
+    a(name='top')
+    section
+        nav
+            each item in $i18n.PAGES
+                +nav-menu-item(item)
+        button.btn.openpopupform(type='button')!= $i18n.GETSTARTED
+        .language
+            button(mat-icon-button='' [matmenutriggerfor]='LanguageList' [ngclass]="MenuStatus() ? 'active' : ''")
+                |!= $i18n.LANGUAGE
+                span.arrow.arrow-down
+                    em
+    .menu(data-click='ShowMenu()')
+        .patty

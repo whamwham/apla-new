@@ -1,0 +1,246 @@
+* {
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-rendering: optimizeLegibility;
+	-webkit-touch-callout: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	box-sizing: border-box;
+	text-size-adjust: none;
+    user-select: none;
+}
+html {
+	height: 100%;
+	@include text(reg, 20px, $black, 28px, none);
+	@include max($btablet) {
+		font-size: 18px;
+		line-height: 26px;
+	}
+}
+body {
+	height: 100%;
+	min-height: 100%;
+	background-color: $bg;
+	&.popup-show {
+		overflow-y: hidden;
+	}
+}
+h1 {
+	@include text(bold, 72px, $black, 72px, none);
+	@include max($btablet) {
+		font-size: 42px;
+		line-height: 46px;
+	}
+}
+h2 {
+	@include text(bold, 56px, $black, 62px, none);
+	@include max($btablet) {
+		font-size: 36px;
+		line-height: 44px;
+	}
+	a {
+		color: $green !important;
+		font-size: 32px;
+		line-height: 40px;
+	}
+}
+h3 {
+	@include text(bold, 48px, $black, 54px, none);
+	@include max($btablet) {
+		font-size: 30px;
+		line-height: 38px;
+	}
+	a {
+		color: inherit !important;
+	}
+}
+h4 {
+	@include text(bold, 32px, $black, 40px, none);
+	@include max($btablet) {
+		font-size: 22px;
+		line-height: 28px;
+	}
+	a {
+		color: inherit !important;
+	}
+}
+h5 {
+	@include text(bold, 24px, $black, 28px, none);
+}
+small {
+	display: block;
+	@include text(reg, 16px, $black, 24px, none);
+}
+p {
+	& + p {
+		margin-top: 28px;
+	}
+}
+a {
+	color: $black;
+	outline: none;
+	text-decoration: none;
+	@include min($btablet) {
+		@include transition("border, background-color, color, opacity", .3s, "easeInOutExpo");
+		&:hover {
+			color: $green;
+			text-decoration: none;
+		}
+	}
+}
+button {
+	transition: {
+		property: opacity;
+		duration: .3s;
+	}
+}
+strong {
+	font-weight: normal;
+}
+input, textarea, button {
+	outline:none !important;
+}
+textarea {
+	resize: none;
+}
+[role="button"] {
+	cursor: pointer;
+	outline: none !important;
+}
+u {
+	text-decoration: none;
+	border-bottom: 2px solid $black;
+}
+ul {
+	li {
+		position: relative;
+		padding-left: 30px;
+		padding-right: 25px;
+		@include max($btablet) {
+			padding-right: 0px;
+		}
+		&:before {
+			content: '';
+			position: absolute;
+			left: 0px;
+			top: 9px;
+			width: 10px;
+			height: 9px;
+			background-image: url(/assets/icons/bullet.svg);
+			background-repeat: no-repeat;
+			background-position: center center;
+			background-size: 100% 100%;
+		}
+	}
+}
+#loading-bar {
+	position: fixed;
+	z-index: 100;
+	.bar {
+		background-color: $loader;
+	}
+	.peg {
+		width: 100%;
+		box-shadow: $loader 1px 0 6px 1px;
+	}
+}
+app-root {
+	display: block;
+	height: 100%;
+	min-height: 100%;
+}
+[routerLink] {
+	cursor: pointer;
+}
+.logo {
+	position: relative;
+	display: block;
+	width: 112px;
+	height: 37px;
+	background-size: 112px 37px;
+	z-index: 3;
+	&:before {
+		content: "";
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		width: 100%;
+		height: 100%;
+		background-image: url(/assets/images/logo-black.svg);
+		background-repeat: no-repeat;
+		background-position: 0px 0px;
+		background-size: 100% 100%;
+		opacity: 1;
+		@include transition("opacity", .3s, "ease");
+	}
+	&:after {
+		content: "";
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		width: 100%;
+		height: 100%;
+		background-image: url(/assets/images/logo-white.svg);
+		background-repeat: no-repeat;
+		background-position: 0px 0px;
+		background-size: 100% 100%;
+		opacity: 0;
+		@include transition("opacity", .3s, "ease");
+	}
+}
+.thumb {
+	max-width: 170px;
+	max-height: 159px;
+	min-width: 170px;
+	min-height: 159px;
+	&-lg {
+		max-width: 272px;
+		max-height: 254px;
+		min-width: 272px;
+		min-height: 254px;
+	}
+}
+.container {
+	width: 100%;
+	max-width: 1240px;
+	padding-left: 40px;
+	padding-right: 40px;
+	margin: 0px auto;
+	@include clearfix();
+	@include max($btablet) {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}
+mat-dialog-container {
+	max-width: 1160px;
+	max-height: calc(100vh - 80px);
+	padding: 0px !important;
+	@include max($btablet) {
+		max-height: calc(100vh - 40px);
+	}
+}
+.mat {
+	&-menu {
+		&-panel {
+			border-radius: 8px !important;
+			background-color: $white !important;
+			box-shadow: 0px 4px 8px 0px rgba(131, 131, 131, 0.5) !important;
+			margin-top: 15px;
+			margin-bottom: 15px;
+		}
+		&-content {
+			min-width: 150px;
+			padding-top: 7.5px !important;
+			padding-bottom: 7.5px !important;
+		}
+		&-item {
+			height: auto !important;
+			background-color: transparent !important;
+			@include font-family(reg);
+			font-size: 18px !important;
+			line-height: 22px !important;
+			letter-spacing: 1px !important;
+			text-align: right !important;
+			padding: 7.5px 15px !important;
+		}
+	}
+}

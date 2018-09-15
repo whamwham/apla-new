@@ -1,0 +1,240 @@
+&music-copyright {
+	height: 100%;
+	min-height: 100%;
+	.screen {
+		height: 100%;
+		min-height: 100%;
+		&-main {
+			background-image: url(/assets/images/cases//music-copyright/main-screen.jpg);
+			h4 {
+				max-width: 550px;
+			}
+		}
+		&-background {
+			min-height: 530px;
+			//background-image: url(/assets/images/cases/music-copyright/background-screen.jpg);
+			@include max($btablet) {
+				min-height: 1px;
+			}
+		}
+		&-challenge {
+			padding-top: 90px;
+			padding-bottom: 90px;
+			@include max($btablet) {
+				padding-top: 60px;
+				padding-bottom: 60px;
+			}
+			h2 {
+				margin-bottom: 50px;
+				@include max($btablet) {
+					margin-bottom: 20px;
+				}
+			}
+			section {
+				display: flex;
+				flex-flow: row nowrap;
+				justify-content: flex-start;
+				align-content: flex-start;
+				align-items: flex-start;
+				@include max($btablet) {
+					display: block;
+				}
+				ul {
+					width: 50%;
+					@include max($btablet) {
+						width: auto;
+					}
+					li {
+						& + li {
+							margin-top: 20px;
+							@include max($btablet) {
+								margin-top: 10px;
+							}
+						}
+					}
+				}
+			}
+		}
+		&-result {
+			min-height: 555px;
+			//background-image: url(/assets/images/cases/music-copyright/result-screen.jpg);
+			background-repeat: no-repeat;
+			background-position: center center;
+			background-size: cover;
+			padding-top: 90px;
+			padding-bottom: 90px;
+
+			color: $white;
+
+			@include max($btablet) {
+				min-height: 1px;
+				padding-top: 60px;
+				padding-bottom: 60px;
+			}
+			h5 {
+				text-transform: uppercase;
+				margin-bottom: 20px;
+				color: $white;
+				@include max($btablet) {
+					margin-bottom: 10px;
+				}
+			}
+			h4 {
+				max-width: 700px;
+				color: $white;
+			}
+		}
+		&-solution {
+			background-color: $black;
+			padding-top: 90px;
+			padding-bottom: 90px;
+			@include max($btablet) {
+				padding-top: 60px;
+				padding-bottom: 60px;
+			}
+			& * {
+				color: $white;
+			}
+			h2 {
+				margin-bottom: 40px;
+				@include max($btablet) {
+					margin-bottom: 20px;
+				}
+			}
+			p {
+				max-width: 660px;
+			}
+			img {
+				display: block;
+				max-width: 100%;
+				margin: 0px auto;
+			}
+			section {
+				display: flex;
+				flex-flow: row wrap;
+				justify-content: flex-start;
+				margin-bottom: 80px;
+				@include max($btablet) {
+					display: block;
+				}
+				ol {
+					width: 50%;
+					padding: 0 20px;
+					font-weight: $fbold;
+					//@include font-family($fbold);
+					li {
+						list-style-type: decimal;
+						margin-bottom: 30px;
+						font-weight: $freg;
+						//@include font-family($freg);
+					}
+					@include max($btablet) {
+						width: 100%;
+					}
+				}
+				p {
+					flex: 33.33%;
+					padding-left: 25px;
+					margin-top: 0px;
+					@include max($btablet) {
+						padding-left: 0px;
+					}
+					&:first-of-type {
+						margin-left: -25px;
+						@include max($btablet) {
+							margin-left: 0px;
+						}
+					}
+				}
+				.img {
+					margin: 90px auto;
+					@include max($btablet) {
+						margin: 60px auto;
+					}
+				}
+			}
+		}
+
+      &-examples {
+        padding-top: 100px;
+        section {
+          article {
+            width: 33.33%;
+            @include max($btablet) {
+              width: auto;
+            }
+            &:nth-of-type(1) {
+              span {
+                background-image: url(/assets/icons/icon-goverment-trust.svg);
+              }
+            }
+            &:nth-of-type(2) {
+              span {
+                background-image: url(/assets/icons/icon-happy-planet.svg);
+              }
+            }
+            &:nth-of-type(3) {
+              span {
+                background-image: url(/assets/icons/icon-music.svg);
+              }
+            }
+            &:nth-of-type(4) {
+              span {
+                background-image: url(/assets/icons/icon-transactions.svg);
+              }
+            }
+            &:nth-of-type(5) {
+              span {
+                background-image: url(/assets/icons/icon-embrace-innovation.svg);
+              }
+            }
+          }
+        }
+      }
+
+		&-status {
+			min-height: 185px;
+			//background-image: url(/assets/images/cases/music-copyright/status-screen.jpg);
+			background-repeat: no-repeat;
+			background-position: center center;
+			background-size: cover;
+			padding-top: 90px;
+			padding-bottom: 90px;
+			@include max($btablet) {
+				min-height: 1px;
+				padding-top: 60px;
+				padding-bottom: 60px;
+			}
+			& * {
+				color: $white;
+			}
+			& > * {
+				display: flex;
+				flex-flow: row wrap;
+				justify-content: space-between;
+				align-content: flex-start;
+				align-items: flex-start;
+				@include max($btablet) {
+					display: block;
+				}
+			}
+			article {
+				max-width: 600px;
+				&:nth-of-type(2) {
+					margin-top: 110px;
+					margin-left: auto;
+					@include max($btablet) {
+						margin-top: 60px;
+					}
+				}
+			}
+			h5 {
+				text-transform: uppercase;
+				margin-bottom: 15px;
+				@include max($btablet) {
+					margin-bottom: 10px;
+				}
+			}
+		}
+	}
+}

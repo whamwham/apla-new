@@ -1,0 +1,19 @@
+&about {
+	height: 100%;
+	min-height: 100%;
+	.screen {
+		height: 100%;
+		min-height: 100%;
+		&-main {
+			background-image: url(/assets/images/about/main-screen.jpg);
+			h1 {
+				max-width: 820px;
+			}
+			position: relative;
+			z-index: 2;
+		}
+		&-mission {
+
+		}
+	}
+}

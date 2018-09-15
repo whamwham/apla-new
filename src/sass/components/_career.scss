@@ -1,0 +1,354 @@
+&career {
+  & > * {
+    .screen {
+      &-main {
+        min-height: 100vh;
+        position: relative;
+        padding: 0;
+        @include max($btablet) {
+          background-image: url('/assets/images/career/poster.jpg');
+        }
+        .video {
+          position: absolute;
+          left: 0;
+          right: 0;
+          height: auto;
+          bottom: 0;
+          display: none;
+          @include min($btablet) {
+            display: block;
+          }
+          &:after {
+            content: '';
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            top: 0;
+            background-color: rgba(28, 26, 26, 0.5);
+          }
+        }
+        & > .container {
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-start;
+          z-index: 1;
+          position: relative;
+          height: 100%;
+          margin: 0 auto;
+          @include min($bdesktop) {
+            padding: 0 0 150px 42px;
+            width: 80%;
+          }
+          @include max($bdesktop) {
+            padding-right: 0;
+          }
+
+          & > div {
+            margin-top: 110px;
+            @include min($bdesktop) {
+              margin-top: 218px;
+              height: 270px;
+            }
+            h5 {
+              color: $white;
+              text-transform: uppercase;
+            }
+            h1 {
+              margin: 70px 0;
+              @include min($btablet) {
+                margin: 60px 0 22px -4px;
+              }
+              app-appearing-text {
+                @include max($bdesktop) {
+                  min-height: 125px;
+                  display: block;
+                }
+                .layer-one, .layer-second {
+                  .layer-third {
+                    color: $white;
+                    line-height: 1.05em;
+                    @include max($bdesktop) {
+                      font-size: 40px;
+                    }
+                    @include max($btablet) {
+                      font-size: 24px;
+                    }
+                  }
+                }
+                .layer-second {
+                  animation: appear 3s infinite;
+                  .layer-third {
+                    .t1, .t2, .t3, .t4 {
+                      white-space: nowrap;
+                      overflow: hidden;
+                    }
+                    .t1 {
+                      animation: t-1-switch 12s infinite;
+                    }
+                    .t2 {
+                      animation: t-2-switch 12s infinite;
+                    }
+                    .t3 {
+                      animation: t-3-switch 12s infinite;
+                    }
+                   .t4 {
+                      animation: t-4-switch 12s infinite;
+                    }
+
+                    @keyframes t-1-switch {
+                      0% {
+                        height:80px;
+                      }
+                      24% {
+                        height:80px;
+                      }
+                      25% {
+                        height:1px;
+                      }
+                      100% {
+                        height:1px;
+                      }
+                    }
+                    @keyframes t-2-switch {
+                      0% {
+                        height:1px;
+                      }
+                      24% {
+                        height:1px;
+                      }
+                      25% {
+                        height:80px;
+                      }
+                      49% {
+                        height:80px;
+                      }
+                      50% {
+                        height:1px;
+                      }
+                      100% {
+                        height:1px;
+                      }
+                    }
+
+                    @keyframes t-3-switch {
+                      0% {
+                        height:1px;
+                      }
+                      49% {
+                        height:1px;
+                      }
+                      50% {
+                        height:80px;
+                      }
+                      74% {
+                        height:80px;
+                      }
+                      75% {
+                        height:1px;
+                      }
+                      100% {
+                        height:1px;
+                      }
+                    }
+                    @keyframes t-4-switch {
+                      0% {
+                        height:1px;
+                      }
+                      74% {
+                        height:1px;
+                      }
+                      75% {
+                        height:80px;
+                      }
+                      99% {
+                        height:80px;
+                      }
+                      100% {
+                        height:1px;
+                      }
+                    }
+
+                  }
+                  &.two {
+                    animation-delay: 0.15s;
+                  }
+                  &.three {
+                    animation-delay: 0.3s;
+                  }
+                }
+                @keyframes appear {
+                  0% {
+                    height: 0px;
+                    transform: translateY(40px);
+                  }
+                  30% {
+                    height: 80px;
+                    transform: translateY(0);
+                  }
+                  60% {
+                    height: 80px;
+                    transform: translateY(0);
+                  }
+                  90% {
+                    height: 0px;
+                    transform: translateY(40px);
+                  }
+                  100% {
+                    height: 0px;
+                    transform: translateY(40px);
+                  }
+                }
+
+              }
+            }
+          }
+          .arrow {
+            @include min($bdesktop) {
+              margin: 124px 0 0 -3px;
+            }
+          }
+        }
+      }
+      &-it-happen {
+        padding: 190px 0 60px 0;
+        @include min($bdesktop) {
+          padding: 210px 0;
+        }
+        & .container {
+          @include min($bdesktop) {
+            width: 62%;
+          }
+          &:first-child {
+            app-appearing-block {
+              &:first-child {
+                h1 {
+                  margin-bottom: 63px;
+                  @include min($bdesktop) {
+                    margin-bottom: 418px;
+                  }
+                }
+
+              }
+            }
+          }
+
+          a {
+            color: $green;
+            text-decoration: underline;
+          }
+        }
+      }
+      &-why-here {
+        margin-top: 46px;
+        @include min($bdesktop) {
+          margin-top: 305px;
+          padding-bottom: 80px;
+        }
+        & .container {
+          @include max($bdesktop) {
+            margin: 60px 0 !important;
+          }
+          @include min($bdesktop) {
+            position: relative;
+            padding: 98px 40px;
+            text-align: right;
+          }
+          h2 {
+            @include min($bdesktop) {
+              position: absolute;
+              top: 0;
+              margin-left: -5px;
+              text-align: left;
+            }
+          }
+          img {
+            max-width: 100%;
+            margin: 30px auto;
+            display: block;
+            @include min($bdesktop) {
+              margin: 0 auto;
+            }
+          }
+          .annotations {
+            @include max($bdesktop) {
+              margin: 0 !important;
+            }
+            @include min($bdesktop) {
+              margin: 47px 5px 0 0;
+              text-align: right;
+              width: 40%;
+              display: inline-block;
+              p {
+                text-align: left;
+                line-height: 1.5em;
+              }
+            }
+          }
+        }
+      }
+      &-joining {
+        background: $black;
+        padding: 60px 0;
+        @include min($bdesktop) {
+          padding: 100px 0 45px 0;
+        }
+        & > * {
+          h1 {
+            color: $white;
+            span {
+              color: $green;
+            }
+          }
+          .receive-list {
+            display: flex;
+            margin-top: 30px;
+            @include min($btablet) {
+              margin-top: 80px;
+            }
+            @include max($btablet) {
+              flex-direction: column;
+            }
+            & .item {
+              width: 100%;
+              margin-bottom: 30px;
+              &:last-child {
+                margin-bottom: 0;
+              }
+              @include min($btablet) {
+                width: 25%;
+              }
+              & .annotaion {
+                color: $white;
+                padding: 8px 30px 0 0;
+              }
+            }
+          }
+        }
+      }
+      &-vacancies {
+        margin-top: 60px;
+        padding-bottom: 0;
+        @include min($btablet) {
+          margin: 123px 2px 0 0;
+        }
+        mat-tab-header {
+          @include min($btablet) {
+            margin-bottom: 2px !important;
+          }
+        }
+        section {
+          @include min($btablet) {
+            article {
+              height: auto;
+              .content {
+                margin: 0 auto;
+                width: 67%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

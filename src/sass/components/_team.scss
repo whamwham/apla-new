@@ -1,0 +1,233 @@
+.team-rotator {
+  margin-bottom: 100px;
+
+  .swiper-slide {
+    padding: 40px 20px 0 20px;
+    margin-bottom: 30px;
+    article {
+      flex: none;
+      padding: 0;
+
+      .thumb {
+        margin-bottom: 50px;
+        @include max($btablet) {
+          margin-bottom: 35px;
+        }
+        .btn-icon {
+          position: absolute;
+          right: -32px;
+          bottom: 0px;
+        }
+      }
+
+      small {
+        height: 55px;
+        color: $gray;
+        margin-bottom: 30px;
+        @include max($btablet) {
+          margin-bottom: 15px;
+        }
+        @media (min-width: 1200px) { height:37px; }
+      }
+      .descr {
+        height: 135px;
+        overflow: hidden;
+        transition: ease-in 0.3s;
+      }
+    }
+    .descr-ov {
+      font-size: 16px;
+      position: relative;
+      height: 0px;
+      overflow: hidden;
+      padding-top: 15px;
+    }
+
+    &:hover {
+      .descr {
+        height: auto;
+        overflow: hidden;
+        font-size: 16px;
+      }
+      .descr-ov {
+        display:block;
+        height: auto;
+        animation: team-item-2 50s;
+        padding-bottom: 30px;
+      }
+      background: #333;
+    }
+    &.v2 {
+      background: #1C1A1A;
+      padding: 0;
+
+      article {
+        padding: 40px 20px 0 20px;
+        background: #1C1A1A;
+        transition: ease-in 0.3s;
+        .descr {
+          height: 135px;
+          overflow: hidden;
+          transition: ease-in 0.3s;
+        }
+      }
+      .descr-ov {
+        padding: 0 20px 0 20px;
+        font-size: 16px;
+        position: relative;
+        height: 1px;
+        overflow: hidden;
+      }
+
+      &:hover {
+        article {
+          background: #333;
+          .descr {
+            height: auto;
+            overflow: hidden;
+            font-size: 20px;
+          }
+        }
+        .descr-ov {
+          padding: 15px 20px 30px 20px;
+          background: #333;
+          display:block;
+          height: auto;
+          animation: team-item-v2 50s;
+        }
+      }
+
+    }
+  }
+
+  .swiper-container {
+    //max-width: 765px;
+    //margin: 0px auto;
+    .swiper-wrapper {
+      align-items: baseline;
+      margin-bottom: 35px;
+    }
+    .swiper-pagination {
+      bottom: 18px;
+      font-size: 0px;
+      line-height: 0px;
+      text-align: left;
+      padding-left: 200px;
+      @include max($btablet) {
+        padding-left: 20px;
+      }
+      &-bullet {
+        width: 10px;
+        height: 10px;
+        border: 1px solid $white;
+        background-color: transparent;
+        vertical-align: top;
+        margin-left: 0px;
+        margin-right: 0px;
+        opacity: 1;
+        &-active {
+          background-color: $white;
+        }
+        & + .swiper-pagination-bullet {
+          margin-left: 14px;
+        }
+      }
+    }
+    .swiper-button-prev,
+    .swiper-button-next {
+      border: 0px;
+      background-image: none;
+      background-color: transparent;
+      width: auto;
+      height: auto;
+      font-size: 0px;
+      padding: 0px;
+      & > * {
+        margin: 0px;
+      }
+    }
+    .swiper-button-prev {
+      left: auto;
+      right: 70px;
+      top: auto;
+      bottom: 0px;
+      @include max($mobile) {
+        right: 20px;
+        top: 250px;
+        bottom: auto;
+        height: 50px;
+      }
+    }
+    .swiper-button-next {
+      left: auto;
+      right: 0px;
+      top: auto;
+      bottom: 0px;
+      @include max($mobile) {
+        right: 20px;
+        top: 200px;
+        bottom: auto;
+        height:50px;
+      }
+    }
+  }
+
+}
+
+@keyframes team-item {
+  0% {
+    height:109px;
+    transition-timing-function: ease-in;
+    font-size: 20px;
+  }
+  1% {
+    height:400px;
+    font-size: 16px;
+  }
+  2% {
+    height:auto;
+    font-size: 14px;
+  }
+  100% {
+    font-size: 14px;
+    height:auto;
+  }
+}
+
+@keyframes team-item-2 {
+  0% {
+    height:1px;
+    transition-timing-function: ease-in;
+  }
+  1% {
+    height:400px;
+  }
+  2% {
+    height:auto;
+  }
+  100% {
+    height:auto;
+  }
+}
+
+
+@keyframes team-item-v2 {
+  0% {
+    height:1px;
+    transition-timing-function: cubic-bezier(.77, 0, .175, 1);
+    margin-top: 30px;
+    background: #1C1A1A;
+  }
+  1% {
+    margin-top: 0;
+    height:400px;
+    background: #333;
+  }
+  2% {
+    margin-top: 0;
+    height:auto;
+  }
+  100% {
+    height:auto;
+  }
+}

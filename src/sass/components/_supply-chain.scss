@@ -1,0 +1,271 @@
+&supply-chain {
+	height: 100%;
+	min-height: 100%;
+	.screen {
+		height: 100%;
+		min-height: 100%;
+		&-main {
+			background-image: url(/assets/images/cases/supply-chain/main-screen.jpg);
+			h4 {
+				max-width: 700px;
+			}
+		}
+		&-background {
+			min-height: 685px;
+			//background-image: url(/assets/images/cases/supply-chain/background-screen.jpg);
+		}
+		&-challenge {
+			padding-top: 90px;
+			padding-bottom: 90px;
+			@include max($btablet) {
+				padding-top: 60px;
+				padding-bottom: 60px;
+			}
+			h2 {
+				margin-bottom: 50px;
+				@include max($btablet) {
+					margin-bottom: 20px;
+				}
+			}
+			section {
+				display: flex;
+				flex-flow: row nowrap;
+				justify-content: flex-start;
+				align-content: flex-start;
+				align-items: flex-start;
+				@include max($btablet) {
+					display: block;
+				}
+				ul {
+					width: 50%;
+					@include max($btablet) {
+						width: auto;
+					}
+				}
+			}
+		}
+		&-result {
+			min-height: 555px;
+			//background-image: url(/assets/images/cases/supply-chain/result-screen.jpg);
+			background-repeat: no-repeat;
+			background-position: center center;
+			background-size: cover;
+			padding-top: 90px;
+			padding-bottom: 90px;
+			@include max($btablet) {
+				min-height: 1px;
+				padding-top: 60px;
+				padding-bottom: 60px;
+			}
+			& * {
+				color: $white;
+			}
+			h5 {
+				text-transform: uppercase;
+				margin-bottom: 30px;
+				@include max($btablet) {
+					margin-bottom: 10px;
+				}
+			}
+			h4 {
+				max-width: 700px;
+			}
+		}
+		&-approach {
+			.steps {
+				h5 {
+					font-size: 20px;
+					line-height: 24px;
+				}
+			}
+		}
+		&-solution {
+			background-color: $black;
+			padding-top: 90px;
+			padding-bottom: 90px;
+			@include max($btablet) {
+				padding-top: 60px;
+				padding-bottom: 60px;
+			}
+			& * {
+				color: $white;
+			}
+			h2 {
+				margin-bottom: 30px;
+				@include max($btablet) {
+					margin-bottom: 20px;
+				}
+			}
+			p {
+				max-width: 660px;
+			}
+			img {
+				display: block;
+				max-width: 100%;
+				margin: 90px auto 0px;
+				@include max($btablet) {
+					margin: 60px auto 0px;
+				}
+			}
+		}
+		&-extra {
+			background-color: $black;
+			padding-top: 90px;
+			padding-bottom: 90px;
+			@include max($btablet) {
+				padding-top: 60px;
+				padding-bottom: 60px;
+			}
+			& * {
+				color: $white;
+			}
+			h2 {
+				margin-bottom: 60px;
+				@include max($btablet) {
+					margin-bottom: 20px;
+				}
+			}
+			section {
+				display: flex;
+				flex-flow: row nowrap;
+				justify-content: flex-start;
+				align-content: flex-start;
+				align-items: flex-start;
+				@include max($btablet) {
+					display: block;
+				}
+				article {
+					flex: 25%;
+					padding-right: 25px;
+					@include max($btablet) {
+						padding-right: 0px;
+						& + article {
+							margin-top: 20px;
+						}
+					}
+					&:nth-of-type(1) {
+						span {
+							background-image: url(/assets/icons/icon-securitycode.svg);
+						}
+					}
+					&:nth-of-type(2) {
+						span {
+							background-image: url(/assets/icons/icon-radio.svg);
+						}
+					}
+					&:nth-of-type(3) {
+						span {
+							background-image: url(/assets/icons/icon-geolocation.svg);
+						}
+					}
+					&:nth-of-type(4) {
+						span {
+							background-image: url(/assets/icons/icon-soft.svg);
+						}
+					}
+					span {
+						display: block;
+						width: 60px;
+						height: 60px;
+						background-repeat: no-repeat;
+						background-position: center center;
+						margin-bottom: 30px;
+						@include max($btablet) {
+							margin-bottom: 15px;
+						}
+					}
+				}
+			}
+		}
+		&-potential {
+			padding-top: 90px;
+			padding-bottom: 90px;
+			@include max($btablet) {
+				padding-top: 60px;
+				padding-bottom: 60px;
+			}
+			& > * {
+				display: flex;
+				flex-flow: row nowrap;
+				@include max($btablet) {
+					display: block;
+				}
+				& > h2 {
+					min-width: 500px;
+					padding-right: 25px;
+					@include max($btablet) {
+						min-width: 1px;
+						padding-right: 0px;
+						margin-bottom: 10px;
+					}
+				}
+				& > p {
+					margin-top: 10px;
+				}
+			}
+		}
+		&-examples {
+			padding-top: 0px;
+			section {
+				article {
+					width: 33.33%;
+					@include max($btablet) {
+						width: auto;
+					}
+					&:nth-of-type(1) {
+						span {
+							background-image: url(/assets/icons/icon-supply-chain-management.svg);
+						}
+					}
+					&:nth-of-type(2) {
+						span {
+							background-image: url(/assets/icons/icon-reduce-cost.svg);
+						}
+					}
+					&:nth-of-type(3) {
+						span {
+							background-image: url(/assets/icons/icon-time.svg);
+						}
+					}
+					&:nth-of-type(4) {
+						span {
+							background-image: url(/assets/icons/icon-increase.svg);
+						}
+					}
+					&:nth-of-type(5) {
+						span {
+							background-image: url(/assets/icons/icon-goverment-trust.svg);
+						}
+					}
+				}
+			}
+		}
+		&-status {
+			min-height: 395px;
+			//background-image: url(/assets/images/cases/supply-chain/status-screen.jpg);
+			background-repeat: no-repeat;
+			background-position: center center;
+			background-size: cover;
+			padding-top: 90px;
+			padding-bottom: 90px;
+			@include max($btablet) {
+				min-height: 1px;
+				padding-top: 60px;
+				padding-bottom: 60px;
+			}
+			& * {
+				color: $white;
+			}
+			h3 {
+				max-width: 975px;
+			}
+			h5 {
+				text-transform: uppercase;
+				margin-bottom: 15px;
+				@include max($btablet) {
+					margin-bottom: 10px;
+				}
+			}
+		}
+	}
+}

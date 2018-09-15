@@ -1,0 +1,51 @@
+@font-face {
+  font-family: 'Formular';
+  src: url('/fonts/FormularBlack.eot');
+  src: url('/fonts/FormularBlack.eot') format('embedded-opentype'),
+  url('/fonts/FormularBlack.woff2') format('woff2'),
+  url('/fonts/FormularBlack.woff') format('woff'),
+  url('/fonts/FormularBlack.ttf') format('truetype'),
+  url('/fonts/FormularBlack.svg#FormularBlack') format('svg');
+
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Formular';
+  src: url('/fonts/FormularMedium.eot');
+  src: url('/fonts/FormularMedium.eot') format('embedded-opentype'),
+  url('/fonts/FormularMedium.woff2') format('woff2'),
+  url('/fonts/FormularMedium.woff') format('woff'),
+  url('/fonts/FormularMedium.ttf') format('truetype'),
+  url('/fonts/FormularMedium.svg#FormularMedium') format('svg');
+
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Formular';
+  src: url('/fonts/FormularRegular.eot');
+  src: url('/fonts/FormularRegular.eot') format('embedded-opentype'),
+  url('/fonts/FormularRegular.woff2') format('woff2'),
+  url('/fonts/FormularRegular.woff') format('woff'),
+  url('/fonts/FormularRegular.ttf') format('truetype'),
+  url('/fonts/FormularRegular.svg#FormularRegular') format('svg');
+
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Formular';
+  src: url('/fonts/FormularLight.eot');
+  src: url('/fonts/FormularLight.eot') format('embedded-opentype'),
+  url('/fonts/FormularLight.woff2') format('woff2'),
+  url('/fonts/FormularLight.woff') format('woff'),
+  url('/fonts/FormularLight.ttf') format('truetype'),
+  url('/fonts/FormularLight.svg#FormularRegular') format('svg');
+
+  font-weight: 300;
+  font-style: normal;
+}

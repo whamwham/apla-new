@@ -1,0 +1,58 @@
+.popup-form-wrapper {
+  display: none;
+  z-index: 1000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  .backdrop {
+    position: absolute;
+    z-index: 1000000;
+
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    background: rgba(0, 0, 0, 0.288);
+  }
+
+  &.show {
+    display: block;
+  }
+
+  .popup-form {
+    position: absolute;
+    z-index: 1000000;
+    box-sizing: border-box;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    background: #fff;
+    box-shadow: 0 11px 15px -7px rgba(0,0,0,.2), 0 24px 38px 3px rgba(0,0,0,.14), 0 9px 46px 8px rgba(0,0,0,.12);
+
+    padding: 40px;
+    max-width: 500px;
+    @include max($btablet) {
+      width: 100%;
+      max-width: 500px;
+    }
+    .head {
+      margin-bottom: 20px;
+    }
+
+    .form-group {
+      display: block;
+      padding-top: 10px;
+      margin-bottom: 20px;
+    }
+    .btn {
+      margin-top: 40px;
+    }
+  }
+}

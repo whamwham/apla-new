@@ -1,0 +1,246 @@
+.arrow {
+	position: relative;
+	display: inline-block;
+	width: 33px;
+	height: 32px;
+	vertical-align: middle;
+	margin-left: 10px;
+	&:before {
+		content: "";
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		width: 100%;
+		height: 100%;
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: 100% 100%;
+		opacity: 0;
+		@include transition("opacity", .3s, "ease");
+	}
+	&:after {
+		content: "";
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		width: 100%;
+		height: 100%;
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: 100% 100%;
+		opacity: 0;
+		@include transition("opacity", .3s, "ease");
+	}
+	em {
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		width: 100%;
+		height: 100%;
+		opacity: 1;
+		@include transition("opacity", .3s, "ease");
+		&:before {
+			content: "";
+			position: absolute;
+			left: 0px;
+			top: 0px;
+			width: 100%;
+			height: 100%;
+			background-repeat: no-repeat;
+			background-position: center center;
+			opacity: 1;
+			@include transition("opacity", .3s, "ease");
+		}
+		&:after {
+			content: "";
+			position: absolute;
+			left: 0px;
+			top: 0px;
+			width: 100%;
+			height: 100%;
+			background-repeat: no-repeat;
+			background-position: center center;
+			opacity: 0;
+			@include transition("opacity", .3s, "ease");
+		}
+	}
+	&-lg {
+		width: 46px;
+		height: 44px;
+		&.arrow-down {
+			&:before {
+				background-image: url(/assets/icons/arrow-down-hover.svg);
+			}
+			&:after {
+				background-image: url(/assets/icons/arrow-down-pressed.svg);
+			}
+			em {
+				&:before {
+					background-image: url(/assets/icons/arrow-down.svg);
+					background-size: 23px 25px;
+				}
+				&:after {
+					background-image: url(/assets/icons/arrow-down-white.svg);
+					background-size: 23px 25px;
+				}
+			}
+		}
+		&.arrow-left {
+			&:before {
+				background-image: url(/assets/icons/arrow-left-hover.svg);
+			}
+			&:after {
+				background-image: url(/assets/icons/arrow-left-pressed.svg);
+			}
+			em {
+				&:before {
+					background-image: url(/assets/icons/arrow-left.svg);
+					background-size: 25px 23px;
+				}
+				&:after {
+					background-image: url(/assets/icons/arrow-left-white.svg);
+					background-size: 25px 23px;
+				}
+			}
+			&-w {
+				&:before {
+					background-image: url(/assets/icons/arrow-left-hover.svg);
+				}
+				&:after {
+					background-image: url(/assets/icons/arrow-left-pressed.svg);
+				}
+				em {
+					&:before {
+						background-image: url(/assets/icons/arrow-left-white.svg);
+						background-size: 25px 23px;
+					}
+					&:after {
+						background-image: url(/assets/icons/arrow-left.svg);
+						background-size: 25px 23px;
+					}
+				}
+			}
+
+		}
+		&.arrow-right {
+			&:before {
+				background-image: url(/assets/icons/arrow-right-hover.svg);
+			}
+			&:after {
+				background-image: url(/assets/icons/arrow-right-pressed.svg);
+			}
+			em {
+				&:before {
+					background-image: url(/assets/icons/arrow-right.svg);
+					background-size: 25px 23px;
+				}
+				&:after {
+					background-image: url(/assets/icons/arrow-right-white.svg);
+					background-size: 25px 23px;
+				}
+			}
+			&-w {
+				&:before {
+					background-image: url(/assets/icons/arrow-right-hover.svg);
+				}
+				&:after {
+					background-image: url(/assets/icons/arrow-right-pressed.svg);
+				}
+				em {
+					&:before {
+						background-image: url(/assets/icons/arrow-right-white.svg);
+						background-size: 25px 23px;
+					}
+					&:after {
+						background-image: url(/assets/icons/arrow-right.svg);
+						background-size: 25px 23px;
+					}
+				}
+			}
+
+		}
+	}
+	&-down {
+		&:before {
+			background-image: url(/assets/icons/small-arrow-down-hover.svg);
+		}
+		&:after {
+			background-image: url(/assets/icons/small-arrow-down-pressed.svg);
+		}
+		em {
+			&:before {
+				background-image: url(/assets/icons/small-arrow-down.svg);
+				background-size: 14px 15px;
+			}
+			&:after {
+				background-image: url(/assets/icons/small-arrow-down-white.svg);
+				background-size: 14px 15px;
+			}
+		}
+	}
+	&-left {
+		&:before {
+			background-image: url(/assets/icons/small-arrow-left-hover.svg);
+		}
+		&:after {
+			background-image: url(/assets/icons/small-arrow-left-pressed.svg);
+		}
+		em {
+			&:before {
+				background-image: url(/assets/icons/small-arrow-left.svg);
+				background-size: 15px 14px;
+			}
+			&:after {
+				background-image: url(/assets/icons/small-arrow-left-white.svg);
+				background-size: 15px 14px;
+			}
+		}
+	}
+	&-right {
+		&:before {
+			background-image: url(/assets/icons/small-arrow-right-hover.svg);
+		}
+		&:after {
+			background-image: url(/assets/icons/small-arrow-right-pressed.svg);
+		}
+		em {
+			&:before {
+				background-image: url(/assets/icons/small-arrow-right.svg);
+				background-size: 15px 14px;
+			}
+			&:after {
+				background-image: url(/assets/icons/small-arrow-right-white.svg);
+				background-size: 15px 14px;
+			}
+		}
+	}
+	@include min($btablet) {
+		*:hover > & {
+			&:before {
+				opacity: 1;
+			}
+			em {
+				opacity: 0;
+			}
+		}
+	}
+	*:active > & {
+		&:after {
+			opacity: 1;
+		}
+	}
+	*.active > & {
+		&:after {
+			opacity: 1;
+			@include transition("opacity", 0s, "ease");
+		}
+	}
+	&.as-hovering {
+		&:before {
+			opacity: 1;
+		}
+		em {
+			opacity: 0;
+		}
+	}
+}

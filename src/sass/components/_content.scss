@@ -1,0 +1,2213 @@
+.screen {
+  &-main {
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding-top: 180px;
+    @include max($btablet) {
+      padding-top: 110px;
+    }
+    @media (max-height: 650px) {
+      @media (min-width: 900px) {
+        padding-top: 110px;
+      }
+    }
+    h1 {
+      margin-bottom: 22px;
+      @include max($btablet) {
+        margin-bottom: 16px;
+      }
+    }
+    h4 {
+      max-width: 665px;
+    }
+    &-popup {
+      height: 590px;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      padding-top: 80px;
+      h1 {
+        max-width: 800px;
+        margin-bottom: 22px;
+      }
+      h5 {
+        max-width: 650px;
+        @include font-family(reg);
+        line-height: 36px;
+      }
+    }
+  }
+  &-mission {
+    //min-height: 100vh;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    min-height: 100vh;
+    //position: relative;
+    @include max($btablet) {
+      padding-top: 60px;
+      padding-bottom: 60px;
+    }
+    & > * {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-between;
+      align-content: center;
+      align-items: center;
+    }
+    article {
+      position: absolute;
+      right: 0;
+      width: 50%;
+      opacity: 1;
+      padding-right: 50px;
+
+      transition: ease 0.3s;
+
+      h2 {
+        margin-bottom: 30px;
+      }
+
+      @include max($btablet) {
+        width: 90%;
+        margin-left: 3%;
+        right:auto;
+        padding-right: 0;
+        top:60vh;
+      }
+
+      @include max($bmobile) {
+        top:50vh;
+        font-size: 14px;
+        line-height: 1.2em;
+        margin-left: 0;
+        h2 {
+          font-size: 24px;
+          margin-bottom: 10px;
+        }
+      }
+
+      @media (min-width: 1000px) {
+        @media (max-height: 800px) {
+          font-size: 17px;
+          line-height: 1.3em;
+          h2 {
+            font-size: 30px;
+          }
+        }
+        @media (max-height: 600px) {
+          font-size: 15px;
+          line-height: 1.3em;
+          h2 {
+            font-size: 24px;
+          }
+        }
+      }
+
+
+    }
+    img {
+      position: absolute;
+      height: 100%;
+      right: 50%;
+      //transform: translateX(100%);
+      transition: ease 0.3s;
+      opacity: 1;
+      margin-right: 5%;
+      @media (min-width: 1000px) {
+        @media (max-height: 800px) {
+          margin-right: 5%;
+        }
+        @media (max-height: 600px) {
+          margin-right: 10%;
+        }
+      }
+
+      @include max($btablet) {
+        //display: none;
+        width:70%;
+        height:auto;
+        right: auto;
+        top: 0;
+        margin-top: 6vh;
+        margin-left: 12.5%;
+      }
+      @include max($bmobile) {
+        //display: none;
+        width:70%;
+        height:auto;
+        right: auto;
+        top: 0;
+        margin-top: 8vh;
+        margin-left: 10%;
+      }
+    }
+    p {
+      strong {
+        @include font-family(bold);
+      }
+    }
+    .container {
+      position: relative;
+      top: 50%;
+      transform: translateY(50%);
+      height: 50vh;
+      overflow-x: visible;
+
+      @media (min-width: 1000px) {
+        @media (max-height: 600px) {
+          height: 70vh;
+          transform: translateY(15%);
+        }
+        @media (max-height: 800px) {
+          height: 60vh;
+          transform: translateY(20%);
+        }
+      }
+      @include max($btablet) {
+        height: 93vh;
+        transform: translateY(0);
+        top:0;
+      }
+
+    }
+
+    .overlay {
+      position: static;
+      background: $black;
+      opacity: 1;
+      z-index: 1;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+
+    }
+
+    &.animation-started {
+      height: 300vh;
+      .container {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      .overlay {
+        position: fixed;
+        opacity: 0;
+        transition: ease-in-out 0.3s;
+      }
+      img.img-2, img.img-3, img.img-4, article {
+        opacity: 0;
+        transform: translateX(100vw);
+      }
+    }
+
+    &.animation-stopped {
+      height: 100vh;
+      position: relative;
+      .container {
+        position: relative;
+        top: 0;
+      }
+      .overlay {
+        position: static;
+        opacity: 0;
+      }
+    }
+    &.step-1 {
+      .overlay {
+        opacity: 0.9;
+      }
+      img.img-2, img.img-3, img.img-4 {
+        opacity: 0;
+        transform: translateX(100vw);
+      }
+    }
+    &.step-2 {
+      .overlay {
+        opacity: 0.8;
+      }
+    }
+    &.step-3 {
+      .overlay {
+        opacity: 0.7;
+      }
+    }
+    &.step-4 {
+      .overlay {
+        opacity: 0.6;
+      }
+    }
+    &.step-5 {
+      .overlay {
+        opacity: 0.5;
+      }
+    }
+    &.step-6 {
+      .overlay {
+        opacity: 0.4;
+      }
+    }
+    &.step-7 {
+      .overlay {
+        opacity: 0.3;
+      }
+    }
+    &.step-8 {
+      .overlay {
+        opacity: 0.2;
+      }
+    }
+    &.step-9 {
+      .overlay {
+        opacity: 0.1;
+      }
+      img.img-2, img.img-3, img.img-4 {
+        opacity: 0;
+        transform: translateX(100vw);
+      }
+    }
+    &.step-10 {
+      .overlay {
+        opacity: 0;
+        position: static
+      }
+      img.img-2 {
+        opacity: 0.05;
+        transform: translateX(40vw);
+      }
+      img.img-3 {
+        opacity: 0.05;
+        transform: translateX(80vw);
+      }
+    }
+    &.step-11 {
+      img.img-2 {
+        opacity: 0.4;
+        transform: translateX(25vw);
+      }
+      img.img-3 {
+        opacity: 0.2;
+        transform: translateX(60vw);
+      }
+    }
+    &.step-12 {
+      img.img-2 {
+        opacity: 0.7;
+        transform: translateX(12vw);
+      }
+      img.img-3 {
+        opacity: 0.4;
+        transform: translateX(46vw);
+      }
+      img.img-4 {
+        opacity: 0.3;
+        transform: translateX(66vw);
+      }
+    }
+    &.step-13 {
+      img.img-2 {
+        opacity: 1;
+        transform: translateX(0);
+      }
+      img.img-3 {
+        opacity: 0.57;
+        transform: translateX(32vw);
+      }
+      img.img-4 {
+        opacity: 0.43;
+        transform: translateX(53vw);
+      }
+    }
+    &.step-14 {
+      img.img-2 {
+        opacity: 1;
+        transform: translateX(0);
+      }
+      img.img-3 {
+        opacity: 0.56;
+        transform: translateX(18vw);
+      }
+      img.img-4 {
+        opacity: 0.56;
+        transform: translateX(39vw);
+      }
+    }
+
+    &.step-15 {
+      img.img-2 {
+        opacity: 1;
+        transform: translateX(0);
+      }
+      img.img-3 {
+        opacity: 0.9;
+        transform: translateX(6vw);
+      }
+      img.img-4 {
+        opacity: 0.7;
+        transform: translateX(28vw);
+      }
+    }
+    &.step-16 {
+      img.img-2 {
+        opacity: 1;
+        transform: translateX(0);
+      }
+      img.img-3 {
+        opacity: 1;
+        transform: translateX(0);
+      }
+      img.img-4 {
+        opacity: 0.85;
+        transform: translateX(15vw);
+      }
+    }
+    &.step-17 {
+      img.img-2 {
+        opacity: 1;
+        transform: translateX(0);
+      }
+      img.img-3 {
+        opacity: 1;
+        transform: translateX(0);
+      }
+      img.img-4 {
+        opacity: 0.95;
+        transform: translateX(5vw);
+      }
+      article {
+        opacity: 0.23;
+        transform: translateX(30vw);
+      }
+    }
+    &.step-18 {
+      img.img-2 {
+        opacity: 1;
+        transform: translateX(0);
+      }
+      img.img-3 {
+        opacity: 1;
+        transform: translateX(0);
+      }
+      img.img-4 {
+        opacity: 1;
+        transform: translateX(0);
+      }
+      article {
+        opacity: 0.49;
+        transform: translateX(20vw);
+      }
+    }
+    &.step-19 {
+      img.img-2 {
+        opacity: 1;
+        transform: translateX(0);
+      }
+      img.img-3 {
+        opacity: 1;
+        transform: translateX(0);
+      }
+      img.img-4 {
+        opacity: 1;
+        transform: translateX(0);
+      }
+      article {
+        opacity: 0.74;
+        transform: translateX(10vw);
+      }
+    }
+    &.step-20 {
+      img.img-2 {
+        opacity: 1;
+        transform: translateX(0);
+      }
+      img.img-3 {
+        opacity: 1;
+        transform: translateX(0);
+      }
+      img.img-4 {
+        opacity: 1;
+        transform: translateX(0);
+      }
+      article {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+
+  }
+  &-history {
+    position: relative;
+    overflow: hidden;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    @include max($btablet) {
+      padding-top: 60px;
+      padding-bottom: 60px;
+    }
+    h2 {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: flex-start;
+      align-content: center;
+      align-items: center;
+      margin-bottom: 60px;
+      small {
+        position: relative;
+        top: 5px;
+        background-image: url(/assets/images/about/drag.svg);
+        background-repeat: no-repeat;
+        background-position: center top;
+        color: $gray;
+        white-space: nowrap;
+        padding-top: 25px;
+        margin-left: 50px;
+        @include max($btablet) {
+          display: none;
+        }
+      }
+    }
+    .swiper-container {
+      overflow: visible;
+      .swiper-slide {
+        width: 395px;
+        padding-right: 40px;
+        @include max($btablet) {
+          width: 280px;
+          padding-right: 20px;
+        }
+        &:first-of-type {
+          &:before {
+            content: "";
+            position: absolute;
+            left: 0px;
+            top: 64px;
+            width: 52px;
+            height: 52px;
+            border: 2px solid $black;
+            border-radius: 50%;
+            background-color: $white;
+          }
+          &:after {
+            left: 20px;
+          }
+          h4 {
+            &:after {
+              left: 18px;
+            }
+          }
+        }
+        &:after {
+          content: "";
+          position: absolute;
+          left: 0px;
+          right: 0px;
+          top: 90px;
+          height: 3px;
+          background-color: $black;
+        }
+        h4 {
+          margin-bottom: 110px;
+          &:after {
+            content: "";
+            position: absolute;
+            left: 0px;
+            top: 82px;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background-color: $black;
+          }
+        }
+      }
+    }
+
+  }
+  &-blockchain {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    @include max($btablet) {
+      padding-top: 60px;
+      padding-bottom: 60px;
+    }
+    h2 {
+      max-width: 700px;
+      margin-bottom: 80px;
+      @include max($btablet) {
+        margin-bottom: 0px;
+      }
+    }
+    h4 {
+      margin-top: 28px;
+      margin-bottom: 20px;
+      @include max($btablet) {
+        margin-top: 15px;
+        margin-bottom: 15px;
+      }
+    }
+    section {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: flex-start;
+      align-content: flex-start;
+      align-items: flex-start;
+      @include max($btablet) {
+        flex-flow: row wrap;
+      }
+      article {
+        flex: 33.33%;
+        padding-right: 25px;
+        @include max($btablet) {
+          flex: 100%;
+          padding-right: 0px;
+          margin-top: 35px;
+        }
+        &:nth-of-type(1) {
+          span {
+            background-image: url(/assets/icons/icon-secure-data.svg);
+          }
+        }
+        &:nth-of-type(2) {
+          span {
+            background-image: url(/assets/icons/icon-transparent.svg);
+          }
+        }
+        &:nth-of-type(3) {
+          span {
+            background-image: url(/assets/icons/icon-speed.svg);
+          }
+        }
+        span {
+          display: block;
+          width: 100px;
+          height: 100px;
+          background-repeat: no-repeat;
+          background-position: 0px 0px;
+          background-size: auto 100%;
+        }
+      }
+    }
+  }
+  &-benefits {
+    background-color: $black;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    @include max($btablet) {
+      padding-top: 60px;
+      padding-bottom: 60px;
+    }
+    & * {
+      color: $white;
+    }
+    h2 {
+      margin-bottom: 80px;
+      @include max($btablet) {
+        margin-bottom: 40px;
+      }
+    }
+    h4 {
+      margin-top: 30px;
+      margin-bottom: 20px;
+      @include max($btablet) {
+        margin-top: 15px;
+        margin-bottom: 10px;
+      }
+    }
+    img {
+      display: block;
+      max-width: 100%;
+      margin: 100px auto 0px;
+      @include max($btablet) {
+        margin-top: 20px;
+      }
+    }
+    section {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: flex-start;
+      align-content: flex-start;
+      align-items: flex-start;
+      @include max($btablet) {
+        display: block;
+      }
+      article {
+        flex: 33.33%;
+        padding-right: 25px;
+        padding-bottom: 130px;
+        @include max($btablet) {
+          padding-right: 0px;
+          padding-bottom: 60px;
+        }
+        &:nth-of-type(1) {
+          span {
+            background-image: url(/assets/icons/icon-blockchain30.svg);
+          }
+        }
+        &:nth-of-type(2) {
+          span {
+            background-image: url(/assets/icons/icon-regulated-ecosystem.svg);
+          }
+        }
+        &:nth-of-type(3) {
+          span {
+            background-image: url(/assets/icons/icon-rapid-development.svg);
+          }
+        }
+        &:nth-of-type(4) {
+          span {
+            background-image: url(/assets/icons/icon-independence.svg);
+          }
+        }
+        &:nth-of-type(5) {
+          span {
+            background-image: url(/assets/icons/icon-interface-editor.svg);
+          }
+        }
+        &:nth-of-type(6) {
+          span {
+            background-image: url(/assets/icons/icon-cross-platform.svg);
+          }
+        }
+        span {
+          display: block;
+          width: 100px;
+          height: 100px;
+          background-repeat: no-repeat;
+          background-position: 0px 0px;
+          background-size: 100% 100%;
+        }
+      }
+    }
+  }
+  &-clients {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    @include max($btablet) {
+      padding-top: 60px;
+      padding-bottom: 60px;
+    }
+    section {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+      align-content: flex-start;
+      align-items: flex-start;
+      div {
+        flex: 50%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: left;
+        @include max($btablet) {
+          flex: 100%;
+        }
+        & > * {
+          &:first-child {
+            flex: 100%;
+            margin-bottom: -40px;
+            @include max($btablet) {
+              margin-bottom: -20px;
+            }
+          }
+        }
+        article, a {
+          flex: 50%;
+          align-content: flex-start;
+          align-items: flex-start;
+          padding-left: 0px;
+          padding-right: 25px;
+        }
+        @include max($btablet) {
+          & + div {
+            margin-top: 40px;
+          }
+        }
+      }
+      article, a {
+        flex: 25%;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-top: 80px;
+        text-decoration: none;
+        @include max($btablet) {
+          flex: 50%;
+          max-width: 50%;
+          margin-top: 40px;
+        }
+        &.top {
+          justify-content: flex-start;
+        }
+        img {
+          display: block;
+          max-width: 100%;
+        }
+        .mat-icon {
+          display: block;
+          width: auto;
+          height: 45px;
+          svg {
+            width: auto !important;
+          }
+        }
+        h4 {
+          margin-top: 15px;
+        }
+      }
+
+      .gazprom {
+        max-width:21%;margin-top: 20px;
+        @include max($btablet) {
+          max-width:38%;margin-top: 20px;
+        }
+      }
+    }
+  }
+  &-stories {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    @include max($btablet) {
+      padding-top: 60px;
+      padding-bottom: 60px;
+    }
+    & > * {
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: center;
+      align-content: center;
+      align-items: center;
+      h2 {
+        width: 100%;
+        margin-bottom: 120px;
+        @include max($btablet) {
+          margin-bottom: 40px;
+        }
+      }
+      article {
+        position: relative;
+        & + article {
+          margin-top: 195px;
+          @include max($btablet) {
+            margin-top: 50px;
+          }
+        }
+        h3 {
+          @include min($btablet) {
+            position: absolute;
+            left: -100px;
+            top: -54px;
+            max-width: 520px;
+          }
+        }
+        h4 {
+          @include min($btablet) {
+            position: absolute;
+            left: -100px;
+            top: -40px;
+            max-width: 520px;
+          }
+          @include max($btablet) {
+            margin-bottom: 20px;
+          }
+        }
+        .btn {
+          @include min($btablet) {
+            position: absolute;
+            right: -8px;
+            top: -44px;
+            &:before {
+              opacity: 1;
+              transform: scale(1);
+            }
+          }
+          @include max($btablet) {
+            margin-top: 20px;
+            margin-bottom: 25px;
+          }
+        }
+        img {
+
+          display: block;
+          max-width: 100%;
+        }
+      }
+      a {
+        &:not(.btn) {
+          position: relative;
+          display: block;
+          & + a {
+            margin-top: 195px;
+            @include max($btablet) {
+              margin-top: 50px;
+            }
+          }
+          h3 {
+            @include min($btablet) {
+              position: absolute;
+              left: -100px;
+              top: -54px;
+              max-width: 520px;
+            }
+          }
+          h4 {
+            @include min($btablet) {
+              position: absolute;
+              left: -100px;
+              top: -40px;
+              max-width: 520px;
+            }
+          }
+          .btn {
+            @include min($btablet) {
+              position: absolute;
+              right: -8px;
+              top: -44px;
+            }
+            @include max($btablet) {
+              margin-top: 20px;
+              margin-bottom: 25px;
+              &:before {
+                opacity: 1;
+                transform: scale(1);
+              }
+            }
+          }
+          img {
+
+            display: block;
+            max-width: 100%;
+          }
+        }
+      }
+
+      .btn-wrapper {
+        margin-top: 60px;
+        display: block;
+        width: 100%;
+        padding-left: 90px;
+        text-align: left;
+        @include max($btablet) {
+          padding-left: 0;
+        }
+        .btn {
+        }
+      }
+
+    }
+  }
+  &-experience {
+    background-color: $black;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    position: relative;
+    z-index: 2;
+
+    //min-height: 100vh;
+
+    @include max($btablet) {
+      padding-top: 60px;
+      padding-bottom: 60px;
+    }
+    & * {
+      color: $white;
+    }
+    section {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: flex-start;
+      align-content: flex-start;
+      align-items: flex-start;
+      @include max($btablet) {
+        display: block;
+      }
+      article {
+        flex: 33.33%;
+        padding-right: 25px;
+        @include max($btablet) {
+          padding-right: 0px;
+          & + article {
+            margin-top: 20px;
+          }
+        }
+        h1 {
+          margin-bottom: 30px;
+          @include max($btablet) {
+            margin-bottom: 10px;
+          }
+        }
+      }
+    }
+  }
+  &-team {
+    background-color: $black;
+    padding-top: 90px;
+    @include max($btablet) {
+      padding-top: 60px;
+    }
+    & * {
+      color: $white;
+    }
+    h2 {
+      margin-bottom: 60px;
+      @include max($btablet) {
+        margin-bottom: 40px;
+      }
+      &:first-of-type {
+        margin-bottom: 90px;
+        @include max($btablet) {
+          margin-bottom: 60px;
+        }
+        & + p {
+          margin-top: -60px;
+          @include max($btablet) {
+            margin-top: -40px;
+          }
+        }
+      }
+      & + p {
+        max-width: 760px;
+        margin-top: -30px;
+        margin-bottom: 60px;
+      }
+    }
+    section {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: flex-start;
+      align-content: flex-start;
+      align-items: flex-start;
+      margin-left: -25px;
+      @include max($btablet) {
+        display: block;
+        padding-bottom: 60px;
+        margin-left: 0px;
+      }
+      article {
+        flex: 25%;
+        padding-bottom: 120px;
+        padding-left: 25px;
+        @include max($btablet) {
+          padding-left: 0px;
+          padding-bottom: 0px;
+          & + article {
+            margin-top: 40px;
+          }
+        }
+        .thumb {
+          margin-bottom: 50px;
+          @include max($btablet) {
+            margin-bottom: 35px;
+          }
+          .btn-icon {
+            position: absolute;
+            right: -32px;
+            bottom: 0px;
+          }
+        }
+        small {
+          color: $gray;
+          margin-bottom: 30px;
+          @include max($btablet) {
+            margin-bottom: 15px;
+          }
+        }
+      }
+    }
+  }
+  &-vacancies {
+    background-color: $black;
+    padding-bottom: 90px;
+    @include max($btablet) {
+      padding-bottom: 60px;
+    }
+    & * {
+      &:not(article) > * {
+        color: $white;
+      }
+    }
+    h2 {
+      max-width: 630px;
+      margin-bottom: 30px;
+    }
+    h3 {
+      max-width: 820px;
+      margin-bottom: 10px;
+      a {
+        color: $green !important;
+      }
+    }
+    h4 {
+      margin-top: 90px;
+      @include max($btablet) {
+        margin-top: 60px;
+        margin-bottom: 20px;
+      }
+    }
+    p {
+      max-width: 670px;
+    }
+    .mat-tab-group {
+      margin-top: -40px;
+      margin-bottom: 90px;
+      @include max($btablet) {
+        margin-top: 0px;
+        margin-bottom: 60px;
+      }
+      .mat-tab-header {
+        border-bottom: 0px;
+        margin-bottom: 15px;
+        .mat-tab-header-pagination {
+          .mat-tab-header-pagination-chevron {
+            border-color: $white;
+          }
+        }
+        .mat-tab-labels {
+          display: flex;
+          justify-content: flex-end;
+          @include max($btablet) {
+            justify-content: flex-start;
+          }
+          .mat-tab-label {
+            min-width: 1px;
+            height: 45px;
+            background-color: transparent !important;
+            @include text(bold, 24px, $white, 25px, uppercase);
+            padding: 0px;
+            margin-left: 50px;
+            opacity: 1;
+
+
+            cursor: pointer;
+            box-sizing: border-box;
+            text-align: center;
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            white-space: nowrap;
+            position: relative;
+
+            border-bottom: 4px solid #1C1A1A;
+
+            transition: .3s cubic-bezier(.35, 0, .25, 1);
+
+            &:hover {
+              border-bottom: 4px solid rgba(255,255,255,0.3);
+            }
+            &.mat-tab-label-active {
+              &:hover {
+                border-bottom: 4px solid #fff;
+              }
+              border-bottom: 4px solid #fff;
+            }
+
+            @include max($btablet) {
+              height: 35px;
+              font-size: 16px;
+              line-height: 18px;
+              margin-left: 0px;
+              margin-right: 25px;
+            }
+            .mat-ripple-element {
+              display: none !important;
+            }
+          }
+        }
+        .mat-ink-bar {
+          height: 3px !important;
+          background-color: $white !important;
+        }
+      }
+      .mat-tab-body-wrapper {
+        position: relative;
+        overflow: hidden;
+        display: flex;
+        transition: .5s linear;
+        .mat-tab-body {
+          //transform: translateX(-100%);
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          position: absolute;
+          display: block;
+          overflow: hidden;
+          transition: .5s linear;
+          .mat-tab-body-content {
+            transition: .5s linear;
+            transform: translate3d(100%, 0, 0);
+            height: 100%;
+            overflow: auto;
+            opacity: 0;
+          }
+        }
+        .mat-tab-body.mat-tab-body-active {
+          //transform: translateX(0);
+          //display: block;
+          position: relative;
+          overflow-x: hidden;
+          overflow-y: auto;
+          z-index: 1;
+          flex-grow: 1;
+          transition: .5s linear;
+          .mat-tab-body-content {
+            transition: .5s linear;
+            transform: none;
+            opacity: 1;
+          }
+          .mat-tab-body.mat-tab-body-removed {
+            transition: .5s linear;
+            .mat-tab-body-content {
+              transition: .5s linear;
+              transform: translate3d(-100%, 0, 0);
+              opacity: 0;
+            }
+          }
+        }
+        .mat-tab-body.mat-tab-body-removed {
+          transition: .5s linear;
+          .mat-tab-body-content {
+            transition: .5s linear;
+            transform: translate3d(-100%, 0, 0);
+            opacity: 0;
+          }
+        }
+      }
+    }
+    section {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: flex-start;
+      margin-left: -25px;
+      @include max($btablet) {
+        display: block;
+        margin-left: 0px;
+      }
+      article {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: flex-start;
+        align-content: flex-start;
+        align-items: flex-start;
+        height: 385px;
+        width: calc(50% - 25px);
+        background-color: $white;
+        padding: 40px;
+        margin-left: 25px;
+        margin-top: 25px;
+        @include max($btablet) {
+          height: auto;
+          width: auto;
+          padding: 20px;
+          margin-left: 0px;
+          margin-top: 0px;
+          & + article {
+            margin-top: 20px;
+          }
+        }
+        small {
+          display: flex;
+          flex-flow: row wrap;
+          justify-content: space-between;
+          width: 100%;
+          & * {
+            color: $gray;
+          }
+        }
+        h4 {
+          color: $black;
+          margin-top: 40px;
+        }
+        p {
+          color: $black;
+          margin-top: 5px;
+          margin-bottom: 25px;
+        }
+        .btn {
+          margin-top: auto;
+          margin-left: -8px;
+        }
+      }
+    }
+  }
+  &-media_info {
+    border-bottom: 3px solid $black;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    @include max($btablet) {
+      padding-top: 60px;
+      padding-bottom: 60px;
+    }
+    h2 {
+      margin-bottom: 30px;
+    }
+    section {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: flex-start;
+      align-content: flex-start;
+      align-items: flex-start;
+      @include max($btablet) {
+        display: block;
+      }
+      &:nth-of-type(1) {
+        h5 {
+          margin-bottom: 12px;
+          a {
+            color: $green;
+          }
+        }
+        article {
+          width: 50%;
+          padding-right: 25px;
+          @include max($btablet) {
+            width: auto;
+            padding-right: 0px;
+          }
+        }
+        & > div {
+          width: 250px;
+          margin: 0px auto;
+          @include max($btablet) {
+            width: auto;
+          }
+          p {
+            margin-bottom: 17px;
+          }
+        }
+      }
+      &:nth-of-type(2) {
+        border-top: 3px solid $black;
+        padding-top: 75px;
+        margin-top: 75px;
+        @include max($btablet) {
+          padding-top: 40px;
+          margin-top: 40px;
+        }
+        article {
+          width: 50%;
+          padding-right: 160px;
+          @include max($btablet) {
+            width: auto;
+            padding-right: 0px;
+          }
+        }
+        & > div {
+          position: relative;
+          width: 250px;
+          min-height: 159px;
+          margin: 0px auto;
+          @include max($btablet) {
+            width: auto;
+          }
+          .thumb {
+            position: absolute;
+            left: -195px;
+            top: 0px;
+            @include max($btablet) {
+              position: relative;
+              left: 0px;
+              margin-top: 20px;
+              margin-bottom: 20px;
+            }
+          }
+          p {
+            margin-top: 17px;
+            a {
+              color: $green;
+            }
+          }
+        }
+      }
+      small {
+        display: block;
+        color: $gray;
+      }
+    }
+  }
+  &-news {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    @include max($btablet) {
+      padding-top: 60px;
+      padding-bottom: 60px;
+    }
+    h2 {
+      margin-bottom: 20px;
+    }
+    section {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: flex-start;
+      align-content: flex-start;
+      align-items: flex-start;
+      margin-left: -25px;
+      @include max($btablet) {
+        display: block;
+        margin-left: 0px;
+      }
+      article {
+        flex: 50%;
+        padding-left: 25px;
+        @include max($btablet) {
+          padding-left: 0px;
+          & + article {
+            margin-top: 40px;
+          }
+        }
+        img {
+          display: block;
+          width: 100%;
+          box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.13);
+        }
+        h4 {
+          max-width: 470px;
+          margin-top: 35px;
+          margin-bottom: 25px;
+          @include max($btablet) {
+            max-width: none;
+            margin-top: 25px;
+            margin-bottom: 10px;
+          }
+        }
+        p {
+          max-width: 470px;
+          color: $black !important;
+          @include max($btablet) {
+            max-width: none;
+          }
+        }
+      }
+    }
+  }
+  &-examples {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    @include max($btablet) {
+      padding-top: 60px;
+      padding-bottom: 60px;
+    }
+    & > * {
+      position: relative;
+    }
+    h2 {
+      max-width: 650px;
+      margin-bottom: 40px;
+    }
+    .btn {
+      position: absolute;
+      right: 34px;
+      top: 23px;
+      @include max($btablet) {
+        position: relative;
+        right: auto;
+        left: -8px;
+        top: auto;
+        margin-bottom: 15px;
+      }
+    }
+    section {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: flex-start;
+      align-content: flex-start;
+      align-items: flex-start;
+      margin-left: -25px;
+      @include max($btablet) {
+        display: block;
+        margin-left: 0px;
+      }
+      article {
+        width: 25%;
+        padding-left: 25px;
+        padding-top: 60px;
+        @include max($btablet) {
+          width: auto;
+          padding-left: 0px;
+          padding-top: 0px;
+          & + article {
+            padding-top: 40px;
+          }
+        }
+        span {
+          display: block;
+          width: 60px;
+          height: 60px;
+          background-repeat: no-repeat;
+          background-position: center center;
+          margin-bottom: 30px;
+          @include max($btablet) {
+            margin-bottom: 15px;
+          }
+        }
+        h5 {
+          min-height: 56px;
+          max-width: 230px;
+          margin-bottom: 30px;
+          @include max($btablet) {
+            min-height: 1px;
+            max-width: none;
+            margin-bottom: 15px;
+          }
+        }
+      }
+    }
+  }
+  &-client {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    @include max($btablet) {
+      padding-top: 60px;
+      padding-bottom: 60px;
+    }
+    & > * {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: flex-start;
+      align-content: flex-start;
+      align-items: flex-start;
+      @include max($btablet) {
+        display: block;
+      }
+      div {
+        flex: 50%;
+        @include max($btablet) {
+          & + div {
+            margin-top: 40px;
+          }
+        }
+        article {
+          max-width: 465px;
+          background-color: $white;
+          box-shadow: 0px 2px 16px 0px rgba(0, 0, 0, 0.2);
+          padding: 30px;
+          padding-bottom: 45px;
+          margin-right: 25px;
+          margin-top: -30vh;
+          @include max($btablet) {
+            max-width: none;
+            margin-right: 0px;
+            margin-bottom: 40px;
+          }
+          img {
+            display: block;
+            max-width: 100%;
+            margin: 30px auto 55px;
+          }
+        }
+        h4 {
+          margin-bottom: 25px;
+        }
+      }
+      section {
+        flex: 1;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: flex-start;
+        align-content: flex-start;
+        align-items: flex-start;
+        padding-top: 90px;
+        @include max($btablet) {
+          display: block;
+          padding-top: 60px;
+        }
+        h2 {
+          flex: 100%;
+          margin-bottom: 50px;
+          @include max($btablet) {
+            margin-bottom: 25px;
+          }
+        }
+        ul {
+          flex: 33.33%;
+        }
+      }
+    }
+  }
+  &-background {
+    background-color: $black;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    @include max($btablet) {
+      padding-top: 60px;
+      padding-bottom: 60px;
+    }
+    & * {
+      color: $white;
+    }
+    h2 {
+      margin-bottom: 30px;
+    }
+    p {
+      max-width: 550px;
+    }
+  }
+  &-representative {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    @include max($btablet) {
+      padding-top: 60px;
+      padding-bottom: 60px;
+    }
+    & ~ .screen-problems {
+      padding-top: 0px;
+    }
+    &.black {
+      background-color: $black;
+      & * {
+        color: $white;
+      }
+    }
+    & > * {
+      @include clearfix();
+      h5 {
+        margin-top: 32px;
+      }
+      small {
+        display: block;
+        max-width: 320px;
+      }
+      .thumb {
+        float: right;
+        margin-left: 100px;
+        margin-right: 100px;
+        @include max($btablet) {
+          float: none;
+          margin-left: auto;
+          margin-right: auto;
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
+  &-problems {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    @include max($btablet) {
+      padding-top: 60px;
+      padding-bottom: 60px;
+    }
+    h2 {
+      margin-bottom: 60px;
+      @include max($btablet) {
+        margin-bottom: 40px;
+      }
+    }
+    section {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: flex-start;
+      align-content: center;
+      align-items: center;
+      @include max($btablet) {
+        display: block;
+      }
+      ul {
+        flex: 60%;
+        position: relative;
+        background-image: url(/assets/icons/brace.svg);
+        background-repeat: no-repeat;
+        background-position: right 37px top;
+        background-size: 42px 100%;
+        padding-right: 95px;
+        padding-bottom: 10px;
+        @include max($btablet) {
+          background-image: none;
+          padding-right: 0px;
+          padding-bottom: 0px;
+        }
+        &:after {
+          content: "";
+          position: absolute;
+          right: -1px;
+          top: 0px;
+          bottom: 0px;
+          width: 40px;
+          height: 36px;
+          background-image: url(/assets/icons/icon-border.svg);
+          background-repeat: no-repeat;
+          background-position: 0px 0px;
+          background-size: 100% 100%;
+          margin: auto 0px;
+          @include max($btablet) {
+            display: none;
+          }
+        }
+        li {
+          & + li {
+            margin-top: 20px;
+            @include max($btablet) {
+              margin-top: 10px;
+            }
+          }
+        }
+      }
+      article {
+        flex: 40%;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-start;
+        align-content: center;
+        align-items: center;
+        padding-bottom: 0px;
+        &:before {
+          content: "";
+          display: block;
+          width: 100%;
+          min-width: 25px;
+          max-width: 100px;
+          height: 3px;
+          background-color: $black;
+          @include max($btablet) {
+            display: none;
+          }
+        }
+        h4 {
+          border: 3px solid $black;
+          border-radius: 8px;
+          padding: 20px 35px;
+          @include max($btablet) {
+            padding: 20px;
+            margin-top: 20px;
+          }
+        }
+      }
+    }
+  }
+  &-approach {
+    background-color: $black;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    @include max($btablet) {
+      padding-top: 60px;
+      padding-bottom: 60px;
+    }
+    & * {
+      color: $white;
+    }
+    h2 {
+      margin-bottom: 30px;
+      @include max($btablet) {
+        margin-bottom: 20px;
+      }
+    }
+    p {
+      max-width: 660px;
+    }
+    .steps {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: flex-start;
+      margin-left: -25px;
+      margin-bottom: 18px;
+      @include max($btablet) {
+        display: block;
+        margin-left: 0px;
+      }
+      &:first-of-type {
+        margin-top: 60px;
+        @include max($btablet) {
+          margin-top: 40px;
+        }
+      }
+      h5 {
+        flex: 25%;
+        position: relative;
+        min-height: 160px;
+        border: 3px solid $white;
+        border-radius: 8px;
+        padding: 24px;
+        margin-left: 25px;
+        @include max($btablet) {
+          min-height: 1px;
+          padding: 20px;
+          margin-left: 0px;
+        }
+        & + h5 {
+          @include max($btablet) {
+            margin-top: 25px;
+          }
+          &:before {
+            content: "";
+            position: absolute;
+            left: -28px;
+            top: 0px;
+            bottom: 0px;
+            width: 25px;
+            height: 27px;
+            background-image: url(/assets/images/cases/arrow.svg);
+            background-repeat: no-repeat;
+            background-position: right center;
+            background-size: auto 27px;
+            margin: auto 0px;
+            @include max($btablet) {
+              left: calc(50% - 12px);
+              top: -29px;
+              transform: rotate(90deg);
+              margin: 0px;
+            }
+          }
+        }
+      }
+    }
+    .line {
+      position: relative;
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: space-between;
+      padding-top: 25px;
+      &:before {
+        content: "";
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        width: 100%;
+        height: 27px;
+        background-image: url(/assets/images/cases/arrow.svg);
+        background-repeat: no-repeat;
+        background-position: right center;
+        background-size: auto 27px;
+      }
+    }
+  }
+  &-demo {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    @include max($btablet) {
+      padding-top: 60px;
+      padding-bottom: 60px;
+    }
+    & > * {
+      font-size: 0px;
+      text-align: center;
+    }
+    h2 {
+      text-align: left;
+      margin-bottom: 60px;
+      @include max($btablet) {
+        margin-bottom: 20px;
+      }
+    }
+    .macbook {
+      position: relative;
+      display: inline-block;
+      img {
+        display: block;
+        max-width: 100%;
+      }
+      span {
+        cursor: pointer;
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        top: 30px;
+        bottom: 60px;
+        width: 73px;
+        height: 68px;
+        background-image: url(/assets/icons/icon-play.svg);
+        background-repeat: no-repeat;
+        background-position: 0px 0px;
+        background-size: 100% 100%;
+        margin: auto;
+        @include max($btablet) {
+          top: 50px;
+        }
+      }
+    }
+  }
+  &-github {
+    background-color: $black;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    @include max($btablet) {
+      padding-top: 60px;
+      padding-bottom: 60px;
+    }
+    & * {
+      color: $white;
+    }
+    h2 {
+      span {
+        @include max($btablet) {
+          display: none;
+        }
+      }
+      a {
+        &:first-of-type {
+          @include max($btablet) {
+            display: none;
+          }
+        }
+        &:last-of-type {
+          @include min($btablet) {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+  &-outcome {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    @include max($btablet) {
+      padding-top: 60px;
+      padding-bottom: 60px;
+    }
+    h2 {
+      margin-bottom: 90px;
+      @include max($btablet) {
+        margin-bottom: 60px;
+      }
+    }
+    section {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: flex-start;
+      align-content: flex-start;
+      align-items: flex-start;
+      @include max($btablet) {
+        display: block;
+      }
+      &:nth-of-type(1) {
+        margin-bottom: 90px;
+        @include max($btablet) {
+          margin-bottom: 60px;
+        }
+        article {
+          flex: 50%;
+          @include max($btablet) {
+            & + article {
+              margin-top: 20px;
+            }
+          }
+          strong {
+            display: block;
+            @include text(bold, 88px, $black, 108px, none);
+            font-weight: normal;
+            margin-bottom: 10px;
+            @include max($btablet) {
+              font-size: 54px;
+              line-height: 64px;
+            }
+          }
+        }
+      }
+      &:nth-of-type(2) {
+        article {
+          flex: 25%;
+          padding-right: 25px;
+          @include max($btablet) {
+            padding-right: 0px;
+            & + article {
+              margin-top: 40px;
+            }
+          }
+          &:nth-of-type(1) {
+            span {
+              background-image: url(/assets/icons/icon-documents.svg);
+            }
+          }
+          &:nth-of-type(2) {
+            span {
+              background-image: url(/assets/icons/icon-process.svg);
+            }
+          }
+          &:nth-of-type(3) {
+            span {
+              background-image: url(/assets/icons/icon-happy-planet.svg);
+            }
+          }
+          &:nth-of-type(4) {
+            span {
+              background-image: url(/assets/icons/icon-goverment-trust.svg);
+            }
+          }
+          span {
+            display: block;
+            width: 60px;
+            height: 60px;
+            background-repeat: no-repeat;
+            background-position: center center;
+            margin-bottom: 25px;
+            @include max($btablet) {
+              margin-bottom: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+  &-management {
+    background-color: $black;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    @include max($btablet) {
+      padding-top: 60px;
+      padding-bottom: 60px;
+    }
+    & * {
+      color: $white;
+    }
+    h2 {
+      margin-bottom: 90px;
+      @include max($btablet) {
+        margin-bottom: 40px;
+      }
+    }
+    section {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: flex-start;
+      align-content: flex-start;
+      align-items: flex-start;
+      @include max($btablet) {
+        display: block;
+      }
+      .sheme {
+        flex-flow: column nowrap;
+        margin-top: 0px;
+        &:first-of-type {
+          display: block;
+          padding-right: 60px;
+          @include max($btablet) {
+            padding-right: 0px;
+          }
+        }
+        &:last-of-type {
+          padding-left: 60px;
+          @include max($btablet) {
+            padding-left: 0px;
+            margin-top: 40px;
+          }
+          h4 {
+            display: block;
+          }
+        }
+        h4 {
+          &:nth-of-type(1) {
+            margin-bottom: 20px;
+          }
+          &:nth-of-type(2) {
+            margin-top: 40px;
+          }
+        }
+        h5 {
+          & + h5 {
+            margin-top: 25px;
+            &:before {
+              content: "";
+              position: absolute;
+              left: calc(50% - 12px);
+              top: -29px;
+              width: 25px;
+              height: 27px;
+              background-image: url(/assets/images/cases/arrow.svg);
+              background-repeat: no-repeat;
+              background-position: right center;
+              background-size: auto 27px;
+              transform: rotate(90deg);
+            }
+          }
+        }
+      }
+    }
+    .sheme {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: flex-start;
+      margin-top: 20px;
+      @include min($btablet) {
+        &:not(:first-of-type) {
+          h4 {
+            display: none;
+          }
+        }
+      }
+      @include max($btablet) {
+        display: block;
+        margin-top: 40px;
+        &:first-of-type {
+          display: none;
+        }
+      }
+      h4 {
+        flex: 1;
+        & + span {
+          opacity: 0;
+        }
+      }
+      h5 {
+        flex: 1;
+        position: relative;
+        border: 3px solid $white;
+        border-radius: 8px;
+        font-size: 20px;
+        line-height: 24px;
+        padding: 24px;
+        @include max($btablet) {
+          & + span {
+            & + h4 {
+              margin-top: 10px;
+            }
+          }
+        }
+      }
+      span {
+        flex: 1;
+        display: block;
+        min-width: 120px;
+        max-width: 120px;
+        background-image: url(/assets/images/cases/arrow.svg);
+        background-repeat: no-repeat;
+        background-position: right center;
+        background-size: auto 27px;
+        @include max($btablet) {
+          display: none;
+        }
+      }
+      strong {
+        color: $green;
+      }
+    }
+  }
+  &-additional {
+    background-color: $black;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    @include max($btablet) {
+      padding-top: 60px;
+      padding-bottom: 60px;
+    }
+    & * {
+      color: $white;
+    }
+    h2 {
+      margin-bottom: 90px;
+      @include max($btablet) {
+        margin-bottom: 40px;
+      }
+    }
+    section {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: space-between;
+      align-content: flex-start;
+      align-items: flex-start;
+      @include max($btablet) {
+        display: block;
+      }
+      article {
+        flex: 50%;
+        padding-right: 25px;
+        @include min($btablet) {
+          & > * {
+            max-width: 475px;
+          }
+        }
+        @include max($btablet) {
+          padding-right: 0px;
+          & + article {
+            margin-top: 40px;
+          }
+        }
+        &:nth-of-type(1) {
+          span {
+            background-image: url(/assets/icons/icon-face-recognition.svg);
+          }
+        }
+        &:nth-of-type(2) {
+          span {
+            background-image: url(/assets/icons/icon-car-recognition.svg);
+          }
+        }
+        span {
+          display: block;
+          height: 60px;
+          background-repeat: no-repeat;
+          background-position: 0px center;
+          background-size: auto 60px;
+        }
+        h4 {
+          margin-top: 25px;
+          margin-bottom: 25px;
+          @include max($btablet) {
+            margin-top: 15px;
+            margin-bottom: 15px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.banner {
+  height: 750px;
+  //background-image: url(/assets/images/banner-2.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding-top: 75px;
+  padding-bottom: 25px;
+  @include max($btablet) {
+    height: 465px;
+    background-position: center 0px;
+    background-size: auto 665px;
+    padding-top: 70px;
+  }
+  h1 {
+    max-width: 650px;
+    margin-bottom: 25px;
+    @include max($btablet) {
+      margin-bottom: 15px;
+    }
+  }
+  p {
+    max-width: 650px;
+    margin-bottom: 15px;
+    @include max($btablet) {
+      margin-bottom: 10px;
+    }
+  }
+  .btn {
+    margin-left: -8px;
+  }
+}
+
+.video-section {
+  min-height: 150px;
+  background: $black;
+  //padding-top: 75px;
+  //padding-bottom: 75px;
+  width: 100%;
+
+  & .video-wrapper {
+    width: 100%;
+    margin: 0 auto;
+
+    img, video {
+      width: 100%;
+    }
+  }
+
+  @include max($btablet) {
+    min-height: 165px;
+    width: 100%;
+    padding: 5px 0;
+    & .video-wrapper {
+      width: 100%;
+    }
+      .container {
+      padding: 0 5px;
+    }
+  }
+  .btn {
+    margin-left: -8px;
+  }
+}

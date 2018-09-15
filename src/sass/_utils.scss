@@ -1,0 +1,35 @@
+.relative {
+	position: relative !important;
+}
+.pseudo {
+	cursor: pointer;
+	outline:none;
+	text-decoration:none;
+	@include transition("border, background-color, color, opacity", .3s, "ease");
+	@include min($btablet) {
+		&:hover {
+			color: $green;
+			text-decoration: none;
+		}
+	}
+	&.active {
+		cursor: default;
+		opacity: 1;
+	}
+}
+.hidden {
+	visibility: hidden !important;
+	position: absolute !important;
+	z-index: -1 !important;
+}
+.text {
+	&-muted {
+		color: $gray !important;
+	}
+	&-danger {
+		color: $red !important;
+	}
+	&-success {
+		color: $green !important;
+	}
+}

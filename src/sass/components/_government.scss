@@ -1,0 +1,121 @@
+&government {
+	& > * {
+		background-color: $white;
+		@include max($btablet) {
+			top: 20px;
+			bottom: 20px;
+			width: 100%;
+		}
+		.btn-icon-close {
+			position: fixed;
+			right: 40px;
+			top: 80px;
+			z-index: 1;
+			@include max($btablet) {
+				right: 20px;
+				top: 40px;
+			}
+		}
+		.screen {
+			&-main {
+					padding-top: 180px;
+				height: 100vh;
+					background-image: url(/assets/images/government/main-screen.jpg);
+			}
+			&-examples {
+				section {
+					article {
+						&:nth-of-type(1) {
+							span {
+								background-image: url(/assets/icons/icon-digital-identity.svg);
+							}
+						}
+						&:nth-of-type(2) {
+							span {
+								background-image: url(/assets/icons/icon-business-licence-issurance.svg);
+							}
+						}
+						&:nth-of-type(3) {
+							span {
+								background-image: url(/assets/icons/icon-land-registry.svg);
+							}
+						}
+						&:nth-of-type(4) {
+							span {
+								background-image: url(/assets/icons/icon-vehicle-registry.svg);
+							}
+						}
+						&:nth-of-type(5) {
+							span {
+								background-image: url(/assets/icons/icon-contracts-management.svg);
+							}
+						}
+						&:nth-of-type(6) {
+							span {
+								background-image: url(/assets/icons/icon-supply-chain-management.svg);
+							}
+						}
+						&:nth-of-type(7) {
+							span {
+								background-image: url(/assets/icons/icon-education.svg);
+							}
+						}
+						&:nth-of-type(8) {
+							span {
+								background-image: url(/assets/icons/icon-digital-voting.svg);
+							}
+						}
+						&:nth-of-type(9) {
+							span {
+								background-image: url(/assets/icons/icon-tokenize-assets.svg);
+							}
+						}
+						&:nth-of-type(10) {
+							span {
+								background-image: url(/assets/icons/icon-wallets-for-financial-transactions.svg);
+							}
+						}
+					}
+				}
+			}
+			&-blockchain {
+				section {
+					article {
+						&:nth-of-type(1) {
+							span {
+								background-image: url(/assets/icons/icon-secure-data.svg);
+							}
+						}
+						&:nth-of-type(2) {
+							span {
+								background-image: url(/assets/icons/icon-transparent.svg);
+							}
+						}
+						&:nth-of-type(3) {
+							span {
+								background-image: url(/assets/icons/icon-speed.svg);
+							}
+						}
+						span {
+							display: block;
+							width: 100px;
+							height: 100px;
+							background-repeat: no-repeat;
+							background-position: 0px 0px;
+							background-size: 100% 100%;
+						}
+					}
+				}
+			}
+			&-clients {
+				section {
+					article {
+						align-content: flex-start;
+						align-items: flex-start;
+						padding-right: 25px;
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,74 @@
+&cases .cases {
+	display: block;
+	background-color: $black;
+	padding-top: 180px;
+	padding-bottom: 65px;
+	@include max($btablet) {
+		padding-top: 110px;
+		padding-bottom: 40px;
+	}
+	& * {
+		&:not(a) {
+			color: $white;
+		}
+	}
+	h1 {
+		margin-bottom: 45px;
+	}
+	h4 {
+		max-width: 700px;
+	}
+	section {
+		margin-left: -25px;
+		margin-top: 90px;
+		@include clearfix();
+		@include max($btablet) {
+			margin-left: 0px;
+			margin-top: 60px;
+		}
+		a {
+			display: flex;
+			flex-flow: column nowrap;
+			justify-content: flex-end;
+			align-content: flex-start;
+			align-items: flex-start;
+			float: left;
+			width: calc(50% - 25px);
+			background-repeat: no-repeat;
+			background-position: center center;
+			background-size: cover;
+			padding: 35px;
+			margin-left: 25px;
+			margin-bottom: 25px;
+			@include max($btablet) {
+				float: none;
+				width: auto;
+				padding: 20px;
+				margin-left: 0px;
+				margin-bottom: 20px;
+			}
+			@include min($btablet) {
+				&:nth-of-type(3n + 1) {
+					height: 569px;
+				}
+				&:nth-of-type(6n - 2) {
+					float: right;
+				}
+				&:nth-of-type(3n + 2) {
+					height: 272px;
+				}
+				&:nth-of-type(3n + 3) {
+					height: 272px;
+				}
+			}
+			p {
+				margin-top: 15px;
+				margin-bottom: 15px;
+			}
+			.btn {
+				margin-left: -8px;
+				margin-bottom: 10px;
+			}
+		}
+	}
+}

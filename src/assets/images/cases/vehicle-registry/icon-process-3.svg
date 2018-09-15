@@ -1,0 +1,67 @@
+<svg width="132" height="124" viewBox="0 0 132 124" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>icon-department</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-10921 -5752)">
+<g id="icon-department">
+<g id="icon-goverment copy">
+<g id="Group 5">
+<g id="Rectangle 2">
+<mask id="mask0_outline_ins">
+<use xlink:href="#path0_fill" fill="white" transform="translate(10964 5801)"/>
+</mask>
+<g mask="url(#mask0_outline_ins)">
+<use xlink:href="#path1_stroke_2x" transform="translate(10964 5801)" fill="#FFFFFF"/>
+</g>
+</g>
+<g id="Rectangle 2 Copy 6">
+<mask id="mask1_outline_ins">
+<use xlink:href="#path2_fill" fill="white" transform="translate(10958 5825)"/>
+</mask>
+<g mask="url(#mask1_outline_ins)">
+<use xlink:href="#path3_stroke_2x" transform="translate(10958 5825)" fill="#FFFFFF"/>
+</g>
+</g>
+<g id="Rectangle 4 Copy 2">
+<use xlink:href="#path4_fill" transform="translate(10972 5813)" fill="#FFFFFF"/>
+</g>
+<g id="Rectangle 4 Copy 3">
+<use xlink:href="#path4_fill" transform="translate(10981 5813)" fill="#FFFFFF"/>
+</g>
+<g id="Rectangle 4 Copy 4">
+<use xlink:href="#path4_fill" transform="translate(10990 5813)" fill="#FFFFFF"/>
+</g>
+<g id="Rectangle 4 Copy 5">
+<use xlink:href="#path4_fill" transform="translate(10999 5813)" fill="#FFFFFF"/>
+</g>
+<g id="Rectangle 2 Copy">
+<mask id="mask2_outline_ins">
+<use xlink:href="#path5_fill" fill="white" transform="translate(10964 5810)"/>
+</mask>
+<g mask="url(#mask2_outline_ins)">
+<use xlink:href="#path6_stroke_2x" transform="translate(10964 5810)" fill="#FFFFFF"/>
+</g>
+</g>
+<g id="Triangle">
+<use xlink:href="#path7_stroke" transform="translate(10959 5778)" fill="#FFFFFF"/>
+</g>
+</g>
+<g id="Group Copy 3">
+<g id="Page 1">
+<use xlink:href="#path8_stroke" transform="translate(10923 5754)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 0 0L 46 0L 46 12L 0 12L 0 0Z"/>
+<path id="path1_stroke_2x" d="M 0 0L 0 -3L -3 -3L -3 0L 0 0ZM 46 0L 49 0L 49 -3L 46 -3L 46 0ZM 46 12L 46 15L 49 15L 49 12L 46 12ZM 0 12L -3 12L -3 15L 0 15L 0 12ZM 0 3L 46 3L 46 -3L 0 -3L 0 3ZM 43 0L 43 12L 49 12L 49 0L 43 0ZM 46 9L 0 9L 0 15L 46 15L 46 9ZM 3 12L 3 0L -3 0L -3 12L 3 12Z"/>
+<path id="path2_fill" fill-rule="evenodd" d="M 0 0L 58 0L 58 12L 0 12L 0 0Z"/>
+<path id="path3_stroke_2x" d="M 0 0L 0 -3L -3 -3L -3 0L 0 0ZM 58 0L 61 0L 61 -3L 58 -3L 58 0ZM 58 12L 58 15L 61 15L 61 12L 58 12ZM 0 12L -3 12L -3 15L 0 15L 0 12ZM 0 3L 58 3L 58 -3L 0 -3L 0 3ZM 55 0L 55 12L 61 12L 61 0L 55 0ZM 58 9L 0 9L 0 15L 58 15L 58 9ZM 3 12L 3 0L -3 0L -3 12L 3 12Z"/>
+<path id="path4_fill" fill-rule="evenodd" d="M 0 0L 3 0L 3 12L 0 12L 0 0Z"/>
+<path id="path5_fill" fill-rule="evenodd" d="M 0 0L 46 0L 46 18L 0 18L 0 0Z"/>
+<path id="path6_stroke_2x" d="M 0 0L 0 -3L -3 -3L -3 0L 0 0ZM 46 0L 49 0L 49 -3L 46 -3L 46 0ZM 46 18L 46 21L 49 21L 49 18L 46 18ZM 0 18L -3 18L -3 21L 0 21L 0 18ZM 0 3L 46 3L 46 -3L 0 -3L 0 3ZM 43 0L 43 18L 49 18L 49 0L 43 0ZM 46 15L 0 15L 0 21L 46 21L 46 15ZM 3 18L 3 0L -3 0L -3 18L 3 18Z"/>
+<path id="path7_stroke" d="M 28 0L 28.9762 -1.13888C 28.4145 -1.62037 27.5855 -1.62037 27.0238 -1.13888L 28 0ZM 56 24L 56 25.5C 56.6277 25.5 57.189 25.1091 57.4068 24.5204C 57.6246 23.9317 57.4528 23.2696 56.9762 22.8611L 56 24ZM 0 24L -0.976187 22.8611C -1.45278 23.2696 -1.62461 23.9317 -1.40683 24.5204C -1.18904 25.1091 -0.627714 25.5 2.16757e-16 25.5L 0 24ZM 27.0238 1.13888L 55.0238 25.1389L 56.9762 22.8611L 28.9762 -1.13888L 27.0238 1.13888ZM 56 22.5L 0 22.5L 0 25.5L 56 25.5L 56 22.5ZM 0.976187 25.1389L 28.9762 1.13888L 27.0238 -1.13888L -0.976187 22.8611L 0.976187 25.1389Z"/>
+<path id="path8_stroke" d="M 123.553 76.6308L 122.253 75.8819L 122.253 75.882L 123.553 76.6308ZM 123.553 43.3692L 122.253 44.118L 122.253 44.1181L 123.553 43.3692ZM 108.149 16.6308L 109.449 15.882L 109.449 15.8819L 108.149 16.6308ZM 19.8512 16.6308L 21.1509 17.3796L 21.1509 17.3796L 19.8512 16.6308ZM 4.44694 43.3692L 5.74665 44.1181L 5.74669 44.118L 4.44694 43.3692ZM 4.44694 76.6308L 5.74669 75.882L 5.74665 75.8819L 4.44694 76.6308ZM 19.8512 103.369L 21.1509 102.62L 21.1509 102.62L 19.8512 103.369ZM 108.149 103.369L 109.449 104.118L 109.449 104.118L 108.149 103.369ZM 124.853 77.3796C 131.049 66.625 131.049 53.375 124.853 42.6204L 122.253 44.1181C 127.916 53.9457 127.916 66.0543 122.253 75.8819L 124.853 77.3796ZM 124.853 42.6204C 122.452 38.4526 119.801 33.8519 117.151 29.2512C 114.5 24.6505 111.85 20.0498 109.449 15.882L 106.849 17.3796C 109.25 21.5474 111.901 26.1481 114.551 30.7488C 117.202 35.3495 119.852 39.9502 122.253 44.118L 124.853 42.6204ZM 109.449 15.8819C 103.252 5.12701 91.8 -1.5 79.4044 -1.5L 79.4044 1.5C 90.7251 1.5 101.187 7.5523 106.849 17.3796L 109.449 15.8819ZM 79.4044 -1.5L 48.5956 -1.5L 48.5956 1.5L 79.4044 1.5L 79.4044 -1.5ZM 48.5956 -1.5C 36.2 -1.5 24.7475 5.12698 18.5514 15.882L 21.1509 17.3796C 26.8125 7.55233 37.2749 1.5 48.5956 1.5L 48.5956 -1.5ZM 18.5514 15.882C 13.749 24.2176 7.94918 34.2848 3.14718 42.6205L 5.74669 44.118C 10.5487 35.7824 16.3485 25.7152 21.1509 17.3796L 18.5514 15.882ZM 3.14722 42.6204C -3.04908 53.375 -3.04908 66.625 3.14722 77.3796L 5.74665 75.8819C 0.0844507 66.0543 0.0844507 53.9457 5.74665 44.1181L 3.14722 42.6204ZM 3.14718 77.3795C 7.94918 85.7152 13.749 95.7824 18.5514 104.118L 21.1509 102.62C 16.3485 94.2848 10.5487 84.2176 5.74669 75.882L 3.14718 77.3795ZM 18.5514 104.118C 24.7475 114.873 36.2 121.5 48.5956 121.5L 48.5956 118.5C 37.2749 118.5 26.8125 112.448 21.1509 102.62L 18.5514 104.118ZM 48.5956 121.5L 79.4044 121.5L 79.4044 118.5L 48.5956 118.5L 48.5956 121.5ZM 79.4044 121.5C 91.8 121.5 103.252 114.873 109.449 104.118L 106.849 102.62C 101.187 112.448 90.7251 118.5 79.4044 118.5L 79.4044 121.5ZM 109.449 104.118C 111.85 99.9502 114.5 95.3495 117.151 90.7488C 119.801 86.1481 122.452 81.5474 124.853 77.3796L 122.253 75.882C 119.852 80.0498 117.202 84.6505 114.551 89.2512C 111.901 93.8519 109.25 98.4526 106.849 102.62L 109.449 104.118Z"/>
+</defs>
+</svg>

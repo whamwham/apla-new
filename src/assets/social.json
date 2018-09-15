@@ -1,0 +1,42 @@
+[
+	{
+		"name": "facebook",
+		"url": "https://www.facebook.com/AplaBlockchain/",
+		"icon": "fa-facebook"
+	},
+	{
+		"name": "twitter",
+		"url": "https://twitter.com/AplaBlockchain",
+		"icon": "fa-twitter"
+	},
+	{	
+		"name": "blog",
+		"url": "https://blog.apla.io/",
+		"icon": "fa-medium"
+	},
+	{
+		"name": "telegram",
+		"url": "https://t.me/apla_project",
+		"icon": "fa-paper-plane"
+	},
+	{
+		"name": "github",
+		"url": "https://github.com/AplaProject/go-apla/",
+		"icon": "fa-github"
+	},
+	{
+		"name": "slack",
+		"url": "https://slack.apla.io/",
+		"icon": "fa-slack"
+	},
+	{
+		"name": "youtube",
+		"url": "https://www.youtube.com/channel/UCLAccwf_YvWGnxSIVgGtl7g",
+		"icon": "fa-youtube"
+	},
+	{
+		"name": "linkedin",
+		"url": "https://www.linkedin.com/company/apla-blockchain/",
+		"icon": "fa-linkedin"
+	}
+]

@@ -1,0 +1,27 @@
+&vacancies {
+	& > * {
+		padding-top: 40px;
+		padding-bottom: 40px;
+		@include max($btablet) {
+			padding-top: 20px;
+			padding-bottom: 20px;
+		}
+		h3 {
+			margin-bottom: 28px;
+		}
+		h5 {
+			margin-bottom: 28px;
+		}
+		p {
+			& + h5 {
+				margin-top: 56px;
+			}
+		}
+		ul {
+			margin-bottom: 28px;
+			& + h5 {
+				margin-top: 56px;
+			}
+		}
+	}
+}

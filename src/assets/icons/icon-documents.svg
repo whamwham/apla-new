@@ -1,0 +1,36 @@
+<svg width="60" height="60" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>icon-documents</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-7397 -9838)">
+<g id="icon-documents">
+<g id="Path 18">
+<use xlink:href="#path0_stroke" transform="translate(7434 9845)" fill="#1C1A1A"/>
+</g>
+<g id="Rectangle 19">
+<use xlink:href="#path1_fill" transform="translate(7412 9883)" fill="#1C1A1A"/>
+</g>
+<g id="Rectangle 19 Copy">
+<use xlink:href="#path1_fill" transform="translate(7412 9861)" fill="#1C1A1A"/>
+</g>
+<g id="Rectangle 19 Copy 3">
+<use xlink:href="#path2_fill" transform="translate(7412 9867)" fill="#1C1A1A"/>
+</g>
+<g id="Rectangle 19 Copy 4">
+<use xlink:href="#path3_fill" transform="translate(7412 9873)" fill="#1C1A1A"/>
+</g>
+<g id="Rectangle 19 Copy 2">
+<use xlink:href="#path1_fill" transform="translate(7412 9850)" fill="#1C1A1A"/>
+</g>
+<g id="Path 17">
+<use xlink:href="#path4_stroke" transform="translate(7407 9844)" fill="#1C1A1A"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_stroke" d="M 0 12.2751L -1.5 12.2751L -1.5 13.7751L 0 13.7751L 0 12.2751ZM -1.5 0L -1.5 12.2751L 1.5 12.2751L 1.5 0L -1.5 0ZM 0 13.7751L 13.6539 13.7751L 13.6539 10.7751L 0 10.7751L 0 13.7751Z"/>
+<path id="path1_fill" fill-rule="evenodd" d="M 0 1.5C 0 0.671573 0.671573 0 1.5 0L 17.5 0C 18.3284 0 19 0.671573 19 1.5C 19 2.32843 18.3284 3 17.5 3L 1.5 3C 0.671573 3 0 2.32843 0 1.5Z"/>
+<path id="path2_fill" fill-rule="evenodd" d="M 0 1.5C 0 0.671573 0.671573 0 1.5 0L 29.5 0C 30.3284 0 31 0.671573 31 1.5C 31 2.32843 30.3284 3 29.5 3L 1.5 3C 0.671573 3 0 2.32843 0 1.5Z"/>
+<path id="path3_fill" fill-rule="evenodd" d="M 0 1.5C 0 0.671573 0.671573 0 1.5 0L 20.5 0C 21.3284 0 22 0.671573 22 1.5C 22 2.32843 21.3284 3 20.5 3L 1.5 3C 0.671573 3 0 2.32843 0 1.5Z"/>
+<path id="path4_stroke" d="M 0 0L 0 -1.5C -0.828427 -1.5 -1.5 -0.828427 -1.5 3.33067e-16L 0 0ZM 0 48.8124L -1.5 48.8124C -1.5 49.6409 -0.828427 50.3124 3.33067e-16 50.3124L 0 48.8124ZM 40.3094 48.8124L 40.3094 50.3124C 41.1378 50.3124 41.8094 49.6409 41.8094 48.8124L 40.3094 48.8124ZM 40.3094 12.5641L 41.8094 12.5641C 41.8094 12.1635 41.6492 11.7796 41.3644 11.4978L 40.3094 12.5641ZM 27.6115 0L 28.6666 -1.06626C 28.3857 -1.34414 28.0066 -1.5 27.6115 -1.5L 27.6115 0ZM -1.5 0L -1.5 48.8124L 1.5 48.8124L 1.5 0L -1.5 0ZM 0 50.3124L 40.3094 50.3124L 40.3094 47.3124L 0 47.3124L 0 50.3124ZM 41.8094 48.8124L 41.8094 12.5641L 38.8094 12.5641L 38.8094 48.8124L 41.8094 48.8124ZM 41.3644 11.4978L 28.6666 -1.06626L 26.5565 1.06626L 39.2544 13.6304L 41.3644 11.4978ZM 27.6115 -1.5L 0 -1.5L 0 1.5L 27.6115 1.5L 27.6115 -1.5Z"/>
+</defs>
+</svg>

@@ -1,0 +1,44 @@
+
+
+html {
+  font-size: 25%;
+  font-family: MuseoSansBlack, Arial, sans-serif;
+}
+
+@media (min-width: 330px) {
+  html {
+    font-size: 30%;
+  }
+}
+
+@media (min-width: 350px) {
+  html {
+    font-size: 35%;
+  }
+}
+
+@media (min-width: 500px) {
+  html {
+    font-size: 40%;
+  }
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 45%;
+  }
+}
+
+@media (min-width: 992px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media (min-width: 1200px) {
+  html {
+    font-size: 55%;
+  }
+}
+
+

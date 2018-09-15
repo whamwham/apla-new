@@ -1,0 +1,420 @@
+&financial-sector {
+  height: 100%;
+  min-height: 100%;
+  .screen {
+    height: 100%;
+    min-height: 100%;
+    &-main {
+      background-image: url(/assets/images/cases/financial-sector/main-screen.jpg);
+      h4 {
+        max-width: 700px;
+      }
+    }
+    &-background {
+      min-height: 685px;
+      //background-image: url(/assets/images/cases/financial-sector/background-screen.jpg);
+
+    }
+
+    &-problems {
+      section {
+        ul {
+          background-image: url(/assets/icons/brace.svg);
+          background-repeat: no-repeat;
+          background-position: right 45px top;
+          background-size: 42px 100%;
+
+          @include max($btablet) {
+            background-image: none;
+            padding-right: 0px;
+            padding-bottom: 0px;
+          }
+          &:after {
+            content: "";
+            position: absolute;
+            right: -1px;
+            top: 0px;
+            bottom: 0px;
+            width: 40px;
+            height: 36px;
+            background-image: url(/assets/icons/icon-border.svg);
+            background-repeat: no-repeat;
+            background-position: 0px 0px;
+            background-size: 100% 100%;
+            margin: auto 0px;
+            @include max($btablet) {
+              display: none;
+            }
+          }
+          li {
+            & + li {
+              margin-top: 20px;
+              @include max($btablet) {
+                margin-top: 10px;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    &-challenge {
+      padding-top: 40px;
+      padding-bottom: 90px;
+      @include max($btablet) {
+        padding-top: 60px;
+        padding-bottom: 60px;
+      }
+      h2 {
+        margin-bottom: 50px;
+        @include max($btablet) {
+          margin-bottom: 20px;
+        }
+      }
+      section {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-start;
+        align-content: flex-start;
+        align-items: flex-start;
+        @include max($btablet) {
+          display: block;
+        }
+        ul {
+          width: 50%;
+          @include max($btablet) {
+            width: auto;
+          }
+          li {
+            margin-bottom: 20px;
+          }
+        }
+      }
+    }
+    &-result {
+      min-height: 555px;
+      //background-image: url(/assets/images/cases/financial-sector/result-screen.jpg);
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      padding-top: 90px;
+      padding-bottom: 90px;
+      @include max($btablet) {
+        min-height: 1px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+      }
+      & * {
+        color: $white;
+      }
+      h5 {
+        text-transform: uppercase;
+        margin-bottom: 30px;
+        @include max($btablet) {
+          margin-bottom: 10px;
+        }
+      }
+      h4 {
+        max-width: 700px;
+      }
+    }
+    &-approach {
+      .steps {
+        h5 {
+          font-size: 20px;
+          line-height: 24px;
+        }
+      }
+    }
+    &-solution {
+      background-color: $black;
+      padding-top: 90px;
+      padding-bottom: 90px;
+      @include max($btablet) {
+        padding-top: 60px;
+        padding-bottom: 60px;
+      }
+      & * {
+        color: $white;
+      }
+      h2 {
+        margin-bottom: 40px;
+        @include max($btablet) {
+          margin-bottom: 20px;
+        }
+      }
+      p {
+        max-width: 660px;
+      }
+      img {
+        display: block;
+        max-width: 80%;
+        margin: 0px auto;
+      }
+      section {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: flex-start;
+        margin-bottom: 80px;
+        @include max($btablet) {
+          display: block;
+        }
+        ol {
+          width: 50%;
+          padding: 0 20px;
+          font-weight: $fbold;
+          //@include font-family($fbold);
+          li {
+            list-style-type: decimal;
+            margin-bottom: 30px;
+            font-weight: $freg;
+            //@include font-family($freg);
+          }
+          @include max($btablet) {
+            width: 100%;
+          }
+        }
+        p {
+          flex: 33.33%;
+          padding-left: 25px;
+          margin-top: 0px;
+          @include max($btablet) {
+            padding-left: 0px;
+          }
+          &:first-of-type {
+            margin-left: -25px;
+            @include max($btablet) {
+              margin-left: 0px;
+            }
+          }
+        }
+        .img {
+          margin: 90px auto;
+          @include max($btablet) {
+            margin: 60px auto;
+          }
+        }
+      }
+    }
+
+    &-management {
+      padding-bottom: 120px;
+    }
+
+    &-extra {
+      background-color: $black;
+      padding-top: 90px;
+      padding-bottom: 90px;
+      @include max($btablet) {
+        padding-top: 60px;
+        padding-bottom: 60px;
+      }
+      & * {
+        color: $white;
+      }
+      h2 {
+        margin-bottom: 60px;
+        @include max($btablet) {
+          margin-bottom: 20px;
+        }
+      }
+      section {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-start;
+        align-content: flex-start;
+        align-items: flex-start;
+        @include max($btablet) {
+          display: block;
+        }
+        article {
+          flex: 25%;
+          padding-right: 25px;
+          @include max($btablet) {
+            padding-right: 0px;
+            & + article {
+              margin-top: 20px;
+            }
+          }
+          &:nth-of-type(1) {
+            span {
+              background-image: url(/assets/icons/icon-securitycode.svg);
+            }
+          }
+          &:nth-of-type(2) {
+            span {
+              background-image: url(/assets/icons/icon-radio.svg);
+            }
+          }
+          &:nth-of-type(3) {
+            span {
+              background-image: url(/assets/icons/icon-geolocation.svg);
+            }
+          }
+          &:nth-of-type(4) {
+            span {
+              background-image: url(/assets/icons/icon-soft.svg);
+            }
+          }
+          span {
+            display: block;
+            width: 60px;
+            height: 60px;
+            background-repeat: no-repeat;
+            background-position: center center;
+            margin-bottom: 30px;
+            @include max($btablet) {
+              margin-bottom: 15px;
+            }
+          }
+        }
+      }
+    }
+    &-potential {
+      padding-top: 90px;
+      padding-bottom: 90px;
+      @include max($btablet) {
+        padding-top: 60px;
+        padding-bottom: 60px;
+      }
+      & > * {
+        display: flex;
+        flex-flow: row nowrap;
+        @include max($btablet) {
+          display: block;
+        }
+        & > h2 {
+          min-width: 500px;
+          padding-right: 25px;
+          @include max($btablet) {
+            min-width: 1px;
+            padding-right: 0px;
+            margin-bottom: 10px;
+          }
+        }
+        & > p {
+          margin-top: 10px;
+        }
+      }
+    }
+    &-examples {
+      padding-top: 120px;
+
+      .outcome {
+        section {
+          margin-bottom: 90px;
+          display: flex;
+          width: 70%;
+          @include max($btablet) {
+            margin-bottom: 60px;
+          }
+          article {
+            width: 40%;
+            @include max($btablet) {
+              width: auto;
+              & + article {
+                margin-top: 20px;
+              }
+            }
+            strong {
+              display: block;
+              @include text(bold, 88px, $black, 108px, none);
+              font-weight: normal;
+              margin-bottom: 10px;
+              @include max($btablet) {
+                font-size: 54px;
+                line-height: 64px;
+              }
+            }
+          }
+
+        }
+      }
+
+      section {
+        article {
+          width: 25%;
+          @include max($btablet) {
+            width: auto;
+          }
+          &:nth-of-type(1) {
+            span {
+              background-image: url(/assets/icons/icon-happy-planet.svg);
+            }
+          }
+          &:nth-of-type(2) {
+            span {
+              background-image: url(/assets/icons/icon-lightning.svg);
+            }
+          }
+          &:nth-of-type(3) {
+            span {
+              background-image: url(/assets/icons/icon-tokenize-assets.svg);
+            }
+          }
+          &:nth-of-type(4) {
+            span {
+              background-image: url(/assets/icons/icon-transactions.svg);
+            }
+          }
+        }
+      }
+    }
+
+    &-potential {
+      padding-top: 90px;
+      padding-bottom: 90px;
+      @include max($btablet) {
+        padding-top: 60px;
+        padding-bottom: 60px;
+      }
+      & > * {
+        display: flex;
+        flex-flow: row nowrap;
+        @include max($btablet) {
+          display: block;
+        }
+        & > h2 {
+          min-width: 500px;
+          padding-right: 25px;
+          @include max($btablet) {
+            min-width: 1px;
+            padding-right: 0px;
+            margin-bottom: 10px;
+          }
+        }
+        & > p {
+          margin-top: 10px;
+        }
+      }
+    }
+
+    &-status {
+      min-height: 395px;
+      //background-image: url(/assets/images/cases/financial-sector/status-screen.jpg);
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      padding-top: 90px;
+      padding-bottom: 120px;
+      @include max($btablet) {
+        min-height: 1px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+      }
+      & * {
+        color: $white;
+      }
+      h3 {
+        max-width: 975px;
+      }
+      h5 {
+        text-transform: uppercase;
+        margin-bottom: 15px;
+        @include max($btablet) {
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+app-footer
+    .screen-map(*ngif='map')
+        .container
+            h2 Contact us
+            agm-map([latitude]='lat' [longitude]='lng' [zoom]='zoom' [styles]='styles' [disabledefaultui]='false' [zoomcontrol]='false')
+                //agm-marker(*ngfor='let m of markers; let i = index' (markerclick)='clickedMarker(m.label, i)' [latitude]='m.lat' [longitude]='m.lng' [iconurl]='m.iconUrl' [markerdraggable]='m.draggable')
+                    agm-info-window([maxwidth]='150')
+                        strong {{ m.info }}
+    .container
+        nav
+            a.logo(href='/')
+            each item in $i18n.PAGES
+                +footer-menu-item(item)
+        section
+            article
+                h5 Dubai
+                small
+                    | 17 B Street, Al Quoz Industrial Area 3
+                    br
+                    a(href='tel:+97143235644') +971 4 323 5644
+                    br
+                    a(href='mailto:dubai@apla.io') dubai@apla.io
+            article
+                h5 Luxembourg
+                small
+                    | 14 Rue Erasme, 1468 Luxembourg
+                    br
+                    a(href='tel:+35220301741') +35 220 301 741
+                    br
+                    a(href='mailto:luxembourg@apla.io') luxembourg@apla.io
+            article
+                h5 Moscow
+                small
+                    | Tverskaya 7.
+                    br
+                    a(href='tel:+79689794229') +7 968 979 4229
+                    br
+                    a(href='mailto:moscow@apla.io') moscow@apla.io
+        footer
+            .soc
+                each item in $i18n.SOCIAL
+                    +footer-socials-item(item)
+            small!="&copy; " + ( (new Date()).getFullYear() ) + " " + $i18n.FOOTER.COPYRIGHT
+
+script(src="//code.jquery.com/jquery-1.11.2.min.js")
+script(src="/js/main.bundle.js")
+

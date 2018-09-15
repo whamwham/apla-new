@@ -1,0 +1,42 @@
+&appearing-text {
+	$bdHeight: 80;
+	$mHeight: 41;
+	.layer-one {
+		position: relative;
+		height: $bdHeight + px;
+		top: $bdHeight / 2 + px;
+		transform: translateY($bdHeight + px);
+		&.show {
+			top: 0;
+			transform: translateY(0);
+			.layer-second {
+				bottom: 0;
+			}
+			.layer-third {
+				bottom: 0 !important;
+			}
+		}
+		@include max($bdesktop) {
+			height: $mHeight + px;
+			top: $mHeight / 2 + px;
+			transform: translateY($mHeight + px);
+		}
+		.layer-second {
+			bottom: 0;
+			position: absolute;
+			width: 100%;
+			overflow: hidden;
+			height: $bdHeight + px;
+			@include max($bdesktop) {
+				height: $mHeight + px;
+			}
+			.layer-third {
+				position: absolute;
+				bottom: $bdHeight + px;
+				@include max($bdesktop) {
+					bottom: $mHeight + px;
+				}
+			}
+		}
+	}
+}

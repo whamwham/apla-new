@@ -1,0 +1,35 @@
+app-popupform
+  .popup-form-wrapper
+    .backdrop
+    .popup-form
+      .head
+        h4!= $i18n.POPUPFORM.TITLE
+        p!= $i18n.POPUPFORM.TEXT
+      form#getstarted(novalidate='')
+        .form-body
+          .form-group
+            small.form-control-feedback
+              span.required!= $i18n.POPUPFORM.NAME.REQUIRED
+            input.form-control(placeholder!= $i18n.POPUPFORM.NAME.PLACEHOLDER type='text' name='name' required)
+            span.form-control-focus
+          .form-group
+            small.form-control-feedback
+              span.required!= $i18n.POPUPFORM.EMAIL.REQUIRED
+              span.incorrect!= $i18n.POPUPFORM.EMAIL.INCORRECT
+            input.form-control.email-input(placeholder!= $i18n.POPUPFORM.EMAIL.PLACEHOLDER type='email' name='email' required pattern="\\w+([\\.-]?\\w+)*@\\w+([\\.-]?\\w+)*(\\.\\w{2,3})+")
+            span.form-control-focus
+          .form-group
+            small.form-control-feedback
+              span.required!= $i18n.POPUPFORM.MESSAGE.REQUIRED
+            textarea.form-control(rows='5' placeholder!= $i18n.POPUPFORM.MESSAGE.PLACEHOLDER name='message' required)
+            span.form-control-focus
+          button.btn(type='submit' disabled)!= $i18n.POPUPFORM.BUTTON
+        .form-process
+          !=$i18n.POPUPFORM.PROCESS
+        .form-success
+            !=$i18n.POPUPFORM.READY
+        .form-duplicate
+            !=$i18n.POPUPFORM.DUPLICATE
+        .form-error
+          !=$i18n.POPUPFORM.ERROR
+

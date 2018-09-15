@@ -1,0 +1,52 @@
+/* Breakpoints
+----------------------------------------- */
+$mobile: 720px;
+$tablet: 960px;
+$desktop: 1140px;
+
+$bmobile: 768px;
+$btablet: 992px;
+$bdesktop: 1200px;
+
+/* Colors
+----------------------------------------- */
+$bg: 		#FFFFFF;
+$loader: 	#3AC28B;
+
+$black: 	#1C1A1A;
+$white: 	#FFFFFF;
+$gray: 		#717171;
+$lgray: 	#D8D8D8;
+$red: 		#FA3356;
+$green: 	#3AC28B;
+
+/* Fonts
+----------------------------------------- */
+$freg: 		400;
+$fmed: 		500;
+$fbold: 	700;
+
+$font-path : '/assets/fonts/';
+$fa-font-path : $font-path;
+$fonts: (
+	reg: 	Graphik-Regular-Web,
+	bold: 	GilroyExtraBold
+);
+
+@each $font, $name in $fonts {
+	@font-face {
+		font-family: '' + $name + '';
+		src: url($font-path + $name + '.eot');
+		src: url($font-path + $name + '.eot?#iefix') format('embedded-opentype'),
+			 url($font-path + $name + '.woff2') format('woff2'),
+			 url($font-path + $name + '.woff') format('woff'),
+			 url($font-path + $name + '.ttf') format('truetype');
+		font-weight: normal;
+		font-style: normal;
+	}
+}
+
+/* Variables
+----------------------------------------- */
+$header: 117px;
+$header_mobile: 60px;

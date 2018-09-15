@@ -1,0 +1,16 @@
+doctype html
+head
+  meta(charset='utf-8')
+  title #{htmlAttrs.title}
+  base(href='/')
+  meta(name="keywords", content=htmlAttrs.keywords)
+  meta(name="description", content=htmlAttrs.description)
+  meta(http-equiv='X-UA-Compatible' content='IE=edge')
+  meta(name='viewport' content='width=device-width, initial-scale=1')
+  link(rel='icon' type='image/x-icon' href='favicon.ico')
+  link(href="/css/style.min.css?"+( Math.floor(+new Date() / 1000)), rel="stylesheet")
+  script
+      | var curr_lang_code = "!{$i18n.lang}";
+      | var lang_codes = {};
+      each item in langs
+        +lang-js-list-item(item)

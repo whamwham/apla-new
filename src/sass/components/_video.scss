@@ -1,0 +1,41 @@
+.video-section {
+	.video-wrapper {
+
+		/* Change all text and icon colors in the player. */
+		.video-js {
+			color: #fff;
+			font-size: 18px;
+			.vjs-poster {
+				background-size: contain;
+              opacity: 0.95;
+			}
+
+			&.vjs-ended .vjs-poster,
+			&.vjs-paused .vjs-poster  {
+				display: block;
+			}
+		}
+		.vjs-big-play-button {
+			display: none;
+		}
+		.vjs-control-bar{
+			background-color: rgba(51,51,51,.7);
+		}
+		.vjs-slider
+		{
+			background: #ccc;
+		}
+		.vjs-load-progress
+		{
+			//background: rgba(133,133,133,.5);
+		}
+        .vjs-fullscreen-control {
+          color: #3AC28B;
+        }
+		.vjs-volume-level,
+		.vjs-play-progress
+		{
+			background: #3AC28B;
+		}
+	}
+}

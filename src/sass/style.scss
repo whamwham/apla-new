@@ -1,0 +1,44 @@
+@import "variables";
+//@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+@import "../../node_modules/font-awesome/scss/font-awesome";
+@import "../../node_modules/swiper/dist/css/swiper";
+@import "../../node_modules/video.js/dist/video-js.min";
+@import "../../node_modules/animate.css/animate.min";
+
+@import "mixins";
+@import "reset";
+@import "transition";
+@import "main";
+@import "utils";
+
+@import "elements/arrows";
+@import "elements/forms";
+@import "elements/buttons";
+@import "elements/mask";
+
+@import "components/content";
+@import "components/popupform";
+@import "components/video";
+
+app- {
+	@import "components/header";
+	@import "components/home";
+	@import "components/about";
+	@import "components/vacancies";
+	@import "components/government";
+	@import "components/business";
+	@import "components/cases";
+	@import "components/career";
+	@import "components/developers";
+	@import "components/appearing-text";
+	@import "components/land-registry";
+	@import "components/supply-chain";
+	@import "components/vehicle-registry";
+	@import "components/music-copyright";
+	@import "components/survey-poll";
+	@import "components/financial-sector";
+	@import "components/business-licensing";
+	@import "components/newsletter";
+	@import "components/footer";
+}
+@import "components/team";

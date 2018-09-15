@@ -1,0 +1,169 @@
+&developers {
+
+  .container {
+    width: 100%;
+    max-width: 1240px;
+    padding-left: 310px;
+    padding-right: 40px;
+    margin: 0px auto;
+    @include clearfix();
+    @include max($btablet) {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }
+
+  .side-menu {
+    background: transparent;
+    position: fixed;
+    top: 30%;
+    left: 10%;
+    //transform: translate(-50%, -50%);
+    color: #ACACAC;
+    list-style-type: disc;
+    li {
+      &:before {
+        content: none;
+      }
+      height: 41px;
+      color: #ACACAC;
+      font-size: 32px;
+      white-space: nowrap;
+      padding: 0;
+
+      a {
+        color: #ACACAC;
+        font-size: 16px;
+        line-height: 28px;
+        white-space: nowrap;
+        display: inline-block;
+        transform: translateY(-3px);
+      }
+    }
+  }
+
+  & > * {
+    background-color: $white;
+    @include max($btablet) {
+      top: 20px;
+      bottom: 20px;
+      width: 100%;
+    }
+    .screen {
+      &-main {
+        padding-top: 280px;
+        height: 100vh;
+        background-image: url(/assets/images/developers/main.jpg);
+        & * {
+          color: $white;
+        }
+        h1 {
+          //width: 75%;
+        }
+        h5 {
+          //width: 75%;
+        }
+      }
+      &-advantages {
+        padding: 90px 0;
+
+        h2 {
+          padding-bottom: 60px;
+        }
+
+        section {
+          display: flex;
+          flex-wrap: wrap;
+          .img {
+            flex:100%;
+            img {
+              width: 100%;
+            }
+          }
+          article {
+            flex: 30%;
+            padding: 30px 30px 30px 0;
+            @include text(bold, 24px, $black, 31px, none);
+            b {
+              color:#3AC28B;
+            }
+          }
+        }
+      }
+      &-env {
+        background-color: $black;
+        padding-top: 90px;
+        padding-bottom: 90px;
+        @include max($btablet) {
+          padding-top: 60px;
+          padding-bottom: 60px;
+        }
+        & * {
+          color: $white;
+        }
+        h2 {
+          margin-bottom: 80px;
+          @include max($btablet) {
+            margin-bottom: 40px;
+          }
+        }
+        h4 {
+          margin-top: 30px;
+          margin-bottom: 20px;
+          @include max($btablet) {
+            margin-top: 15px;
+            margin-bottom: 10px;
+          }
+        }
+        section{
+          article {
+            display: flex;
+            margin: 35px 0;
+            .img {
+              flex:1;
+              text-align: center;
+              padding-right: 50px;
+            }
+            h4 {
+              flex:45%;
+              white-space: nowrap;
+              margin: 0;
+            }
+            p {
+              flex: 45%;
+            }
+          }
+        }
+      }
+      &-blockchain {
+        section {
+          article {
+            &:nth-of-type(1) {
+              span {
+                background-image: url(/assets/icons/icon-secure-data.svg);
+              }
+            }
+            &:nth-of-type(2) {
+              span {
+                background-image: url(/assets/icons/icon-transparent.svg);
+              }
+            }
+            &:nth-of-type(3) {
+              span {
+                background-image: url(/assets/icons/icon-speed.svg);
+              }
+            }
+            span {
+              display: block;
+              width: 100px;
+              height: 100px;
+              background-repeat: no-repeat;
+              background-position: 0px 0px;
+              background-size: 100% 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
