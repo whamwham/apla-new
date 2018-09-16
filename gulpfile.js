@@ -213,7 +213,7 @@ gulp.task('sitemap', function () {
         read: false
     })
         .pipe(sitemap({
-            siteUrl: 'https://zenome.io/'
+            siteUrl: 'https://apla.io/'
         }))
         .pipe(gulp.dest('./dist'));
 });

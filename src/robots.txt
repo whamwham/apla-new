@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
-Host: zenome.io
-Sitemap: https://zenome.io/sitemap.xml
+Host: apla.io
+Sitemap: https://apla.io/sitemap.xml
