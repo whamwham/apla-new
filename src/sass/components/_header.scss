@@ -15,7 +15,7 @@
 	padding-right: 40px;
 	z-index: 10;
 	@include transition("all", .3s, "ease");
-	@include max($btablet) {
+	@include max($btablet2) {
 		height: $header_mobile !important;
 		padding-left: 20px;
 		padding-right: 20px;
@@ -38,7 +38,7 @@
 	}
 	&.white {
 		&:not(.fixed) {
-			@include min($btablet) {
+			@include min($btablet2) {
 				.logo {
 					&:before {
 						opacity: 0;
@@ -90,7 +90,7 @@
 			}
 		}
 		section {
-			@include max($btablet) {
+			@include max($btablet2) {
 				transform: translateY(0);
 			}
 		}
@@ -102,7 +102,7 @@
 		justify-content: flex-start;
 		align-content: center;
 		align-items: center;
-		@include max($btablet) {
+		@include max($btablet2) {
 			flex-flow: column nowrap;
 			justify-content: space-between;
 			align-content: flex-start;
@@ -136,7 +136,7 @@
 			}
 		}
 		nav {
-			@include min($btablet) {
+			@include min($btablet2) {
 				display: flex;
 				flex-flow: row nowrap;
 				justify-content: flex-start;
@@ -174,7 +174,7 @@
 			display: none;
 			position: relative;
 			margin-left: 10px;
-			@include max($btablet) {
+			@include max($btablet2) {
 				margin-left: 0px;
 				margin-top: 10px;
 			}
@@ -192,7 +192,7 @@
 				padding: 0px;
 				margin: 0px;
 				@include transition("color", .3s, "ease");
-				@include max($btablet) {
+				@include max($btablet2) {
 					color: $white;
 					.arrow {
 						&-down {
@@ -221,7 +221,7 @@
 			property: all;
 			duration: 0.3s;
 		}
-		@include min($btablet) {
+		@include min($btablet2) {
 			display: none;
 		}
 		.patty {
