@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="49px" height="49px" viewBox="0 0 49 49" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>audit</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-Copy" transform="translate(-533.000000, -1128.000000)" stroke="#1A1A1C" stroke-width="2.67">
+            <g id="Learn-about-apla-" transform="translate(101.000000, 871.000000)">
+                <g id="RestAPI" transform="translate(434.000000, 259.000000)">
+                    <g id="audit">
+                        <path d="M37.2910135,33.3870968 L33.3870968,37.2910032 L40.2880303,44.1920413 C41.3654343,45.2693196 43.1146659,45.2693196 44.1919471,44.1920413 C45.269351,43.1146402 45.269351,41.3654132 44.1919471,40.2881349 L37.2910135,33.3870968 Z" id="Shape"></path>
+                        <path d="M35.467193,29.4223699 C34.9470383,28.9022208 34.1024996,28.9022208 33.5823449,29.4223699 L29.4223741,33.5824219 C28.9022194,34.1024443 28.9022194,34.9469738 29.4223741,35.4671228 L31.3070956,37.3518237 C31.8272503,37.8719727 32.671789,37.8719727 33.191817,37.3518237 L37.3519145,33.1917716 C37.8719425,32.6717493 37.8719425,31.8272198 37.3519145,31.3070707 L35.467193,29.4223699 Z" id="Shape"></path>
+                        <circle id="Oval" cx="18.1451613" cy="18.1451613" r="18.1451613"></circle>
+                        <path d="M8.70967742,11.6129032 L13.0645161,11.6129032" id="Shape"></path>
+                        <path d="M8.70967742,17.4193548 L13.0645161,17.4193548" id="Shape"></path>
+                        <path d="M8.70967742,26.1290323 L13.0645161,26.1290323" id="Shape"></path>
+                        <path d="M17.4193548,11.6129032 L26.1290323,11.6129032" id="Shape"></path>
+                        <path d="M17.4193548,17.4193548 L26.1290323,17.4193548" id="Shape"></path>
+                        <path d="M17.4193548,26.1290323 L26.1290323,26.1290323" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -9,6 +9,29 @@ mixin side-menu-item( item )
             a.page-scroll(href!="#"+item.id)!= item.title
 
 
+mixin developers-learn-about-item( item )
+    if(item.href)
+        a.article(href!=item.href target!=item.target)
+            .img
+                img(src!=item.img)
+            .title!= item.title
+
+    else if (item.id)
+        a.article.page-scroll(href!="#" + item.id)
+            .img
+                img(src!=item.img)
+            .title!= item.title
+    else
+        .article
+            .img
+                img(src!=item.img)
+        .title!= item.title
+
+mixin developers-molis-download-item( item )
+    a.article(href!=item.href target!=item.target)
+        img(src!=item.img)
+        .title!=item.title
+
 mixin footer-menu-item( item )
     p
         small

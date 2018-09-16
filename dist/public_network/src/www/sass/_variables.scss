@@ -1,0 +1,54 @@
+/* Breakpoints
+----------------------------------------- */
+$mobile: 720px;
+$tablet: 960px;
+$desktop: 1140px;
+
+$bmobile: 769px;
+$btablet: 1025px;
+$bdesktop: 1200px;
+
+/* Colors
+----------------------------------------- */
+$bg: 		#ffffff;
+$loader: 	#e9008b;
+$spiner: 	#009fe3;
+
+$black: 	#2a283a;
+$white: 	#ffffff;
+$gray: 		#343437;
+$lgray: 	rgba(42, 40, 58, 0.67);
+$blue: 		#009fe3;
+$red: 		#e9008b;
+
+/* Fonts
+----------------------------------------- */
+$fonts: (
+	fG-light: 	GilroyLight,
+	fG-xbold: 	GilroyExtraBold,
+	fR-light: 	RobotoLight,
+	fR-reg: 	RobotoRegular,
+	fR-bold: 	RobotoBold
+);
+
+@each $font, $name in $fonts {
+	@font-face {
+		font-family: '' + $name + '';
+		src: url('../fonts/' + $name + '.eot');
+		src: url('../fonts/' + $name + '.eot?#iefix') format('embedded-opentype'),
+			 url('../fonts/' + $name + '.woff2') format('woff2'),
+			 url('../fonts/' + $name + '.woff') format('woff'),
+			 url('../fonts/' + $name + '.ttf') format('truetype'),
+			 url('../fonts/' + $name + '.svg#' + $name) format('svg');
+		font-weight: normal;
+		font-style: normal;
+	}
+}
+
+$freg: 		400;
+$fbold: 	700;
+
+/* Variables
+----------------------------------------- */
+$header: 50px;
+$header_mobile: 50px;

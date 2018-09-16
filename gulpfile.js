@@ -48,6 +48,9 @@ gulp.task('copy-files', function () {
     gulp.src('src/assets/**/*')
         .pipe($.newer('dist/assets'))
         .pipe(gulp.dest('dist/assets'));
+    gulp.src('src/public_network/**/*')
+        .pipe($.newer('dist/public_network'))
+        .pipe(gulp.dest('dist/public_network'));
 });
 
 
@@ -63,7 +66,7 @@ gulp.task('serve', ['sass', 'jade', 'browserify'], function () {
 
   gulp.watch('src/pug/**/*.pug', ['jade']);
   gulp.watch(['src/sass/**/*.sass', 'src/sass/**/*.scss'], ['sass']);
-  gulp.watch(['src/images/**/*','src/assets/images/**/*', '!src/images/svg/icons/**/*'], ['images']);
+  gulp.watch(['src/images/**/*','src/assets/images/**/*','src/assets/icons/**/*', '!src/images/svg/icons/**/*'], ['images']);
   gulp.watch('src/js/**/*', ['browserify']);
 });
 
@@ -154,7 +157,7 @@ gulp.task('images', function () {
         ]))
         .pipe(gulp.dest('dist/images'));
 
-    return gulp.src('src/assets/images/**/*')
+    gulp.src('src/assets/images/**/*')
         .pipe($.newer('dist/assets/images'))
         .pipe($.imagemin([
             imagemin.gifsicle({interlaced: true}),
@@ -162,6 +165,15 @@ gulp.task('images', function () {
             imagemin.optipng({optimizationLevel: 5})
         ]))
         .pipe(gulp.dest('dist/assets/images'));
+
+    return gulp.src('src/assets/icons/**/*')
+        .pipe($.newer('dist/assets/icons'))
+        .pipe($.imagemin([
+            imagemin.gifsicle({interlaced: true}),
+            imagemin.jpegtran({progressive: true}),
+            imagemin.optipng({optimizationLevel: 5})
+        ]))
+        .pipe(gulp.dest('dist/assets/icons'));
 });
 
 

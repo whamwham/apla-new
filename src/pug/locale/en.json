@@ -70,13 +70,21 @@
       }
     },
     {
+      "title": "Public network",
+      "href": "/public_network",
+      "htmlAttrs": {
+        "title": "Apla - Public blockchain platform for building digital ecosystems",
+        "description": "Public blockchain platform for building digital ecosystems",
+        "keywords": ""
+      }
+    },
+    {
       "title": "BBR Blog",
       "href": "https://blog.apla.io/",
       "target": "_blank",
       "class": ""
     }
   ],
-
 
   "CASES": [
     {
@@ -180,7 +188,6 @@
     "FORGOVERNMENT": "For government",
     "BLOG": "BBR Blog"
   },
-
 
   "NEWSLETTER": {
     "TITLE": "Receive our newsletter",
@@ -332,7 +339,133 @@
       {"id":"testnet", "title": "Testnet"},
       {"id":"git", "title": "Github"},
       {"id":"doc", "title": "Documentation"}
-    ]
+    ],
+    "h2": "Learn about Apla Platform",
+    "LEARN_ABOUT": {
+      "h2": "Learn about Apla Platform",
+      "LIST": [
+        {
+          "title": "General information and Architecture",
+          "img": "/assets/icons/documentation.svg",
+          "href": "/",
+          "target": "_blank"
+        },
+        {
+          "title": "Ecosystems",
+          "img": "/assets/icons/ecosystems.svg",
+          "href": "/",
+          "target": "_blank"
+        },
+        {
+          "title": "User Interfaces",
+          "img": "/assets/icons/interface.svg",
+          "href": "/",
+          "target": "_blank"
+        },
+        {
+          "title": "Permissions and Access Rights",
+          "img": "/assets/icons/permissions_access_rights.svg",
+          "href": "/",
+          "target": "_blank"
+        },
+        {
+          "title": "Smart Contracts",
+          "img": "/assets/icons/smart_contract.svg",
+          "href": "/",
+          "target": "_blank"
+        },
+        {
+          "title": "REST API",
+          "img": "/assets/icons/restAPI.svg",
+          "href": "/",
+          "target": "_blank"
+        }
+      ]
+    },
+    "GET_STARTED":{
+      "h2": "Getting Started",
+      "QUICKSTART": {
+        "h3": "Install Quickstart",
+        "text": "Quickstart allows you to get working Apla Network locally in minutes. Watch the video below how to install it.",
+        "video": {
+          "src": "/assets/intro.mp4",
+          "poster": "/assets/images/video-bkg-sm.svg"
+        }
+      },
+      "TESTNET": {
+        "h3": "Go to Apla Testnet",
+        "text": "<p>Apla Testnet is the our platform's blockchain network for testing purposes.</p><p>Try out the latest Apla features. Start building the future, today.</p>",
+        "link": {
+          "href": "/",
+          "target": "_blank",
+          "title": "Explore Testnet right now"
+        }
+      }
+    },
+    "MOLIS": {
+      "h2": "Meet Molis",
+      "text": "The Apla Platform client application that we use to develop applications, manage access rights and work with database tables.<br/>Everything is here.",
+      "link": {
+        "href": "/",
+        "target": "_blank",
+        "title": "Learn more about Molis"
+      },
+      "DOWNLOAD":{
+        "h4": "Download Molis for TestNet",
+        "LIST": [
+          {
+            "href": "/",
+            "img": "/assets/icons/apple.svg",
+            "target": "_blank",
+            "title": "Windows"
+          },
+          {
+            "href": "/",
+            "img": "/assets/icons/apple.svg",
+            "target": "_blank",
+            "title": "Linux"
+          },
+          {
+            "href": "/",
+            "img": "/assets/icons/apple.svg",
+            "target": "_blank",
+            "title": "Mac OS"
+          }
+        ]
+      }
+    },
+    "GITHUB": {
+      "h2": "Apla + Github",
+      "backend": {
+        "href": "/",
+        "target": "_blank",
+        "title": "Backend"
+      },
+      "frontend": {
+        "href": "/",
+        "target": "_blank",
+        "title": "Frontend"
+      },
+      "contib": {
+        "href": "/",
+        "target": "_blank",
+        "title": "Contibute"
+      }
+    },
+    "JOIN": {
+      "h2": "Join the Apla Community",
+      "text": "We use Telegram for communication.<br/>Any question, idea or feedback?",
+      "link_1": {
+        "href": "/",
+        "target": "_blank",
+        "title": "@apla_project"
+      },
+      "link_2": {
+        "href": "/",
+        "target": "_blank",
+        "title": "Join now"
+      }
+    }
   },
 
   "CLIENTS": {
@@ -384,10 +517,6 @@
       }
     ]
   },
-
-
-
-
 
   "VACANCIES": [
     {

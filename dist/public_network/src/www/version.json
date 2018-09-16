@@ -1,0 +1,18 @@
+{
+	"lite": {
+		"version": "v1.0-lite",
+		"google_play": "https://play.google.com/store/apps/details?id=egaas.org.egaas2",
+		"app_store": "https://itunes.apple.com/ru/app/egaas-electronic-governement-as-a-service/id1148765378?mt=8",
+		"web": "https://node1.apla.io/"
+	},
+	"wallet": {
+		"version": "v1.0.4b8",
+		"google_play": "",
+		"app_store": ""
+	},
+	"full": {
+		"version": "v0.1.7b1",
+		"google_play": "https://play.google.com/store/apps/details?id=egaas.org.egaas2.dev",
+		"app_store": "https://itunes.apple.com/ru/app/egaas-dev/id1276717781?mt=8"
+	}
+}

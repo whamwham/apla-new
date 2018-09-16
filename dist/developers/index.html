@@ -15,7 +15,7 @@
   <link rel="shortcut icon" href="/favicons/favicon.ico?v=123421">
   <meta name="msapplication-config" content="/favicons/browserconfig.xml">
   <meta name="theme-color" content="#ffffff">
-  <link href="/css/style.min.css?1537072316" rel="stylesheet">
+  <link href="/css/style.min.css?1537120556" rel="stylesheet">
   <script>var curr_lang_code = "en";
     var lang_codes = {};lang_codes["en"] = "en";lang_codes["de"] = "de";lang_codes["fr"] = "fr";lang_codes["hr"] = "hr";lang_codes["ru"] = "ru";lang_codes["zh"] = "zh";lang_codes["ko"] = "ko";lang_codes["ja"] = "ja";lang_codes["th"] = "th";lang_codes["es"] = "es";lang_codes["pt"] = "pt";
   </script>
@@ -23,7 +23,7 @@
 <body class="en">
   <app-header class="white"><a class="logo" href="/" data-click="isActive = false"></a><a name="top"></a>
     <section>
-      <nav><a href="/about">About</a><a href="/government">For government</a><a href="/business">For business</a><a href="/cases">Cases</a><a href="/career">Career</a><a href="/developers">Developers</a><a href="https://blog.apla.io/" target="_blank">BBR Blog</a>
+      <nav><a href="/about">About</a><a href="/government">For government</a><a href="/business">For business</a><a href="/cases">Cases</a><a href="/career">Career</a><a href="/developers">Developers</a><a href="/public_network">Public network</a><a href="https://blog.apla.io/" target="_blank">BBR Blog</a>
       </nav>
       <button class="btn openpopupform" type="button">GET STARTED</button>
       <div class="language">
@@ -35,85 +35,93 @@
     </div>
   </app-header>
   <app-developers>
-    <ul class="side-menu">
-      <li><a class="page-scroll" href="#adv">Advantages</a>
-      </li>
-      <li><a class="page-scroll" href="#env">Environment</a>
-      </li>
-      <li><a class="page-scroll" href="#docker">Apla meet Docker</a>
-      </li>
-      <li><a class="page-scroll" href="#ide">Apla IDE Toolkit</a>
-      </li>
-      <li><a class="page-scroll" href="#contracts">Smart contracts</a>
-      </li>
-      <li><a class="page-scroll" href="#cases">Cases</a>
-      </li>
-      <li><a class="page-scroll" href="#simu">Simulation DApp</a>
-      </li>
-      <li><a class="page-scroll" href="#testnet">Testnet</a>
-      </li>
-      <li><a class="page-scroll" href="#git">Github</a>
-      </li>
-      <li><a class="page-scroll" href="#doc">Documentation</a>
-      </li>
-    </ul>
     <section>
       <div class="screen-main">
-        <div class="container">
-          <h1>Blockchain platform with the widest functionality &  fastest development</h1>
-        </div>
+        <div class="container"><img class="main" src="/assets/images/dev-main.svg"><img class="main-m" src="/assets/images/dev-main-m.svg"></div>
+        <div class="dummy"></div><a class="arrow-down page-scroll" href="#learnabout"><img src="/assets/icons/dev-arrow-down.svg"></a>
       </div>
-      <div class="screen-advantages menu-section" id="adv">
+      <div class="screen-learn-about" id="learnabout" data-offset="50">
         <div class="container">
-          <h2>Technological advantage <br/>at your own service</h2>
-          <section>
-            <article><b>Extensible&nbsp;</b>framework for blockchain applications</article>
-            <article>Permissioned blockchain development in а&nbsp;<br/><b>flexible environment</b></article>
-            <article><b>Comfortable&nbsp;</b>coding. Front and back apps in one window</article>
-            <div class="img"><img src="/assets/images/developers/product.png"></div>
-            <article>Rapid application development —&nbsp;<br/><b>days, not weeks</b></article>
-            <article><b>Customizable&nbsp;</b>business logic and marketspace for your apps</article>
-            <article><b>Flexible&nbsp;</b>integration + system of access rights management</article>
+          <h2>Learn about Apla Platform</h2>
+          <section><a class="article" href="/" target="_blank">
+              <div class="img"><img src="/assets/icons/documentation.svg"/></div>
+              <div class="title">General information and Architecture</div></a><a class="article" href="/" target="_blank">
+              <div class="img"><img src="/assets/icons/ecosystems.svg"/></div>
+              <div class="title">Ecosystems</div></a><a class="article" href="/" target="_blank">
+              <div class="img"><img src="/assets/icons/interface.svg"/></div>
+              <div class="title">User Interfaces</div></a><a class="article" href="/" target="_blank">
+              <div class="img"><img src="/assets/icons/permissions_access_rights.svg"/></div>
+              <div class="title">Permissions and Access Rights</div></a><a class="article" href="/" target="_blank">
+              <div class="img"><img src="/assets/icons/smart_contract.svg"/></div>
+              <div class="title">Smart Contracts</div></a><a class="article" href="/" target="_blank">
+              <div class="img"><img src="/assets/icons/restAPI.svg"/></div>
+              <div class="title">REST API</div></a>
           </section>
         </div>
       </div>
-      <div class="screen-env menu-section" id="env">
+      <div class="screen-get-started">
         <div class="container">
-          <h2>Handy Set Up & Coding <br/> Simple for novices, solid for experts</h2>
+          <h2>Getting Started</h2>
           <section>
             <article>
-              <div class="img"><img src="/assets/images/developers/system.svg"></div>
-              <h4>System <br/>architecture</h4>
-              <p>Arrange your Apla system in the way and place you prefer: clouds, hosts, dockers, etc.</p>
+              <h4>Install Quickstart</h4>
+              <div class="text">Quickstart allows you to get working Apla Network locally in minutes. Watch the video below how to install it.</div>
+              <div class="video-section">
+                <div class="video-wrapper">
+                  <video-js id="singleVideo" preload="no" crossorigin="" controls poster="/assets/images/video-bkg-sm.svg" data-setup="{&quot;fluid&quot;: true }">
+                    <source src="/assets/intro.mp4">
+                  </video-js>
+                </div>
+              </div>
             </article>
+            <div class="sep">
+              <h4>OR</h4>
+            </div>
             <article>
-              <div class="img"><img src="/assets/images/developers/lang.svg"></div>
-              <h4>Languages</h4>
-              <p>Lower programming language entry barriers with semantic-complete Prototypo, making it easy to explore the Apla platform</p>
-            </article>
-            <article>
-              <div class="img"><img src="/assets/images/developers/doc.svg"></div>
-              <h4>Documentation</h4>
-              <p>Lower programming language entry barriers with semantic-complete Prototypo, making it easy to explore the Apla platform</p>
-            </article>
-            <article>
-              <div class="img"><img src="/assets/images/developers/templates.svg"></div>
-              <h4>Template <br/>applications</h4>
-              <p>Explore our templates for applications and basic business logic.</p>
+              <h4>Go to Apla Testnet</h4>
+              <div class="text"><p>Apla Testnet is the our platform's blockchain network for testing purposes.</p><p>Try out the latest Apla features. Start building the future, today.</p></div><a class="link" href="/" target="_blank">Explore Testnet right now</a>
             </article>
           </section>
+        </div>
+      </div>
+      <div class="screen-meet-molis">
+        <div class="container">
+          <h2>Meet Molis</h2>
+          <section>
+            <div class="text">The Apla Platform client application that we use to develop applications, manage access rights and work with database tables.<br/>Everything is here.</div><a class="link" href="/" target="_blank">Learn more about Molis</a>
+            <h4>Download Molis for TestNet</h4>
+            <div class="list"><a class="article" href="/" target="_blank"><img src="/assets/icons/apple.svg"/>
+                <div class="title">Windows</div></a><a class="article" href="/" target="_blank"><img src="/assets/icons/apple.svg"/>
+                <div class="title">Linux</div></a><a class="article" href="/" target="_blank"><img src="/assets/icons/apple.svg"/>
+                <div class="title">Mac OS</div></a>
+            </div>
+          </section>
+        </div>
+      </div>
+      <div class="screen-apla-github">
+        <div class="container">
+          <h2>Apla + Github</h2>
+          <section>
+            <div class="left"><img src="/assets/icons/source_code.png">
+              <div class="wrap">Check out our&nbsp;<a class="link" href="/" target="_blank">Backend</a>&nbsp;or &nbsp;<a class="link" href="/" target="_blank">Frontend</a>&nbsp;repositories</div>
+            </div>
+            <div class="right"><img class="s" src="/assets/icons/contribute.svg">
+              <div class="wrap"><a class="link" href="/" target="_blank">Contibute</a>&nbsp;to development right now</div><img class="b" src="/assets/icons/contribute.svg">
+            </div>
+          </section>
+        </div>
+      </div>
+      <div class="screen-join">
+        <div class="container">
+          <div class="w">
+            <h2>Join the Apla Community</h2><a class="link1" href="/" target="_blank"><img src="/assets/icons/telegram_white.svg">
+              <div class="wrap">@apla_project</div></a>
+          </div>
+          <div class="text">We use Telegram for communication.<br/>Any question, idea or feedback?</div><a class="link link-2" href="/" target="_blank">Join now</a>
         </div>
       </div>
     </section>
-    <app-banner>
-      <div class="banner lazy" data-src="/assets/images/banner-2.jpg">
-        <div class="container">
-          <h1>Reach outstanding productivity</h1>
-          <p>See how Apla could help to make you organization work more efficiently.</p>
-          <button class="btn openpopupform">GET STARTED</button>
-        </div>
-      </div>
-    </app-banner>
+    <!--include ../includes/banner-->
     <app-newsletter>
       <div class="container">
         <div>
@@ -156,6 +164,7 @@
           <p><small><a href="/cases">Cases</a></small></p>
           <p><small><a href="/career">Career</a></small></p>
           <p><small><a href="/developers">Developers</a></small></p>
+          <p><small><a href="/public_network">Public network</a></small></p>
           <p><small><a href="https://blog.apla.io/" target="_blank">BBR Blog</a></small></p>
         </nav>
         <section>

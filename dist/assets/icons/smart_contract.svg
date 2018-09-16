@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="62px" height="50px" viewBox="0 0 62 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>smart_contract</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-Copy" transform="translate(-121.000000, -1127.000000)" stroke="#1A1A1C">
+            <g id="Learn-about-apla-" transform="translate(101.000000, 871.000000)">
+                <g id="Smart-Contract-Copy-2" transform="translate(20.000000, 260.000000)">
+                    <g id="smart_contract">
+                        <path d="M18.7234043,13.5744681 L39.3191489,13.5744681" id="Shape" stroke-width="2.67"></path>
+                        <path d="M18.7234043,20.5957447 L39.3191489,20.5957447" id="Shape" stroke-width="2.67"></path>
+                        <path d="M18.7234043,27.6170213 L39.3191489,27.6170213" id="Shape" stroke-width="2.67"></path>
+                        <path d="M18.7234043,34.6382979 L39.3191489,34.6382979" id="Shape" stroke-width="2.67"></path>
+                        <g id="Group" stroke-width="2.67">
+                            <path d="M10.4232752,34.9590233 L10.4232752,41.6810465 C10.4232752,42.9365814 11.4413174,43.9558721 12.6954422,43.9558721 L45.0388815,43.9558721 C46.2928785,43.9558721 47.3109207,42.9365814 47.3109207,41.6810465 L47.3109207,25.6339651" id="Shape"></path>
+                            <path d="M47.3109207,17.8643837 L47.3109207,7.40632558 L40.0116514,0.0981046512 L12.6954422,0.0981046512 C11.4413174,0.0981046512 10.4232752,1.11739535 10.4232752,2.37293023 L10.4232752,9.48251163" id="Shape"></path>
+                            <ellipse id="Oval" cx="10.4232752" cy="13.439314" rx="3.45820079" ry="3.46244186"></ellipse>
+                            <ellipse id="Oval" cx="10.4232752" cy="31.1091512" rx="3.45820079" ry="3.46244186"></ellipse>
+                            <path d="M51.4746864,21.7384302 L58.391088,21.7384302" id="Shape"></path>
+                            <polygon id="Shape" points="51.3455308 21.7384302 49.1841234 25.4867442 44.8614363 25.4867442 42.7000289 21.7384302 44.8614363 17.9902442 49.1841234 17.9902442"></polygon>
+                            <polyline id="Shape" points="56.9501923 18.8531047 59.8319837 21.7384302 56.9501923 24.6238837"></polyline>
+                            <polygon id="Shape" points="47.3436247 7.47322093 39.9775421 0.0981046512 39.9775421 7.47322093"></polygon>
+                            <path d="M6.21249739,13.7633023 L0.0674521617,13.7633023" id="Shape"></path>
+                            <path d="M6.21249739,31.4330116 L0.0674521617,31.4330116" id="Shape"></path>
+                        </g>
+                        <path d="M10.2978723,17.3191489 L10.2978723,26.6808511" id="Shape" stroke-width="4.75"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

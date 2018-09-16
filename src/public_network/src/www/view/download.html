@@ -1,0 +1,122 @@
+<div class="download">
+	<div class="download__showreel"></div>
+	<div class="temp">
+		<div class="container-fluid" translate="DOWNLOAD.TEMP">
+	</div>
+	<!--<div class="accordion active">
+		<div class="tab" ng-click="accordion($event)">
+			<h5 class="container-fluid" translate="DOWNLOAD.LITE.HEAD"></h5>
+		</div>
+		<div class="content">
+			<div class="container-fluid" ng-scroll-reveal="sequence">
+				<h2 translate="DOWNLOAD.LITE.HEAD"></h2>
+				<p translate="DOWNLOAD.LITE.TEXT1"></p>
+				<div class="icons" ng-scroll-reveal="sequence">
+					<span translate="DOWNLOAD.LITE.TEXT2"></span>
+					<span translate="DOWNLOAD.LITE.TEXT3"></span>
+					<span translate="DOWNLOAD.LITE.TEXT4"></span>
+				</div>
+				<div class="downloads" ng-scroll-reveal="sequence">
+					<article>
+						<span><img src="../images/windows.png" alt=""/>Windows</span>
+						<a href="https://github.com/EGaaS/go-egaas-mvp/releases/download/{{version.lite.version}}/egaasl64_setup.exe">{{ 'DOWNLOAD.DOWNLOAD64' | translate }}</a>
+						<a href="https://github.com/EGaaS/go-egaas-mvp/releases/download/{{version.lite.version}}/egaasl32_setup.exe">{{ 'DOWNLOAD.DOWNLOAD32' | translate }}</a>
+					</article>
+					<article>
+						<span><img src="../images/wallet.png" alt=""/>Mac OS</span>
+						<a href="https://github.com/EGaaS/go-egaas-mvp/releases/download/{{version.lite.version}}/egaas_osx64.dmg">{{ 'DOWNLOAD.DOWNLOAD64' | translate }}</a>
+					</article>
+					<article>
+						<span><img src="../images/web.png" alt=""/>{{ 'DOWNLOAD.WEB' | translate }}</span>
+						<a ng-href="{{version.lite.web}}" target="_blank">{{ 'DOWNLOAD.GO' | translate }}</a>
+					</article>
+					<article ng-if="version.lite.google_play || version.lite.app_store">
+						<span><img src="../images/mobile.png" alt=""/>{{ 'DOWNLOAD.MOBILE' | translate }}</span>
+						<a ng-if="version.lite.google_play" class="google_play" href="{{version.lite.google_play}}" target="_blank"></a>
+						<a ng-if="version.lite.app_store" class="app_store" href="{{version.lite.app_store}}" target="_blank"></a>
+					</article>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="accordion">
+		<div class="tab" ng-click="accordion($event)">
+			<h5 class="container-fluid" translate="DOWNLOAD.FULL.HEAD"></h5>
+		</div>
+		<div class="content">
+			<div class="container-fluid">
+				<h2 translate="DOWNLOAD.FULL.HEAD"></h2>
+				<p translate="DOWNLOAD.FULL.TEXT1"></p>
+				<div class="downloads">
+					<article>
+						<span><img src="../images/windows.png" alt=""/>Windows</span>
+						<a href="https://github.com/EGaaS/go-egaas-mvp/releases/download/{{version.wallet.version}}/egaasw64_setup.exe">{{ 'DOWNLOAD.DOWNLOAD64' | translate }}</a>
+						<a href="https://github.com/EGaaS/go-egaas-mvp/releases/download/{{version.wallet.version}}/egaasw32_setup.exe">{{ 'DOWNLOAD.DOWNLOAD32' | translate }}</a>
+					</article>
+					<article>
+						<span><img src="../images/wallet.png" alt=""/>Mac OS</span>
+						<a href="https://github.com/EGaaS/go-egaas-mvp/releases/download/{{version.wallet.version}}/egaas_osx64.dmg">{{ 'DOWNLOAD.DOWNLOAD64' | translate }}</a>
+					</article>
+					<article>
+						<span><img src="../images/linux.png" alt=""/>Linux</span>
+						<a href="https://github.com/EGaaS/go-egaas-mvp/releases/download/{{version.wallet.version}}/egaas_linux64">{{ 'DOWNLOAD.DOWNLOAD64' | translate }}</a>
+					</article>
+					<article>
+						<span><img src="../images/code.png" alt=""/>{{ 'DOWNLOAD.SOURCE' | translate }}</span>
+						<a href="https://github.com/EGaaS/go-egaas-mvp/archive/{{version.wallet.version}}.zip">{{ 'DOWNLOAD.DOWNLOAD' | translate }}</a>
+					</article>
+					<article ng-if="version.wallet.google_play || version.wallet.app_store">
+						<span><img src="../images/mobile.png" alt=""/>{{ 'DOWNLOAD.MOBILE' | translate }}</span>
+						<a ng-if="version.wallet.google_play" class="google_play" href="{{version.wallet.google_play}}" target="_blank"></a>
+						<a ng-if="version.wallet.app_store" class="app_store" href="{{version.wallet.app_store}}" target="_blank"></a>
+					</article>
+				</div>
+				<p><a href="{{ 'DOWNLOAD.INSTRUCTION.LINK' | translate }}">{{ 'DOWNLOAD.INSTRUCTION.TEXT' | translate }}</a></p>
+			</div>
+		</div>
+	</div>
+	<div class="accordion">
+		<div class="tab" ng-click="accordion($event)">
+			<h5 class="container-fluid" translate="DOWNLOAD.PRIVATE.HEAD"></h5>
+		</div>
+		<div class="content">
+			<div class="container-fluid">
+				<h2 translate="DOWNLOAD.PRIVATE.HEAD"></h2>
+				<p translate="DOWNLOAD.PRIVATE.TEXT1"></p>
+				<div class="computer">
+					<p translate="DOWNLOAD.PRIVATE.TEXT2"></p>
+					<div>
+						<p><span ng-click="OpenPlayer('WV8_AIl72Bw')">{{ 'DOWNLOAD.PRIVATE.VIDEO.1' | translate }}</span></p>
+						<p><span ng-click="OpenPlayer('NLrmnH6pQd0')">{{ 'DOWNLOAD.PRIVATE.VIDEO.2' | translate }}</span></p>
+						<p><span ng-click="OpenPlayer('jp_G_9X2PlY')">{{ 'DOWNLOAD.PRIVATE.VIDEO.3' | translate }}</span></p>
+					</div>
+				</div>
+				<div class="downloads">
+					<article>
+						<span><img src="../images/windows.png" alt=""/>Windows</span>
+						<a href="https://github.com/EGaaS/go-egaas-mvp/releases/download/{{version.full.version}}/egaas64_setup.exe">{{ 'DOWNLOAD.DOWNLOAD64' | translate }}</a>
+						<a href="https://github.com/EGaaS/go-egaas-mvp/releases/download/{{version.full.version}}/egaas32_setup.exe">{{ 'DOWNLOAD.DOWNLOAD32' | translate }}</a>
+					</article>
+					<article>
+						<span><img src="../images/wallet.png" alt=""/>Mac OS</span>
+						<a href="https://github.com/EGaaS/go-egaas-mvp/releases/download/{{version.full.version}}/egaas_osx64.dmg">{{ 'DOWNLOAD.DOWNLOAD64' | translate }}</a>
+					</article>
+					<article>
+						<span><img src="../images/linux.png" alt=""/>Linux</span>
+						<a href="https://github.com/EGaaS/go-egaas-mvp/releases/download/{{version.full.version}}/egaas_linux64">{{ 'DOWNLOAD.DOWNLOAD64' | translate }}</a>
+					</article>
+					<article>
+						<span><img src="../images/code.png" alt=""/>{{ 'DOWNLOAD.SOURCE' | translate }}</span>
+						<a href="https://github.com/EGaaS/go-egaas-mvp/archive/{{version.full.version}}.zip">{{ 'DOWNLOAD.DOWNLOAD' | translate }}</a>
+					</article>
+					<article ng-if="version.full.google_play || version.full.app_store">
+						<span><img src="../images/mobile.png" alt=""/>{{ 'DOWNLOAD.MOBILE' | translate }}</span>
+						<a ng-if="version.full.google_play" class="google_play" href="{{version.full.google_play}}" target="_blank"></a>
+						<a ng-if="version.full.app_store" class="app_store" href="{{version.full.app_store}}" target="_blank"></a>
+					</article>
+				</div>
+				<p><a href="{{ 'DOWNLOAD.INSTRUCTION.LINK' | translate }}">{{ 'DOWNLOAD.INSTRUCTION.TEXT' | translate }}</a></p>
+			</div>
+		</div>
+	</div>-->
+</div>
