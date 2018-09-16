@@ -32,6 +32,9 @@ mixin developers-molis-download-item( item )
         img(src!=item.img)
         .title!=item.title
 
+mixin developers-map-item( item, idx )
+    a.im(class=("im-"+(idx+1)) href!=item.href target!=item.target)
+
 mixin footer-menu-item( item )
     p
         small

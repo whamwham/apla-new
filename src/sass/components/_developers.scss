@@ -105,6 +105,88 @@
           }
 
         }
+
+        .im {
+          display: inline-block;
+          position: absolute;
+          width:20%;
+          height:20%;
+          background: transparent;
+          opacity: 1;
+          &.im-1 {
+            top:3%;
+            left:50%;
+            transform: translateX(-50%);
+          }
+          &.im-2 {
+            top:20%;
+            left:3%;
+            height: 20%;
+            transform: none;
+          }
+          &.im-3 {
+            top:20%;
+            left: auto;
+            right:3%;
+            height: 20%;
+            transform: none;
+          }
+          &.im-4 {
+            top: auto;
+            bottom: 3%;
+            left: 15%;
+            height: 27%;
+            transform: none;
+          }
+          &.im-5 {
+            top: auto;
+            bottom:3%;
+            left: auto;
+            right:15%;
+            height: 27%;
+            transform: none;
+          }
+        }
+
+        @media (max-width: 991px) and (orientation: portrait) {
+          .im {
+            &.im-1 {
+              width: 33%;
+              height: 17%;
+            }
+            &.im-2 {
+              top:25%;
+              left:7%;
+              width: 30%;
+              transform: none;
+            }
+            &.im-3 {
+              left: auto;
+              right:7%;
+              top:25%;
+              width: 20%;
+              transform: none;
+            }
+            &.im-4 {
+              top: auto;
+              bottom: 12%;
+              left: 7%;
+              height: 25%;
+              width:30%;
+              transform: none;
+            }
+            &.im-5 {
+              top: auto;
+              bottom:12%;
+              left: auto;
+              right:7%;
+              height: 25%;
+              width: 30%;
+              transform: none;
+            }
+          }
+        }
+
         h1 {
           //width: 75%;
         }
@@ -273,7 +355,7 @@
 
               img {
                 width: auto;
-                max-width: 100%;
+                max-width: 50%;
               }
               .title {
                 font-size: 32px;

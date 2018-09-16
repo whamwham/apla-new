@@ -341,43 +341,65 @@
       {"id":"doc", "title": "Documentation"}
     ],
     "h2": "Learn about Apla Platform",
+    "MAP": [
+      {
+        "href": "https://t.me/apla_project",
+        "target": "_blank"
+      },
+      {
+        "href": "https://github.com/AplaProject/go-apla",
+        "target": "_blank"
+      },
+      {
+        "href": "https://testapla0.apla.io/",
+        "target": "_blank"
+      },
+      {
+        "href": "https://apla.readthedocs.io/en/latest/",
+        "target": "_blank"
+      },
+      {
+        "href": "https://github.com/AplaProject/quick-start",
+        "target": "_blank"
+      }
+    ],
     "LEARN_ABOUT": {
       "h2": "Learn about Apla Platform",
       "LIST": [
         {
           "title": "General information and Architecture",
           "img": "/assets/icons/documentation.svg",
-          "href": "/",
+          "href": "https://apla.readthedocs.io/en/latest/concepts/about-the-platform.html",
           "target": "_blank"
         },
         {
           "title": "Ecosystems",
           "img": "/assets/icons/ecosystems.svg",
-          "href": "/",
+          "href": "https://apla.readthedocs.io/en/latest/concepts/about-the-platform.html#platform-s-ecosystems",
           "target": "_blank"
         },
         {
           "title": "User Interfaces",
           "img": "/assets/icons/interface.svg",
-          "href": "/",
+          "href": "https://apla.readthedocs.io/en/latest/topics/templates2.html",
           "target": "_blank"
         },
         {
           "title": "Permissions and Access Rights",
           "img": "/assets/icons/permissions_access_rights.svg",
-          "href": "/",
+          "href": "https://apla.readthedocs.io/en/latest/concepts/about-the-platform.html#access-rights-control-mechanism",
           "target": "_blank"
         },
         {
           "title": "Smart Contracts",
           "img": "/assets/icons/smart_contract.svg",
-          "href": "/",
+          "href": "https://apla.readthedocs.io/en/latest/topics/script.html",
           "target": "_blank"
         },
         {
           "title": "REST API",
           "img": "/assets/icons/restAPI.svg",
-          "href": "/",
+          "href": "https://apla.readthedocs.io/en/latest/reference/api2.html",
           "target": "_blank"
         }
       ]
@@ -387,6 +409,7 @@
       "QUICKSTART": {
         "h3": "Install Quickstart",
         "text": "Quickstart allows you to get working Apla Network locally in minutes. Watch the video below how to install it.",
+        "href": "https://github.com/AplaProject/quick-start",
         "video": {
           "src": "/assets/intro.mp4",
           "poster": "/assets/images/video-bkg-sm.svg"
@@ -396,7 +419,7 @@
         "h3": "Go to Apla Testnet",
         "text": "<p>Apla Testnet is the our platform's blockchain network for testing purposes.</p><p>Try out the latest Apla features. Start building the future, today.</p>",
         "link": {
-          "href": "/",
+          "href": "https://testapla0.apla.io/",
           "target": "_blank",
           "title": "Explore Testnet right now"
         }
@@ -406,7 +429,7 @@
       "h2": "Meet Molis",
       "text": "The Apla Platform client application that we use to develop applications, manage access rights and work with database tables.<br/>Everything is here.",
       "link": {
-        "href": "/",
+        "href": "https://github.com/AplaProject/apla-front/releases/",
         "target": "_blank",
         "title": "Learn more about Molis"
       },
@@ -414,19 +437,19 @@
         "h4": "Download Molis for TestNet",
         "LIST": [
           {
-            "href": "/",
-            "img": "/assets/icons/apple.svg",
+            "href": "https://github.com/AplaProject/apla-front/releases/download/v0.8.6-RC/apla-front-setup-0.8.6-RC.exe",
+            "img": "/assets/icons/windows.svg",
             "target": "_blank",
             "title": "Windows"
           },
           {
-            "href": "/",
-            "img": "/assets/icons/apple.svg",
+            "href": "https://github.com/AplaProject/apla-front/releases/download/v0.8.6-RC/apla-front-0.8.6-RC-x86_64.AppImage",
+            "img": "/assets/icons/linux.svg",
             "target": "_blank",
             "title": "Linux"
           },
           {
-            "href": "/",
+            "href": "https://github.com/AplaProject/apla-front/releases/download/v0.8.6-RC/Apla-0.8.6-RC.dmg",
             "img": "/assets/icons/apple.svg",
             "target": "_blank",
             "title": "Mac OS"
@@ -437,17 +460,17 @@
     "GITHUB": {
       "h2": "Apla + Github",
       "backend": {
-        "href": "/",
+        "href": "https://github.com/AplaProject/go-apla",
         "target": "_blank",
         "title": "Backend"
       },
       "frontend": {
-        "href": "/",
+        "href": "https://github.com/AplaProject/apla-front",
         "target": "_blank",
         "title": "Frontend"
       },
       "contib": {
-        "href": "/",
+        "href": "https://github.com/AplaProject/go-apla/blob/master/CONTRIBUTING.md",
         "target": "_blank",
         "title": "Contibute"
       }
@@ -456,12 +479,12 @@
       "h2": "Join the Apla Community",
       "text": "We use Telegram for communication.<br/>Any question, idea or feedback?",
       "link_1": {
-        "href": "/",
+        "href": "https://t.me/apla_project",
         "target": "_blank",
         "title": "@apla_project"
       },
       "link_2": {
-        "href": "/",
+        "href": "https://t.me/apla_project",
         "target": "_blank",
         "title": "Join now"
       }
