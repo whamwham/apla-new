@@ -12,7 +12,7 @@
 
   "PAGES": [
     {
-      "title": "For business",
+      "title": "For Business",
       "href": "/business",
       "navIsWhite": true,
       "htmlAttrs": {
@@ -22,7 +22,7 @@
       }
     },
     {
-      "title": "For government",
+      "title": "For Government",
       "href": "/government",
       "htmlAttrs": {
         "title": "Apla - Public blockchain platform for building digital ecosystems",
