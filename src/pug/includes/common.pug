@@ -120,6 +120,20 @@ mixin vacancy-item(item, town)
             | READ DESCRIPTION
             em
 
+mixin main-news-item( item )
+    article
+        a(href!=item.href target='_blank')
+            img(src!=item.img alt='')
+            h4
+                span!=item.title
+                span.arrow.arrow-right
+                    em
+            p!=item.text
+
+
+
+
+
 mixin mat-tab-label(town, id, index, length)
     .mat-tab-label.mat-ripple(id!=id class!=( index==0 ? "mat-tab-label-active" : "" ) data-idx=index data-len=length )
         .mat-tab-label-content!=town

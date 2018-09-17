@@ -18,11 +18,10 @@ body(class=$i18n.lang)
                 h1!= $i18n.MAIN.SHOWREEL.TITLE
                 h4!= $i18n.MAIN.SHOWREEL.TEXT
 
-        .video-section
+        //.video-section
             .video-wrapper
                 video-js#singleVideo(preload='no' crossorigin='' controls=true poster='/assets/images/video-bkg.svg' data-setup='{"fluid": true }')
                     source(src='/assets/intro.mp4')
-
 
 
         .screen-6
@@ -58,7 +57,16 @@ body(class=$i18n.lang)
         .screen-blockchain
             .container
                 h2!= $i18n.MAIN.BLOCKCHAIN.TITLE
+                img.main(src="/assets/images/scheme_3.png")
                 section
+                    h4 Blockchain is the Inevitable Technology Infrastructure of the near future, embrace it!
+                    ul
+                        li Secure business & application network
+                        li Transparency of activities for all stakeholders
+                        li Immutability and Finality of data recorded to the blockchain
+                        li Automation of activities and operations using Smart Contracts
+                        li Machine to Machine Infrastructure
+                //section
                     article
                         span
                         h4!= $i18n.MAIN.BLOCKCHAIN[1].TITLE
@@ -71,7 +79,7 @@ body(class=$i18n.lang)
                         span
                         h4!= $i18n.MAIN.BLOCKCHAIN[3].TITLE
                         p!= $i18n.MAIN.BLOCKCHAIN[3].TEXT
-        .screen-clients
+        //.screen-clients
             .container
                 h2!= $i18n.MAIN.CLIENTS.TITLE
                 section
@@ -181,7 +189,7 @@ body(class=$i18n.lang)
                     button.swiper-button-next(type='button')
                         span.arrow.arrow-right.arrow-lg
                             em
-        .screen-team
+        //.screen-team
             .container
                 h2 Top-management
                 +team-list('TOPMANAGMENT')
@@ -191,24 +199,8 @@ body(class=$i18n.lang)
             .container
                 h2 Latest news
                 section
-                    article
-                        a(href='https://blog.apla.io/apla-to-hold-blockchain-hackathon-in-partnership-with-gazprom-and-others-1cb098570f7' target='_blank')
-                            img(src='/assets/images/news/1.jpg' alt='')
-                            h4
-                                | Apla to hold blockchain hackathon in partnership with Gazprom and others
-                                span.arrow.arrow-right
-                                    em
-                            p
-                                | Apla is to hold the AplaBlockchainHack contest in Moscow over the weekend, welcoming blockchain aficionados to take part in a hackathon with total prize fund of 1.5 million RUB ($26,000) to be won.
-                    article
-                        a(href='https://blog.apla.io/how-to-integrate-blockchain-into-work-processes-ff702df63829' target='_blank')
-                            img(src='/assets/images/news/1.png' alt='')
-                            h4
-                                | How to Integrate Blockchain into Work Processes?
-                                span.arrow.arrow-right
-                                    em
-                            p
-                                | When embarking on this discovery phase, the first question to ask should be: &ldquo;is blockchain needed at all?&rdquo; This is, of course, assuming that the fundamental question of &ldquo;what is a blockchain&rdquo; is already understood.
+                    each item in $i18n.NEWS
+                        +main-news-item(item)
         include includes/banner
         include includes/newsletter
 

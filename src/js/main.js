@@ -341,19 +341,57 @@ window.anim = {};
     };
 
 
-    $("#getstarted .form-control").on("input", function(event){
+    $("#getstartedf input").on("input", function(event){
         if(event.target.validity.valid) $(this).parent().children(".form-control-feedback").children().removeClass("active");
         else {
             if(event.target.validity.valueMissing) $(this).parent().children(".form-control-feedback").children(".required").addClass("active");
             else if(event.target.validity.patternMismatch) $(this).parent().children(".form-control-feedback").children(".incorrect").addClass("active");
         }
         event.preventDefault();
-        if( $.checkFormValidity("#getstarted")) $("#getstarted button[type=submit]").prop("disabled", false);
-        else $("#getstarted button[type=submit]").prop("disabled", true);
+        if( $.checkFormValidity("#getstarted")) $("#getstartedf button[type=submit]").prop("disabled", false);
+        else $("#getstartedf button[type=submit]").prop("disabled", true);
     });
 
 
-    $("#getstarted, #subscribeForm, #subscribeFormAlt").on('submit', function (e) {
+    $("#getstartedf").on('submit', function (e) {
+        var formId = e.currentTarget.id;
+        if (e.isDefaultPrevented()) {
+            // handle the invalid form...
+        } else {
+            var dataOut = {};
+            $("#" + formId + " .form-control").each(function () {
+                dataOut[$(this).prop('name')] = $(this).val();
+            });
+
+            //if (typeof(ga) !== 'undefined') ga('send', 'event', 'form', 'submit', 'email');
+            //if (typeof(fbq) !== 'undefined') fbq('track', 'InitiateCheckout');
+
+            $("#" + formId + " .form-body, #" + formId + " .form-group, #" + formId + " .button").fadeOut(0);
+            $("#" + formId + " .form-process").addClass("show");
+
+            $.ajax({
+                url: "/post/",
+                method: "POST",
+                dataType:"text",
+                data: dataOut,
+
+                success: function (data, textStatus, jqXHR) {
+                    $("#" + formId + " .form-process").removeClass("show");
+                    if(data==='OK') $("#" + formId + " .form-success").addClass("show");
+                    else if(data==='DUP') $("#" + formId + " .form-duplicate").addClass("show");
+                    else if(data==='ERROR') $("#" + formId + " .form-error").addClass("show");
+                },
+                error: function (jqXHR, textStatus, errorThrown) {
+                    $("#" + formId + " .form-process").removeClass("show");
+                    $("#" + formId + " .form-error").addClass("show");
+                }
+            });
+        }
+        return false;
+    });
+
+
+    $("#subscribeForm, #subscribeFormAlt").on('submit', function (e) {
         var formId = e.currentTarget.id;
         if (e.isDefaultPrevented()) {
             // handle the invalid form...

@@ -15,7 +15,7 @@
   <link rel="shortcut icon" href="/favicons/favicon.ico?v=123421">
   <meta name="msapplication-config" content="/favicons/browserconfig.xml">
   <meta name="theme-color" content="#ffffff">
-  <link href="/css/style.min.css?1537131869" rel="stylesheet">
+  <link href="/css/style.min.css?1537196267" rel="stylesheet">
   <script>var curr_lang_code = "en";
     var lang_codes = {};lang_codes["en"] = "en";lang_codes["de"] = "de";lang_codes["fr"] = "fr";lang_codes["hr"] = "hr";lang_codes["ru"] = "ru";lang_codes["zh"] = "zh";lang_codes["ko"] = "ko";lang_codes["ja"] = "ja";lang_codes["th"] = "th";lang_codes["es"] = "es";lang_codes["pt"] = "pt";
   </script>
@@ -23,9 +23,9 @@
 <body class="en">
   <app-header class="white"><a class="logo" href="/" data-click="isActive = false"></a><a name="top"></a>
     <section>
-      <nav><a href="/about">About</a><a href="/government">For government</a><a href="/business">For business</a><a href="/cases">Cases</a><a href="/career">Career</a><a href="/developers">Developers</a><a href="/public_network">Public network</a><a href="https://blog.apla.io/" target="_blank">BBR Blog</a>
+      <nav><a href="/business">For business</a><a href="/government">For government</a><a href="/developers">For Developers</a><a href="/cases">Use Cases</a><a href="/about">About Us</a><a href="https://blog.apla.io/" target="_blank">Blog</a>
       </nav>
-      <button class="btn openpopupform" type="button">GET STARTED</button>
+      <!--button.btn.openpopupform(type='button')!= $i18n.GETSTARTED--><a class="btn" href="/public_network">Public Network</a>
       <div class="language">
         <button mat-icon-button="MenuStatus() ? 'active' : ''">!= $i18n.LANGUAGE<span class="arrow arrow-down"><em></em></span></button>
       </div>
@@ -311,14 +311,12 @@
     </div>
     <div class="container">
       <nav><a class="logo" href="/"></a>
-        <p><small><a href="/about">About</a></small></p>
-        <p><small><a href="/government">For government</a></small></p>
         <p><small><a href="/business">For business</a></small></p>
-        <p><small><a href="/cases">Cases</a></small></p>
-        <p><small><a href="/career">Career</a></small></p>
-        <p><small><a href="/developers">Developers</a></small></p>
-        <p><small><a href="/public_network">Public network</a></small></p>
-        <p><small><a href="https://blog.apla.io/" target="_blank">BBR Blog</a></small></p>
+        <p><small><a href="/government">For government</a></small></p>
+        <p><small><a href="/developers">For Developers</a></small></p>
+        <p><small><a href="/cases">Use Cases</a></small></p>
+        <p><small><a href="/about">About Us</a></small></p>
+        <p><small><a href="https://blog.apla.io/" target="_blank">Blog</a></small></p>
       </nav>
       <section>
         <article>
@@ -332,7 +330,7 @@
         </article>
       </section>
       <footer>
-        <div class="soc"><a class="btn-icon btn-icon-black" href="https://www.facebook.com/AplaBlockchain/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a><a class="btn-icon btn-icon-black" href="https://twitter.com/AplaBlockchain" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a><a class="btn-icon btn-icon-black" href="https://blog.apla.io/" target="_blank"><i class="fa fa-medium" aria-hidden="true"></i></a><a class="btn-icon btn-icon-black" href="https://t.me/apla_project" target="_blank"><i class="fa fa-paper-plane" aria-hidden="true"></i></a><a class="btn-icon btn-icon-black" href="https://github.com/AplaProject/go-apla/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a><a class="btn-icon btn-icon-black" href="https://slack.apla.io/" target="_blank"><i class="fa fa-slack" aria-hidden="true"></i></a><a class="btn-icon btn-icon-black" href="https://www.youtube.com/channel/UCLAccwf_YvWGnxSIVgGtl7g" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a><a class="btn-icon btn-icon-black" href="https://www.linkedin.com/company/apla-blockchain/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+        <div class="soc"><a class="btn-icon btn-icon-black" href="https://www.facebook.com/AplaBlockchain/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a><a class="btn-icon btn-icon-black" href="https://twitter.com/AplaBlockchain" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a><a class="btn-icon btn-icon-black" href="https://blog.apla.io/" target="_blank"><i class="fa fa-medium" aria-hidden="true"></i></a><a class="btn-icon btn-icon-black" href="https://t.me/apla_project" target="_blank"><i class="fa fa-paper-plane" aria-hidden="true"></i></a><a class="btn-icon btn-icon-black" href="https://github.com/AplaProject/go-apla/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a><a class="btn-icon btn-icon-black" href="https://www.youtube.com/channel/UCLAccwf_YvWGnxSIVgGtl7g" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a><a class="btn-icon btn-icon-black" href="https://www.linkedin.com/company/apla-blockchain/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
         </div><small>&copy; 2018 Apla, All Rights Reserved.</small>
       </footer>
     </div>
@@ -347,7 +345,7 @@
           <h4>Tell us about your needs</h4>
           <p>and we will come up with a personalized solution</p>
         </div>
-        <form id="getstarted" novalidate="">
+        <form id="getstartedf" novalidate2="">
           <div class="form-body">
             <div class="form-group"><small class="form-control-feedback"><span class="required">Name is required.</span></small>
               <input class="form-control" placeholder="Your name *" type="text" name="name" required><span class="form-control-focus"></span>

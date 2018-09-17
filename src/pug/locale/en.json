@@ -12,8 +12,9 @@
 
   "PAGES": [
     {
-      "title": "About",
-      "href": "/about",
+      "title": "For business",
+      "href": "/business",
+      "navIsWhite": true,
       "htmlAttrs": {
         "title": "Apla - Public blockchain platform for building digital ecosystems",
         "description": "Public blockchain platform for building digital ecosystems",
@@ -30,8 +31,8 @@
       }
     },
     {
-      "title": "For business",
-      "href": "/business",
+      "title": "For Developers",
+      "href": "/developers",
       "navIsWhite": true,
       "htmlAttrs": {
         "title": "Apla - Public blockchain platform for building digital ecosystems",
@@ -40,7 +41,7 @@
       }
     },
     {
-      "title": "Cases",
+      "title": "Use Cases",
       "href": "/cases",
       "navIsWhite": true,
       "htmlAttrs": {
@@ -50,9 +51,8 @@
       }
     },
     {
-      "title": "Career",
-      "href": "/career",
-      "navIsWhite": true,
+      "title": "About Us",
+      "href": "/about",
       "htmlAttrs": {
         "title": "Apla - Public blockchain platform for building digital ecosystems",
         "description": "Public blockchain platform for building digital ecosystems",
@@ -60,8 +60,17 @@
       }
     },
     {
-      "title": "Developers",
-      "href": "/developers",
+      "title": "Blog",
+      "href": "https://blog.apla.io/",
+      "target": "_blank",
+      "class": ""
+    }
+  ],
+
+  "PAGES_OLD": [
+    {
+      "title": "Career",
+      "href": "/career",
       "navIsWhite": true,
       "htmlAttrs": {
         "title": "Apla - Public blockchain platform for building digital ecosystems",
@@ -77,13 +86,8 @@
         "description": "Public blockchain platform for building digital ecosystems",
         "keywords": ""
       }
-    },
-    {
-      "title": "BBR Blog",
-      "href": "https://blog.apla.io/",
-      "target": "_blank",
-      "class": ""
     }
+
   ],
 
   "CASES": [
@@ -230,8 +234,8 @@
   },
   "MAIN": {
     "SHOWREEL": {
-      "TITLE": "We are Apla",
-      "TEXT": "A tech company that uses distributed ledger technology to help organizations work faster, safer and with greater impact."
+      "TITLE": "Simple and Compliant <br/>Blockchain Platform",
+      "TEXT": "Simple and Compliant Blockchain Platform for Building Government & Business Ecosystems."
     },
     "BLOCKCHAIN": {
       "TITLE": "Blockchain is a technology of efficiency",
@@ -291,10 +295,10 @@
       }
     },
     "ADVANTAGE": {
-      "TITLE": "Technological advantage as a service: the Apla blockchain platform<sup>TM</sup>. It’s secure, scalable and easy to use",
+      "TITLE": "Apla Key Features",
       "1": {
-        "TITLE": "Cybersecurity on a new level",
-        "TEXT": "Technological security of the highest spec."
+        "TITLE": "Smart laws",
+        "TEXT": "A Governing Protocol over the application Ecosystem."
       },
       "2": {
         "TITLE": "Flexible access rights",
@@ -314,7 +318,8 @@
       },
       "6": {
         "TITLE": "Your very own blockchain department",
-        "TEXT": "Apla offers not just a platform, but full operational support throughout. We offer an optimal solution and take care of the complete operation cycle: from research and development to implementation of innovative solutions and personnel training."
+        "TEXT2": "Apla offers not just a platform, but full operational support throughout. We offer an optimal solution and take care of the complete operation cycle: from research and development to implementation of innovative solutions and personnel training.",
+        "TEXT": "Create Ecosystems not just a stand-alone application"
       }
     },
     "ENTERPRISE": {
@@ -411,6 +416,7 @@
         "text": "Quickstart allows you to get working Apla Network locally in minutes. Watch the video below how to install it.",
         "href": "https://github.com/AplaProject/quick-start",
         "video": {
+          "yt": "https://www.youtube.com/watch?v=2-e-vGWnYO0",
           "src": "/assets/intro.mp4",
           "poster": "/assets/images/video-bkg-sm.svg"
         }
@@ -541,6 +547,20 @@
     ]
   },
 
+  "NEWS": [
+    {
+      "title": "Blockchain Ecosystem: What is it About?",
+      "text": "As the spark of blockchain revolution is engulfing the world, the technology is becoming more sophisticated as the day goes by. Blockchain engineers the world over are putting thought into turning their product into an engineering marvel and such ideas give rise to buzzwords of the day. Getting a hold on these buzzwords becomes imperative for C-level execs as well as investors so that the knowledge remains perceptible and nothing becomes arcane.",
+      "href": "https://blog.apla.io/blockchain-ecosystem-what-is-it-about-3abefc8153d9",
+      "img": "/assets/images/news/2.png"
+    },
+    {
+      "title": "Five stages of understanding blockchain",
+      "text": "Blockchain can be a tricky subject, but market players are slowly learning about how they can apply this new phenomenon to their business processes. Learning happens in stages; you can’t become a genius overnight. The same is with understanding blockchain. There are a myriad articles out there on the internet about blockchain, all with their own different stance and all based on the knowledge that each writer has when putting pen to paper (more like: fingers to keyboard). However, who really knows what in this wild west of blockchain propaganda?",
+      "href": "https://blog.apla.io/five-stages-of-understanding-blockchain-d6774ff016d1",
+      "img": "/assets/images/news/3.png"
+    }
+  ],
   "VACANCIES": [
     {
       "COUNTRY": "Luxembourg",
@@ -858,11 +878,6 @@
       "name": "github",
       "url": "https://github.com/AplaProject/go-apla/",
       "icon": "fa-github"
-    },
-    {
-      "name": "slack",
-      "url": "https://slack.apla.io/",
-      "icon": "fa-slack"
     },
     {
       "name": "youtube",
