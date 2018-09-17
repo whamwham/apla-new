@@ -108,7 +108,7 @@
       "title": "Supply chain management",
       "descr": "Apla proposed a robust working model that was approved by the Indian government",
       "href": "/cases/supply-chain",
-      "main_img": "/assets/images/cases/vehicle-registry.jpg",
+      "main_img": "/assets/images/cases/supply-chain.jpg",
       "alt_img": "/assets/images/cases/supply-chain-b.jpg",
       "alt_title": "Refined supply <br> chain",
       "htmlAttrs": {
@@ -317,9 +317,9 @@
         "TEXT": "Apla’s software client differs from competitors’ in its intuitive interface for interaction with the platform. Getting to grips with it literally is a piece of cake! The clients’ needs are also adapted to depending on how different devices work, taking into account individual characteristics and requirements."
       },
       "6": {
-        "TITLE": "Your very own blockchain department",
-        "TEXT2": "Apla offers not just a platform, but full operational support throughout. We offer an optimal solution and take care of the complete operation cycle: from research and development to implementation of innovative solutions and personnel training.",
-        "TEXT": "Create Ecosystems not just a stand-alone application"
+        "TITLE": "Create Ecosystems not just a stand-alone application",
+        "TEXT": "Apla offers not just a platform, but full operational support throughout. We offer an optimal solution and take care of the complete operation cycle: from research and development to implementation of innovative solutions and personnel training.",
+        "TEXT2": "Create Ecosystems not just a stand-alone application"
       }
     },
     "ENTERPRISE": {
@@ -417,7 +417,7 @@
         "href": "https://github.com/AplaProject/quick-start",
         "video": {
           "yt": "https://www.youtube.com/watch?v=2-e-vGWnYO0",
-          "src": "/assets/intro.mp4",
+          "src": "/assets/qs-tutorial-8.mp4",
           "poster": "/assets/images/video-bkg-sm.svg"
         }
       },
