@@ -85,10 +85,11 @@ mixin team-item( item )
 
 
 mixin cases-main-list-item(item)
-    a(href!=item.href style!="background-image: url("+item.main_img+")")
-        h4!=item.title
-        p!=item.descr
-        span.btn READ THE STORY
+    if(!item.hide)
+        a(href!=item.href style!="background-image: url("+item.main_img+")")
+            h4!=item.title
+            p!=item.descr
+            span.btn READ THE STORY
 
 mixin cases-inline-list-item(item)
     -

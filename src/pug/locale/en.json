@@ -90,6 +90,22 @@
 
   ],
 
+  "CASES_SAV": [
+    {
+      "title": "Financial Sector and financial instruments",
+      "descr": "Apla developed a system for banks and other financial intitutions to sell financial instruments to investors",
+      "href": "/cases/financial-sector",
+      "main_img": "/assets/images/cases/financial-sector.jpg",
+      "alt_img": "/assets/images/cases/financial-sector-b.jpg",
+      "alt_title": "",
+      "htmlAttrs": {
+        "title": "Apla - Public blockchain platform for building digital ecosystems",
+        "description": "Public blockchain platform for building digital ecosystems",
+        "keywords": ""
+      }
+    }
+  ],
+
   "CASES": [
     {
       "title": "India land registry",
@@ -144,6 +160,7 @@
       }
     },
     {
+      "hide": true,
       "title": "Financial Sector and financial instruments",
       "descr": "Apla developed a system for banks and other financial intitutions to sell financial instruments to investors",
       "href": "/cases/financial-sector",
