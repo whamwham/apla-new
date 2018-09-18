@@ -2,130 +2,138 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>https://apla.io/</loc>
-        <lastmod>2018-09-17T22:34:01.564Z</lastmod>
+        <lastmod>2018-09-18T08:10:06.532Z</lastmod>
     </url>
     <url>
-        <loc>https://apla.io/about/</loc>
-        <lastmod>2018-09-17T22:34:01.888Z</lastmod>
+        <loc>https://apla.io/about</loc>
+        <lastmod>2018-09-18T08:10:07.026Z</lastmod>
     </url>
     <url>
-        <loc>https://apla.io/business/</loc>
-        <lastmod>2018-09-17T22:34:02.204Z</lastmod>
+        <loc>https://apla.io/business</loc>
+        <lastmod>2018-09-18T08:10:07.266Z</lastmod>
     </url>
     <url>
-        <loc>https://apla.io/career/</loc>
-        <lastmod>2018-09-17T22:34:02.977Z</lastmod>
+        <loc>https://apla.io/career</loc>
+        <lastmod>2018-09-18T08:10:07.449Z</lastmod>
     </url>
     <url>
-        <loc>https://apla.io/cases/</loc>
-        <lastmod>2018-09-17T22:34:03.336Z</lastmod>
+        <loc>https://apla.io/cases</loc>
+        <lastmod>2018-09-18T08:10:07.616Z</lastmod>
     </url>
     <url>
-        <loc>https://apla.io/developers/</loc>
-        <lastmod>2018-09-17T22:34:03.724Z</lastmod>
+        <loc>https://apla.io/developers</loc>
+        <lastmod>2018-09-18T08:10:07.785Z</lastmod>
     </url>
     <url>
-        <loc>https://apla.io/government/</loc>
-        <lastmod>2018-09-17T22:34:05.209Z</lastmod>
+        <loc>https://apla.io/government</loc>
+        <lastmod>2018-09-18T08:10:07.910Z</lastmod>
     </url>
     <url>
-        <loc>https://apla.io/public_network/</loc>
-        <lastmod>2018-09-17T21:41:12.474Z</lastmod>
+        <loc>https://apla.io/public_network</loc>
+        <lastmod>2018-09-16T12:52:57.792Z</lastmod>
     </url>
     <url>
-        <loc>https://apla.io/cases/business-licensing/</loc>
-        <lastmod>2018-09-17T22:34:05.685Z</lastmod>
+        <loc>https://apla.io/cases/financial-sector</loc>
+        <lastmod>2018-09-18T08:10:08.388Z</lastmod>
     </url>
     <url>
-        <loc>https://apla.io/cases/financial-sector/</loc>
-        <lastmod>2018-09-17T22:34:05.900Z</lastmod>
+        <loc>https://apla.io/cases/land-registry</loc>
+        <lastmod>2018-09-18T08:10:08.576Z</lastmod>
     </url>
     <url>
-        <loc>https://apla.io/cases/land-registry/</loc>
-        <lastmod>2018-09-17T22:34:06.128Z</lastmod>
+        <loc>https://apla.io/cases/land-registry/index2.html</loc>
+        <lastmod>2018-09-18T08:10:08.770Z</lastmod>
     </url>
     <url>
-        <loc>https://apla.io/cases/music-copyright/</loc>
-        <lastmod>2018-09-17T22:34:06.368Z</lastmod>
+        <loc>https://apla.io/cases/music-copyright</loc>
+        <lastmod>2018-09-18T08:10:08.920Z</lastmod>
     </url>
     <url>
-        <loc>https://apla.io/cases/supply-chain/</loc>
-        <lastmod>2018-09-17T22:34:06.635Z</lastmod>
+        <loc>https://apla.io/cases/supply-chain</loc>
+        <lastmod>2018-09-18T08:10:08.998Z</lastmod>
     </url>
     <url>
-        <loc>https://apla.io/cases/survey-poll/</loc>
-        <lastmod>2018-09-17T22:34:07.461Z</lastmod>
+        <loc>https://apla.io/cases/survey-poll</loc>
+        <lastmod>2018-09-18T08:10:09.123Z</lastmod>
     </url>
     <url>
-        <loc>https://apla.io/cases/vehicle-registry/</loc>
-        <lastmod>2018-09-17T22:34:07.477Z</lastmod>
+        <loc>https://apla.io/cases/vehicle-registry</loc>
+        <lastmod>2018-09-18T08:10:09.125Z</lastmod>
+    </url>
+    <url>
+        <loc>https://apla.io/cases/vehicle-registry/index2.html</loc>
+        <lastmod>2018-09-18T08:10:09.127Z</lastmod>
+    </url>
+    <url>
+        <loc>https://apla.io/cases/business-licensing</loc>
+        <lastmod>2018-09-18T08:10:08.167Z</lastmod>
     </url>
     <url>
         <loc>https://apla.io/public_network/view/business.html</loc>
-        <lastmod>2018-09-17T21:41:41.595Z</lastmod>
+        <lastmod>2018-09-16T12:53:00.810Z</lastmod>
     </url>
     <url>
         <loc>https://apla.io/public_network/view/download.html</loc>
-        <lastmod>2018-09-17T21:41:41.597Z</lastmod>
+        <lastmod>2018-09-16T12:53:00.813Z</lastmod>
     </url>
     <url>
         <loc>https://apla.io/public_network/view/ecosystem.html</loc>
-        <lastmod>2018-09-17T21:41:41.606Z</lastmod>
+        <lastmod>2018-09-16T12:53:00.815Z</lastmod>
     </url>
     <url>
         <loc>https://apla.io/public_network/view/footer.html</loc>
-        <lastmod>2018-09-17T21:41:41.612Z</lastmod>
+        <lastmod>2018-09-16T12:53:00.823Z</lastmod>
     </url>
     <url>
         <loc>https://apla.io/public_network/view/government.html</loc>
-        <lastmod>2018-09-17T21:41:41.617Z</lastmod>
+        <lastmod>2018-09-16T12:53:00.827Z</lastmod>
     </url>
     <url>
         <loc>https://apla.io/public_network/view/header.html</loc>
-        <lastmod>2018-09-17T21:41:41.621Z</lastmod>
+        <lastmod>2018-09-16T12:53:00.830Z</lastmod>
     </url>
     <url>
         <loc>https://apla.io/public_network/view/main.html</loc>
-        <lastmod>2018-09-17T21:41:41.624Z</lastmod>
+        <lastmod>2018-09-16T12:53:00.833Z</lastmod>
     </url>
     <url>
         <loc>https://apla.io/public_network/view/team.html</loc>
-        <lastmod>2018-09-17T21:41:41.627Z</lastmod>
+        <lastmod>2018-09-16T12:53:00.836Z</lastmod>
     </url>
     <url>
-        <loc>https://apla.io/public_network/src/www/</loc>
-        <lastmod>2018-09-17T21:41:41.952Z</lastmod>
+        <loc>https://apla.io/public_network/src/www</loc>
+        <lastmod>2018-09-16T12:53:01.370Z</lastmod>
     </url>
     <url>
         <loc>https://apla.io/public_network/src/www/view/business.html</loc>
-        <lastmod>2018-09-17T21:41:42.435Z</lastmod>
+        <lastmod>2018-09-16T12:53:03.402Z</lastmod>
     </url>
     <url>
         <loc>https://apla.io/public_network/src/www/view/download.html</loc>
-        <lastmod>2018-09-17T21:41:42.437Z</lastmod>
+        <lastmod>2018-09-16T12:53:03.405Z</lastmod>
     </url>
     <url>
         <loc>https://apla.io/public_network/src/www/view/ecosystem.html</loc>
-        <lastmod>2018-09-17T21:41:42.438Z</lastmod>
+        <lastmod>2018-09-16T12:53:03.437Z</lastmod>
     </url>
     <url>
         <loc>https://apla.io/public_network/src/www/view/footer.html</loc>
-        <lastmod>2018-09-17T21:41:42.440Z</lastmod>
+        <lastmod>2018-09-16T12:53:03.462Z</lastmod>
     </url>
     <url>
         <loc>https://apla.io/public_network/src/www/view/government.html</loc>
-        <lastmod>2018-09-17T21:41:42.441Z</lastmod>
+        <lastmod>2018-09-16T12:53:03.465Z</lastmod>
     </url>
     <url>
         <loc>https://apla.io/public_network/src/www/view/header.html</loc>
-        <lastmod>2018-09-17T21:41:42.444Z</lastmod>
+        <lastmod>2018-09-16T12:53:03.470Z</lastmod>
     </url>
     <url>
         <loc>https://apla.io/public_network/src/www/view/main.html</loc>
-        <lastmod>2018-09-17T21:41:42.446Z</lastmod>
+        <lastmod>2018-09-16T12:53:03.496Z</lastmod>
     </url>
     <url>
         <loc>https://apla.io/public_network/src/www/view/team.html</loc>
-        <lastmod>2018-09-17T21:41:42.447Z</lastmod>
+        <lastmod>2018-09-16T12:53:03.499Z</lastmod>
     </url>
 </urlset>
