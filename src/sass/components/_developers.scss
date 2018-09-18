@@ -364,10 +364,7 @@
               }
 
               &:hover {
-                background: #3AC28B;
-                .title {
-                  text-decoration: underline;
-                }
+                background: rgba(28, 26, 26, 0.05);
               }
 
               @include max($btablet) {

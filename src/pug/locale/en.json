@@ -106,7 +106,7 @@
     },
     {
       "title": "Supply chain management",
-      "descr": "Apla proposed a robust working model that was approved by the Indian government",
+      "descr": "Apla built the blockchain app that allows organizations to create smart and transparent supply chain",
       "href": "/cases/supply-chain",
       "main_img": "/assets/images/cases/supply-chain.jpg",
       "alt_img": "/assets/images/cases/supply-chain-b.jpg",
@@ -119,7 +119,7 @@
     },
     {
       "title": "Vehicle registry",
-      "descr": "Apla proposed a robust working model that was approved by the Indian government",
+      "descr": "Apla proposed a solution for Indian government which increases the speed of registering a vehicle by 20 times.",
       "href": "/cases/vehicle-registry",
       "main_img": "/assets/images/cases/vehicle-registry_temp.jpg",
       "alt_img": "/assets/images/cases/vehicle-registry-b.jpg",
@@ -132,7 +132,7 @@
     },
     {
       "title": "Survey and polls application",
-      "descr": "The Blockchain Party of the Netherlands decided to use Apla's solution in pilot mode to collect public opinion and present it to the country's national parliament.",
+      "descr": "The client in Netherlands decided to use Apla's solution in pilot mode to collect public opinion and present it to the country's national parliament.",
       "href": "/cases/survey-poll",
       "main_img": "/assets/images/cases/survey-poll.jpg",
       "alt_img": "/assets/images/cases/survey-poll-b.jpg",
@@ -302,29 +302,30 @@
       },
       "2": {
         "TITLE": "Flexible access rights",
-        "TEXT": "This is Alpa’s key advantage: a multi-level system for access rights management to data, interfaces and smart contracts, allowing for full control of how the applications work."
+        "TEXT": "Multi-level system for access rights management to data, interfaces and smart contracts, allowing for full control of how the applications work."
       },
       "3": {
         "TITLE": "Rapid application development",
-        "TEXT": "Where others require half a year to develop a working application, our system can be created and implemented within a couple of weeks."
+        "TEXT": "Applications can be created and implemented within a couple of weeks."
       },
       "4": {
         "TITLE": "Fast transactions",
-        "TEXT": "A maximum output capacity and potential boost to performance speed of up to 10,000 times, which corresponds to fintech and IT industry standards."
+        "TEXT": "A maximum output capacity and potential boost to performance speed of up to 10,000 times, which corresponds to fintech and IT industry standards transaction speed."
       },
       "5": {
         "TITLE": "User-friendly",
-        "TEXT": "Apla’s software client differs from competitors’ in its intuitive interface for interaction with the platform. Getting to grips with it literally is a piece of cake! The clients’ needs are also adapted to depending on how different devices work, taking into account individual characteristics and requirements."
+        "TEXT": "Apla architecture is built around the concept of simplicity. The clients’ needs are also adapted to depending on how different devices work, taking into account individual characteristics and requirements."
       },
       "6": {
         "TITLE": "Create Ecosystems not just a stand-alone application",
-        "TEXT": "Apla offers not just a platform, but full operational support throughout. We offer an optimal solution and take care of the complete operation cycle: from research and development to implementation of innovative solutions and personnel training.",
+        "TEXT": "Ecosystems application framework truly unlocks the industrial 4.0 potentials. Build application ecosystem with Apla not just an independent application.",
         "TEXT2": "Create Ecosystems not just a stand-alone application"
       }
     },
     "ENTERPRISE": {
       "TITLE": "Trusted enterprise partner",
-      "TEXT": "We are proud to work alongside systems integrators like Finesse and BearingPoint. Our partnership program establishes valuable and long-term relationships with partners. We help to educate clients, provide unique technology, develop demo-versions and conduct workshops. Blockchain LTV is our main KPI."
+      "TEXT": "",
+      "TEXT_OLD": "We are proud to work alongside systems integrators like Finesse and BearingPoint. Our partnership program establishes valuable and long-term relationships with partners. We help to educate clients, provide unique technology, develop demo-versions and conduct workshops. Blockchain LTV is our main KPI."
     },
     "BANNER": {
       "TITLE": "Reach outstanding productivity",
@@ -814,12 +815,6 @@
       "IMG": "/assets/images/team/vs.png",
       "SHORT": "Master of Delphi, C++, PL/SQL, Unity (C#), with experience working for energy giants.",
       "DESCR": "Master of Delphi, C++, PL/SQL, Unity (C#). Vasily has a degree in Engineering and Security of Information Systems. Before Apla, he worked as a programmer for an energy giant and the leader of sustainable energy market of CIS countries."
-    },{
-      "NAME": "Pavel Fedorov",
-      "POSITION": "Head of PMO",
-      "IMG": "/assets/images/team/pvf.png",
-      "SHORT": "Leading development process manager as scrum master.",
-      "DESCR": "At Apla, Pavel is leading the platform development processes as Scrum master. He helps to manage and coordinate workflows of the company's departments, administer the work environment, corporate tools and integration. Pavel has been managing digital projects since 2014, and has a degree in Communication Engineering. A crucial moment of his career was Haute Future Fashion Academy in Milan, where he gained his first points in digital marketing."
     },{
       "NAME": "Dmitry Chertkov",
       "POSITION": "Senior Backend Developer",
