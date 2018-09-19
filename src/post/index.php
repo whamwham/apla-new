@@ -63,7 +63,7 @@ $mail->addReplyTo('aplamailer@gmail.com', 'Aplamailer');
 
 //Set who the message is to be sent to
 $mail->addAddress('wham@list.ru', 'John Doe');
-//$mail->addAddress('hello@apla.io', 'Apla');
+$mail->addAddress('hello@apla.io', 'Apla');
 
 
 $mail->CharSet='utf-8';
