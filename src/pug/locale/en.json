@@ -10,10 +10,46 @@
   "GETSTARTED": "GET STARTED",
   "READMORECASES": "READ MORE CASES",
 
+  "PAGES_MAIN": [
+    {
+      "title": "Public network",
+      "href": "/public_network",
+      "htmlAttrs": {
+        "title": "Apla - Public blockchain platform for building digital ecosystems",
+        "description": "Public blockchain platform for building digital ecosystems",
+        "keywords": ""
+      }
+    },
+    {
+      "title": "Private solutions",
+      "href": "/private",
+      "htmlAttrs": {
+        "title": "Apla - Public blockchain platform for building digital ecosystems",
+        "description": "Public blockchain platform for building digital ecosystems",
+        "keywords": ""
+      }
+    },
+    {
+      "title": "Our mission",
+      "href": "#mission_container"
+    },
+    {
+      "title": "Team",
+      "href": "./#team",
+      "class": ""
+    },
+    {
+      "title": "Blog",
+      "href": "https://blog.apla.io/",
+      "target": "_blank",
+      "class": ""
+    }
+  ],
+
   "PAGES": [
     {
       "title": "For Business",
-      "href": "/business",
+      "href": "/private/business",
       "navIsWhite": true,
       "htmlAttrs": {
         "title": "Apla - Public blockchain platform for building digital ecosystems",
@@ -23,7 +59,7 @@
     },
     {
       "title": "For Government",
-      "href": "/government",
+      "href": "/private/government",
       "htmlAttrs": {
         "title": "Apla - Public blockchain platform for building digital ecosystems",
         "description": "Public blockchain platform for building digital ecosystems",
@@ -32,7 +68,7 @@
     },
     {
       "title": "For Developers",
-      "href": "/developers",
+      "href": "/private/developers",
       "navIsWhite": true,
       "htmlAttrs": {
         "title": "Apla - Public blockchain platform for building digital ecosystems",
@@ -42,7 +78,7 @@
     },
     {
       "title": "Use Cases",
-      "href": "/cases",
+      "href": "/private/cases",
       "navIsWhite": true,
       "htmlAttrs": {
         "title": "Apla - Public blockchain platform for building digital ecosystems",
@@ -52,7 +88,7 @@
     },
     {
       "title": "About Us",
-      "href": "/about",
+      "href": "/private/about",
       "htmlAttrs": {
         "title": "Apla - Public blockchain platform for building digital ecosystems",
         "description": "Public blockchain platform for building digital ecosystems",
@@ -87,7 +123,6 @@
         "keywords": ""
       }
     }
-
   ],
 
   "CASES_SAV": [
@@ -105,12 +140,11 @@
       }
     }
   ],
-
   "CASES": [
     {
       "title": "India land registry",
       "descr": "Apla proposed a robust working model that was approved by the Indian government",
-      "href": "/cases/land-registry",
+      "href": "/private/cases/land-registry",
       "main_img": "/assets/images/cases/land-registry.jpg",
       "alt_img": "/assets/images/cases/land-registry-b.jpg",
       "alt_title": "We developed a land registry system in India",
@@ -123,7 +157,7 @@
     {
       "title": "Supply chain management",
       "descr": "Apla built the blockchain app that allows organizations to create smart and transparent supply chain",
-      "href": "/cases/supply-chain",
+      "href": "/private/cases/supply-chain",
       "main_img": "/assets/images/cases/supply-chain.jpg",
       "alt_img": "/assets/images/cases/supply-chain-b.jpg",
       "alt_title": "Refined supply <br> chain",
@@ -136,7 +170,7 @@
     {
       "title": "Vehicle registry",
       "descr": "Apla proposed a solution for Indian government which increases the speed of registering a vehicle by 20 times.",
-      "href": "/cases/vehicle-registry",
+      "href": "/private/cases/vehicle-registry",
       "main_img": "/assets/images/cases/vehicle-registry_temp.jpg",
       "alt_img": "/assets/images/cases/vehicle-registry-b.jpg",
       "alt_title": "Improved vehicle e-registry",
@@ -149,7 +183,7 @@
     {
       "title": "Survey and polls application",
       "descr": "The client in Netherlands decided to use Apla's solution in pilot mode to collect public opinion and present it to the country's national parliament.",
-      "href": "/cases/survey-poll",
+      "href": "/private/cases/survey-poll",
       "main_img": "/assets/images/cases/survey-poll.jpg",
       "alt_img": "/assets/images/cases/survey-poll-b.jpg",
       "alt_title": "",
@@ -163,7 +197,7 @@
       "hide": true,
       "title": "Financial Sector and financial instruments",
       "descr": "Apla developed a system for banks and other financial intitutions to sell financial instruments to investors",
-      "href": "/cases/financial-sector",
+      "href": "/private/cases/financial-sector",
       "main_img": "/assets/images/cases/financial-sector.jpg",
       "alt_img": "/assets/images/cases/financial-sector-b.jpg",
       "alt_title": "",
@@ -176,7 +210,7 @@
     {
       "title": "Business Licensing Application",
       "descr": "Apla has created an application for issuing business licenses",
-      "href": "/cases/business-licensing",
+      "href": "/private/cases/business-licensing",
       "main_img": "/assets/images/cases/business-licensing.jpg",
       "alt_img": "/assets/images/cases/business-licensing-b.jpg",
       "alt_title": "",
@@ -187,9 +221,10 @@
       }
     },
     {
+      "hide": true,
       "title": "Music Copyright Management Application",
       "descr": "Apla created an application to revolutionize the distibution of value in musical industry",
-      "href": "/cases/music-copyright",
+      "href": "/private/cases/music-copyright",
       "main_img": "/assets/images/cases/music-copyright.jpg",
       "alt_img": "/assets/images/cases/music-copyright-b.jpg",
       "alt_title": "",
@@ -209,7 +244,6 @@
     "FORGOVERNMENT": "For government",
     "BLOG": "BBR Blog"
   },
-
   "NEWSLETTER": {
     "TITLE": "Receive our newsletter",
     "TITLEALT": "Want to see more cases?",
@@ -219,6 +253,10 @@
     "ERROR": "Error... <small>Please try again later</small>",
     "DUPLICATE": "<small>You are already subscribed to newsletter!</small>",
     "READY": "Thank you!",
+    "PRIVACY":{
+      "href": "/download/Privacy_and_Cookies_Policy.pdf",
+      "title": "Privacy policy"
+    },
     "SUBSCRIBE": {
       "PLACEHOLDER": "E-mail",
       "REQUIRED": "E-mail is required.",
@@ -249,10 +287,28 @@
   "FOOTER": {
     "COPYRIGHT": "Apla, All Rights Reserved."
   },
+
+  "NEW_MAIN": {
+    "SHOWREEL": {
+      "TITLE": "Apla creates a future",
+      "TEXT": "Blockchain Platform for accelerating technological progress"
+    },
+    "APLAFOR": {
+      "SUBHEAD": "Apla",
+      "1": {
+        "TITLE": "Public network",
+        "TEXT": "Simple and compliant blockchain platform"
+      },
+      "2": {
+        "TITLE": "Private solutions",
+        "TEXT": "In competitive markets with complex business processes, the winner is the one who is able to inspire trust through transparency amongst their partners."
+      }
+    }
+  },
   "MAIN": {
     "SHOWREEL": {
       "TITLE": "We are Apla",
-      "TEXT": "Simple and Compliant Blockchain Platform for Building Government & Business Ecosystems."
+      "TEXT": "Simple and Compliant Blockchain Solutions for Building Government & Business Ecosystems."
     },
     "BLOCKCHAIN": {
       "TITLE": "Blockchain as the upcoming Technology infrastructure",
@@ -349,28 +405,57 @@
       "TEXT": "See how Apla could help to make you organization work more efficiently."
     }
   },
-
   "DEVELOPERS": {
     "SIDE_MENU": [
-      {"id":"adv", "title": "Advantages"},
-      {"id":"env", "title": "Environment"},
-      {"id":"docker", "title": "Apla meet Docker"},
-      {"id":"ide", "title": "Apla IDE Toolkit"},
-      {"id":"contracts", "title": "Smart contracts"},
-      {"id":"cases", "title": "Cases"},
-      {"id":"simu", "title": "Simulation DApp"},
-      {"id":"testnet", "title": "Testnet"},
-      {"id":"git", "title": "Github"},
-      {"id":"doc", "title": "Documentation"}
+      {
+        "id": "adv",
+        "title": "Advantages"
+      },
+      {
+        "id": "env",
+        "title": "Environment"
+      },
+      {
+        "id": "docker",
+        "title": "Apla meet Docker"
+      },
+      {
+        "id": "ide",
+        "title": "Apla IDE Toolkit"
+      },
+      {
+        "id": "contracts",
+        "title": "Smart contracts"
+      },
+      {
+        "id": "cases",
+        "title": "Cases"
+      },
+      {
+        "id": "simu",
+        "title": "Simulation DApp"
+      },
+      {
+        "id": "testnet",
+        "title": "Testnet"
+      },
+      {
+        "id": "git",
+        "title": "Github"
+      },
+      {
+        "id": "doc",
+        "title": "Documentation"
+      }
     ],
     "h2": "Learn about Apla Platform",
     "MAP": [
       {
-        "href": "https://t.me/apla_project",
+        "href": "https://github.com/GenesisKernel",
         "target": "_blank"
       },
       {
-        "href": "https://github.com/AplaProject/go-apla",
+        "href": "https://t.me/apla_project",
         "target": "_blank"
       },
       {
@@ -378,11 +463,11 @@
         "target": "_blank"
       },
       {
-        "href": "https://apla.readthedocs.io/en/latest/",
+        "href": "https://genesiskernel.readthedocs.io/en/latest/",
         "target": "_blank"
       },
       {
-        "href": "https://github.com/AplaProject/quick-start",
+        "href": "https://github.com/GenesisKernel/quick-start",
         "target": "_blank"
       }
     ],
@@ -392,42 +477,42 @@
         {
           "title": "General information and Architecture",
           "img": "/assets/icons/documentation.svg",
-          "href": "https://apla.readthedocs.io/en/latest/concepts/about-the-platform.html",
+          "href": "https://genesiskernel.readthedocs.io/en/latest/concepts/about-the-platform.html",
           "target": "_blank"
         },
         {
           "title": "Ecosystems",
           "img": "/assets/icons/ecosystems.svg",
-          "href": "https://apla.readthedocs.io/en/latest/concepts/about-the-platform.html#platform-s-ecosystems",
+          "href": "https://genesiskernel.readthedocs.io/en/latest/concepts/about-the-platform.html#platform-s-ecosystems",
           "target": "_blank"
         },
         {
           "title": "User Interfaces",
           "img": "/assets/icons/interface.svg",
-          "href": "https://apla.readthedocs.io/en/latest/topics/templates2.html",
+          "href": "https://genesiskernel.readthedocs.io/en/latest/topics/templates2.html",
           "target": "_blank"
         },
         {
           "title": "Permissions and Access Rights",
           "img": "/assets/icons/permissions_access_rights.svg",
-          "href": "https://apla.readthedocs.io/en/latest/concepts/about-the-platform.html#access-rights-control-mechanism",
+          "href": "https://genesiskernel.readthedocs.io/en/latest/concepts/about-the-platform.html#access-rights-control-mechanism",
           "target": "_blank"
         },
         {
           "title": "Smart Contracts",
           "img": "/assets/icons/smart_contract.svg",
-          "href": "https://apla.readthedocs.io/en/latest/topics/script.html",
+          "href": "https://genesiskernel.readthedocs.io/en/latest/topics/script.html",
           "target": "_blank"
         },
         {
           "title": "REST API",
           "img": "/assets/icons/restAPI.svg",
-          "href": "https://apla.readthedocs.io/en/latest/reference/api2.html",
+          "href": "https://genesiskernel.readthedocs.io/en/latest/reference/api2.html",
           "target": "_blank"
         }
       ]
     },
-    "GET_STARTED":{
+    "GET_STARTED": {
       "h2": "Getting Started",
       "QUICKSTART": {
         "h3": "Install Quickstart",
@@ -453,27 +538,27 @@
       "h2": "Meet Molis",
       "text": "The Apla Platform client application that we use to develop applications, manage access rights and work with database tables.<br/>Everything is here.",
       "link": {
-        "href": "https://github.com/AplaProject/apla-front/releases/",
+        "href": "https://github.com/GenesisKernel/genesis-front/releases",
         "target": "_blank",
         "title": "Learn more about Molis"
       },
-      "DOWNLOAD":{
+      "DOWNLOAD": {
         "h4": "Download Molis for TestNet",
         "LIST": [
           {
-            "href": "https://github.com/AplaProject/apla-front/releases/download/v0.8.6-RC/apla-front-setup-0.8.6-RC.exe",
+            "href": "https://github.com/GenesisKernel/genesis-front/releases/download/v0.8.6-RC/genesis-front-setup-0.8.6-RC.exe",
             "img": "/assets/icons/windows.svg",
             "target": "_blank",
             "title": "Windows"
           },
           {
-            "href": "https://github.com/AplaProject/apla-front/releases/download/v0.8.6-RC/apla-front-0.8.6-RC-x86_64.AppImage",
+            "href": "https://github.com/GenesisKernel/genesis-front/releases/download/v0.8.6-RC/genesis-front-0.8.6-RC-x86_64.AppImage",
             "img": "/assets/icons/linux.svg",
             "target": "_blank",
             "title": "Linux"
           },
           {
-            "href": "https://github.com/AplaProject/apla-front/releases/download/v0.8.6-RC/Apla-0.8.6-RC.dmg",
+            "href": "https://github.com/GenesisKernel/genesis-front/releases/download/v0.8.6-RC/Genesis-0.8.6-RC.dmg",
             "img": "/assets/icons/apple.svg",
             "target": "_blank",
             "title": "Mac OS"
@@ -484,17 +569,17 @@
     "GITHUB": {
       "h2": "Apla + Github",
       "backend": {
-        "href": "https://github.com/AplaProject/go-apla",
+        "href": "https://github.com/GenesisKernel/go-genesis",
         "target": "_blank",
         "title": "Backend"
       },
       "frontend": {
-        "href": "https://github.com/AplaProject/apla-front",
+        "href": "https://github.com/GenesisKernel/genesis-front",
         "target": "_blank",
         "title": "Frontend"
       },
       "contib": {
-        "href": "https://github.com/AplaProject/go-apla/blob/master/CONTRIBUTING.md",
+        "href": "https://github.com/GenesisKernel/go-genesis/blob/master/CONTRIBUTING.md",
         "target": "_blank",
         "title": "Contibute"
       }
@@ -514,10 +599,9 @@
       }
     }
   },
-
   "CLIENTS": {
     "TITLE": "Clients",
-    "GOV":[
+    "GOV": [
       {
         "title": "UAE",
         "href": "https://www.government.ae/",
@@ -534,7 +618,7 @@
         "img": "/assets/flags/ru.svg"
       }
     ],
-    "BUSINESS":[
+    "BUSINESS": [
       {
         "title": "Bearing Point",
         "href": "https://www.bearingpoint.com/",
@@ -564,7 +648,6 @@
       }
     ]
   },
-
   "NEWS": [
     {
       "title": "Blockchain Ecosystem: What is it About?",
@@ -702,28 +785,31 @@
       "IMG": "/assets/images/team/nope.png",
       "SHORT": "An outstanding IT professional with a passion for building new businesses.",
       "DESCR": "An outstanding IT professional with a passion for building new businesses. He brings a vast knowledge base which is driving Apla’s organizational performance to the top. At Google, Evgeni is responsible for sales, B2B Marketing, and customer experience for a wide range of clients. He has been leading sales teams and growing revenue in Africa, Israel, Turkey, and the Middle East. Evgeni is also a mentor at the startup accelerator, GTI Labs, and holds an MBA in Business Administration and Management."
-    },{
+    },
+    {
       "NAME": "Konstantin Goldshtein",
       "POSITION": "Senior System Analyst at Microsoft",
       "IMG": "/assets/images/team/kg.png",
       "SHORT": "Technology evangelist, business coach and consultant with vast experience.",
       "DESCR": "Technology evangelist, business coach and consultant with more than 15 years of experience in the IT industry of Israel, the USA and Europe. Developed and promoted products used by companies from the Fortune 500 list. Created ISV — a program focussed on acceleration of startups and developers. Over the last two years, Konstantin has been focused on the examination and expansion of business developing cloud-based solutions."
-    },{
+    },
+    {
       "NAME": "Ioannis Karamitsos",
       "NAMED": "Ioannis <br>Karamitsos",
       "POSITION": "Digital Transformation Technologist & Managing Consultant at Orange (UAE)",
       "IMG": "/assets/images/team/ijk.png",
       "SHORT": "A technology expert with over two decades’ experience in IT and over 30 technical papers published.",
       "DESCR": "Ioannis is an expert in cybersecurity, cryptography, blockchain, smart contracts, SDN/DC, machine learning and internet of things. He is certified in security, cloud computing, data center, and IT governance, and has 23 years of experience in IT. Also, Ioannis was managing complicated smart cities projects in Europe and the Middle East. During his career he built many products ranging from embedded low-level systems to complex systems for telecoms networks. Author of over 30 papers and technical reports and a member of IEEE since 1997."
-    },{
+    },
+    {
       "NAME": "Chris Bruck",
       "POSITION": "Chief Marketing Officer of eGaaS S.A., Luxembourg",
-      "IMG": "/assets/images/team/cb.png",
+      "IMG2": "/assets/images/team/cb.png",
       "SHORT": "An entrepreneur with 30 years’ experience marketing cutting edge technology.",
       "DESCR": "An entrepreneur with 30 years’ experience marketing cutting edge technology worldwide. Co-founded the first European web portal Europe Online in 1994, received strategic, financial, marketing and operational experience in Europe, Japan, and the US for major players and startups. Improved the Rolex brand impact online 2000% (2005-2008). Founder of Bespeak fashion technology start-up, former CEO of “Ashes and Snow” concept art project with more than 10 million visitors to date. Completed a Ph.D. and M.A. in Business and Commerce at Keio University, Tokyo, and a Juris Doctor at the University of Paris I., Panthéon-Sorbonne. Fluent in 5 languages, including Japanese."
     }
   ],
-  "TOPMANAGMENT": [
+  "TOPMANAGMENT2": [
     {
       "NAME": "Oleg Strelenko",
       "NAMED": "Oleg <br>Strelenko",
@@ -731,27 +817,101 @@
       "IMG": "/assets/images/team/os.png",
       "SHORT": "Blockchain visionary, strong believer and creator of Apla’s unique technology.",
       "DESCR": "Blockchain visionary, strong believer and creator of Apla’s unique technology. EAn early adopter of blockchain, Oleg created his own decentralized electronic currency DCoin in 2011. As he completed 73,000 lines Go code and attracted investors, he realized the future potential is much bigger. In 2016 Oleg launched eGaaS (electronic Government as a Service) and became one of the pioneers of ICO market. This work was crucial for the Apla project and built a solid foundation for the current progress."
-    },{
+    },
+    {
       "NAME": "Michael Aprossine",
       "NAMED": "Michael <br>Aprossine",
       "POSITION": "Chief Business Development Officer",
       "IMG": "/assets/images/team/ma-2.png",
       "SHORT": "Michael is a blockchain evangelist and a serial entrepreneur.",
       "DESCR": "Michael is a blockchain evangelist and a serial entrepreneur with more than 20 years’ experience in IT. Extensive industry knowledge and the desire to shake things up compelled Michael to launch a number of online startups from dotcoms to the internet of things and blockchain. An expert in strategic planning and new business model incorporation, Michael is developing Apla partnership programs and attracting customers around the world. He holds an Executive MBA and is a bachelor of Social Science. Worked as a co-founder and CEO of USDC SlotLogic S.A.R.L., as a marketing director at Korston Group, as BDO at FTS Maconomy and Ciscom."
-    },{
+    },
+    {
       "NAME": "Vitaly Bondar",
       "NAMED": "Vitaly <br>Bondar",
       "POSITION": "Chief Executive Officer",
       "IMG": "/assets/images/team/vb.png",
       "SHORT": "Vitaly is an expert in legal regulation of blockchain, fintech and private international law.",
       "DESCR": "Vitaly is an expert in legal regulation of blockchain, fintech and private international law. He is a Chief Legal Officer of Apla and a CEO of the Luxembourg-based law firm ChristmannSchmitt. Over the past 15 years, he has held senior positions at large international law firms and industrial companies with a focus on cross-border mergers and acquisitions, and transaction structuring. Vitaly holds an LL.M. (Legum Magister) degree in International Banking and Commercial Law after receiving advanced study at Queen Mary University in London."
-    },{
+    },
+    {
       "NAME": "Muhammed Arafath",
       "NAMED": "Muhammed <br>Arafath",
       "POSITION": "Executive Director MENA",
       "IMG": "/assets/images/team/mha.png",
       "SHORT": "An outstanding expert in blockchain implementation and keynote speaker on a global scale.",
       "DESCR": "An outstanding expert in digital transformation, Apla’s Executive Director and key speaker on a global scale. As a speaker or chair, he often attends the events like the Gartner Symposium/ITxpo, TRESCON and the World Blockchain Summit. A graduate from Southern Cross University (Australia), Muhammed is a certified Blockchain business analyst, and has over 10+ years of experience working with diverse industries and international markets. Не is actively working with governmentals and businesses to help them adopt blockchain. Advisor of the World Blockchain Foundation, former principal consultant at Finesse Global (Dubai), and business analyst at Quosphere and UXL Consulting."
+    }
+  ],
+  "TOPMANAGMENT": [
+    {
+      "NAME": "Oleg Strelenko",
+      "NAMED": "Oleg <br>Strelenko",
+      "POSITION": "Founder/CTO",
+      "IMG": "/assets/images/team/os.png",
+      "SHORT": "Oleg is an expert in computer sciences with more than 10 years of professional experience in programming and managing IT projects.",
+      "DESCR": "Oleg is an expert in computer sciences with more than 10 years of professional experience in programming and managing IT projects. He was leading the team to develop the new coding languages for the blockchain platform called «Symvolio» & «Ptotypo». The team of Apla programmers under the Oleg’s leadership is ready to launch the original blockchain platform after 6 years of hard work. Oleg studied at the Saint - Petersburg State Marine Technical University. He is known in the blockchain community as one of the leading IT professionals."
+    },
+    {
+      "NAME": "Vitaly Bondar",
+      "NAMED": "Vitaly <br>Bondar",
+      "POSITION": "Chief Executive Officer/Legal",
+      "IMG": "/assets/images/team/vb.png",
+      "SHORT": "Vitaly specializes in e-commerce and private international law matters.",
+      "DESCR": "Vitaly specializes in e-commerce and private international law matters. Over the past 15 years, he has held senior positions at large international law firms and industrial companies with a focus on cross-border mergers and acquisitions, and transaction structuring. Vitaly holds a postgraduate diploma (L.L.M) in International Banking and Commercial Law in 2001 from Queen Mary University in London."
+    },
+    {
+      "NAME": "Jesus Pena-Garcia",
+      "POSITION": "COO",
+      "IMG": "/assets/images/team/jpg.png",
+      "SHORT": "Jesus is a blockchain enthusiast, serial entrepreneur and cybersecurity expert with more than 10 years of experience in the IT field.",
+      "DESCR": "Jesus is a blockchain enthusiast, serial entrepreneur and cybersecurity expert with more than 10 years of experience in the IT field. He is heading the Grant Thornton Technology HUB in Luxembourg and Founder/CEO of Bitvalley SARL. Jesus worked for the Spanish Ministry of Defence and homeland security as a cybersecurity expert in the Centro Nacional de Inteligencia (Spanish National Intelligence Service). He holds a BSC in Computer Sciences and BTS diploma in Electronics Engineering."
+    },
+    {
+      "NAME": "Chris Bruck",
+      "POSITION": "CMO",
+      "IMG": "/assets/images/team/cb.png",
+      "SHORT": "Chris can be described as a Media Entrepreneur and Global Top 100 Brand-Image Marketing Executive, Innovator, and his interest is International Business Development.",
+      "DESCR": "Chris can be described as a Media Entrepreneur and Global Top 100 Brand-Image Marketing Executive, Innovator, and his interest is International Business Development. As a top digital strategist and innovator, he initiated and led the Global Digital Initiative of Rolex from 2005 to 2009. Chris holds a Ph.D. in Business and Commerce as well as a J.D in International Law."
+    },
+    {
+      "NAME": "Fouad Rathle",
+      "POSITION": "Head of government relation",
+      "IMG": "/assets/images/team/fr.png",
+      "SHORT": "Fouad has 30 years of experience in working in management positions.",
+      "DESCR": "Fouad has 30 years of experience in working in management positions. Before joining the team of Apla Blockchain, he held the position of Branch Manager at Garanti Bank Luxembourg. In addition, he has been a Board member of The Association of Bankers & Banks of мLuxembourg for 15 years, and a member of the ABBL negotiation committee for 10 years, and president of the Banking Academy (IFBL) 12 years."
+    },
+    {
+      "NAME": "Muhammed Arafath",
+      "NAMED": "Muhammed <br>Arafath",
+      "POSITION": "Sales Director",
+      "IMG": "/assets/images/team/mha.png",
+      "SHORT": "Muhammed is a certified Blockchain business analyst and has 10+ years of experience working with diverse verticals, industries and international markets.",
+      "DESCR": "A graduate of Southern Cross University in Australia, Muhammed is a certified Blockchain business analyst and has 10+ years of experience working with diverse verticals, industries and international markets. He is currently exploring the intersection between artificial intelligence, blockchains, and the internet of things. He actively works with governmental and private organizations to help them adopt blockchain technology."
+    },
+    {
+      "NAME": "Denis Bondar",
+      "NAMED": "Denis <br>Bondar",
+      "POSITION": "CFO",
+      "IMG": "/assets/images/team/dnb.png",
+      "SHORT": "Over 15 years of business support and finance experience with multinational market leaders and fintech startups.",
+      "DESCR": "Over 15 years of business support and finance experience with multinational market leaders and fintech startups. Denis has also been engaged in the development of Online Fintech Academy. Denis holds a Master of Business Administration from Webster University and has completed the Global Fintech Program at Saїd Business School (University of Oxford) this year."
+    },
+    {
+      "NAME": "Michael Aprossine",
+      "NAMED": "Michael <br>Aprossine",
+      "POSITION": "Chief Business Development Officer",
+      "IMG": "/assets/images/team/ma-2.png",
+      "SHORT": "Michael is a blockchain evangelist and a serial entrepreneur.",
+      "DESCR": "Michael is a blockchain evangelist and a serial entrepreneur with more than 20 years’ experience in IT. Extensive industry knowledge and the desire to shake things up compelled Michael to launch a number of online startups from dotcoms to the internet of things and blockchain. An expert in strategic planning and new business model incorporation, Michael is developing Apla partnership programs and attracting customers around the world. He holds an Executive MBA and is a bachelor of Social Science. Worked as a co-founder and CEO of USDC SlotLogic S.A.R.L., as a marketing director at Korston Group, as BDO at FTS Maconomy and Ciscom."
+    },
+    {
+      "NAME": "Alexander Boldachev",
+      "NAMED": "Alexander <br>Boldachev",
+      "POSITION": "System Architect",
+      "IMG": "/assets/images/team/ab.png",
+      "SHORT": "Alexander is a futurologist and a blockchain architect",
+      "DESCR": "Alexander is a philosopher, analyst, and member of the Association of Russian Futurologists. His primary areas of interest and research are: global evolutionism, temporal ontology, philosophy of artificial intelligence, and futurology. In recent years, he has worked on the creation of a subjectevent approach to complex systems modeling."
     }
   ],
   "TEAM_OLD": [
@@ -761,102 +921,116 @@
       "IMG": "/assets/images/team/an.png",
       "SHORT": "Project promotion expert with over 5 years’ international experience.",
       "DESCR": "Thanks to Anna’s management talents, Apla participates constantly in conferences and events around the world, always staying proactive in SMM, email-marketing, reports and ad campaigns. Moreover, Anna analyses the market to stay in the loop of current trends. She holds a Master's degree in Psychology and has 5 years’ experience in the field of project promotion. Anna has cooperated with international volunteer organizations such as Peace Corp, Spare, and the Biomass Project."
-    },{
+    },
+    {
       "NAME": "Peter Farbey",
       "POSITION": "Chief Data Storyteller",
       "IMG": "/assets/images/team/pf.png",
       "SHORT": "Blockchain marketing consultant and award-winning advertising specialist.",
       "DESCR": "Peter is a blockchain marketing consultant and award-winning advertising specialist, prize-holder of Cannes Lions, D&AD, ADCR. Working in advertising, he has helped to develop communications for global brands like Visa, Coca-Cola, Shell and many more. At Apla, Peter helps spread awareness about our unique technology, combining essential creativity with high project management skills. A specialist in Political science and Government, with a Master’s degree in Communication Strategy/Brand Strategy at BBDO Wordshop."
-    },{
+    },
+    {
       "NAME": "Ivan Rozhkov",
       "POSITION": "",
       "IMG": "/assets/images/team/ir.png",
       "SHORT": "",
       "DESCR": ""
-    },{
+    },
+    {
       "NAME": "Youssef Daoud",
       "POSITION": "Social media manager",
       "IMG": "/assets/images/team/yd.png",
       "SHORT": "A strong IT professional with a Master's degree in Project Management in Innovation and Entrepreneurship from University of Nantes.",
       "DESCR": "A strong IT professional with a Master's degree focused in Project Management in Innovation and Entrepreneurship from University of Nantes. Skilled in computer science and analytics, Youssef has a long history of working in the IT and services industry."
-    },{
+    },
+    {
       "NAME": "Nickolay Syusko",
       "POSITION": "Head of Digital Transformation",
       "IMG": "/assets/images/team/ns.png",
       "SHORT": "Nick is a blockchain evangelist and a strong professional in business development, PR & marketing.",
       "DESCR": "At Apla he defines areas of growth, drives sales activities, as well as defining brand and marketing strategy. With a wealth of experience in strategy and new business development for companies like Coca-Cola or Microsoft, Nick helps Apla to be at the forefront of tech innovation. Opinion leader on LinkedIn with 16K business network. Speaker at Future Cities Show ‘18 at Dubai. He has a Master’s degree in Economics."
     }
-
   ],
   "TEAM": [
     {
       "NAME": "Alexander Boldachev",
       "NAMED": "Alexander <br>Boldachev",
       "POSITION": "System Architect",
-      "IMG": "/assets/images/team/ab.png",
+      "IMG2": "/assets/images/team/ab.png",
       "SHORT": "Alexander is a futurologist and a blockchain architect",
       "DESCR": "Alexander is a philosopher, analyst, and member of the Association of Russian Futurologists. His primary areas of research are: global evolutionism, temporal ontology, philosophy of artificial intelligence, and futurology. Works on the creation of a subject-event approach to complex systems modeling. Alexander created the concept of Smart Laws, developed an ideology for smart contracts and a number of Apla’s dApps and digital ecosystems. He is one of our key speakers at European events like Future Tech (St. Petersburg), Blockchain Weekend and #Decenter Cryptoevent (Moscow), Blockchain Conference (Kiev)."
-    },{
+    },
+    {
       "NAME": "Dmitry Brovkin",
       "POSITION": "Head of Developer Marketing",
-      "IMG": "/assets/images/team/db.png",
+      "IMG2": "/assets/images/team/db.png",
       "SHORT": "Technical and business expert responsible for implementing blockchain.",
       "DESCR": "Well-versed in both technical and business areas, Dmitry often represents Apla at international conferences, promoting the platform and training our partners in Europe and Asia. An entrepreneurial spirit combined with international business training and software development experience in the past makes Dmitry a valuable asset for the Apla team. He has a degree in Project Management."
-    },{
+    },
+    {
       "NAME": "Igor Chertov",
       "POSITION": "Lead Front End Developer",
       "IMG": "/assets/images/team/ich.png",
       "SHORT": "A gifted developer and blockchain enthusiast.",
       "DESCR": "Igor is a gifted developer and blockchain enthusiast. Has a deep knowledge of the full cycle development of cross-platform, hybrid mobile applications for web and desktop environments, as well as in relational SQL and document-based data stores. Igor received a degree in Information Technology and has since acquired the title of Microsoft-Certified Solutions Developer (MCSD)."
-    },{
+    },
+    {
       "NAME": "Yuriy Lomakin",
       "POSITION": "Front End Developer, Tester",
       "IMG2": "/assets/images/team/yul.png",
       "SHORT": "UX/UI developer, JavaScript, Angular and jQuery ninja, HTML5 and CSS guru.",
       "DESCR": "Yuriy has over 15 years of development experience. A UX/UI developer, JavaScript, Angular and jQuery ninja, HTML5 and CSS guru: he has solid skills and is a highly efficient team member. Yuriy has previously worked for major news portals and top advertising agencies with a very intense and diversified workload."
-    },{
+    },
+    {
       "NAME": "Alexey Krivonogov",
       "POSITION": "Lead Back End Developer",
       "IMG": "/assets/images/team/ak.png",
       "SHORT": "25 years’ programming experience and developer of entire platform programming interface.",
       "DESCR": "After 25 years of self-perfection in programming, Alexey created essential solutions that provide the basis for Apla’s main benefits: its high usability and rapid application development. He constructed the programming languages Simvolio and Protypo, and the entire platform programming interface. Alexey became a co-developer of Apla’s predecessor project, DCoin cryptocurrency. Has a degree in Mathematics and Applied Mathematics."
-    },{
+    },
+    {
       "NAME": "Roman Potekhin",
       "POSITION": "Tech Lead",
       "IMG": "",
       "SHORT": "Experienced Python 2.x, Erlang, and Golang programmer and NoSQL and column-store database specialist.",
       "DESCR": "Roman has over 10 years of experience as a Python 2.x, Erlang, and Golang programmer, and as a relational, NoSQL and column-store database specialist. He implemented several highload projects for major companies throughout the CIS. At Apla, Roman is developing the platform architecture, making technical decisions and solving major tech problems."
-    },{
+    },
+    {
       "NAME": "Vasily Starovetskiy",
       "POSITION": "Platform Applications Developer",
       "IMG": "/assets/images/team/vs.png",
       "SHORT": "Master of Delphi, C++, PL/SQL, Unity (C#), with experience working for energy giants.",
       "DESCR": "Master of Delphi, C++, PL/SQL, Unity (C#). Vasily has a degree in Engineering and Security of Information Systems. Before Apla, he worked as a programmer for an energy giant and the leader of sustainable energy market of CIS countries."
-    },{
+    },
+    {
       "NAME": "Dmitry Chertkov",
       "POSITION": "Senior Backend Developer",
       "IMG": "/assets/images/team/dch.png",
       "SHORT": "Outstanding professional in  PHP, Node.js and Golang with over 12 years’ experience.",
       "DESCR": "With more than 12 years of experience in programming, Dmitry is an outstanding professional in  PHP, Node.js and Golang. He developed digital content for a major Russian telecom businesses and has more than 5 years of experience in leading programmers team."
-    },{
+    },
+    {
       "NAME": "Alexandra Khasirdzeva",
       "POSITION": "Business Analyst",
       "IMG": "/assets/images/team/akh.png",
       "SHORT": "Expert business strategist for expansion and created a global startup accelerator program in the UAE.",
       "DESCR": "A global citizen who lived in Moscow, Jordan, Dubai and LA working in startups. Developing content on innovation and emerging tech, Alexandra had a chance to interact with many industry leaders and visionaries. Later she succeeded in developing new business strategies for expansion, and created a global startup accelerator program in the UAE. Alexandra studied at the University of Edinburgh and the University of Southern California, with a BA in Economics."
-    },{
+    },
+    {
       "NAME": "Mohammed Saleem",
       "POSITION": "Executive Director",
       "IMG": "",
       "SHORT": "Entrepreneur, investor, go getter, ideator, effective negotiator and people manager.",
       "DESCR": "Entrepreneur, investor, go getter, ideator, effective negotiator and people manager. His key skills lies is conceptualising business platforms that cover a myriad of latest technologies connecting businesses, governments, corporates, startups and investors across the world. Always focuses actively on identifying key investment opportunities. Mohammed is also a CEO of World Blockchain Summit and the leader of Trescon."
-    },{
+    },
+    {
       "NAME": "Fouad Rathie",
       "POSITION": "Fintech advisor",
       "IMG": "",
       "SHORT": "Successful career spanning decades in banking and current President of the Luxembourg Arab Business Association.",
       "DESCR": "After pursuing a credit career at Chase Manhattan Egypt, Credit Suisse, and Bank of America, Fouad emigrated to Luxembourg, founding the Ottoman Bank in Luxembourg (subsequently acquired by Garanti Bank). During his banking career, Mr. Rathle was also board member of the bankers’ association ABBL and its longest serving director, Chairman of the Banking Academy IFBL from 2004 until its sale to the chamber of Commerce of Luxembourg, founder and currently treasurer of the Russian Luxembourg Chamber, former president of Rotary Club Horizon, founder and President of Rotary Espoir micro-credit funds 2005-2011, and currently President of the Luxembourg Arab Business Association."
-    },{
+    },
+    {
       "NAME": "Adam Yates",
       "POSITION": "Content Lead",
       "IMG": "/assets/images/team/ay.png",
@@ -864,7 +1038,6 @@
       "DESCR": "Adam is a content specialist with over 5 years experience in digital media, working on a variety of projects in and around fintech. Adam has moved into the blockchain space, and is now helping Apla to put ideas across in a simple but effective manner. He holds a Master’s degree in IT & IP law."
     }
   ],
-
   "SOCIAL": [
     {
       "name": "facebook",

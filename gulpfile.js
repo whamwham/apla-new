@@ -45,6 +45,9 @@ gulp.task('copy-fonts', function () {
 
 
 gulp.task('copy-files', function () {
+    gulp.src('src/download/**/*')
+        .pipe($.newer('dist/download'))
+        .pipe(gulp.dest('dist/download'));
     gulp.src('src/assets/**/*')
         .pipe($.newer('dist/assets'))
         .pipe(gulp.dest('dist/assets'));
@@ -94,6 +97,7 @@ gulp.task('jade', function () {
             default: "en",
             filename: '{{{lang}}}/{{basename}}.html'
         },
+        basedir: "./src",
         pretty: true
     };
     return gulp.src(['src/pug/**/*.pug', '!src/pug/includes/*.pug', '!src/pug/locale/*'])

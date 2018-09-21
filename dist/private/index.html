@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <title>Apla - Public blockchain platform for building digital ecosystems</title>
+  <base href="/">
+  <meta name="keywords" content="">
+  <meta name="description" content="Public blockchain platform for building digital ecosystems">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
+  <link rel="manifest" href="/favicons/manifest.json">
+  <link rel="mask-icon" href="/favicons/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="/favicons/favicon.ico?v=123421">
+  <meta name="msapplication-config" content="/favicons/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+  <link href="/css/style.min.css?1537523426" rel="stylesheet">
+  <script>var curr_lang_code = "en";
+    var lang_codes = {};lang_codes["en"] = "en";lang_codes["de"] = "de";lang_codes["fr"] = "fr";lang_codes["hr"] = "hr";lang_codes["ru"] = "ru";lang_codes["zh"] = "zh";lang_codes["ko"] = "ko";lang_codes["ja"] = "ja";lang_codes["th"] = "th";lang_codes["es"] = "es";lang_codes["pt"] = "pt";
+  </script>
+</head>
+<body class="en">
+  <app-header><a class="logo" href="/" data-click="isActive = false"></a><a name="top"></a>
+    <section>
+      <nav><a href="/private/business">For Business</a><a href="/private/government">For Government</a><a href="/private/developers">For Developers</a><a href="/private/cases">Use Cases</a><a href="/private/about">About Us</a><a href="https://blog.apla.io/" target="_blank">Blog</a>
+      </nav>
+      <!--button.btn.openpopupform(type='button')!= $i18n.GETSTARTED--><a class="btn" href="/public_network">Public Network</a>
+      <div class="language">
+        <button mat-icon-button="MenuStatus() ? 'active' : ''">!= $i18n.LANGUAGE<span class="arrow arrow-down"><em></em></span></button>
+      </div>
+    </section>
+    <div class="menu" data-click="ShowMenu()">
+      <div class="patty"></div>
+    </div>
+  </app-header>
+  <app-home>
+    <div class="screen-main private">
+      <div class="container">
+        <h1>We are Apla</h1>
+        <h4>Simple and Compliant Blockchain Solutions for Building Government & Business Ecosystems.</h4>
+      </div>
+    </div>
+    <!--.video-section
+    .video-wrapper
+        video-js#singleVideo(preload='no' crossorigin='' controls=true poster='/assets/images/video-bkg.svg' data-setup='{"fluid": true }')
+            source(src='/assets/intro.mp4')
+    
+    -->
+    <div class="screen-6">
+      <div class="container">
+        <h2>Apla Key Features</h2>
+        <div class="img"><img class="lazy" data-src="/assets/images/devices-3.png" alt=""></div>
+        <section>
+          <div class="item"><img class="icon" src="/assets/icons/icon-lock.svg">
+            <h4>Smart laws</h4>
+            <p>A Governing Protocol over the application Ecosystem.</p>
+          </div>
+          <div class="item"><img class="icon" src="/assets/icons/icon-access-rights.svg">
+            <h4>Flexible access rights</h4>
+            <p>Multi-level system for access rights management to data, interfaces and smart contracts, allowing for full control of how the applications work.</p>
+          </div>
+          <div class="item"><img class="icon" src="/assets/icons/icon-rad.svg">
+            <h4>Rapid application development</h4>
+            <p>Applications can be created and implemented within a couple of weeks.</p>
+          </div>
+          <div class="item"><img class="icon" src="/assets/icons/icon-lightning.svg">
+            <h4>Fast transactions</h4>
+            <p>A maximum output capacity and potential boost to performance speed of up to 10,000 times, which corresponds to fintech and IT industry standards transaction speed.</p>
+          </div>
+          <div class="item"><img class="icon" src="/assets/icons/icon-user-friendly.svg">
+            <h4>User-friendly</h4>
+            <p>Apla architecture is built around the concept of simplicity. The clients’ needs are also adapted to depending on how different devices work, taking into account individual characteristics and requirements.</p>
+          </div>
+          <div class="item"><img class="icon" src="/assets/icons/icon-own-blockchain.svg">
+            <h4>Create Ecosystems not just a stand-alone application</h4>
+            <p>Ecosystems application framework truly unlocks the industrial 4.0 potentials. Build application ecosystem with Apla not just an independent application.</p>
+          </div>
+        </section>
+      </div>
+    </div>
+    <div class="screen-blockchain">
+      <div class="container">
+        <h2>Blockchain as the upcoming Technology infrastructure</h2><img class="main" src="/assets/images/scheme_3.jpg">
+        <section>
+          <h4>Blockchain is the Inevitable Technology Infrastructure of the near future, embrace it!</h4>
+          <ul>
+            <li>Secure business & application network</li>
+            <li>Transparency of activities for all stakeholders</li>
+            <li>Immutability and Finality of data recorded to the blockchain</li>
+            <li>Automation of activities and operations using Smart Contracts</li>
+            <li>Machine to Machine Infrastructure</li>
+          </ul>
+        </section>
+        <!--section
+        article
+            span
+            h4!= $i18n.MAIN.BLOCKCHAIN[1].TITLE
+            p!= $i18n.MAIN.BLOCKCHAIN[1].TEXT
+        article
+            span
+            h4!= $i18n.MAIN.BLOCKCHAIN[2].TITLE
+            p!= $i18n.MAIN.BLOCKCHAIN[2].TEXT
+        article
+            span
+            h4!= $i18n.MAIN.BLOCKCHAIN[3].TITLE
+            p!= $i18n.MAIN.BLOCKCHAIN[3].TEXT
+        -->
+      </div>
+    </div>
+    <!--.screen-clients
+    .container
+        h2!= $i18n.MAIN.CLIENTS.TITLE
+        section
+    
+            //h3 Governments
+            each item in $i18n.CLIENTS.GOV
+                +clients-gov-list-item(item)
+            //div
+                h3 Businesses
+                each item in $i18n.CLIENTS.BUSINESS
+                    +clients-business-list-item(item)
+    -->
+    <div class="screen-4" id="screen4">
+      <div class="container" id="container4">
+        <h2>Get the most out of blockchain</h2>
+        <p>We collaborate with clients to identify areas of growth, match business processes with technology features, carefully select use cases for digital transformation, educate client teams, execute blockchain solutions and provide proactive support:</p>
+        <div class="sheme">
+          <div>
+            <article class="step step-1">
+              <h4>Сonsultancy</h4>
+              <p>Helping you define potential areas which can be optimized</p>
+            </article>
+            <article class="step step-2">
+              <h4>Research & Development</h4>
+              <p>Matching your needs with the right technology stack</p>
+            </article>
+            <article class="step step-3">
+              <h4>Hackathons</h4>
+              <p>Validating initial ideas</p>
+            </article>
+          </div><span><img class="step-0" src="/assets/apla.svg"><img class="step-1" src="/assets/images/b-w-1.svg"><img class="step-2" src="/assets/images/b-w-2.svg"><img class="step-3" src="/assets/images/b-w-3.svg"><img class="step-4" src="/assets/images/b-w-4.svg"><img class="step-5" src="/assets/images/b-w-5.svg"><img class="step-6" src="/assets/images/b-w-6.svg"></span>
+          <div>
+            <article class="step step-4">
+              <h4>Development</h4>
+              <p>Creating a customized, user-friendly blockchain solution for client needs</p>
+            </article>
+            <article class="step step-5">
+              <h4>Training</h4>
+              <p>Providing the client’s team with in-depth understanding of the solution</p>
+            </article>
+            <article class="step step-6">
+              <h4>Support</h4>
+              <p>Maintaining a healthy blockchain ecosystem, coupled with constant R&D</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="screen-5">
+      <div class="container">
+        <article href="/government"><small>Apla</small>
+          <h3><a href="/government">For Government<span class="arrow arrow-right"><em></em></span></a></h3>
+          <p>Government services of the future will be digital. e-Government on the blockchain increases a country’s Foreign Direct Investment rating, leading to a rise in citizens’ feeling of wellbeing.</p>
+        </article>
+        <article href="/business"><small>Apla</small>
+          <h3><a href="/business">For Business<span class="arrow arrow-right"><em></em></span></a></h3>
+          <p>In competitive markets with complex business processes, the winner is the one who is able to inspire trust through transparency amongst their partners.</p>
+        </article>
+      </div>
+    </div>
+    <div class="screen-stories">
+      <div class="container">
+        <h2>Cases</h2><a href="/private/cases/land-registry">
+          <h3>We developed a land registry system in India</h3><span class="btn">read the case</span><img class="lazy" data-src="/assets/images/cases/land-registry-b.jpg" alt=""/></a><a href="/private/cases/vehicle-registry">
+          <h3>Improved vehicle e-registry</h3><span class="btn">read the case</span><img class="lazy" data-src="/assets/images/cases/vehicle-registry-b.jpg" alt=""/></a><a href="/private/cases/supply-chain">
+          <h3>Refined supply <br> chain</h3><span class="btn">read the case</span><img class="lazy" data-src="/assets/images/cases/supply-chain-b.jpg" alt=""/></a>
+        <div class="btn-wrapper"><a class="btn" href="/cases">READ MORE CASES</a></div>
+      </div>
+    </div>
+    <div class="screen-8 lazy" data-src="/assets/images/partner-screen.jpg">
+      <div class="container">
+        <h2>Trusted enterprise partner</h2>
+        <!--p!= $i18n.MAIN.ENTERPRISE.TEXT-->
+        <button class="btn openpopupform">Become a partner</button>
+      </div>
+    </div>
+    <div class="screen-9">
+      <div class="container">
+        <h2>What our clients say?</h2>
+        <div class="swiper-container clients-say">
+          <div class="swiper-wrapper">
+            <article class="swiper-slide">
+              <div class="thumb mask mask-white"><img src="/assets/images/clients/niyi.jpg" alt=""></div>
+              <div>
+                <h4>Niyi Ayoola-Daniels</h4><small>President<br> International Institute for Petroleum, Energy Law and Policy, Nigeria</small>
+                <p>As a solution designed specifically for government, Apla offers unparalleled scalability and strategic implementation across different verticals. Identifying key government sectors and focusing on high-impact areas like education, the Apla team brings to the table an understanding of economic opportunities that blockchain adoption can unlock globally.</p>
+              </div>
+            </article>
+            <article class="swiper-slide">
+              <div class="thumb mask mask-white"><img src="/assets/images/clients/wangila.jpg" alt=""></div>
+              <div>
+                <h4>Dr. Fernando Wangila</h4><small>Deputy Director (Head of ICT and Innovation)<br> National Transport and Safety Authority, Kenya</small>
+                <p>Apla is a unique platform with rapid application development capabilities that allow organizations to adopt blockchain in record time. What&apos;s interesting is the transition from government applications to a government ecosystem model.</p>
+              </div>
+            </article>
+          </div>
+          <div class="swiper-pagination"></div>
+          <button class="swiper-button-prev" type="button"><span class="arrow arrow-left arrow-lg"><em></em></span></button>
+          <button class="swiper-button-next" type="button"><span class="arrow arrow-right arrow-lg"><em></em></span></button>
+        </div>
+      </div>
+    </div>
+    <!--.screen-team
+    .container
+        h2 Top-management
+        +team-list('TOPMANAGMENT')
+        h2 Advisory board
+        +team-list('ADVISORS')
+    -->
+    <div class="screen-news">
+      <div class="container">
+        <h2>Latest news</h2>
+        <section>
+          <article><a href="https://blog.apla.io/blockchain-ecosystem-what-is-it-about-3abefc8153d9" target="_blank"><img src="/assets/images/news/2.png" alt=""/>
+              <h4><span>Blockchain Ecosystem: What is it About?</span><span class="arrow arrow-right"><em></em></span></h4>
+              <p>As the spark of blockchain revolution is engulfing the world, the technology is becoming more sophisticated as the day goes by. Blockchain engineers the world over are putting thought into turning their product into an engineering marvel and such ideas give rise to buzzwords of the day. Getting a hold on these buzzwords becomes imperative for C-level execs as well as investors so that the knowledge remains perceptible and nothing becomes arcane.</p></a></article>
+          <article><a href="https://blog.apla.io/five-stages-of-understanding-blockchain-d6774ff016d1" target="_blank"><img src="/assets/images/news/3.png" alt=""/>
+              <h4><span>Five stages of understanding blockchain</span><span class="arrow arrow-right"><em></em></span></h4>
+              <p>Blockchain can be a tricky subject, but market players are slowly learning about how they can apply this new phenomenon to their business processes. Learning happens in stages; you can’t become a genius overnight. The same is with understanding blockchain. There are a myriad articles out there on the internet about blockchain, all with their own different stance and all based on the knowledge that each writer has when putting pen to paper (more like: fingers to keyboard). However, who really knows what in this wild west of blockchain propaganda?</p></a></article>
+        </section>
+      </div>
+    </div>
+    <app-banner>
+      <div class="banner lazy" data-src="/assets/images/banner-2.jpg">
+        <div class="container">
+          <h1>Reach outstanding productivity</h1>
+          <p>See how Apla could help to make you organization work more efficiently.</p>
+          <button class="btn openpopupform">GET STARTED</button>
+        </div>
+      </div>
+    </app-banner>
+    <app-newsletter>
+      <div class="container">
+        <div>
+          <h4>Receive our newsletter</h4>
+          <p>Get exclusive content delivered right into your inbox.</p><a class="privacy" href="/download/Privacy_and_Cookies_Policy.pdf">Privacy policy</a>
+        </div>
+        <form id="subscribeForm" novalidate="">
+          <div class="form-group"><small class="form-control-feedback"><span class="required">E-mail is required.</span><span class="incorrect">Incorrect e-mail address!</span></small>
+            <input class="form-control" placeholder="E-mail" type="email" name="email" required (ngmodelchange)="dublicate = false"><span class="form-control-focus"></span>
+          </div>
+          <button class="btn" type="submit" disabled (click)="subscribe()">SUBSCRIBE</button>
+          <div class="form-process">Please wait...
+          </div>
+          <div class="form-success">Thank you!
+          </div>
+          <div class="form-duplicate"><small>You are already subscribed to newsletter!</small>
+          </div>
+          <div class="form-error">Error... <small>Please try again later</small>
+          </div>
+        </form>
+      </div>
+    </app-newsletter>
+    <app-popupform>
+      <div class="popup-form-wrapper">
+        <div class="backdrop"></div>
+        <div class="popup-form">
+          <form id="getstarted" novalidate="">
+            <div class="head">
+              <h4>Tell us about your needs</h4>
+              <p>and we will come up with a personalized solution</p>
+            </div>
+            <div class="form-body">
+              <div class="form-group"><small class="form-control-feedback"><span class="required">Name is required.</span></small>
+                <input class="form-control" placeholder="Your name *" type="text" name="name" required><span class="form-control-focus"></span>
+              </div>
+              <div class="form-group"><small class="form-control-feedback"><span class="required">Email is required.</span><span class="incorrect">Incorrect email address!</span></small>
+                <input class="form-control email-input" placeholder="Your email *" type="email" name="email" required pattern="\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+"><span class="form-control-focus"></span>
+              </div>
+              <div class="form-group"><small class="form-control-feedback"><span class="required">Message is required.</span></small>
+                <textarea class="form-control" rows="5" placeholder="Your message *" name="message" required></textarea><span class="form-control-focus"></span>
+              </div>
+              <button class="btn" type="submit" disabled>Send message</button>
+            </div>
+            <div class="form-process">Please wait...
+            </div>
+            <div class="form-success">Thank you!
+            </div>
+            <div class="form-duplicate">
+            </div>
+            <div class="form-error">Error... <small>Please try again later</small>
+            </div>
+          </form>
+        </div>
+      </div>
+    </app-popupform>
+    <app-footer>
+      <div class="screen-map" *ngif="map">
+        <div class="container">
+          <h2>Contact us</h2>
+          <agm-map [latitude]="false">
+            <!--agm-marker(*ngfor='let m of markers; let i = index' (markerclick)='clickedMarker(m.label, i)' [latitude]='m.lat' [longitude]='m.lng' [iconurl]='m.iconUrl' [markerdraggable]='m.draggable')
+            agm-info-window([maxwidth]='150')
+                strong {{ m.info }}
+            -->
+          </agm-map>
+        </div>
+      </div>
+      <div class="container">
+        <nav><a class="logo" href="/"></a>
+          <p><small><a href="/private/business">For Business</a></small></p>
+          <p><small><a href="/private/government">For Government</a></small></p>
+          <p><small><a href="/private/developers">For Developers</a></small></p>
+          <p><small><a href="/private/cases">Use Cases</a></small></p>
+          <p><small><a href="/private/about">About Us</a></small></p>
+          <p><small><a href="https://blog.apla.io/" target="_blank">Blog</a></small></p>
+        </nav>
+        <section>
+          <article>
+            <h5>Dubai</h5><small>TechnoHub 1, Dubai Silicon<br>Oasis Authority, Dubai<br><a href="mailto:dubai@apla.io">dubai@apla.io</a></small>
+          </article>
+          <article>
+            <h5>Luxembourg</h5><small>20 rue de Bitbourg, L1273<br>Luxembourg<br><a href="mailto:luxembourg@apla.io">luxembourg@apla.io</a></small>
+          </article>
+          <article>
+            <h5>Moscow</h5><small>Mikluho-Maklaya 34, Office 76,<br>117279, Moscow, Russia<br><a href="mailto:moscow@apla.io">moscow@apla.io</a></small>
+          </article>
+        </section>
+        <footer>
+          <div class="soc"><a class="btn-icon btn-icon-black" href="https://www.facebook.com/AplaBlockchain/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a><a class="btn-icon btn-icon-black" href="https://twitter.com/AplaBlockchain" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a><a class="btn-icon btn-icon-black" href="https://blog.apla.io/" target="_blank"><i class="fa fa-medium" aria-hidden="true"></i></a><a class="btn-icon btn-icon-black" href="https://t.me/apla_project" target="_blank"><i class="fa fa-paper-plane" aria-hidden="true"></i></a><a class="btn-icon btn-icon-black" href="https://github.com/AplaProject/go-apla/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a><a class="btn-icon btn-icon-black" href="https://www.youtube.com/channel/UCLAccwf_YvWGnxSIVgGtl7g" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a><a class="btn-icon btn-icon-black" href="https://www.linkedin.com/company/apla-blockchain/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+          </div><small>&copy; 2018 Apla, All Rights Reserved.</small>
+        </footer>
+      </div>
+    </app-footer>
+    <!--script(src="//code.jquery.com/jquery-1.11.2.min.js")-->
+    <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="/js/main.bundle.js"></script>
+  </app-home>
+</body>

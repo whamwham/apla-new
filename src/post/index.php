@@ -6,7 +6,7 @@ require './phpmailer/PHPMailerAutoload.php';
 
 
 $htmlMessage = "<div style='padding: 10%;font-size: 2em; line-height:2em; text-align:center;font-family: Roboto, Helvetica, Arial, sans-serif;color: #333;'>
-        <div style='text-align:center; background-color:#333;padding:15px;line-height:1em;'><img src='https://".$_SERVER['HTTP_HOST']."/assets/images/logo-white.svg' style='max-width:100%;'></div>
+        <div style='text-align:center;padding:15px;line-height:1em;'><img src='http://".$_SERVER['HTTP_HOST']."/assets/images/logo_black.png' style='max-width:50%;'></div>
         <div style='text-align:center; padding:3pt; text-transform:uppercase;'>Information request from website</div>
 
         <div style='text-align:center; padding:10%;font-size:smaller;line-height:2em;'>

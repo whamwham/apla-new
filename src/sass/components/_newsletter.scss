@@ -16,6 +16,13 @@
 			}
 		}
 	}
+	.privacy {
+		margin-top: 24px;
+		font-size: 14px;
+		font-weight: bold;
+      	text-decoration: underline;
+		color: #3AC28B;
+	}
 	h4 {
 		margin-bottom: 10px;
 		@include max($btablet) {

@@ -1,5 +1,8 @@
 mixin nav-menu-item( item )
-    a(href!=item.href target!=item.target)!= item.title
+    if(item.href)
+        a(href!=item.href target!=item.target)!= item.title
+    else if (item.id)
+        a.page-scroll(href!="#" + item.id)!= item.title
 
 mixin side-menu-item( item )
     li
@@ -7,7 +10,6 @@ mixin side-menu-item( item )
             a(href!=item.href target!=item.target)!= item.title
         else if (item.id)
             a.page-scroll(href!="#"+item.id)!= item.title
-
 
 mixin developers-learn-about-item( item )
     if(item.href)
@@ -38,7 +40,12 @@ mixin developers-map-item( item, idx )
 mixin footer-menu-item( item )
     p
         small
-            a(href!=item.href target!=item.target)!= item.title
+            if(item.href)
+                a(href!=item.href target!=item.target)!= item.title
+            else if (item.id)
+                a.page-scroll(href!="#" + item.id)!= item.title
+
+
 
 
 mixin footer-socials-item( item )
@@ -80,7 +87,6 @@ mixin team-item( item )
             small!=item.POSITION
             .descr!=item.SHORT
         .descr-ov!=item.DESCR
-
 
 
 

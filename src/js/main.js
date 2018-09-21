@@ -232,7 +232,7 @@ window.anim = {};
 
 // ******************************* Animation 2 handler *************************/
 
-    if ($("app-about").length) {
+    if ($("app-about, app-home-new").length) {
         window.anim = {
             currPos: 0,
             currDir: 0, // 0 - ahead, 1 - back
@@ -341,19 +341,32 @@ window.anim = {};
     };
 
 
-    $("#getstartedf input").on("input", function(event){
+    $("body").on("input", "#getstarted .form-control", function(event){
         if(event.target.validity.valid) $(this).parent().children(".form-control-feedback").children().removeClass("active");
         else {
             if(event.target.validity.valueMissing) $(this).parent().children(".form-control-feedback").children(".required").addClass("active");
             else if(event.target.validity.patternMismatch) $(this).parent().children(".form-control-feedback").children(".incorrect").addClass("active");
         }
         event.preventDefault();
-        if( $.checkFormValidity("#getstarted")) $("#getstartedf button[type=submit]").prop("disabled", false);
-        else $("#getstartedf button[type=submit]").prop("disabled", true);
+        if( $.checkFormValidity("#getstarted")) $("#getstarted button[type=submit]").prop("disabled", false);
+        else $("#getstarted button[type=submit]").prop("disabled", true);
     });
 
 
-    $("#getstartedf").on('submit', function (e) {
+
+    $("body").on("input", "#subscribeForm input", function(event){
+        if(event.target.validity.valid) $(this).parent().children(".form-control-feedback").children().removeClass("active");
+        else {
+            if(event.target.validity.valueMissing) $(this).parent().children(".form-control-feedback").children(".required").addClass("active");
+            else if(event.target.validity.patternMismatch) $(this).parent().children(".form-control-feedback").children(".incorrect").addClass("active");
+        }
+        event.preventDefault();
+        if( $.checkFormValidity("#subscribeForm")) $("#subscribeForm button[type=submit]").prop("disabled", false);
+        else $("#subscribeForm button[type=submit]").prop("disabled", true);
+    });
+
+
+    $("body").on('submit', "#getstarted", function (e) {
         var formId = e.currentTarget.id;
         if (e.isDefaultPrevented()) {
             // handle the invalid form...
@@ -366,20 +379,19 @@ window.anim = {};
             //if (typeof(ga) !== 'undefined') ga('send', 'event', 'form', 'submit', 'email');
             //if (typeof(fbq) !== 'undefined') fbq('track', 'InitiateCheckout');
 
-            $("#" + formId + " .form-body, #" + formId + " .form-group, #" + formId + " .button").fadeOut(0);
+            $("#" + formId + " .form-body, #" + formId + " .form-group, #" + formId + " .button, #" + formId + " .head").fadeOut(0);
             $("#" + formId + " .form-process").addClass("show");
 
             $.ajax({
                 url: "/post/",
                 method: "POST",
-                dataType:"text",
+                dataType:"json",
                 data: dataOut,
 
                 success: function (data, textStatus, jqXHR) {
                     $("#" + formId + " .form-process").removeClass("show");
-                    if(data==='OK') $("#" + formId + " .form-success").addClass("show");
-                    else if(data==='DUP') $("#" + formId + " .form-duplicate").addClass("show");
-                    else if(data==='ERROR') $("#" + formId + " .form-error").addClass("show");
+                    if(data.success) $("#" + formId + " .form-success").addClass("show");
+                    else $("#" + formId + " .form-error").addClass("show");
                 },
                 error: function (jqXHR, textStatus, errorThrown) {
                     $("#" + formId + " .form-process").removeClass("show");
@@ -391,7 +403,7 @@ window.anim = {};
     });
 
 
-    $("#subscribeForm, #subscribeFormAlt").on('submit', function (e) {
+    $("body").on('submit', "#subscribeForm, #subscribeFormAlt", function (e) {
         var formId = e.currentTarget.id;
         if (e.isDefaultPrevented()) {
             // handle the invalid form...

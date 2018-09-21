@@ -15,7 +15,7 @@
   <link rel="shortcut icon" href="/favicons/favicon.ico?v=123421">
   <meta name="msapplication-config" content="/favicons/browserconfig.xml">
   <meta name="theme-color" content="#ffffff">
-  <link href="/css/style.min.css?1537283536" rel="stylesheet">
+  <link href="/css/style.min.css?1537523425" rel="stylesheet">
   <script>var curr_lang_code = "en";
     var lang_codes = {};lang_codes["en"] = "en";lang_codes["de"] = "de";lang_codes["fr"] = "fr";lang_codes["hr"] = "hr";lang_codes["ru"] = "ru";lang_codes["zh"] = "zh";lang_codes["ko"] = "ko";lang_codes["ja"] = "ja";lang_codes["th"] = "th";lang_codes["es"] = "es";lang_codes["pt"] = "pt";
   </script>
@@ -23,9 +23,10 @@
 <body class="en">
   <app-header><a class="logo" href="/" data-click="isActive = false"></a><a name="top"></a>
     <section>
-      <nav><a href="/business">For Business</a><a href="/government">For Government</a><a href="/developers">For Developers</a><a href="/cases">Use Cases</a><a href="/about">About Us</a><a href="https://blog.apla.io/" target="_blank">Blog</a>
+      <nav><a href="/public_network">Public network</a><a href="/private">Private solutions</a><a href="#mission_container">Our mission</a><a href="./#team">Team</a><a href="https://blog.apla.io/" target="_blank">Blog</a>
       </nav>
-      <!--button.btn.openpopupform(type='button')!= $i18n.GETSTARTED--><a class="btn" href="/public_network">Public Network</a>
+      <!--button.btn.openpopupform(type='button')!= $i18n.GETSTARTED-->
+      <!--a.btn(href="/public_network") Public Network-->
       <div class="language">
         <button mat-icon-button="MenuStatus() ? 'active' : ''">!= $i18n.LANGUAGE<span class="arrow arrow-down"><em></em></span></button>
       </div>
@@ -34,190 +35,202 @@
       <div class="patty"></div>
     </div>
   </app-header>
-  <app-home>
+  <app-home-new>
     <div class="screen-main">
       <div class="container">
-        <h1>We are Apla</h1>
-        <h4>Simple and Compliant Blockchain Platform for Building Government & Business Ecosystems.</h4>
+        <h1>Apla creates a future</h1>
+        <h4>Blockchain Platform for accelerating technological progress</h4>
       </div>
     </div>
-    <!--.video-section
-    .video-wrapper
-        video-js#singleVideo(preload='no' crossorigin='' controls=true poster='/assets/images/video-bkg.svg' data-setup='{"fluid": true }')
-            source(src='/assets/intro.mp4')
-    
-    -->
-    <div class="screen-6">
+    <div class="screen-experience">
       <div class="container">
-        <h2>Apla Key Features</h2>
-        <div class="img"><img class="lazy" data-src="/assets/images/devices-3.png" alt=""></div>
         <section>
-          <div class="item"><img class="icon" src="/assets/icons/icon-lock.svg">
-            <h4>Smart laws</h4>
-            <p>A Governing Protocol over the application Ecosystem.</p>
-          </div>
-          <div class="item"><img class="icon" src="/assets/icons/icon-access-rights.svg">
-            <h4>Flexible access rights</h4>
-            <p>Multi-level system for access rights management to data, interfaces and smart contracts, allowing for full control of how the applications work.</p>
-          </div>
-          <div class="item"><img class="icon" src="/assets/icons/icon-rad.svg">
-            <h4>Rapid application development</h4>
-            <p>Applications can be created and implemented within a couple of weeks.</p>
-          </div>
-          <div class="item"><img class="icon" src="/assets/icons/icon-lightning.svg">
-            <h4>Fast transactions</h4>
-            <p>A maximum output capacity and potential boost to performance speed of up to 10,000 times, which corresponds to fintech and IT industry standards transaction speed.</p>
-          </div>
-          <div class="item"><img class="icon" src="/assets/icons/icon-user-friendly.svg">
-            <h4>User-friendly</h4>
-            <p>Apla architecture is built around the concept of simplicity. The clients’ needs are also adapted to depending on how different devices work, taking into account individual characteristics and requirements.</p>
-          </div>
-          <div class="item"><img class="icon" src="/assets/icons/icon-own-blockchain.svg">
-            <h4>Create Ecosystems not just a stand-alone application</h4>
-            <p>Ecosystems application framework truly unlocks the industrial 4.0 potentials. Build application ecosystem with Apla not just an independent application.</p>
-          </div>
+          <article>
+            <h1>7</h1>
+            <p>years of blockchain development</p>
+          </article>
+          <article>
+            <h1>45</h1>
+            <p>people are contributing to our mission</p>
+          </article>
+          <article>
+            <h1>20</h1>
+            <p>successful proof-of-concepts</p>
+          </article>
         </section>
-      </div>
-    </div>
-    <div class="screen-blockchain">
-      <div class="container">
-        <h2>Blockchain as the upcoming Technology infrastructure</h2><img class="main" src="/assets/images/scheme_3.jpg">
-        <section>
-          <h4>Blockchain is the Inevitable Technology Infrastructure of the near future, embrace it!</h4>
-          <ul>
-            <li>Secure business & application network</li>
-            <li>Transparency of activities for all stakeholders</li>
-            <li>Immutability and Finality of data recorded to the blockchain</li>
-            <li>Automation of activities and operations using Smart Contracts</li>
-            <li>Machine to Machine Infrastructure</li>
-          </ul>
-        </section>
-        <!--section
-        article
-            span
-            h4!= $i18n.MAIN.BLOCKCHAIN[1].TITLE
-            p!= $i18n.MAIN.BLOCKCHAIN[1].TEXT
-        article
-            span
-            h4!= $i18n.MAIN.BLOCKCHAIN[2].TITLE
-            p!= $i18n.MAIN.BLOCKCHAIN[2].TEXT
-        article
-            span
-            h4!= $i18n.MAIN.BLOCKCHAIN[3].TITLE
-            p!= $i18n.MAIN.BLOCKCHAIN[3].TEXT
-        -->
-      </div>
-    </div>
-    <!--.screen-clients
-    .container
-        h2!= $i18n.MAIN.CLIENTS.TITLE
-        section
-    
-            //h3 Governments
-            each item in $i18n.CLIENTS.GOV
-                +clients-gov-list-item(item)
-            //div
-                h3 Businesses
-                each item in $i18n.CLIENTS.BUSINESS
-                    +clients-business-list-item(item)
-    -->
-    <div class="screen-4" id="screen4">
-      <div class="container" id="container4">
-        <h2>Get the most out of blockchain</h2>
-        <p>We collaborate with clients to identify areas of growth, match business processes with technology features, carefully select use cases for digital transformation, educate client teams, execute blockchain solutions and provide proactive support:</p>
-        <div class="sheme">
-          <div>
-            <article class="step step-1">
-              <h4>Сonsultancy</h4>
-              <p>Helping you define potential areas which can be optimized</p>
-            </article>
-            <article class="step step-2">
-              <h4>Research & Development</h4>
-              <p>Matching your needs with the right technology stack</p>
-            </article>
-            <article class="step step-3">
-              <h4>Hackathons</h4>
-              <p>Validating initial ideas</p>
-            </article>
-          </div><span><img class="step-0" src="/assets/apla.svg"><img class="step-1" src="/assets/images/b-w-1.svg"><img class="step-2" src="/assets/images/b-w-2.svg"><img class="step-3" src="/assets/images/b-w-3.svg"><img class="step-4" src="/assets/images/b-w-4.svg"><img class="step-5" src="/assets/images/b-w-5.svg"><img class="step-6" src="/assets/images/b-w-6.svg"></span>
-          <div>
-            <article class="step step-4">
-              <h4>Development</h4>
-              <p>Creating a customized, user-friendly blockchain solution for client needs</p>
-            </article>
-            <article class="step step-5">
-              <h4>Training</h4>
-              <p>Providing the client’s team with in-depth understanding of the solution</p>
-            </article>
-            <article class="step step-6">
-              <h4>Support</h4>
-              <p>Maintaining a healthy blockchain ecosystem, coupled with constant R&D</p>
-            </article>
-          </div>
-        </div>
       </div>
     </div>
     <div class="screen-5">
       <div class="container">
-        <article href="/government"><small>Apla</small>
-          <h3><a href="/government">For Government<span class="arrow arrow-right"><em></em></span></a></h3>
-          <p>Government services of the future will be digital. e-Government on the blockchain increases a country’s Foreign Direct Investment rating, leading to a rise in citizens’ feeling of wellbeing.</p>
+        <article href="/public_network"><small>Apla</small>
+          <h3><a href="/public_network">Public network<span class="arrow arrow-right"><em></em></span></a></h3>
+          <p>Simple and compliant blockchain platform</p>
         </article>
-        <article href="/business"><small>Apla</small>
-          <h3><a href="/business">For Business<span class="arrow arrow-right"><em></em></span></a></h3>
+        <article href="/private"><small>Apla</small>
+          <h3><a href="/private">Private solutions<span class="arrow arrow-right"><em></em></span></a></h3>
           <p>In competitive markets with complex business processes, the winner is the one who is able to inspire trust through transparency amongst their partners.</p>
         </article>
       </div>
     </div>
-    <div class="screen-stories">
-      <div class="container">
-        <h2>Cases</h2><a href="/cases/land-registry">
-          <h3>We developed a land registry system in India</h3><span class="btn">read the case</span><img class="lazy" data-src="/assets/images/cases/land-registry-b.jpg" alt=""/></a><a href="/cases/vehicle-registry">
-          <h3>Improved vehicle e-registry</h3><span class="btn">read the case</span><img class="lazy" data-src="/assets/images/cases/vehicle-registry-b.jpg" alt=""/></a><a href="/cases/supply-chain">
-          <h3>Refined supply <br> chain</h3><span class="btn">read the case</span><img class="lazy" data-src="/assets/images/cases/supply-chain-b.jpg" alt=""/></a>
-        <div class="btn-wrapper"><a class="btn" href="/cases">READ MORE CASES</a></div>
+    <div class="screen-mission" id="mission_container">
+      <div class="overlay"></div>
+      <div class="container" id="mission_object">
+        <article>
+          <h2>Our mission</h2>
+          <p>&#x9;&#x9;&#x9;&#x9;Smart implementation of blockchain redefines the trust we place in each other, making interactions more transparent, fair and reliable. This is why we will impact on the World Happiness Index, giving everyone access to knowledge, integrating developing countries into the global economy and<strong>&nbsp; bringing joy to people&rsquo;s lives</strong>.</p>
+        </article><img class="img-1 lazy" data-src="/assets/images/about/mission-1.png" alt=""><img class="img-2 lazy" data-src="/assets/images/about/mission-2.png" alt=""><img class="img-3" src="/assets/images/about/mission-3.png" alt=""><img class="img-4" src="/assets/images/about/mission-4.png" alt="">
       </div>
     </div>
-    <div class="screen-8 lazy" data-src="/assets/images/partner-screen.jpg">
+    <div class="screen-team" id="team">
       <div class="container">
-        <h2>Trusted enterprise partner</h2>
-        <!--p!= $i18n.MAIN.ENTERPRISE.TEXT-->
-        <button class="btn openpopupform">Become a partner</button>
-      </div>
-    </div>
-    <div class="screen-9">
-      <div class="container">
-        <h2>What our clients say?</h2>
-        <div class="swiper-container clients-say">
-          <div class="swiper-wrapper">
-            <article class="swiper-slide">
-              <div class="thumb mask mask-white"><img src="/assets/images/clients/niyi.jpg" alt=""></div>
-              <div>
-                <h4>Niyi Ayoola-Daniels</h4><small>President<br> International Institute for Petroleum, Energy Law and Policy, Nigeria</small>
-                <p>As a solution designed specifically for government, Apla offers unparalleled scalability and strategic implementation across different verticals. Identifying key government sectors and focusing on high-impact areas like education, the Apla team brings to the table an understanding of economic opportunities that blockchain adoption can unlock globally.</p>
+        <h2>Leadership</h2>
+        <p>Leadership in innovations makes an impact on a global scale. Multicultural, multidisciplinary and diverse top-management allows Apla to speak in one language with worldwide leaders from prime ministers to CIOs.<br><br>Our leaders eat last. Creating a workplace of the future: bureaucracy free, with a greater purpose, based on constant learning and individuality at its core.</p>
+        <app-team>
+          <section class="team-rotator">
+            <div class="swiper-container team-style">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide v2">
+                  <article>
+                    <div class="thumb mask mask-black2"><img src="/assets/images/team/os.png" alt=""/></div>
+                    <h4>Oleg <br>Strelenko</h4><small>Founder/CTO</small>
+                    <div class="descr">Oleg is an expert in computer sciences with more than 10 years of professional experience in programming and managing IT projects.</div>
+                  </article>
+                  <div class="descr-ov">Oleg is an expert in computer sciences with more than 10 years of professional experience in programming and managing IT projects. He was leading the team to develop the new coding languages for the blockchain platform called «Symvolio» & «Ptotypo». The team of Apla programmers under the Oleg’s leadership is ready to launch the original blockchain platform after 6 years of hard work. Oleg studied at the Saint - Petersburg State Marine Technical University. He is known in the blockchain community as one of the leading IT professionals.</div>
+                </div>
+                <div class="swiper-slide v2">
+                  <article>
+                    <div class="thumb mask mask-black2"><img src="/assets/images/team/vb.png" alt=""/></div>
+                    <h4>Vitaly <br>Bondar</h4><small>Chief Executive Officer/Legal</small>
+                    <div class="descr">Vitaly specializes in e-commerce and private international law matters.</div>
+                  </article>
+                  <div class="descr-ov">Vitaly specializes in e-commerce and private international law matters. Over the past 15 years, he has held senior positions at large international law firms and industrial companies with a focus on cross-border mergers and acquisitions, and transaction structuring. Vitaly holds a postgraduate diploma (L.L.M) in International Banking and Commercial Law in 2001 from Queen Mary University in London.</div>
+                </div>
+                <div class="swiper-slide v2">
+                  <article>
+                    <div class="thumb mask mask-black2"><img src="/assets/images/team/jpg.png" alt=""/></div>
+                    <h4>Jesus<br/>Pena-Garcia</h4><small>COO</small>
+                    <div class="descr">Jesus is a blockchain enthusiast, serial entrepreneur and cybersecurity expert with more than 10 years of experience in the IT field.</div>
+                  </article>
+                  <div class="descr-ov">Jesus is a blockchain enthusiast, serial entrepreneur and cybersecurity expert with more than 10 years of experience in the IT field. He is heading the Grant Thornton Technology HUB in Luxembourg and Founder/CEO of Bitvalley SARL. Jesus worked for the Spanish Ministry of Defence and homeland security as a cybersecurity expert in the Centro Nacional de Inteligencia (Spanish National Intelligence Service). He holds a BSC in Computer Sciences and BTS diploma in Electronics Engineering.</div>
+                </div>
+                <div class="swiper-slide v2">
+                  <article>
+                    <div class="thumb mask mask-black2"><img src="/assets/images/team/cb.png" alt=""/></div>
+                    <h4>Chris<br/>Bruck</h4><small>CMO</small>
+                    <div class="descr">Chris can be described as a Media Entrepreneur and Global Top 100 Brand-Image Marketing Executive, Innovator, and his interest is International Business Development.</div>
+                  </article>
+                  <div class="descr-ov">Chris can be described as a Media Entrepreneur and Global Top 100 Brand-Image Marketing Executive, Innovator, and his interest is International Business Development. As a top digital strategist and innovator, he initiated and led the Global Digital Initiative of Rolex from 2005 to 2009. Chris holds a Ph.D. in Business and Commerce as well as a J.D in International Law.</div>
+                </div>
+                <div class="swiper-slide v2">
+                  <article>
+                    <div class="thumb mask mask-black2"><img src="/assets/images/team/fr.png" alt=""/></div>
+                    <h4>Fouad<br/>Rathle</h4><small>Head of government relation</small>
+                    <div class="descr">Fouad has 30 years of experience in working in management positions.</div>
+                  </article>
+                  <div class="descr-ov">Fouad has 30 years of experience in working in management positions. Before joining the team of Apla Blockchain, he held the position of Branch Manager at Garanti Bank Luxembourg. In addition, he has been a Board member of The Association of Bankers & Banks of мLuxembourg for 15 years, and a member of the ABBL negotiation committee for 10 years, and president of the Banking Academy (IFBL) 12 years.</div>
+                </div>
+                <div class="swiper-slide v2">
+                  <article>
+                    <div class="thumb mask mask-black2"><img src="/assets/images/team/mha.png" alt=""/></div>
+                    <h4>Muhammed <br>Arafath</h4><small>Sales Director</small>
+                    <div class="descr">Muhammed is a certified Blockchain business analyst and has 10+ years of experience working with diverse verticals, industries and international markets.</div>
+                  </article>
+                  <div class="descr-ov">A graduate of Southern Cross University in Australia, Muhammed is a certified Blockchain business analyst and has 10+ years of experience working with diverse verticals, industries and international markets. He is currently exploring the intersection between artificial intelligence, blockchains, and the internet of things. He actively works with governmental and private organizations to help them adopt blockchain technology.</div>
+                </div>
+                <div class="swiper-slide v2">
+                  <article>
+                    <div class="thumb mask mask-black2"><img src="/assets/images/team/dnb.png" alt=""/></div>
+                    <h4>Denis <br>Bondar</h4><small>CFO</small>
+                    <div class="descr">Over 15 years of business support and finance experience with multinational market leaders and fintech startups.</div>
+                  </article>
+                  <div class="descr-ov">Over 15 years of business support and finance experience with multinational market leaders and fintech startups. Denis has also been engaged in the development of Online Fintech Academy. Denis holds a Master of Business Administration from Webster University and has completed the Global Fintech Program at Saїd Business School (University of Oxford) this year.</div>
+                </div>
+                <div class="swiper-slide v2">
+                  <article>
+                    <div class="thumb mask mask-black2"><img src="/assets/images/team/ma-2.png" alt=""/></div>
+                    <h4>Michael <br>Aprossine</h4><small>Chief Business Development Officer</small>
+                    <div class="descr">Michael is a blockchain evangelist and a serial entrepreneur.</div>
+                  </article>
+                  <div class="descr-ov">Michael is a blockchain evangelist and a serial entrepreneur with more than 20 years’ experience in IT. Extensive industry knowledge and the desire to shake things up compelled Michael to launch a number of online startups from dotcoms to the internet of things and blockchain. An expert in strategic planning and new business model incorporation, Michael is developing Apla partnership programs and attracting customers around the world. He holds an Executive MBA and is a bachelor of Social Science. Worked as a co-founder and CEO of USDC SlotLogic S.A.R.L., as a marketing director at Korston Group, as BDO at FTS Maconomy and Ciscom.</div>
+                </div>
+                <div class="swiper-slide v2">
+                  <article>
+                    <div class="thumb mask mask-black2"><img src="/assets/images/team/ab.png" alt=""/></div>
+                    <h4>Alexander <br>Boldachev</h4><small>System Architect</small>
+                    <div class="descr">Alexander is a futurologist and a blockchain architect</div>
+                  </article>
+                  <div class="descr-ov">Alexander is a philosopher, analyst, and member of the Association of Russian Futurologists. His primary areas of interest and research are: global evolutionism, temporal ontology, philosophy of artificial intelligence, and futurology. In recent years, he has worked on the creation of a subjectevent approach to complex systems modeling.</div>
+                </div>
               </div>
-            </article>
-            <article class="swiper-slide">
-              <div class="thumb mask mask-white"><img src="/assets/images/clients/wangila.jpg" alt=""></div>
-              <div>
-                <h4>Dr. Fernando Wangila</h4><small>Deputy Director (Head of ICT and Innovation)<br> National Transport and Safety Authority, Kenya</small>
-                <p>Apla is a unique platform with rapid application development capabilities that allow organizations to adopt blockchain in record time. What&apos;s interesting is the transition from government applications to a government ecosystem model.</p>
+              <div class="swiper-pagination"></div>
+              <button class="swiper-button-prev" type="button"><span class="arrow arrow-left-w arrow-lg"><em></em></span></button>
+              <button class="swiper-button-next" type="button"><span class="arrow arrow-right-w arrow-lg"><em></em></span></button>
+            </div>
+          </section>
+        </app-team>
+        <h2>Team is everything</h2>
+        <p>Welcome to the world where everyone&rsquo;s invited to form deep, meaningful connections.</p>
+        <app-team>
+          <section class="team-rotator">
+            <div class="swiper-container team-style">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide v2">
+                  <article>
+                    <div class="thumb mask mask-black2"><img src="/assets/images/team/ich.png" alt=""/></div>
+                    <h4>Igor<br/>Chertov</h4><small>Lead Front End Developer</small>
+                    <div class="descr">A gifted developer and blockchain enthusiast.</div>
+                  </article>
+                  <div class="descr-ov">Igor is a gifted developer and blockchain enthusiast. Has a deep knowledge of the full cycle development of cross-platform, hybrid mobile applications for web and desktop environments, as well as in relational SQL and document-based data stores. Igor received a degree in Information Technology and has since acquired the title of Microsoft-Certified Solutions Developer (MCSD).</div>
+                </div>
+                <div class="swiper-slide v2">
+                  <article>
+                    <div class="thumb mask mask-black2"><img src="/assets/images/team/ak.png" alt=""/></div>
+                    <h4>Alexey<br/>Krivonogov</h4><small>Lead Back End Developer</small>
+                    <div class="descr">25 years’ programming experience and developer of entire platform programming interface.</div>
+                  </article>
+                  <div class="descr-ov">After 25 years of self-perfection in programming, Alexey created essential solutions that provide the basis for Apla’s main benefits: its high usability and rapid application development. He constructed the programming languages Simvolio and Protypo, and the entire platform programming interface. Alexey became a co-developer of Apla’s predecessor project, DCoin cryptocurrency. Has a degree in Mathematics and Applied Mathematics.</div>
+                </div>
+                <div class="swiper-slide v2">
+                  <article>
+                    <div class="thumb mask mask-black2"><img src="/assets/images/team/vs.png" alt=""/></div>
+                    <h4>Vasily<br/>Starovetskiy</h4><small>Platform Applications Developer</small>
+                    <div class="descr">Master of Delphi, C++, PL/SQL, Unity (C#), with experience working for energy giants.</div>
+                  </article>
+                  <div class="descr-ov">Master of Delphi, C++, PL/SQL, Unity (C#). Vasily has a degree in Engineering and Security of Information Systems. Before Apla, he worked as a programmer for an energy giant and the leader of sustainable energy market of CIS countries.</div>
+                </div>
+                <div class="swiper-slide v2">
+                  <article>
+                    <div class="thumb mask mask-black2"><img src="/assets/images/team/dch.png" alt=""/></div>
+                    <h4>Dmitry<br/>Chertkov</h4><small>Senior Backend Developer</small>
+                    <div class="descr">Outstanding professional in  PHP, Node.js and Golang with over 12 years’ experience.</div>
+                  </article>
+                  <div class="descr-ov">With more than 12 years of experience in programming, Dmitry is an outstanding professional in  PHP, Node.js and Golang. He developed digital content for a major Russian telecom businesses and has more than 5 years of experience in leading programmers team.</div>
+                </div>
+                <div class="swiper-slide v2">
+                  <article>
+                    <div class="thumb mask mask-black2"><img src="/assets/images/team/akh.png" alt=""/></div>
+                    <h4>Alexandra<br/>Khasirdzeva</h4><small>Business Analyst</small>
+                    <div class="descr">Expert business strategist for expansion and created a global startup accelerator program in the UAE.</div>
+                  </article>
+                  <div class="descr-ov">A global citizen who lived in Moscow, Jordan, Dubai and LA working in startups. Developing content on innovation and emerging tech, Alexandra had a chance to interact with many industry leaders and visionaries. Later she succeeded in developing new business strategies for expansion, and created a global startup accelerator program in the UAE. Alexandra studied at the University of Edinburgh and the University of Southern California, with a BA in Economics.</div>
+                </div>
+                <div class="swiper-slide v2">
+                  <article>
+                    <div class="thumb mask mask-black2"><img src="/assets/images/team/ay.png" alt=""/></div>
+                    <h4>Adam<br/>Yates</h4><small>Content Lead</small>
+                    <div class="descr">Adam is a content specialist with over 5 years experience in digital media.</div>
+                  </article>
+                  <div class="descr-ov">Adam is a content specialist with over 5 years experience in digital media, working on a variety of projects in and around fintech. Adam has moved into the blockchain space, and is now helping Apla to put ideas across in a simple but effective manner. He holds a Master’s degree in IT & IP law.</div>
+                </div>
               </div>
-            </article>
-          </div>
-          <div class="swiper-pagination"></div>
-          <button class="swiper-button-prev" type="button"><span class="arrow arrow-left arrow-lg"><em></em></span></button>
-          <button class="swiper-button-next" type="button"><span class="arrow arrow-right arrow-lg"><em></em></span></button>
-        </div>
+              <div class="swiper-pagination"></div>
+              <button class="swiper-button-prev" type="button"><span class="arrow arrow-left-w arrow-lg"><em></em></span></button>
+              <button class="swiper-button-next" type="button"><span class="arrow arrow-right-w arrow-lg"><em></em></span></button>
+            </div>
+          </section>
+        </app-team>
       </div>
     </div>
-    <!--.screen-team
-    .container
-        h2 Top-management
-        +team-list('TOPMANAGMENT')
-        h2 Advisory board
-        +team-list('ADVISORS')
-    -->
     <div class="screen-news">
       <div class="container">
         <h2>Latest news</h2>
@@ -244,7 +257,7 @@
       <div class="container">
         <div>
           <h4>Receive our newsletter</h4>
-          <p>Get exclusive content delivered right into your inbox.</p>
+          <p>Get exclusive content delivered right into your inbox.</p><a class="privacy" href="/download/Privacy_and_Cookies_Policy.pdf">Privacy policy</a>
         </div>
         <form id="subscribeForm" novalidate="">
           <div class="form-group"><small class="form-control-feedback"><span class="required">E-mail is required.</span><span class="incorrect">Incorrect e-mail address!</span></small>
@@ -266,11 +279,11 @@
       <div class="popup-form-wrapper">
         <div class="backdrop"></div>
         <div class="popup-form">
-          <div class="head">
-            <h4>Tell us about your needs</h4>
-            <p>and we will come up with a personalized solution</p>
-          </div>
-          <form id="getstartedf" novalidate2="">
+          <form id="getstarted" novalidate="">
+            <div class="head">
+              <h4>Tell us about your needs</h4>
+              <p>and we will come up with a personalized solution</p>
+            </div>
             <div class="form-body">
               <div class="form-group"><small class="form-control-feedback"><span class="required">Name is required.</span></small>
                 <input class="form-control" placeholder="Your name *" type="text" name="name" required><span class="form-control-focus"></span>
@@ -309,22 +322,21 @@
       </div>
       <div class="container">
         <nav><a class="logo" href="/"></a>
-          <p><small><a href="/business">For Business</a></small></p>
-          <p><small><a href="/government">For Government</a></small></p>
-          <p><small><a href="/developers">For Developers</a></small></p>
-          <p><small><a href="/cases">Use Cases</a></small></p>
-          <p><small><a href="/about">About Us</a></small></p>
+          <p><small><a href="/public_network">Public network</a></small></p>
+          <p><small><a href="/private">Private solutions</a></small></p>
+          <p><small><a href="#mission_container">Our mission</a></small></p>
+          <p><small><a href="./#team">Team</a></small></p>
           <p><small><a href="https://blog.apla.io/" target="_blank">Blog</a></small></p>
         </nav>
         <section>
           <article>
-            <h5>Dubai</h5><small>TechnoHub 1, Dubai Silicon Oasis Authority, Dubai<br><a href="mailto:dubai@apla.io">dubai@apla.io</a></small>
+            <h5>Dubai</h5><small>TechnoHub 1, Dubai Silicon<br>Oasis Authority, Dubai<br><a href="mailto:dubai@apla.io">dubai@apla.io</a></small>
           </article>
           <article>
-            <h5>Luxembourg</h5><small>14 Rue Erasme, 1468 Luxembourg<br><a href="mailto:luxembourg@apla.io">luxembourg@apla.io</a></small>
+            <h5>Luxembourg</h5><small>20 rue de Bitbourg, L1273<br>Luxembourg<br><a href="mailto:luxembourg@apla.io">luxembourg@apla.io</a></small>
           </article>
           <article>
-            <h5>Moscow</h5><small>Tverskaya 7.<br><a href="mailto:moscow@apla.io">moscow@apla.io</a></small>
+            <h5>Moscow</h5><small>Mikluho-Maklaya 34, Office 76,<br>117279, Moscow, Russia<br><a href="mailto:moscow@apla.io">moscow@apla.io</a></small>
           </article>
         </section>
         <footer>
@@ -333,7 +345,8 @@
         </footer>
       </div>
     </app-footer>
-    <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+    <!--script(src="//code.jquery.com/jquery-1.11.2.min.js")-->
+    <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="/js/main.bundle.js"></script>
-  </app-home>
+  </app-home-new>
 </body>

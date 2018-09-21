@@ -2,10 +2,10 @@ app-popupform
   .popup-form-wrapper
     .backdrop
     .popup-form
-      .head
-        h4!= $i18n.POPUPFORM.TITLE
-        p!= $i18n.POPUPFORM.TEXT
-      form#getstartedf(novalidate2='')
+      form#getstarted(novalidate='')
+        .head
+          h4!= $i18n.POPUPFORM.TITLE
+          p!= $i18n.POPUPFORM.TEXT
         .form-body
           .form-group
             small.form-control-feedback

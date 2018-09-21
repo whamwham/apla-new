@@ -1,0 +1,50 @@
+app-footer
+    .screen-map(*ngif='map')
+        .container
+            h2 Contact us
+            agm-map([latitude]='lat' [longitude]='lng' [zoom]='zoom' [styles]='styles' [disabledefaultui]='false' [zoomcontrol]='false')
+                //agm-marker(*ngfor='let m of markers; let i = index' (markerclick)='clickedMarker(m.label, i)' [latitude]='m.lat' [longitude]='m.lng' [iconurl]='m.iconUrl' [markerdraggable]='m.draggable')
+                    agm-info-window([maxwidth]='150')
+                        strong {{ m.info }}
+    .container
+        nav
+            a.logo(href='/')
+            each item in $i18n.PAGES_MAIN
+                +footer-menu-item(item)
+        section
+            article
+                h5 Dubai
+                small
+                    | TechnoHub 1, Dubai Silicon
+                    br
+                    | Oasis Authority, Dubai
+                    br
+                    a(href='mailto:dubai@apla.io') dubai@apla.io
+            article
+                h5 Luxembourg
+                small
+                    | 20 rue de Bitbourg, L1273
+                    br
+                    | Luxembourg
+                    br
+                    a(href='mailto:luxembourg@apla.io') luxembourg@apla.io
+            article
+                h5 Moscow
+                small
+                    | Mikluho-Maklaya 34, Office 76,
+                    br
+                    | 117279, Moscow, Russia
+                    br
+                    a(href='mailto:moscow@apla.io') moscow@apla.io
+        footer
+            .soc
+                each item in $i18n.SOCIAL
+                    +footer-socials-item(item)
+            small!="&copy; " + ( (new Date()).getFullYear() ) + " " + $i18n.FOOTER.COPYRIGHT
+
+
+//script(src="//code.jquery.com/jquery-1.11.2.min.js")
+script(src="//code.jquery.com/jquery-3.3.1.min.js")
+
+script(src="/js/main.bundle.js")
+
