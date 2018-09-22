@@ -94,7 +94,7 @@ window.anim = {};
         direction: 'horizontal',
         slidesPerView: 4,
         slidesPerGroup: 4,
-        loop: false,
+        loop: true,
         keyboard: false,
         mousewheel: false,
         scrollbar: false,
@@ -147,7 +147,7 @@ window.anim = {};
 
 // ******************************* Animation 1 handler *************************/
 
-    if ($("app-home").length) {
+    if ($("app-home .private").length) {
 
         window.anim = {
             currPos: 0,

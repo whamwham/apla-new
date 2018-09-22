@@ -126,6 +126,9 @@
             width: 25%;
             transform: none;
             display: none;
+            &.public {
+              display: inline-block;
+            }
           }
           &.im-3 {
             top:20%;
@@ -135,6 +138,9 @@
             width: 25%;
             transform: none;
             display: none;
+            &.public {
+              display: inline-block;
+            }
           }
           &.im-4 {
             top: auto;

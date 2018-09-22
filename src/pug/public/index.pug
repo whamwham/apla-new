@@ -1,0 +1,104 @@
+include /pug/includes/common.pug
+include /pug/includes/data.pug
+
+-
+    var currPage = {
+        htmlAttrs: $i18n.htmlAttrs,
+        navIsWhite: false
+    };
+    htmlAttrs = currPage.htmlAttrs;
+
+
+
+include /pug/includes/head
+body(class=$i18n.lang)
+    include /pug/includes/header-public
+    app-home
+        .screen-main.public
+            .container
+                h1!= $i18n.MAIN_PUBLIC.SHOWREEL.TITLE
+                h4!= $i18n.MAIN_PUBLIC.SHOWREEL.TEXT
+
+        .screen-6
+            .container
+                h2!= $i18n.MAIN_PUBLIC.ADVANTAGE.TITLE
+                .img
+                    img.lazy(data-src='/assets/images/devices-3.png' alt='')
+                section
+                    .item
+                        img.icon(src='/assets/icons/icon-lock.svg')
+                        h4!= $i18n.MAIN_PUBLIC.ADVANTAGE[1].TITLE
+                        p!= $i18n.MAIN_PUBLIC.ADVANTAGE[1].TEXT
+                    .item
+                        img.icon(src='/assets/icons/icon-access-rights.svg')
+                        h4!= $i18n.MAIN_PUBLIC.ADVANTAGE[2].TITLE
+                        p!= $i18n.MAIN_PUBLIC.ADVANTAGE[2].TEXT
+                    .item
+                        img.icon(src='/assets/icons/icon-rad.svg')
+                        h4!= $i18n.MAIN_PUBLIC.ADVANTAGE[3].TITLE
+                        p!= $i18n.MAIN_PUBLIC.ADVANTAGE[3].TEXT
+                    .item
+                        img.icon(src='/assets/icons/icon-lightning.svg')
+                        h4!= $i18n.MAIN_PUBLIC.ADVANTAGE[4].TITLE
+                        p!= $i18n.MAIN_PUBLIC.ADVANTAGE[4].TEXT
+                    .item
+                        img.icon(src='/assets/icons/icon-user-friendly.svg')
+                        h4!= $i18n.MAIN_PUBLIC.ADVANTAGE[5].TITLE
+                        p!= $i18n.MAIN_PUBLIC.ADVANTAGE[5].TEXT
+                    .item
+                        img.icon(src='/assets/icons/icon-own-blockchain.svg')
+                        h4!= $i18n.MAIN_PUBLIC.ADVANTAGE[6].TITLE
+                        p!= $i18n.MAIN_PUBLIC.ADVANTAGE[6].TEXT
+
+
+        .screen-8.lazy(data-src="/assets/images/partner-screen.jpg")
+            .container
+                h2!= $i18n.MAIN_PUBLIC.ENTERPRISE.TITLE
+                //p!= $i18n.MAIN_PUBLIC.ENTERPRISE.TEXT
+                button.btn.openpopupform Become a partner
+
+
+        .screen-news
+            .container
+                h2 Latest news
+                section
+                    each item in $i18n.NEWS
+                        +main-news-item(item)
+
+        #team.screen-team
+            .container
+                h2 Leadership
+                p
+                    | Leadership in innovations makes an impact on a global scale. Multicultural, multidisciplinary and diverse top-management allows Apla to speak in one language with worldwide leaders from prime ministers to CIOs.
+                    br
+                    br
+                    | Our leaders eat last. Creating a workplace of the future: bureaucracy free, with a greater purpose, based on constant learning and individuality at its core.
+                +team-list('TOPMANAGMENT')
+                h2 Team is everything
+                p
+                    | Welcome to the world where everyone&rsquo;s invited to form deep, meaningful connections.
+                +team-list('TEAM')
+
+
+        include /pug/includes/banner
+        include /pug/includes/newsletter
+
+        include /pug/includes/popupform
+        include /pug/includes/footer-public
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -10,6 +10,52 @@
   "GETSTARTED": "GET STARTED",
   "READMORECASES": "READ MORE CASES",
 
+  "PAGES_PUBLIC": [
+    {
+      "title": "White paper",
+      "target": "_blank",
+      "href": "/download/White_Paper.pdf"
+    },
+    {
+      "title": "Legal paper",
+      "target": "_blank",
+      "href": "/download/Apla_Legal.pdf"
+    },
+    {
+      "title": "Team",
+      "id": "team",
+      "class": ""
+    },
+    {
+      "title": "For Developers",
+      "href": "/public/developers",
+      "navIsWhite": true,
+      "htmlAttrs": {
+        "title": "Apla - Public blockchain platform for building digital ecosystems",
+        "description": "Public blockchain platform for building digital ecosystems",
+        "keywords": ""
+      }
+    },
+    {
+      "title": "Testnet",
+      "href": "https://github.com/AplaProject/apla-front/releases",
+      "target": "_blank",
+      "class": ""
+    },
+    {
+      "title": "News",
+      "href": "https://blog.apla.io/",
+      "target": "_blank",
+      "class": ""
+    },
+    {
+      "title": "Docs",
+      "href": "https://apla.readthedocs.io/en/latest/",
+      "target": "_blank",
+      "class": ""
+    }
+  ],
+
   "PAGES_MAIN": [
     {
       "title": "Public network",
@@ -405,6 +451,107 @@
       "TEXT": "See how Apla could help to make you organization work more efficiently."
     }
   },
+  "MAIN_PUBLIC": {
+    "SHOWREEL": {
+      "TITLE": "Apla",
+      "TEXT": "Simple and Compliant blockchain platform"
+    },
+    "BLOCKCHAIN": {
+      "TITLE": "Blockchain as the upcoming Technology infrastructure",
+      "1": {
+        "TITLE": "Secure your data",
+        "TEXT": "Complex cryptography keeps data safe. Entries are replicated and stored on several servers. Information cannot be lost and cannot be falsified."
+      },
+      "2": {
+        "TITLE": "Reduce maintenance costs",
+        "TEXT": "Traditional document transfers and circulation has come to its end, and out goes all of the related financial and time expenditure with it. All operations are executed instantaneously, transparently and automatically."
+      },
+      "3": {
+        "TITLE": "Embrace innovation",
+        "TEXT": "A well-selected and implemented set of blockchain solutions naturally lifts an organization to a new level of development, with additional competitive advantage."
+      }
+    },
+    "CLIENTS": {
+      "TITLE": "Clients"
+    },
+    "FULLSERVICE": {
+      "TITLE": "Get the most out of blockchain",
+      "TEXT": "We collaborate with clients to identify areas of growth, match business processes with technology features, carefully select use cases for digital transformation, educate client teams, execute blockchain solutions and provide proactive support:",
+      "1": {
+        "TITLE": "Сonsultancy",
+        "TEXT": "Helping you define potential areas which can be optimized"
+      },
+      "2": {
+        "TITLE": "Research & Development",
+        "TEXT": "Matching your needs with the right technology stack"
+      },
+      "3": {
+        "TITLE": "Hackathons",
+        "TEXT": "Validating initial ideas"
+      },
+      "4": {
+        "TITLE": "Development",
+        "TEXT": "Creating a customized, user-friendly blockchain solution for client needs"
+      },
+      "5": {
+        "TITLE": "Training",
+        "TEXT": "Providing the client’s team with in-depth understanding of the solution"
+      },
+      "6": {
+        "TITLE": "Support",
+        "TEXT": "Maintaining a healthy blockchain ecosystem, coupled with constant R&D"
+      }
+    },
+    "APLAFOR": {
+      "SUBHEAD": "Apla",
+      "1": {
+        "TITLE": "For Government",
+        "TEXT": "Government services of the future will be digital. e-Government on the blockchain increases a country’s Foreign Direct Investment rating, leading to a rise in citizens’ feeling of wellbeing."
+      },
+      "2": {
+        "TITLE": "For Business",
+        "TEXT": "In competitive markets with complex business processes, the winner is the one who is able to inspire trust through transparency amongst their partners."
+      }
+    },
+    "ADVANTAGE": {
+      "TITLE": "Apla Key Features",
+      "1": {
+        "TITLE": "Smart laws",
+        "TEXT": "A Governing Protocol over the application Ecosystem."
+      },
+      "2": {
+        "TITLE": "Flexible access rights",
+        "TEXT": "Multi-level system for access rights management to data, interfaces and smart contracts, allowing for full control of how the applications work."
+      },
+      "3": {
+        "TITLE": "Rapid application development",
+        "TEXT": "Applications can be created and implemented within a couple of weeks."
+      },
+      "4": {
+        "TITLE": "Fast transactions",
+        "TEXT": "A maximum output capacity and potential boost to performance speed of up to 10,000 times, which corresponds to fintech and IT industry standards transaction speed."
+      },
+      "5": {
+        "TITLE": "User-friendly",
+        "TEXT": "Apla architecture is built around the concept of simplicity. The clients’ needs are also adapted to depending on how different devices work, taking into account individual characteristics and requirements."
+      },
+      "6": {
+        "TITLE": "Create Ecosystems not just a stand-alone application",
+        "TEXT": "Ecosystems application framework truly unlocks the industrial 4.0 potentials. Build application ecosystem with Apla not just an independent application.",
+        "TEXT2": "Create Ecosystems not just a stand-alone application"
+      }
+    },
+    "ENTERPRISE": {
+      "TITLE": "Trusted enterprise partner",
+      "TEXT": "",
+      "TEXT_OLD": "We are proud to work alongside systems integrators like Finesse and BearingPoint. Our partnership program establishes valuable and long-term relationships with partners. We help to educate clients, provide unique technology, develop demo-versions and conduct workshops. Blockchain LTV is our main KPI."
+    },
+    "BANNER": {
+      "TITLE": "Reach outstanding productivity",
+      "TEXT": "See how Apla could help to make you organization work more efficiently."
+    }
+  },
+
   "DEVELOPERS": {
     "SIDE_MENU": [
       {
@@ -599,6 +746,166 @@
       }
     }
   },
+  "DEVELOPERS_PUBLIC": {
+
+    "h2": "Learn about Apla Platform",
+    "MAP": [
+      {
+        "href": "https://t.me/apla_project",
+        "class": "public",
+        "target": "_blank"
+      },
+      {
+        "href": "https://github.com/AplaProject/go-apla",
+        "class": "public",
+        "target": "_blank"
+      },
+      {
+        "href": "https://testapla0.apla.io/",
+        "class": "public",
+        "target": "_blank"
+      },
+      {
+        "href": "https://apla.readthedocs.io/en/latest/",
+        "class": "public",
+        "target": "_blank"
+      },
+      {
+        "href": "https://github.com/AplaProject/quick-start",
+        "class": "public",
+        "target": "_blank"
+      }
+    ],
+    "LEARN_ABOUT": {
+      "h2": "Learn about Apla Platform",
+      "LIST": [
+        {
+          "title": "General information and Architecture",
+          "img": "/assets/icons/documentation.svg",
+          "href": "https://apla.readthedocs.io/en/latest/concepts/about-the-platform.html",
+          "target": "_blank"
+        },
+        {
+          "title": "Ecosystems",
+          "img": "/assets/icons/ecosystems.svg",
+          "href": "https://apla.readthedocs.io/en/latest/concepts/about-the-platform.html#platform-s-ecosystems",
+          "target": "_blank"
+        },
+        {
+          "title": "User Interfaces",
+          "img": "/assets/icons/interface.svg",
+          "href": "https://apla.readthedocs.io/en/latest/topics/templates2.html",
+          "target": "_blank"
+        },
+        {
+          "title": "Permissions and Access Rights",
+          "img": "/assets/icons/permissions_access_rights.svg",
+          "href": "https://apla.readthedocs.io/en/latest/concepts/about-the-platform.html#access-rights-control-mechanism",
+          "target": "_blank"
+        },
+        {
+          "title": "Smart Contracts",
+          "img": "/assets/icons/smart_contract.svg",
+          "href": "https://apla.readthedocs.io/en/latest/topics/script.html",
+          "target": "_blank"
+        },
+        {
+          "title": "REST API",
+          "img": "/assets/icons/restAPI.svg",
+          "href": "https://apla.readthedocs.io/en/latest/reference/api2.html",
+          "target": "_blank"
+        }
+      ]
+    },
+    "GET_STARTED": {
+      "h2": "Getting Started",
+      "QUICKSTART": {
+        "h3": "Install Quickstart",
+        "text": "Quickstart allows you to get working Apla Network locally in minutes. Watch the video below how to install it.",
+        "href": "https://github.com/AplaProject/quick-start",
+        "video": {
+          "yt": "https://www.youtube.com/watch?v=2-e-vGWnYO0",
+          "src": "/assets/qs-tutorial-8.mp4",
+          "poster": "/assets/images/video-bkg-sm.svg"
+        }
+      },
+      "TESTNET": {
+        "h3": "Go to Apla Testnet",
+        "text": "<p>Apla Testnet is the our platform's blockchain network for testing purposes.</p><p>Try out the latest Apla features. Start building the future, today.</p>",
+        "link": {
+          "href": "https://testapla0.apla.io/",
+          "target": "_blank",
+          "title": "Explore Testnet right now"
+        }
+      }
+    },
+    "MOLIS": {
+      "h2": "Meet Molis",
+      "text": "The Apla Platform client application that we use to develop applications, manage access rights and work with database tables.<br/>Everything is here.",
+      "link": {
+        "href": "https://github.com/AplaProject/apla-front/releases/",
+        "target": "_blank",
+        "title": "Learn more about Molis"
+      },
+      "DOWNLOAD": {
+        "h4": "Download Molis for TestNet",
+        "LIST": [
+          {
+            "href": "https://github.com/AplaProject/apla-front/releases/download/v0.8.6-RC/apla-front-setup-0.8.6-RC.exe",
+            "img": "/assets/icons/windows.svg",
+            "target": "_blank",
+            "title": "Windows"
+          },
+          {
+            "href": "https://github.com/AplaProject/apla-front/releases/download/v0.8.6-RC/apla-front-0.8.6-RC-x86_64.AppImage",
+            "img": "/assets/icons/linux.svg",
+            "target": "_blank",
+            "title": "Linux"
+          },
+          {
+            "href": "https://github.com/AplaProject/apla-front/releases/download/v0.8.6-RC/Apla-0.8.6-RC.dmg",
+            "img": "/assets/icons/apple.svg",
+            "target": "_blank",
+            "title": "Mac OS"
+          }
+        ]
+      }
+    },
+    "GITHUB": {
+      "h2": "Apla + Github",
+      "backend": {
+        "href": "https://github.com/AplaProject/go-apla",
+        "target": "_blank",
+        "title": "Backend"
+      },
+      "frontend": {
+        "href": "https://github.com/AplaProject/apla-front",
+        "target": "_blank",
+        "title": "Frontend"
+      },
+      "contib": {
+        "href": "https://github.com/AplaProject/go-apla/blob/master/CONTRIBUTING.md",
+        "target": "_blank",
+        "title": "Contibute"
+      }
+    },
+    "JOIN": {
+      "h2": "Join the Apla Community",
+      "text": "We use Telegram for communication.<br/>Any question, idea or feedback?",
+      "link_1": {
+        "href": "https://t.me/apla_project",
+        "target": "_blank",
+        "title": "@apla_project"
+      },
+      "link_2": {
+        "href": "https://t.me/apla_project",
+        "target": "_blank",
+        "title": "Join now"
+      }
+    }
+  },
+
+
   "CLIENTS": {
     "TITLE": "Clients",
     "GOV": [
