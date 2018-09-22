@@ -54,9 +54,6 @@ gulp.task('copy-files', function () {
     gulp.src('src/post/**/*')
         .pipe($.newer('dist/post'))
         .pipe(gulp.dest('dist/post'));
-    gulp.src('src/public_network/**/*')
-        .pipe($.newer('dist/public_network'))
-        .pipe(gulp.dest('dist/public_network'));
 });
 
 

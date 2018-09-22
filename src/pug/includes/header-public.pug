@@ -6,7 +6,7 @@ app-header( class=( (currPage.navIsWhite)? "white":""  ) )
             each item in $i18n.PAGES_PUBLIC
                 +nav-menu-item(item)
         //button.btn.openpopupform(type='button')!= $i18n.GETSTARTED
-        //a.btn(href="/public_network") Public Network
+        //a.btn(href="/public") Public Network
 
         .language
             button(mat-icon-button='' [matmenutriggerfor]='LanguageList' [ngclass]="MenuStatus() ? 'active' : ''")

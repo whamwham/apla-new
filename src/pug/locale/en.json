@@ -23,7 +23,7 @@
     },
     {
       "title": "Team",
-      "id": "team",
+      "href": "/public/#team",
       "class": ""
     },
     {
@@ -59,7 +59,7 @@
   "PAGES_MAIN": [
     {
       "title": "Public network",
-      "href": "/public_network",
+      "href": "/public",
       "htmlAttrs": {
         "title": "Apla - Blockchain Platform for accelerating technological progress",
         "description": "Public blockchain platform for building digital ecosystems",
@@ -162,7 +162,7 @@
     },
     {
       "title": "Public network",
-      "href": "/public_network",
+      "href": "/public",
       "htmlAttrs": {
         "title": "Apla - Blockchain Platform for accelerating technological progress",
         "description": "Public blockchain platform for building digital ecosystems",
