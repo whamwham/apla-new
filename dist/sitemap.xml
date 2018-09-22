@@ -2,47 +2,55 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>https://apla.io/</loc>
-        <lastmod>2018-09-22T06:42:52.583Z</lastmod>
+        <lastmod>2018-09-22T08:09:50.714Z</lastmod>
     </url>
     <url>
         <loc>https://apla.io/private</loc>
-        <lastmod>2018-09-22T06:42:52.867Z</lastmod>
+        <lastmod>2018-09-22T08:09:50.965Z</lastmod>
+    </url>
+    <url>
+        <loc>https://apla.io/public</loc>
+        <lastmod>2018-09-22T08:09:51.237Z</lastmod>
     </url>
     <url>
         <loc>https://apla.io/public_network</loc>
         <lastmod>2018-09-16T12:52:57.792Z</lastmod>
     </url>
     <url>
-        <loc>https://apla.io/public</loc>
-        <lastmod>2018-09-22T06:42:53.056Z</lastmod>
-    </url>
-    <url>
         <loc>https://apla.io/private/about</loc>
-        <lastmod>2018-09-22T06:42:53.225Z</lastmod>
+        <lastmod>2018-09-22T08:09:51.595Z</lastmod>
     </url>
     <url>
         <loc>https://apla.io/private/business</loc>
-        <lastmod>2018-09-22T06:42:53.408Z</lastmod>
+        <lastmod>2018-09-22T08:09:51.426Z</lastmod>
     </url>
     <url>
         <loc>https://apla.io/private/career</loc>
-        <lastmod>2018-09-22T06:42:53.530Z</lastmod>
+        <lastmod>2018-09-22T08:09:51.750Z</lastmod>
     </url>
     <url>
         <loc>https://apla.io/private/cases</loc>
-        <lastmod>2018-09-22T06:42:53.657Z</lastmod>
+        <lastmod>2018-09-22T08:09:52.043Z</lastmod>
     </url>
     <url>
         <loc>https://apla.io/private/developers</loc>
-        <lastmod>2018-09-22T06:42:53.672Z</lastmod>
+        <lastmod>2018-09-22T08:09:52.213Z</lastmod>
     </url>
     <url>
         <loc>https://apla.io/private/developers/index2.html</loc>
-        <lastmod>2018-09-22T06:42:53.853Z</lastmod>
+        <lastmod>2018-09-22T08:09:52.505Z</lastmod>
     </url>
     <url>
         <loc>https://apla.io/private/government</loc>
-        <lastmod>2018-09-22T06:42:54.034Z</lastmod>
+        <lastmod>2018-09-22T08:09:52.653Z</lastmod>
+    </url>
+    <url>
+        <loc>https://apla.io/public/developers</loc>
+        <lastmod>2018-09-22T08:09:52.809Z</lastmod>
+    </url>
+    <url>
+        <loc>https://apla.io/public/developers/index2.html</loc>
+        <lastmod>2018-09-21T23:10:37.232Z</lastmod>
     </url>
     <url>
         <loc>https://apla.io/public_network/view/business.html</loc>
@@ -77,40 +85,32 @@
         <lastmod>2018-09-16T12:53:00.836Z</lastmod>
     </url>
     <url>
-        <loc>https://apla.io/public/developers</loc>
-        <lastmod>2018-09-22T06:42:54.213Z</lastmod>
-    </url>
-    <url>
-        <loc>https://apla.io/public/developers/index2.html</loc>
-        <lastmod>2018-09-21T23:10:37.232Z</lastmod>
-    </url>
-    <url>
         <loc>https://apla.io/private/cases/business-licensing</loc>
-        <lastmod>2018-09-22T06:42:54.349Z</lastmod>
+        <lastmod>2018-09-22T08:09:52.975Z</lastmod>
     </url>
     <url>
         <loc>https://apla.io/private/cases/land-registry</loc>
-        <lastmod>2018-09-22T06:42:54.601Z</lastmod>
+        <lastmod>2018-09-22T08:09:53.109Z</lastmod>
     </url>
     <url>
         <loc>https://apla.io/private/cases/land-registry/index2.html</loc>
-        <lastmod>2018-09-22T06:42:54.833Z</lastmod>
-    </url>
-    <url>
-        <loc>https://apla.io/private/cases/survey-poll</loc>
-        <lastmod>2018-09-22T06:42:55.123Z</lastmod>
+        <lastmod>2018-09-22T08:09:53.181Z</lastmod>
     </url>
     <url>
         <loc>https://apla.io/private/cases/supply-chain</loc>
-        <lastmod>2018-09-22T06:42:55.021Z</lastmod>
+        <lastmod>2018-09-22T08:09:53.431Z</lastmod>
+    </url>
+    <url>
+        <loc>https://apla.io/private/cases/survey-poll</loc>
+        <lastmod>2018-09-22T08:09:53.447Z</lastmod>
     </url>
     <url>
         <loc>https://apla.io/private/cases/vehicle-registry</loc>
-        <lastmod>2018-09-22T06:42:55.313Z</lastmod>
+        <lastmod>2018-09-22T08:09:53.449Z</lastmod>
     </url>
     <url>
         <loc>https://apla.io/private/cases/vehicle-registry/index2.html</loc>
-        <lastmod>2018-09-22T06:42:55.325Z</lastmod>
+        <lastmod>2018-09-22T08:09:53.451Z</lastmod>
     </url>
     <url>
         <loc>https://apla.io/public_network/src/www</loc>
