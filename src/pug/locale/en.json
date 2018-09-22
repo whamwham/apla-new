@@ -1251,6 +1251,13 @@
       "DESCR": "A strong IT professional with a Master's degree focused in Project Management in Innovation and Entrepreneurship from University of Nantes. Skilled in computer science and analytics, Youssef has a long history of working in the IT and services industry."
     },
     {
+      "NAME": "Dmitry Brovkin",
+      "POSITION": "Head of Developer Marketing",
+      "IMG2": "/assets/images/team/db.png",
+      "SHORT": "Technical and business expert responsible for implementing blockchain.",
+      "DESCR": "Well-versed in both technical and business areas, Dmitry often represents Apla at international conferences, promoting the platform and training our partners in Europe and Asia. An entrepreneurial spirit combined with international business training and software development experience in the past makes Dmitry a valuable asset for the Apla team. He has a degree in Project Management."
+    },
+    {
       "NAME": "Nickolay Syusko",
       "POSITION": "Head of Digital Transformation",
       "IMG": "/assets/images/team/ns.png",
@@ -1266,13 +1273,6 @@
       "IMG2": "/assets/images/team/ab.png",
       "SHORT": "Alexander is a futurologist and a blockchain architect",
       "DESCR": "Alexander is a philosopher, analyst, and member of the Association of Russian Futurologists. His primary areas of research are: global evolutionism, temporal ontology, philosophy of artificial intelligence, and futurology. Works on the creation of a subject-event approach to complex systems modeling. Alexander created the concept of Smart Laws, developed an ideology for smart contracts and a number of Apla’s dApps and digital ecosystems. He is one of our key speakers at European events like Future Tech (St. Petersburg), Blockchain Weekend and #Decenter Cryptoevent (Moscow), Blockchain Conference (Kiev)."
-    },
-    {
-      "NAME": "Dmitry Brovkin",
-      "POSITION": "Head of Developer Marketing",
-      "IMG2": "/assets/images/team/db.png",
-      "SHORT": "Technical and business expert responsible for implementing blockchain.",
-      "DESCR": "Well-versed in both technical and business areas, Dmitry often represents Apla at international conferences, promoting the platform and training our partners in Europe and Asia. An entrepreneurial spirit combined with international business training and software development experience in the past makes Dmitry a valuable asset for the Apla team. He has a degree in Project Management."
     },
     {
       "NAME": "Igor Chertov",
@@ -1298,7 +1298,7 @@
     {
       "NAME": "Roman Potekhin",
       "POSITION": "Tech Lead",
-      "IMG": "",
+      "IMG": "/assets/images/team/rp.png",
       "SHORT": "Experienced Python 2.x, Erlang, and Golang programmer and NoSQL and column-store database specialist.",
       "DESCR": "Roman has over 10 years of experience as a Python 2.x, Erlang, and Golang programmer, and as a relational, NoSQL and column-store database specialist. He implemented several highload projects for major companies throughout the CIS. At Apla, Roman is developing the platform architecture, making technical decisions and solving major tech problems."
     },
@@ -1306,8 +1306,8 @@
       "NAME": "Vasily Starovetskiy",
       "POSITION": "Platform Applications Developer",
       "IMG": "/assets/images/team/vs.png",
-      "SHORT": "Master of Delphi, C++, PL/SQL, Unity (C#), with experience working for energy giants.",
-      "DESCR": "Master of Delphi, C++, PL/SQL, Unity (C#). Vasily has a degree in Engineering and Security of Information Systems. Before Apla, he worked as a programmer for an energy giant and the leader of sustainable energy market of CIS countries."
+      "SHORT": "Master of C++, PL/SQL, Unity (C#), with experience working for energy giants.",
+      "DESCR": "Master of C++, PL/SQL, Unity (C#). Vasily has a degree in Engineering and Security of Information Systems. Before Apla, he worked as a programmer for an energy giant and the leader of sustainable energy market of CIS countries."
     },
     {
       "NAME": "Dmitry Chertkov",

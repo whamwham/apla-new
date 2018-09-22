@@ -15,7 +15,7 @@
   <link rel="shortcut icon" href="/favicons/favicon.ico?v=123421">
   <meta name="msapplication-config" content="/favicons/browserconfig.xml">
   <meta name="theme-color" content="#ffffff">
-  <link href="/css/style.min.css?1537599023" rel="stylesheet">
+  <link href="/css/style.min.css?1537599024" rel="stylesheet">
   <script>var curr_lang_code = "en";
     var lang_codes = {};lang_codes["en"] = "en";lang_codes["de"] = "de";lang_codes["fr"] = "fr";lang_codes["hr"] = "hr";lang_codes["ru"] = "ru";lang_codes["zh"] = "zh";lang_codes["ko"] = "ko";lang_codes["ja"] = "ja";lang_codes["th"] = "th";lang_codes["es"] = "es";lang_codes["pt"] = "pt";
   </script>
@@ -23,7 +23,7 @@
 <body class="en">
   <app-header><a class="logo" href="/" data-click="isActive = false"></a><a name="top"></a>
     <section>
-      <nav><a href="/public_network">Public network</a><a href="/private">Private solutions</a><a href="#mission_container">Our mission</a><a href="./#team">Team</a><a href="https://blog.apla.io/" target="_blank">Blog</a>
+      <nav><a href="/download/White_Paper.pdf" target="_blank">White paper</a><a href="/download/Apla_Legal.pdf" target="_blank">Legal paper</a><a class="page-scroll" href="#team">Team</a><a href="/public/developers">For Developers</a><a href="https://github.com/AplaProject/apla-front/releases" target="_blank">Testnet</a><a href="https://blog.apla.io/" target="_blank">News</a><a href="https://apla.readthedocs.io/en/latest/" target="_blank">Docs</a>
       </nav>
       <!--button.btn.openpopupform(type='button')!= $i18n.GETSTARTED-->
       <!--a.btn(href="/public_network") Public Network-->
@@ -35,50 +35,63 @@
       <div class="patty"></div>
     </div>
   </app-header>
-  <app-home-new>
-    <div class="screen-main">
+  <app-home>
+    <div class="screen-main public">
       <div class="container">
-        <h1>Apla creates a future</h1>
-        <h4>Blockchain Platform for accelerating technological progress</h4>
+        <h1>Apla</h1>
+        <h4>Simple and Compliant blockchain platform</h4>
       </div>
     </div>
-    <div class="screen-experience">
+    <div class="screen-6">
       <div class="container">
+        <h2>Apla Key Features</h2>
+        <div class="img"><img class="lazy" data-src="/assets/images/devices-3.png" alt=""></div>
         <section>
-          <article>
-            <h1>7</h1>
-            <p>years of blockchain development</p>
-          </article>
-          <article>
-            <h1>45</h1>
-            <p>people are contributing to our mission</p>
-          </article>
-          <article>
-            <h1>20</h1>
-            <p>successful proof-of-concepts</p>
-          </article>
+          <div class="item"><img class="icon" src="/assets/icons/icon-lock.svg">
+            <h4>Smart laws</h4>
+            <p>A Governing Protocol over the application Ecosystem.</p>
+          </div>
+          <div class="item"><img class="icon" src="/assets/icons/icon-access-rights.svg">
+            <h4>Flexible access rights</h4>
+            <p>Multi-level system for access rights management to data, interfaces and smart contracts, allowing for full control of how the applications work.</p>
+          </div>
+          <div class="item"><img class="icon" src="/assets/icons/icon-rad.svg">
+            <h4>Rapid application development</h4>
+            <p>Applications can be created and implemented within a couple of weeks.</p>
+          </div>
+          <div class="item"><img class="icon" src="/assets/icons/icon-lightning.svg">
+            <h4>Fast transactions</h4>
+            <p>A maximum output capacity and potential boost to performance speed of up to 10,000 times, which corresponds to fintech and IT industry standards transaction speed.</p>
+          </div>
+          <div class="item"><img class="icon" src="/assets/icons/icon-user-friendly.svg">
+            <h4>User-friendly</h4>
+            <p>Apla architecture is built around the concept of simplicity. The clients’ needs are also adapted to depending on how different devices work, taking into account individual characteristics and requirements.</p>
+          </div>
+          <div class="item"><img class="icon" src="/assets/icons/icon-own-blockchain.svg">
+            <h4>Create Ecosystems not just a stand-alone application</h4>
+            <p>Ecosystems application framework truly unlocks the industrial 4.0 potentials. Build application ecosystem with Apla not just an independent application.</p>
+          </div>
         </section>
       </div>
     </div>
-    <div class="screen-5">
+    <div class="screen-8 lazy" data-src="/assets/images/partner-screen.jpg">
       <div class="container">
-        <article href="/public_network"><small>Apla</small>
-          <h3><a href="/public_network">Public network<span class="arrow arrow-right"><em></em></span></a></h3>
-          <p>Simple and compliant blockchain platform</p>
-        </article>
-        <article href="/private"><small>Apla</small>
-          <h3><a href="/private">Private solutions<span class="arrow arrow-right"><em></em></span></a></h3>
-          <p>In competitive markets with complex business processes, the winner is the one who is able to inspire trust through transparency amongst their partners.</p>
-        </article>
+        <h2>Trusted enterprise partner</h2>
+        <!--p!= $i18n.MAIN_PUBLIC.ENTERPRISE.TEXT-->
+        <button class="btn openpopupform">Become a partner</button>
       </div>
     </div>
-    <div class="screen-mission" id="mission_container">
-      <div class="overlay"></div>
-      <div class="container" id="mission_object">
-        <article>
-          <h2>Our mission</h2>
-          <p>&#x9;&#x9;&#x9;&#x9;Smart implementation of blockchain redefines the trust we place in each other, making interactions more transparent, fair and reliable. This is why we will impact on the World Happiness Index, giving everyone access to knowledge, integrating developing countries into the global economy and<strong>&nbsp; bringing joy to people&rsquo;s lives</strong>.</p>
-        </article><img class="img-1 lazy" data-src="/assets/images/about/mission-1.png" alt=""><img class="img-2 lazy" data-src="/assets/images/about/mission-2.png" alt=""><img class="img-3" src="/assets/images/about/mission-3.png" alt=""><img class="img-4" src="/assets/images/about/mission-4.png" alt="">
+    <div class="screen-news">
+      <div class="container">
+        <h2>Latest news</h2>
+        <section>
+          <article><a href="https://blog.apla.io/blockchain-ecosystem-what-is-it-about-3abefc8153d9" target="_blank"><img src="/assets/images/news/2.png" alt=""/>
+              <h4><span>Blockchain Ecosystem: What is it About?</span><span class="arrow arrow-right"><em></em></span></h4>
+              <p>As the spark of blockchain revolution is engulfing the world, the technology is becoming more sophisticated as the day goes by. Blockchain engineers the world over are putting thought into turning their product into an engineering marvel and such ideas give rise to buzzwords of the day. Getting a hold on these buzzwords becomes imperative for C-level execs as well as investors so that the knowledge remains perceptible and nothing becomes arcane.</p></a></article>
+          <article><a href="https://blog.apla.io/five-stages-of-understanding-blockchain-d6774ff016d1" target="_blank"><img src="/assets/images/news/3.png" alt=""/>
+              <h4><span>Five stages of understanding blockchain</span><span class="arrow arrow-right"><em></em></span></h4>
+              <p>Blockchain can be a tricky subject, but market players are slowly learning about how they can apply this new phenomenon to their business processes. Learning happens in stages; you can’t become a genius overnight. The same is with understanding blockchain. There are a myriad articles out there on the internet about blockchain, all with their own different stance and all based on the knowledge that each writer has when putting pen to paper (more like: fingers to keyboard). However, who really knows what in this wild west of blockchain propaganda?</p></a></article>
+        </section>
       </div>
     </div>
     <div class="screen-team" id="team">
@@ -239,19 +252,6 @@
         </app-team>
       </div>
     </div>
-    <div class="screen-news">
-      <div class="container">
-        <h2>Latest news</h2>
-        <section>
-          <article><a href="https://blog.apla.io/blockchain-ecosystem-what-is-it-about-3abefc8153d9" target="_blank"><img src="/assets/images/news/2.png" alt=""/>
-              <h4><span>Blockchain Ecosystem: What is it About?</span><span class="arrow arrow-right"><em></em></span></h4>
-              <p>As the spark of blockchain revolution is engulfing the world, the technology is becoming more sophisticated as the day goes by. Blockchain engineers the world over are putting thought into turning their product into an engineering marvel and such ideas give rise to buzzwords of the day. Getting a hold on these buzzwords becomes imperative for C-level execs as well as investors so that the knowledge remains perceptible and nothing becomes arcane.</p></a></article>
-          <article><a href="https://blog.apla.io/five-stages-of-understanding-blockchain-d6774ff016d1" target="_blank"><img src="/assets/images/news/3.png" alt=""/>
-              <h4><span>Five stages of understanding blockchain</span><span class="arrow arrow-right"><em></em></span></h4>
-              <p>Blockchain can be a tricky subject, but market players are slowly learning about how they can apply this new phenomenon to their business processes. Learning happens in stages; you can’t become a genius overnight. The same is with understanding blockchain. There are a myriad articles out there on the internet about blockchain, all with their own different stance and all based on the knowledge that each writer has when putting pen to paper (more like: fingers to keyboard). However, who really knows what in this wild west of blockchain propaganda?</p></a></article>
-        </section>
-      </div>
-    </div>
     <app-banner>
       <div class="banner lazy" data-src="/assets/images/banner-2.jpg">
         <div class="container">
@@ -330,11 +330,13 @@
       </div>
       <div class="container">
         <nav><a class="logo" href="/"></a>
-          <p><small><a href="/public_network">Public network</a></small></p>
-          <p><small><a href="/private">Private solutions</a></small></p>
-          <p><small><a href="#mission_container">Our mission</a></small></p>
-          <p><small><a href="./#team">Team</a></small></p>
-          <p><small><a href="https://blog.apla.io/" target="_blank">Blog</a></small></p>
+          <p><small><a href="/download/White_Paper.pdf" target="_blank">White paper</a></small></p>
+          <p><small><a href="/download/Apla_Legal.pdf" target="_blank">Legal paper</a></small></p>
+          <p><small><a class="page-scroll" href="#team">Team</a></small></p>
+          <p><small><a href="/public/developers">For Developers</a></small></p>
+          <p><small><a href="https://github.com/AplaProject/apla-front/releases" target="_blank">Testnet</a></small></p>
+          <p><small><a href="https://blog.apla.io/" target="_blank">News</a></small></p>
+          <p><small><a href="https://apla.readthedocs.io/en/latest/" target="_blank">Docs</a></small></p>
         </nav>
         <section>
           <article>
@@ -356,5 +358,5 @@
     <!--script(src="//code.jquery.com/jquery-1.11.2.min.js")-->
     <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="/js/main.bundle.js"></script>
-  </app-home-new>
+  </app-home>
 </body>
