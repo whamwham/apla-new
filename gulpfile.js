@@ -61,9 +61,9 @@ gulp.task('serve', ['sass', 'jade', 'browserify'], function () {
 //    gulp.task('serve', ['sass'], function () {
   browserSync.init({
     server:{
-        baseDir: "./dist",
-        port:3300
-    }
+        baseDir: "./dist"
+    },
+    port:3300
   //, tunnel:true
   });
 

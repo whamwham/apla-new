@@ -105,6 +105,10 @@ window.anim = {};
         //   type: 'bullets',
         //   clickable: true
         //},
+        autoplay: {
+            delay: 3000,
+            disableOnInteraction: true
+        },
         watchOverflow: true,
         observer: true,
         breakpoints: {
