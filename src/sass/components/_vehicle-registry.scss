@@ -5,8 +5,12 @@
 		height: 100%;
 		min-height: 100%;
 		&-main {
-			background-image: url(/assets/images/cases/vehicle-registry/main-screen-2.jpg);
+			background-image: url(/assets/images/cases/vehicle-registry/main-screen-3.jpg);
+			h1 {
+				color: #fff;
+			}
 			h4 {
+				color: #fff;
 				max-width: 750px;
 			}
 		}
