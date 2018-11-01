@@ -41,10 +41,10 @@ app-footer
                 each item in $i18n.SOCIAL
                     +footer-socials-item(item)
             small!="&copy; " + ( (new Date()).getFullYear() ) + " " + $i18n.FOOTER.COPYRIGHT
+.team-rotator-popup
 
-
-//script(src="//code.jquery.com/jquery-1.11.2.min.js")
 script(src="//code.jquery.com/jquery-3.3.1.min.js")
+script(src="//cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js")
 
 script(src="/js/main.bundle.js")
 

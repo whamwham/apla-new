@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <title>Apla - Blockchain Platform for accelerating technological progress</title>
+  <base href="/">
+  <meta name="keywords" content="">
+  <meta name="description" content="Public blockchain platform for building digital ecosystems">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
+  <link rel="manifest" href="/favicons/manifest.json">
+  <link rel="mask-icon" href="/favicons/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="/favicons/favicon.ico?v=123421">
+  <meta name="msapplication-config" content="/favicons/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+  <link href="/css/style.min.css?1541062121" rel="stylesheet">
+  <script>var curr_lang_code = "en";
+    var lang_codes = {};lang_codes["en"] = "en";lang_codes["de"] = "de";lang_codes["fr"] = "fr";lang_codes["hr"] = "hr";lang_codes["ru"] = "ru";lang_codes["zh"] = "zh";lang_codes["ko"] = "ko";lang_codes["ja"] = "ja";lang_codes["th"] = "th";lang_codes["es"] = "es";lang_codes["pt"] = "pt";
+  </script>
+</head>
+<body class="en">
+  <app-header><a class="logo" href="/" data-click="isActive = false"></a><a name="top"></a>
+    <section>
+      <nav><a href="/developers">For Developers</a><a href="/public">Public network</a><a href="/private">Private solutions</a><a href="/use-cases">Cases</a><a href="/resources">Resources</a><a href="/faq">FAQ</a>
+      </nav>
+      <!--button.btn.openpopupform(type='button')!= $i18n.GETSTARTED-->
+      <!--a.btn(href="/public") Public Network-->
+      <div class="language">
+        <button mat-icon-button="MenuStatus() ? 'active' : ''">!= $i18n.LANGUAGE<span class="arrow arrow-down"><em></em></span></button>
+      </div>
+    </section>
+    <div class="menu" data-click="ShowMenu()">
+      <div class="patty"></div>
+    </div>
+  </app-header>
+  <resources>
+    <div class="screen-resources">
+      <div class="container">
+        <h1>Resources</h1>
+        <section>
+          <div class="left">
+            <div class="item">
+              <div class="video video-section">
+                <div class="video-wrapper">
+                  <video-js id="singleVideo" preload="no" crossorigin="" poster="/assets/images/video-bkg-r.svg" controls data-setup="{&quot;fluid&quot;: true }">
+                    <source src="/assets/qs-tutorial-8.mp4">
+                  </video-js>
+                </div>
+              </div>
+              <!-- img.play(src="/assets/icons/icon-play-video.svg")-->
+              <!--.head
+              .subtitle Video
+              h4
+                  | How to install
+                  .arrow.arrow-right-w
+                      em
+              
+              
+              -->
+            </div>
+          </div>
+          <div class="right"><a class="item" href="https://apla.readthedocs.io/en/latest/" target="_blank"><img class="icon" src="/assets/icons/icon-doc-download.svg"/>
+              <div class="head">
+                <div class="subtitle">Link</div>
+                <h4>Documentation
+                  <div class="arrow arrow-right"><em></em></div>
+                </h4>
+              </div></a><a class="item white" href="https://www.youtube.com/channel/UCLAccwf_YvWGnxSIVgGtl7g" target="_blank" style="background-image:url(/assets/icons/r-y.jpg) "><img class="icon" src="/assets/icons/r-youtube.png"/>
+              <div class="head">
+                <div class="subtitle">Link</div>
+                <h4>Our Channel
+                  <div class="arrow arrow-right-w"><em></em></div>
+                </h4>
+              </div></a><a class="item" href="https://blog.apla.io/" target="_blank"><img class="icon" src="/assets/icons/medium.png"/>
+              <div class="head">
+                <div class="subtitle">Link</div>
+                <h4>Our Blog
+                  <div class="arrow arrow-right"><em></em></div>
+                </h4>
+              </div></a><a class="item" href="https://github.com/AplaProject/go-apla" target="_blank"><img class="icon" src="/assets/icons/github.png"/>
+              <div class="head">
+                <div class="subtitle">Link</div>
+                <h4>Our GitHub
+                  <div class="arrow arrow-right"><em></em></div>
+                </h4>
+              </div></a>
+          </div>
+        </section>
+      </div>
+    </div>
+    <app-newsletter>
+      <div class="container">
+        <div>
+          <h4>Want to see more projects?</h4>
+          <p>Get exclusive content delivered right into your inbox.</p><a class="privacy" href="/download/Privacy_and_Cookies_Policy.pdf">Privacy policy</a>
+        </div>
+        <form id="subscribeForm" novalidate="">
+          <div class="form-body">
+            <div class="form-group"><small class="form-control-feedback"><span *ngif="email.errors.required">E-mail is required.</span><span *ngif="email.errors.pattern">Incorrect e-mail address!</span></small>
+              <input class="form-control" placeholder="E-mail" type="email" name="email" required><span class="form-control-focus"></span>
+            </div>
+            <button class="btn" type="submit" disabled>SUBSCRIBE</button>
+          </div>
+          <div class="form-process">Please wait...
+          </div>
+          <div class="form-success">Thank you!
+          </div>
+          <div class="form-duplicate"><small>You are already subscribed to newsletter!</small>
+          </div>
+          <div class="form-error">Error... <small>Please try again later</small>
+          </div>
+        </form>
+      </div>
+    </app-newsletter>
+    <app-footer>
+      <div class="screen-map" *ngif="map">
+        <div class="container">
+          <h2>Contact us</h2>
+          <agm-map [latitude]="false">
+            <!--agm-marker(*ngfor='let m of markers; let i = index' (markerclick)='clickedMarker(m.label, i)' [latitude]='m.lat' [longitude]='m.lng' [iconurl]='m.iconUrl' [markerdraggable]='m.draggable')
+            agm-info-window([maxwidth]='150')
+                strong {{ m.info }}
+            -->
+          </agm-map>
+        </div>
+      </div>
+      <div class="container">
+        <nav><a class="logo" href="/"></a>
+          <p><small><a href="/private/business">For Business</a></small></p>
+          <p><small><a href="/private/government">For Government</a></small></p>
+          <p><small><a href="/private/developers">For Developers</a></small></p>
+          <p><small><a href="/private/cases">Pilot projects</a></small></p>
+          <p><small><a href="/private/about">About Us</a></small></p>
+          <p><small><a href="https://blog.apla.io/" target="_blank">Blog</a></small></p>
+        </nav>
+        <section>
+          <article>
+            <h5>Dubai</h5><small>TechnoHub 1, Dubai Silicon<br>Oasis Authority, Dubai<br><a href="mailto:dubai@apla.io">dubai@apla.io</a></small>
+          </article>
+          <article>
+            <h5>Luxembourg</h5><small>20 rue de Bitbourg, L1273<br>Luxembourg<br><a href="mailto:luxembourg@apla.io">luxembourg@apla.io</a></small>
+          </article>
+          <article>
+            <h5>Moscow</h5><small>Mikluho-Maklaya 34, Office 76,<br>117279, Moscow, Russia<br><a href="mailto:moscow@apla.io">moscow@apla.io</a></small>
+          </article>
+        </section>
+        <footer>
+          <div class="soc"><a class="btn-icon btn-icon-black" href="https://www.facebook.com/AplaBlockchain/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a><a class="btn-icon btn-icon-black" href="https://twitter.com/AplaBlockchain" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a><a class="btn-icon btn-icon-black" href="https://blog.apla.io/" target="_blank"><i class="fa fa-medium" aria-hidden="true"></i></a><a class="btn-icon btn-icon-black" href="https://t.me/apla_project" target="_blank"><i class="fa fa-paper-plane" aria-hidden="true"></i></a><a class="btn-icon btn-icon-black" href="https://github.com/AplaProject/go-apla/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a><a class="btn-icon btn-icon-black" href="https://www.youtube.com/channel/UCLAccwf_YvWGnxSIVgGtl7g" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a><a class="btn-icon btn-icon-black" href="https://www.linkedin.com/company/apla-blockchain/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+          </div><small>&copy; 2018 Apla, All Rights Reserved.</small>
+        </footer>
+      </div>
+    </app-footer>
+    <div class="team-rotator-popup"></div>
+    <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script src="/js/main.bundle.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106094666-1"></script><script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'UA-106094666-1');</script>
+    <app-popupform>
+      <div class="popup-form-wrapper">
+        <div class="backdrop"></div>
+        <div class="popup-form">
+          <form id="getstarted" novalidate="">
+            <div class="head">
+              <h4>Tell us about your needs</h4>
+              <p>and we will come up with a personalized solution</p>
+            </div>
+            <div class="form-body">
+              <div class="form-group"><small class="form-control-feedback"><span class="required">Name is required.</span></small>
+                <input class="form-control" placeholder="Your name *" type="text" name="name" required><span class="form-control-focus"></span>
+              </div>
+              <div class="form-group"><small class="form-control-feedback"><span class="required">Email is required.</span><span class="incorrect">Incorrect email address!</span></small>
+                <input class="form-control email-input" placeholder="Your email *" type="email" name="email" required pattern="\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+"><span class="form-control-focus"></span>
+              </div>
+              <div class="form-group"><small class="form-control-feedback"><span class="required">Message is required.</span></small>
+                <textarea class="form-control" rows="5" placeholder="Your message *" name="message" required></textarea><span class="form-control-focus"></span>
+              </div>
+              <button class="btn" type="submit" disabled>Send message</button>
+            </div>
+            <div class="form-process">Please wait...
+            </div>
+            <div class="form-success">Thank you!
+            </div>
+            <div class="form-duplicate">
+            </div>
+            <div class="form-error">Error... <small>Please try again later</small>
+            </div>
+          </form>
+        </div>
+      </div>
+    </app-popupform>
+  </resources>
+</body>

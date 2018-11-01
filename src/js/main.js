@@ -6,7 +6,7 @@
  *
  *
  */
-//window.$ = global.jQuery = require("jquery");
+//window.$ = window.jQuery = require("jquery");
 
 
 //global.jQuery = require('jquery');
@@ -14,6 +14,8 @@ var videojs = require('video.js');
 var vide = require('vide');
 
 var Swiper = require('swiper');
+
+//window.slick = require('slick-carousel');
 
 var waypoints = require('../../node_modules/waypoints/lib/jquery.waypoints.min');
 
@@ -26,13 +28,13 @@ window.anim = {};
 
 (function ($) {
 
-/*
-    var preBootstrap = document.getElementById("pre-bootstrap");
-    setTimeout(function removeLoadingScreen() {
-        preBootstrap.className = "loaded";
-        preBootstrap.remove();
-    }, 2000);
-*/
+    /*
+        var preBootstrap = document.getElementById("pre-bootstrap");
+        setTimeout(function removeLoadingScreen() {
+            preBootstrap.className = "loaded";
+            preBootstrap.remove();
+        }, 2000);
+    */
 
 
     $(".lazy").Lazy();
@@ -90,7 +92,7 @@ window.anim = {};
         navigation: {nextEl: '.swiper-button-next', prevEl: '.swiper-button-prev'}
     });
 
-    var teamSwiper = new Swiper('.swiper-container.team-style', {
+    var teamSwiper = new Swiper('.swiper-container.team-style222', {
         direction: 'horizontal',
         slidesPerView: 4,
         slidesPerGroup: 4,
@@ -130,18 +132,128 @@ window.anim = {};
                 centeredSlides: true
             }
         }
+
+    });
+
+    $('.swiper-container.team-style').each(function (index, el) {
+        const uid = $(el).attr('id');
+        $('.swiper-container.team-style#' + uid + ' .swiper-wrapper').slick({
+            infinite: true,
+            autoplay: true,
+            dots: false,
+            speed: 700,
+            slidesToShow: 4,
+            slidesToScroll: 4,
+            prevArrow: '#' + uid + ' .swiper-button-prev',
+            nextArrow: '#' + uid + ' .swiper-button-next',
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 3
+                    }
+                }, {
+                    breakpoint: 700,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2
+                    }
+                }, {
+                    breakpoint: 450,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                        //,
+                        //centerMode: true
+                    }
+                }
+            ]
+        });
+
+        var blockMouseOver = false;
+
+        $('.swiper-container.team-style#' + uid + ' .swiper-wrapper').on("beforeChange", function (e) {
+            blockMouseOver = true;
+        });
+
+        $('.swiper-container.team-style#' + uid + ' .swiper-wrapper').on("afterChange", function (e) {
+            blockMouseOver = false;
+        });
+
+        $('.swiper-container.team-style#' + uid + ' .swiper-wrapper .swiper-slide').on("mouseleave", function (e) {
+            //console.log($(this).find('.descr-ov').html());
+            $('.team-rotator-popup').removeClass('active');
+        });
+
+        $('.swiper-container.team-style#' + uid + ' .swiper-wrapper .swiper-slide').on("mousemove", function (e) {
+
+            if(blockMouseOver) return;
+
+            const curr_idx = $('.swiper-container.team-style#' + uid).data('idx');
+            const idx = $(this).data('idx');
+            const popup = $('.team-rotator-popup');
+
+            $(popup).addClass('active');
+
+            //if (idx !== curr_idx) {
+                $('.swiper-container.team-style#' + uid).data('idx', idx);
+                $(popup).html($(this).find('.descr-ov').html()).addClass('active');
+                //let top =
+                $(popup).css('top', $(this).offset().top + $(this).height());
+                $(popup).css('left', $(this).offset().left);
+                $(popup).css('width', $(this).width());
+                //console.log($(this).offset().top, $(window).scrollTop());
+            //}
+
+            //console.log($(this).find('.descr-ov').html());
+
+        })
     });
 
 
+    $('.swiper-container.team-style22 .swiper-wrapper').slick(
+        {
+            infinite: true,
+            autoplay: true,
+            dots: false,
+            speed: 700,
+            slidesToShow: 4,
+            slidesToScroll: 4,
+            prevArrow: '.swiper-button-prev',
+            nextArrow: '.swiper-button-next',
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 3
+                    }
+                }, {
+                    breakpoint: 700,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2
+                    }
+                }, {
+                    breakpoint: 450,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+            ]
+        });
 
-    $(".mat-tab-label").on('click', function(e){
+
+    $(".mat-tab-label").on('click', function (e) {
         const sel = $(this).data('idx');
-        if( $("#tab_body_"+sel).hasClass("mat-tab-body-active")) return;
+        if ($("#tab_body_" + sel).hasClass("mat-tab-body-active")) return;
 
         $(".mat-tab-body.mat-tab-body-active").addClass("mat-tab-body-removed").removeClass("mat-tab-body-active").one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend', function () {
             $(".mat-tab-body.mat-tab-body-removed").removeClass("mat-tab-body-removed");
         });
-        $("#tab_body_"+sel).addClass("mat-tab-body-active");
+        $("#tab_body_" + sel).addClass("mat-tab-body-active");
 
         $(".mat-tab-label-active").removeClass("mat-tab-label-active");
         $(this).addClass("mat-tab-label-active");
@@ -324,8 +436,8 @@ window.anim = {};
     if ($("app-career").length) {
 
         var waypoints = $('.is-animated').waypoint({
-            handler: function(direction) {
-                $(this.element).toggleClass("animated "+ $(this.element).data('animation'));
+            handler: function (direction) {
+                $(this.element).toggleClass("animated " + $(this.element).data('animation'));
             },
             offset: '100%'
         })
@@ -334,38 +446,37 @@ window.anim = {};
 
 // ******************************* Inline Form handler *************************/
 
-    $.checkFormValidity = function(sel){
+    $.checkFormValidity = function (sel) {
         let isValid = true;
         $(sel).find(".form-control").each(function (idx, el) {
-            if($(this)[0].willValidate) {
-                if(!$(this)[0].validity.valid) isValid = false;
+            if ($(this)[0].willValidate) {
+                if (!$(this)[0].validity.valid) isValid = false;
             }
         });
         return isValid;
     };
 
 
-    $("body").on("input", "#getstarted .form-control", function(event){
-        if(event.target.validity.valid) $(this).parent().children(".form-control-feedback").children().removeClass("active");
+    $("body").on("input", "#getstarted .form-control", function (event) {
+        if (event.target.validity.valid) $(this).parent().children(".form-control-feedback").children().removeClass("active");
         else {
-            if(event.target.validity.valueMissing) $(this).parent().children(".form-control-feedback").children(".required").addClass("active");
-            else if(event.target.validity.patternMismatch) $(this).parent().children(".form-control-feedback").children(".incorrect").addClass("active");
+            if (event.target.validity.valueMissing) $(this).parent().children(".form-control-feedback").children(".required").addClass("active");
+            else if (event.target.validity.patternMismatch) $(this).parent().children(".form-control-feedback").children(".incorrect").addClass("active");
         }
         event.preventDefault();
-        if( $.checkFormValidity("#getstarted")) $("#getstarted button[type=submit]").prop("disabled", false);
+        if ($.checkFormValidity("#getstarted")) $("#getstarted button[type=submit]").prop("disabled", false);
         else $("#getstarted button[type=submit]").prop("disabled", true);
     });
 
 
-
-    $("body").on("input", "#subscribeForm input", function(event){
-        if(event.target.validity.valid) $(this).parent().children(".form-control-feedback").children().removeClass("active");
+    $("body").on("input", "#subscribeForm input", function (event) {
+        if (event.target.validity.valid) $(this).parent().children(".form-control-feedback").children().removeClass("active");
         else {
-            if(event.target.validity.valueMissing) $(this).parent().children(".form-control-feedback").children(".required").addClass("active");
-            else if(event.target.validity.patternMismatch) $(this).parent().children(".form-control-feedback").children(".incorrect").addClass("active");
+            if (event.target.validity.valueMissing) $(this).parent().children(".form-control-feedback").children(".required").addClass("active");
+            else if (event.target.validity.patternMismatch) $(this).parent().children(".form-control-feedback").children(".incorrect").addClass("active");
         }
         event.preventDefault();
-        if( $.checkFormValidity("#subscribeForm")) $("#subscribeForm button[type=submit]").prop("disabled", false);
+        if ($.checkFormValidity("#subscribeForm")) $("#subscribeForm button[type=submit]").prop("disabled", false);
         else $("#subscribeForm button[type=submit]").prop("disabled", true);
     });
 
@@ -389,12 +500,12 @@ window.anim = {};
             $.ajax({
                 url: "/post/",
                 method: "POST",
-                dataType:"json",
+                dataType: "json",
                 data: dataOut,
 
                 success: function (data, textStatus, jqXHR) {
                     $("#" + formId + " .form-process").removeClass("show");
-                    if(data.success) $("#" + formId + " .form-success").addClass("show");
+                    if (data.success) $("#" + formId + " .form-success").addClass("show");
                     else $("#" + formId + " .form-error").addClass("show");
                 },
                 error: function (jqXHR, textStatus, errorThrown) {
@@ -426,14 +537,14 @@ window.anim = {};
             $.ajax({
                 url: "https://apla.io/subscribe",
                 method: "POST",
-                dataType:"text",
+                dataType: "text",
                 data: dataOut,
 
                 success: function (data, textStatus, jqXHR) {
                     $("#" + formId + " .form-process").removeClass("show");
-                    if(data==='OK') $("#" + formId + " .form-success").addClass("show");
-                    else if(data==='DUP') $("#" + formId + " .form-duplicate").addClass("show");
-                    else if(data==='ERROR') $("#" + formId + " .form-error").addClass("show");
+                    if (data === 'OK') $("#" + formId + " .form-success").addClass("show");
+                    else if (data === 'DUP') $("#" + formId + " .form-duplicate").addClass("show");
+                    else if (data === 'ERROR') $("#" + formId + " .form-error").addClass("show");
                 },
                 error: function (jqXHR, textStatus, errorThrown) {
                     $("#" + formId + " .form-process").removeClass("show");
@@ -443,7 +554,6 @@ window.anim = {};
         }
         return false;
     });
-
 
 
     $("video").each(function () {

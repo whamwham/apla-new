@@ -1,0 +1,138 @@
+include ../includes/common.pug
+include ../includes/data.pug
+
+-
+    var currPage = $i18n.PAGES[0];
+    htmlAttrs = currPage.htmlAttrs;
+
+
+include ../includes/head
+body(class=$i18n.lang)
+    include ../includes/header
+    app-business
+        section
+            .screen-main
+                .container
+                    h1 Drive competitive advantage in the digital age
+                    h5
+                        | Digital transformation helps organization become more productive. Blockchain enables organizations to operate in more secure, transparent and trusting environment.
+            .screen-examples
+                .container
+                    button.btn.openpopupform(style="display:none") Book appointment
+                    h2 Examples of services for&nbsp;businesses
+                    section
+                        article
+                            span
+                            h5 Supply chain
+                            p Precise location tracking and reliable identification of freight in addition to rapid integration of new contractors.
+                        article
+                            span
+                            h5 Asset registration
+                            p Eradication of corruption and fraudulent practices. Increased efficiency with paperless data.
+                        article
+                            span
+                            h5 Certificate validation
+                            p Simple and reliable verification of qualifications and attestations making misrepresentation impossible.
+                        article
+                            span
+                            h5 Data management
+                            p Smart data storage and access rights management within a distributed but unified database for increased security.
+                        article
+                            span
+                            h5 Contract administration
+                            p Smart contracts automate contract management between counterparties to bring increased reliability and disintermediation.
+                        article
+                            span
+                            h5 &Acy;sset tokenization
+                            p Real world assets placed on the blockchain which offer easy subdivision and simplified transfers of assets.
+                        article
+                            span
+                            h5 KYC &amp; ID
+                            p Simplified compliance which provides full and immutable records that fit within existing regulatory requirements.
+                        article
+                            span
+                            h5 Reward management
+                            p Real transparency and trust to loyalty programs which will increase overall participation.
+            .screen-blockchain
+                .container
+                    h2 Why should you use blockchain?
+                    section
+                        article
+                            span
+                            h4 Optimization
+                            p Blockchain-based solutions optimize the business structure as a whole, accelerating transaction speed to a supersonic level. For example, verification and approval of documentation for international shipping would earlier take several months; now this is down to just a few minutes.
+                        article
+                            span
+                            h4 Reduced risk &amp; expenditure
+                            p Blockchain applications replace complete departments that are concerned only with forwarding and signing paperwork. Moreover, errors are brought down to zero.
+                        article
+                            span
+                            h4 Transparency
+                            p Blockchain brings about trust since all operations within the ledger are open for inspection, while contract execution is clear and obligatory.
+            .screen-benefits
+                .container
+                    h2 Key Benefits of the Apla Blockchain
+                    section
+                        article
+                            span
+                            h4 Smart Laws
+                            p Smart Law is a governing protocol over the application ecosystems.
+                        article
+                            span
+                            h4 Government Ecosystems
+                            p  Create a unified Government Platform with all individual departments / ministries maintaining their application ecosystem.
+                        article
+                            span
+                            h4 Rapid development
+                            p By far the lowest time & cost of testing cases and deploying with APLA Rapid Dev Environment.
+                        article
+                            span
+                            h4 Independence
+                            p With Open Source Codes and Easy to build platform, no need for a million dollar application environment makeover.
+                        article
+                            span
+                            h4 Interface editor
+                            p The only platform with interface designer on the blockchain making it very secure.
+                        article
+                            span
+                            h4 Cross-platform
+                            p Ease of use from desktop or any Android iOS devices.
+                    h2 Blockchain evolution
+                    img.lazy(data-src='/assets/images/blockchain-evolution.png' alt='')
+            //.screen-clients
+                .container
+                    h2 Clients
+                    section(style='justify-content: left')
+                        each item in $i18n.CLIENTS.BUSINESS
+                            +clients-business-list-item(item)
+            .screen-stories
+                .container
+                    h2 Cases
+                    each item in [$i18n.CASES[1],$i18n.CASES[4],$i18n.CASES[6]]
+                        +cases-inline-list-item(item)
+                    .btn-wrapper
+                        a.btn(href='/cases')!=$i18n.READMORECASES
+
+
+        include ../includes/banner
+        include ../includes/newsletter
+
+        include ../includes/footer
+        include ../includes/popupform
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

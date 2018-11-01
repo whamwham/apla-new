@@ -3,6 +3,10 @@
 	background-color: $black;
 	padding-top: 180px;
 	padding-bottom: 65px;
+	&.pilot {
+		padding-top: 120px;
+		padding-bottom: 120px;
+	}
 	@include max($btablet) {
 		padding-top: 110px;
 		padding-bottom: 40px;

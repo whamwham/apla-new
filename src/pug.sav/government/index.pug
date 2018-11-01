@@ -1,0 +1,145 @@
+include ../includes/common.pug
+include ../includes/data.pug
+
+-
+    var currPage = $i18n.PAGES[1];
+    htmlAttrs = currPage.htmlAttrs;
+
+
+include ../includes/head
+body(class=$i18n.lang)
+    include ../includes/header
+    app-government
+        section
+            .screen-main
+                .container
+                    h1 Let&rsquo;s make digital society a reality
+                    h5
+                        | Blockchain powered government brings a whole new dimension to Innovation, Trust and Governance.
+            .screen-examples
+                .container
+                    button.btn.openpopupform(type='button' style="display:none") Book appointment
+                    h2 Examples of services for&nbsp;e-goverment
+                    section
+                        article
+                            span
+                            h5 Digital identity
+                            p Ensuring all citizens have a digital ID isn&rsquo;t just the foundation of e-government, but it will also lead to increased efficiency and, therefore, satisfaction from citizens interacting with government services.
+                        article
+                            span
+                            h5 Business licence issuance
+                            p Businesses of all sorts need all kinds of licenses to operate. With paper documents, storage takes up space and the documents become easily disorganized, whilst this is completed rapidly with blockchain-based digital solutions.
+                        article
+                            span
+                            h5 Land registry
+                            p Registering land in the name of an entity or citizen can take an extended period of time and corruption can mire the process, meaning it can drag on for months. With e-government, this process is transparent and efficient.
+                        article
+                            span
+                            h5 Vehicle registry
+                            p Registering a vehicle can be a long and arduous process with documents becoming lost and problems arising with regards to vehicle ownership. By using immutable blockchain-based solutions, owners can be sure of the full vehicle history.
+                        article
+                            span
+                            h5 Contract management
+                            p Many agreements between counterparties need to be registered with the government for their validity to be confirmed. Blockchain simplifies this process by making document management digital and network based.
+                        article
+                            span
+                            h5 Supply chain
+                            p Governments have their own supply chain problems that are more complicated by the bureaucracy of the system being so large. Reducing bureaucracy and going paperless will eliminate many of these problems.
+                        article
+                            span
+                            h5 Education system
+                            p Attestations are currently issued in paper format with many institutions holding copies, in addition to the certificate recipient. However, these documents can be easily falsified and their validity cannot be checked as information is kept in data silos. Distributed networks therefore reduce the opaque nature of the system.
+                        article
+                            span
+                            h5 Digital voting
+                            p Ballot box stuffing and political apathy are big issues for democratic systems. Blockchain-based voting systems make it simpler to cast ballots, whilst voting data is chronologically stored and can be verified where necessary.
+                        article
+                            span
+                            h5 Asset tokenization
+                            p Any property titles held by citizens can be entered as a registry onto the blockchain, making any asset transfers that subsequently take place more efficient and easier to tax due to the heightened transparency of the system.
+                        article
+                            span
+                            h5 Wallets for financial transactions
+                            p Citizens can hold funds digitally in so called wallets, and these funds can be used to conduct financial transactions with the state, for example: paying fines or settling tax debts before the state.
+            .screen-blockchain
+                .container
+                    h2 Why should you use blockchain?
+                    section
+                        article
+                            span
+                            h4 Secure data
+                            p Blockchain guarantees that any information can not be arbitrarily amended, altered or or deleted by anybody except those via the democratic vote of the ecosystem community.
+                        article
+                            span
+                            h4 Transparent
+                            p It is easy to track actions made by every system user and define who is specifically responsible for each.
+                        article
+                            span
+                            h4 Speed
+                            p Operational efficiency is increased hundreds of times.
+            .screen-benefits
+                .container
+                    h2 Key Benefits of the Apla Blockchain
+                    section
+                        article
+                            span
+                            h4 Smart Laws
+                            p Smart Law is a governing protocol over the application ecosystems.
+                        article
+                            span
+                            h4 Government Ecosystems
+                            p  Create a unified Government Platform with all individual departments / ministries maintaining their application ecosystem.
+                        article
+                            span
+                            h4 Rapid development
+                            p By far the lowest time & cost of testing cases and deploying with APLA Rapid Dev Environment.
+                        article
+                            span
+                            h4 Independence
+                            p With Open Source Codes and Easy to build platform, no need for a million dollar application environment makeover.
+                        article
+                            span
+                            h4 Interface editor
+                            p The only platform with interface designer on the blockchain making it very secure.
+                        article
+                            span
+                            h4 Cross-platform
+                            p Ease of use from desktop or any Android iOS devices.
+                    h2 Blockchain evolution
+                    img.lazy(data-src='/assets/images/blockchain-evolution.png' alt='')
+            //.screen-clients
+                .container
+                    h2 Clients
+                    section
+                        each item in $i18n.CLIENTS.GOV
+                            +clients-gov-list-item(item)
+            .screen-stories
+                .container
+                    h2 Cases
+                    each item in [$i18n.CASES[0],$i18n.CASES[2],$i18n.CASES[3],$i18n.CASES[5]]
+                        +cases-inline-list-item(item)
+                    .btn-wrapper
+                        a.btn(href='/cases')!=$i18n.READMORECASES
+
+        include ../includes/banner
+        include ../includes/newsletter
+
+        include ../includes/footer
+        include ../includes/popupform
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

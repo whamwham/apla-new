@@ -1,0 +1,79 @@
+doctype html
+head
+  meta(charset='utf-8')
+  title #{htmlAttrs.title}
+  base(href='/')
+  meta(name="keywords", content=htmlAttrs.keywords)
+  meta(name="description", content=htmlAttrs.description)
+  meta(http-equiv='X-UA-Compatible' content='IE=edge')
+  meta(name='viewport' content='width=device-width, initial-scale=1')
+  link(rel='icon' type='image/x-icon' href='favicon.ico')
+  link(href="/css/style.min.css?110220181", rel="stylesheet")
+  script
+      | var curr_lang_code = "!{$i18n.lang}";
+      | var lang_codes = {};
+      each item in langs
+        +lang-js-list-item(item)
+
+  #pre-bootstrap
+    style(type='text/css').
+      body {
+        overflow-y: scroll;
+      }
+
+      .llogo {
+        height: 22px;
+        width: auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 1000;
+      }
+
+      .lmask {
+        height: 220px;
+        width: auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        animation: loadermask 4s infinite;
+        z-index: 100;
+      }
+
+      #pre-bootstrap {
+        position: fixed;
+        left: 0px;
+        right: 0px;
+        top: 0px;
+        bottom: 0px;
+        overflow: hidden;
+        background-color: #1C1A1A;
+        background-image: url(assets/loader-3.svg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 1920px auto;
+        opacity: 1;
+        transition: opacity linear 300ms;
+        -webkit-transition: opacity linear 300ms;
+        z-index: 999999;
+      }
+
+      #pre-bootstrap.loaded {
+        opacity: 0;
+      }
+
+      @keyframes loadermask {
+        0% {
+          height: 22px;
+        }
+        50% {
+          height: 2100px;
+        }
+        100% {
+          height: 22px;
+        }
+      }
+    img.llogo(src='assets/apla.svg')
+    img.lmask(src='assets/loader-mask.svg')

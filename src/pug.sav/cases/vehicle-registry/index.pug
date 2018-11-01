@@ -1,0 +1,34 @@
+include ../../includes/common.pug
+include ../../includes/data.pug
+
+-
+    var currPage = $i18n.CASES[2];
+    htmlAttrs = currPage.htmlAttrs;
+
+
+include ../../includes/head
+body(class=$i18n.lang)
+    include ../../includes/header
+    app-land-registry
+        .screen-main(style="background-image:none; height: auto;padding-top:0;")
+            img(src="/assets/images/uc-2.jpg" style="width:100%")
+
+        include ../../includes/footer
+        include ../../includes/popupform
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

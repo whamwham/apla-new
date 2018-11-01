@@ -54,7 +54,7 @@ mixin footer-socials-item( item )
 
 
 
-mixin team-list( listSelector )
+mixin team-list( listSelector, dom_id )
     -
         var list=[], src = $i18n[listSelector]
         for (var i=0;i<src.length;i++)
@@ -66,10 +66,10 @@ mixin team-list( listSelector )
             if(!list[i].SHORT) list[i].SHORT = list[i].DESCR.substring(0, 100 )
     app-team
         section.team-rotator
-            .swiper-container.team-style
+            .swiper-container.team-style(id=dom_id)
                 .swiper-wrapper
-                    each item in list
-                        +team-item( item )
+                    each item, index in list
+                        +team-item( item, index )
                 .swiper-pagination
                 button.swiper-button-prev(type='button')
                     span.arrow.arrow-left-w.arrow-lg
@@ -78,8 +78,8 @@ mixin team-list( listSelector )
                     span.arrow.arrow-right-w.arrow-lg
                         em
 
-mixin team-item( item )
-    .swiper-slide.v2
+mixin team-item( item, idx )
+    .swiper-slide.v2(data-idx=idx)
         article
             .thumb.mask.mask-black2
                 img(src!=item.IMG alt='')
@@ -88,6 +88,38 @@ mixin team-item( item )
             .descr!=item.SHORT
         .descr-ov!=item.DESCR
 
+
+mixin use-cases-main-list-item(item)
+    a.article(href!=item.href)
+        h4!=item.title
+        .arrow.arrow-right
+            em
+
+
+mixin use-case-benefit-list-item(value)
+    .article
+        .dot
+        .p!=value
+
+mixin resources-list-item(item)
+    if(item.bkg)
+        a.item.white(href!=item.href target!=item.target style!=("background-image:url("+ item.bkg + ") ") )
+            img.icon(src!=item.icon)
+            .head
+                .subtitle!=item.subtitle
+                h4
+                    !=item.title
+                    .arrow.arrow-right-w
+                        em
+    else
+        a.item(href!=item.href target!=item.target)
+            img.icon(src!=item.icon)
+            .head
+                .subtitle!=item.subtitle
+                h4
+                    !=item.title
+                    .arrow.arrow-right
+                        em
 
 
 mixin cases-main-list-item(item)
@@ -138,6 +170,17 @@ mixin main-news-item( item )
             p!=item.text
 
 
+mixin invention-list-item(item)
+    .item
+        if(item.icon)
+            img.icon(src!=item.icon)
+        h4!= item.title
+        p!= item.p
+
+mixin faq-list-item(item)
+    .item
+        h4!= item.q
+        p!= item.a
 
 
 

@@ -9,7 +9,6 @@
   "TITLE": "Apla - Blockchain Platform for accelerating technological progress",
   "GETSTARTED": "GET STARTED",
   "READMORECASES": "READ MORE CASES",
-
   "PAGES_PUBLIC": [
     {
       "title": "White paper",
@@ -55,8 +54,17 @@
       "class": ""
     }
   ],
-
   "PAGES_MAIN": [
+    {
+      "title": "For Developers",
+      "href": "/developers",
+      "navIsWhite": true,
+      "htmlAttrs": {
+        "title": "Apla - Blockchain Platform for accelerating technological progress",
+        "description": "Public blockchain platform for building digital ecosystems",
+        "keywords": ""
+      }
+    },
     {
       "title": "Public network",
       "href": "/public",
@@ -76,22 +84,36 @@
       }
     },
     {
-      "title": "Our mission",
-      "href": "#mission_container"
+      "title": "Cases",
+      "href": "/use-cases",
+      "navIsWhite": true,
+      "htmlAttrs": {
+        "title": "Apla - Blockchain Platform for accelerating technological progress",
+        "description": "Public blockchain platform for building digital ecosystems",
+        "keywords": ""
+      }
     },
     {
-      "title": "Team",
-      "href": "./#team",
-      "class": ""
+      "title": "Resources",
+      "href": "/resources",
+      "navIsWhite": false,
+      "htmlAttrs": {
+        "title": "Apla - Blockchain Platform for accelerating technological progress",
+        "description": "Public blockchain platform for building digital ecosystems",
+        "keywords": ""
+      }
     },
     {
-      "title": "Blog",
-      "href": "https://blog.apla.io/",
-      "target": "_blank",
-      "class": ""
+      "title": "FAQ",
+      "href": "/faq",
+      "navIsWhite": false,
+      "htmlAttrs": {
+        "title": "Apla - Blockchain Platform for accelerating technological progress",
+        "description": "Public blockchain platform for building digital ecosystems",
+        "keywords": ""
+      }
     }
   ],
-
   "PAGES": [
     {
       "title": "For Business",
@@ -123,7 +145,7 @@
       }
     },
     {
-      "title": "Use Cases",
+      "title": "Pilot projects",
       "href": "/private/cases",
       "navIsWhite": true,
       "htmlAttrs": {
@@ -148,7 +170,6 @@
       "class": ""
     }
   ],
-
   "PAGES_OLD": [
     {
       "title": "Career",
@@ -170,7 +191,6 @@
       }
     }
   ],
-
   "CASES_SAV": [
     {
       "title": "Financial Sector and financial instruments",
@@ -188,7 +208,7 @@
   ],
   "CASES": [
     {
-      "title": "India land registry",
+      "title": "Land registry for Government",
       "descr": "Apla proposed a robust working model that was approved by the Indian government",
       "href": "/private/cases/land-registry",
       "main_img": "/assets/images/cases/land-registry.jpg",
@@ -281,7 +301,350 @@
       }
     }
   ],
-
+  "USE_CASES": [
+    {
+      "title": "Land registry",
+      "descr": "A solution that enables regulatory bodies to securely record, manage, and share information about land and property ownership across whole network and registration process.",
+      "href": "/use-cases/land-registry",
+      "benefits": [
+        "Significant decrease in registration time",
+        "Increased transparency and trust",
+        "Decreased corruption",
+        "Standardized data integration and integrity",
+        "Overall improvement of internal operations and e-service"
+      ],
+      "video": "/assets/videos/land-registry.mp4",
+      "htmlAttrs": {
+        "title": "Apla - Blockchain Platform for accelerating technological progress",
+        "description": "Public blockchain platform for building digital ecosystems",
+        "keywords": ""
+      }
+    },
+    {
+      "title": "Vehicle registry",
+      "descr": "Practical use of blockchain to increase road policing efficiency, secure citizens’ data, and increase operational efficiency in the vehicle registration process.",
+      "href": "/use-cases/vehicle-registry",
+      "benefits": [
+        "Increase in police efficiency",
+        "Saving resources and optimizing government services",
+        "Reduced cost for vehicle transactions",
+        "Automation through face and image recognition",
+        "Reduced transaction time"
+      ],
+      "video": "/assets/videos/vehicle-registry.mp4",
+      "htmlAttrs": {
+        "title": "Apla - Blockchain Platform for accelerating technological progress",
+        "description": "Public blockchain platform for building digital ecosystems",
+        "keywords": ""
+      }
+    },
+    {
+      "title": "Supply chain management",
+      "descr": "Blockchan solution for data-sharing between all contractors in the supply chain, providing a current state database, and allowing to securely query, verify, and approve any shipment data.",
+      "href": "/use-cases/supply-chain",
+      "benefits": [
+        "Automation of business transactions through smart contract mechanism",
+        "Ensured SLA fulfillment",
+        "Transparent and immutable transaction history from origin to store shelf",
+        "Increased trust and collaboration between contractors",
+        "Complete data audit trail"
+      ],
+      "video": "/assets/videos/supply-chain.mp4",
+      "htmlAttrs": {
+        "title": "Apla - Blockchain Platform for accelerating technological progress",
+        "description": "Public blockchain platform for building digital ecosystems",
+        "keywords": ""
+      }
+    },
+    {
+      "title": "Attestation",
+      "descr": "Blockchain system to verify the validity of education certificates and diplomas, improve data security and transparency, reduce fraud, and increase operational and economic efficiency for government, universities, students, and recruiters.",
+      "href": "/use-cases/attestation",
+      "benefits": [
+        "Complete protection from diploma falsification",
+        "Reduced bureaucracy and paperwork",
+        "A digital repository and a centralised database of credentials and achievements for an increasingly mobile population of students and workers",
+        "Increased access to and availability of education data",
+        "Eliminates costs and time spent on litigation due to loss or damage of education documents",
+        "Ability to promote blockchain-validated portfolio of accomplishments"
+      ],
+      "video": "/assets/videos/attestation.mp4",
+      "htmlAttrs": {
+        "title": "Apla - Blockchain Platform for accelerating technological progress",
+        "description": "Public blockchain platform for building digital ecosystems",
+        "keywords": ""
+      }
+    },
+    {
+      "title": "Certificate Issuance",
+      "descr": "A new method of issuing licenses and certificates that are tagged, traceable, and safely stored in a secure private blockchain, and a solution to verify the validity of existing certificates.",
+      "href": "/use-cases/certificate-issuance",
+      "benefits": [
+        "Licenses with the highest level of security",
+        "Reduced vulnerability of centralized data storage",
+        "Blocks counterfeit certificates and improper use",
+        "Exposes outdated certificates",
+        "Positive impact on country attractiveness for investment"
+      ],
+      "video": "/assets/videos/certificate-issuance.mp4",
+      "htmlAttrs": {
+        "title": "Apla - Blockchain Platform for accelerating technological progress",
+        "description": "Public blockchain platform for building digital ecosystems",
+        "keywords": ""
+      }
+    },
+    {
+      "title": "Business License Issuance",
+      "descr": "Solution for business license issuance on the blockchain, with automated license and identity verification to reduce frictional and transactional costs and inefficiencies.",
+      "href": "/use-cases/business-license-issuance",
+      "benefits": [
+        "Significant decrease in number of paper documents",
+        "Decreased company registration time and automated license renewal",
+        "Single record of transactions validated by multiple governmental authorities",
+        "Digital identity management integrated with company registries",
+        "Increased customer satisfaction"
+      ],
+      "video": "/assets/videos/business-license-issuance.mp4",
+      "htmlAttrs": {
+        "title": "Apla - Blockchain Platform for accelerating technological progress",
+        "description": "Public blockchain platform for building digital ecosystems",
+        "keywords": ""
+      }
+    },
+    {
+      "title": "Birth Certificates",
+      "descr": "A blockchain solution to automate issuance of birth certificates, reduce fraud, and empower citizens.",
+      "href": "/use-cases/birth-certificates",
+      "benefits": [
+        "Increased internal data consistency and reduced data contradictions",
+        "All certificates are tamper-proof",
+        "Complete data immutability, standardization, and availability",
+        "Reduced manual oversight, human error, and intentional falsification",
+        "Permissioned access to create new certificates, update information, and view certificates"
+      ],
+      "video": "/assets/videos/birth-certificates.mp4",
+      "htmlAttrs": {
+        "title": "Apla - Blockchain Platform for accelerating technological progress",
+        "description": "Public blockchain platform for building digital ecosystems",
+        "keywords": ""
+      }
+    },
+    {
+      "title": "Voting",
+      "descr": "Pre-installed application for creating and recording tamper-proof votings on the blockchain.",
+      "href": "/use-cases/voting",
+      "benefits": [
+        "Voters' information is cryptographically secure",
+        "Exposes any fraudulent activity",
+        "Vote registration is immutable and traceable",
+        "Increases trust within the network",
+        "All parties have the same validated record"
+      ],
+      "video": "/assets/videos/voting.mp4",
+      "htmlAttrs": {
+        "title": "Apla - Blockchain Platform for accelerating technological progress",
+        "description": "Public blockchain platform for building digital ecosystems",
+        "keywords": ""
+      }
+    },
+    {
+      "title": "Token Transfer",
+      "descr": "Pre-installed application that enables asset tokenization, creation of digital wallets, and token transfers between users on the blockchain.",
+      "href": "/use-cases/token-transfer",
+      "benefits": [
+        "Enables new business models, such as micropayments and asset transfers",
+        "Tamper protected transaction history",
+        "Increased control over access to personal data and secured information",
+        "Simple and fast transaction processes",
+        "Automated validation from pre-verified KYC data"
+      ],
+      "video": "/assets/videos/token-transfer.mp4",
+      "htmlAttrs": {
+        "title": "Apla - Blockchain Platform for accelerating technological progress",
+        "description": "Public blockchain platform for building digital ecosystems",
+        "keywords": ""
+      }
+    }
+  ],
+  "FAQ": [
+    {
+      "q": "What is Apla?",
+      "a": "Apla is an open source (public & private) blockchain platform based on a peer-to-peer network and built on the original blockchain protocol developed by Apla. Apla blockchain provides a secure, simple and compliant blockchain infrastructure for a fast-growing global collaborative economy segment."
+    },
+    {
+      "q": "Does the Apla platform work on the Bitcoin, Ethereum, or some other blockchain?",
+      "a": "No, Apla is built on the basis of being its own original blockchain."
+    },
+    {
+      "q": "What are the main differences between Apla and other public blockchain platforms with built-in mechanisms for the execution of smart contracts, such as Ethereum, Qtum, and those still being designed, including Tezos and EOS?",
+      "a": "Apla features unique functions that cannot be found in the aforementioned blockchain platforms, such as:<ul><li>Integrated application development environment implemented in a single client software;<li>Specialized template language for the design of interfaces, harmonized with the contract-building language;<li>Multi-level system for the management of access rights to data, contracts, and interfaces where rights can be granted to persons, member roles, and contracts;<li>Ecosystems – autonomous software environments for the creation of blockchain applications and user interactions with them;<li>Legal system – a set of regulations, codified in smart laws (specialized smart contracts), which regulate relations between the platform users, define the protocol parameters changing procedures, that are used to solve problems."
+    },
+    {
+      "q": "What is an Apla dApp?",
+      "a": "An application built on the Apla platform is a system of tables, contracts, and interfaces with pre-configured permissions. Applications are built to perform a certain function or provide a service. An application does not require the presence of a unifying, coordinating contract (master contract); contracts are executed by user activities, and the results of their operation are recorded in tables."
+    },
+    {
+      "q": "What is a node on the Apla platform?",
+      "a": "An Apla node is a computer on the Apla network that stores a complete version of the blockchain and a database that contains the current (most up-to-date) state of the platform. Nodes validate transactions received from the network, include them into blocks, and modify the current state of the database."
+    },
+    {
+      "q": "What are Apla ecosystems?",
+      "a": "Ecosystems are virtually autonomous software environments for the creation of blockchain applications and user operations within them."
+    },
+    {
+      "q": "Who can create an ecosystem?",
+      "a": "Any user of the platform can create a new ecosystem."
+    },
+    {
+      "q": "How can a user become a member of an ecosystem?",
+      "a": "Registration in the platform network can take place in any existing ecosystem. There can be different procedures for membership admission, which are defined by the ecosystems’ policies: from posting information about a new ecosystem in a specialized catalog to sending out public keys."
+    },
+    {
+      "q": "Can one user create more than one ecosystem?",
+      "a": "Yes, every user can create any number of ecosystems, and be a member of any number of ecosystems at the same time."
+    },
+    {
+      "q": "Where is data stored in the Apla blockchain?",
+      "a": "Application data is stored in a common data storage environment: an unlimited set of tables of the platform's database. Tables with application data are not in any way bound to any particular smart contract and can be used by any and all applications of the ecosystem, based on the configured access rights."
+    },
+    {
+      "q": "What is a smart contract on Apla?",
+      "a": "Smart contracts are the basic elements for the implementation of algorithms in applications on the Apla platform. Contracts are final portions of code that perform the following functions: (1) receipt of information from user interfaces or other contracts ('data' section); (2) analysis of data validity ('conditions' section); and (3) execution of required transactions – updating database records ('actions'). Apla contracts are written using a proprietary Turing-complete scripting language called Simvolio. The language includes the required set of functions to create data processing algorithms and conduct operations with database values. The contracts are created and modified using a special editor in the Molis software client. Operations involving data in the blockchain are performed by the current (most recent) versions of contracts. The complete history of changes made to contracts is saved in the blockchain and is available from the software client."
+    },
+    {
+      "q": "Which software is used for creating applications and user interaction with them?",
+      "a": "Applications are written and executed in Molis – the single software client. No other software is required."
+    },
+    {
+      "q": "Can platform contracts access data using third-party API interfaces?",
+      "a": "No, contracts can only directly access the data stored in the blockchain. Specialized oracles are used to work with external data sources."
+    },
+    {
+      "q": "Can a contract saved in the blockchain be edited later?",
+      "a": "Yes, contracts are editable. Rights to edit contracts are established by their creators, who can deny any changes or grant rights to make changes to contracts, to specific persons, or configure a complex set of conditions in a specialized smart law. The Molis software client provides access to all contract versions."
+    },
+    {
+      "q": "What is a smart law?",
+      "a": "A smart law is a contract that is created to control and restrict the operation of regular contracts, and thus the activities of the ecosystems’ members. A set of smart laws can be regarded as an ecosystem’s legal system."
+    },
+    {
+      "q": "Can a contract call/execute another contract?",
+      "a": "Yes, contracts can execute other contracts by way of directly addressing another contract and providing parameters to it, or by way of calling a contract by link (name) (see contract language description)."
+    },
+    {
+      "q": "Can applications be localized to different languages?",
+      "a": "Yes, the software client has a built-in mechanism for localization support, allowing for the creation of interfaces in any language."
+    },
+    {
+      "q": "Can interfaces be created without using the Protypo template language?",
+      "a": "Yes, the platform API can be used for that."
+    },
+    {
+      "q": "Are interface pages stored in the blockchain?",
+      "a": "Yes, pages and contracts are stored in the blockchain, which protects them from falsification."
+    },
+    {
+      "q": "What types of data banks can be used for the operation of contracts?",
+      "a": "The Molis software client includes instruments for the creation of database tables (PostgreSQL is used at the moment, but we may change that later), and the Simvolio contracts language has all the functions required for reading and writing of data. The Protypo template language includes the functions for reading data from tables."
+    },
+    {
+      "q": "Is there any payment for the operation of applications?",
+      "a": "Yes, the use of resources of validating nodes should be paid for in platform tokens."
+    },
+    {
+      "q": "Who pays for the operation of applications?",
+      "a": "An account (binding account), which the tokens for payment of resources are debited from, is set by the contract creator on its activation. It can be defined using an ecosystem’s smart laws, whether or not the ecosystem members will pay to work with the application and, if so, what method of payment is required (contributions or otherwise).."
+    },
+    {
+      "q": "How are applications within ecosystems protected from exploitation of any vulnerabilities?",
+      "a": "The platform team understands that there is no way to completely avoid mistakes in the program code of applications, especially given that applications can be written by any user. That’s why we decided to create a mechanism that eliminates the consequences of vulnerability exploitation. The platform has a legal system (a set of smart laws), that allows to suspend the operation of an application and make a number of transactions to restore the status quo where wrongful actions take place. The rights to execute such contracts and voting procedures to grant these rights are defined in the smart laws of the platform’s legal system."
+    },
+    {
+      "q": "Is a master contract required for applications to work?",
+      "a": "No, it’s not. Contracts are autonomous program modules that execute some functions. Each contract is configured to receive specific data, properly check these data, and execute some action, which will be recorded as a transition in the database."
+    },
+    {
+      "q": "How many nodes can an Apla blockchain network be comprised of?",
+      "a": "Full blockchain data can be stored across any number of nodes, but a minimum of three nodes are required for the consensus algorithm to operate as intended. Depending upon client requirements, we can create any number of nodes for private blockchains. The more nodes that make up the network, the more secure the blockchain."
+    },
+    {
+      "q": "How can a new node join an existing network?",
+      "a": "Any network node with sufficient processing power and fault tolerance can become a validating node. A node becomes a validating node based on the voting of ecosystems, but only ecosystems that are endorsed by investors as genuinely functioning (by platform tokens owners) can participate in such voting. Therefore, the platform network implements a new consensus algorithm – Delegated Proof of Authority (DPoA). With this algorithm, it is most likely that the validating nodes will be run by major ecosystems, since it is in their best interest to maintain the network operation."
+    },
+    {
+      "q": "What happens when a transaction is sent to the Apla blockchain?",
+      "a": "The transaction is checked by a validating node and included in a block, which is then sent to the network. The block is received by every node. Nodes execute all transactions from the blockchain in the sequence they were placed in the queue. Smart contracts are then executed with parameters passed to them in transactions, thus changing the state of the database simultaneously on all nodes of the Apla blockchain network."
+    },
+    {
+      "q": "Can we delete data in Apla Blockchain?",
+      "a": "No, no data can be deleted from the Apla Blockchain. In the future, and in accordance with GDPR requirements, Apla will implement the option to remove data from the blockchain."
+    },
+    {
+      "q": "What is a private key on Apla?",
+      "a": "A private key is a way to identify users on the Apla network. Every transaction is signed by a private key, which allows to precisely identify each transaction initiator."
+    },
+    {
+      "q": "Why do users need passwords to work with the Apla platform?",
+      "a": "User passwords are required to prevent unauthorized persons from entering the network from your computer with your private key."
+    },
+    {
+      "q": "Can users change their passwords?",
+      "a": "Yes, users can change their passwords at any time."
+    },
+    {
+      "q": "Who can modify data on the Apla blockchain?",
+      "a": "Rights to add or edit data can be provided to specific users, user roles, or smart contracts."
+    },
+    {
+      "q": "Can a hacker change data in the blockchain?",
+      "a": "To change the data, a hacker would need to take control of at least 51% of the validating nodes, which is highly improbable."
+    },
+    {
+      "q": "Is there any block explorer for the Apla blockchain?",
+      "a": "Yes, the block explorer is available by opening the URL – application URL:8080. For example, if the URL of the application developed on the Apla blockchain is myshopping.com then we can find the block explorer at myshopping.com:8080"
+    },
+    {
+      "q": "Can we move data from a database of an existing traditional web application to an Apla application?",
+      "a": "Yes, we can transfer the data from existing databases to the Apla blockchain. This will be implemented by way of sending database records as transactions to the blockchain network. After that, Apla dApps will be able to use this data according with the established access rights."
+    },
+    {
+      "q": "Where are files sent to the blockchain stored?",
+      "a": "Files are stored in special tables as binary data."
+    }
+  ],
+  "RESOURCES": {
+    "LIST": [
+      {
+        "title": "Documentation",
+        "subtitle": "Link",
+        "icon": "/assets/icons/icon-doc-download.svg",
+        "href": "https://apla.readthedocs.io/en/latest/",
+        "target": "_blank"
+      },
+      {
+        "bkg": "/assets/icons/r-y.jpg",
+        "title": "Our Channel",
+        "subtitle": "Link",
+        "icon": "/assets/icons/r-youtube.png",
+        "href": "https://www.youtube.com/channel/UCLAccwf_YvWGnxSIVgGtl7g",
+        "target": "_blank"
+      },
+      {
+        "title": "Our Blog",
+        "subtitle": "Link",
+        "icon": "/assets/icons/medium.png",
+        "href": "https://blog.apla.io/",
+        "target": "_blank"
+      },
+      {
+        "title": "Our GitHub",
+        "subtitle": "Link",
+        "icon": "/assets/icons/github.png",
+        "href": "https://github.com/AplaProject/go-apla",
+        "target": "_blank"
+      }
+    ]
+  },
   "MENU": {
     "ABOUT": "About",
     "CASES": "Cases",
@@ -292,14 +655,14 @@
   },
   "NEWSLETTER": {
     "TITLE": "Receive our newsletter",
-    "TITLEALT": "Want to see more cases?",
+    "TITLEALT": "Want to see more projects?",
     "TEXT": "Get exclusive content delivered right into your inbox.",
     "BUTTON": "SUBSCRIBE",
     "PROCESS": "Please wait...",
     "ERROR": "Error... <small>Please try again later</small>",
     "DUPLICATE": "<small>You are already subscribed to newsletter!</small>",
     "READY": "Thank you!",
-    "PRIVACY":{
+    "PRIVACY": {
       "href": "/download/Privacy_and_Cookies_Policy.pdf",
       "title": "Privacy policy"
     },
@@ -333,11 +696,12 @@
   "FOOTER": {
     "COPYRIGHT": "Apla, All Rights Reserved."
   },
-
   "NEW_MAIN": {
     "SHOWREEL": {
-      "TITLE": "Apla creates a future",
-      "TEXT": "Blockchain Platform for accelerating technological progress"
+      "TITLEo": "Apla creates a future",
+      "TEXTo": "Blockchain Platform for accelerating technological progress",
+      "TITLE": "We are Apla",
+      "TEXT": "Simple and Compliant Blockchain Solutions for Building Government & Business Ecosystems"
     },
     "APLAFOR": {
       "SUBHEAD": "Apla",
@@ -349,12 +713,48 @@
         "TITLE": "Private solutions",
         "TEXT": "In competitive markets with complex business processes, the winner is the one who is able to inspire trust through transparency amongst their partners."
       }
+    },
+    "INVENTION": {
+      "TITLE": "We use our own technology invention — Apla blockchain platform. It’s a secure, fast and agile solution",
+      "IMG": "/assets/images/devices-4.png",
+      "LIST": [
+        {
+          "icon": "",
+          "title": "Decentralisation",
+          "p": "All the resources - including data, smart-contracts and user interfaces - are stored on every node inside the network. Any change to data can only be made via smart contract execution. This makes it impossible for anyone in network to tamper with the data."
+        },
+        {
+          "icon": "",
+          "title": "Security first",
+          "p": "The Apla platform was initially design for governments, so security was essential and the first thing to consider. We are working hard to make the Apla blockchain platform completely secure. Only standardised cryptography and hashing algorithms are used, and there is a Bug Bounty program in partnership with HackerOne too."
+        },
+        {
+          "title": "Rapid application development",
+          "p": "App development with Apla doesn’t require any specific knowledge about how P2P networks operate. It allows you to test new ideas and develop Proof of Concepts several times faster. Once dApp development is finished, the dApp can be used on desktop, mobile devices or via web interfaces.",
+          "icon": ""
+        },
+        {
+          "title": "Truly democratic governance",
+          "icon": "",
+          "p": "Network governance or critical decision making can be done in a truly democratic manner using the voting mechanism. Once enough users vote, a smart contract is executed automatically to perform the particular action voted for."
+        },
+        {
+          "icon": "",
+          "title": "Single platform for everything",
+          "p": "Everything that is needed for an app to function is already in place, including tools for smart contract development, the building of user interfaces and database table management. This means that you don’t need to write as much code to create your dApp. Moreover, this means that there are fewer potential vulnerabilities in you dApps."
+        },
+        {
+          "icon": "",
+          "title": "Flexible access rights management",
+          "p": "Access rights can be configured for every action, including the execution of smart contracts, editing of any interface or working with data. <br>You can also allow data to be read from one single table or add new data tables for users who have specific roles, or configure smart contract execution only where specific conditions are met."
+        }
+      ]
     }
   },
   "MAIN": {
     "SHOWREEL": {
       "TITLE": "We are Apla",
-      "TEXT": "Simple and Compliant Blockchain Solutions for Building Government & Business Ecosystems."
+      "TEXT": "Simple and Compliant Blockchain Solutions for Building Government & Business Ecosystems"
     },
     "BLOCKCHAIN": {
       "TITLE": "Blockchain as the upcoming Technology infrastructure",
@@ -551,7 +951,6 @@
       "TEXT": "See how Apla could help to make you organization work more efficiently."
     }
   },
-
   "DEVELOPERS": {
     "SIDE_MENU": [
       {
@@ -747,7 +1146,6 @@
     }
   },
   "DEVELOPERS_PUBLIC": {
-
     "h2": "Learn about Apla Platform",
     "MAP": [
       {
@@ -904,8 +1302,6 @@
       }
     }
   },
-
-
   "CLIENTS": {
     "TITLE": "Clients",
     "GOV": [
@@ -956,6 +1352,26 @@
     ]
   },
   "NEWS": [
+    {
+      "title": "Apla Blockchain Database Transaction Speed: 34,000 tx/s",
+      "text": "Following testing, Apla’s blockchain platform has managed to achieve a staggering database transaction speed of 34,000 tx/s. This is by no means the limit. Soon Apla will run much faster. For now, we would like to show you the benchmark database, which is integrating into the platform.",
+      "href": "https://blog.apla.io/apla-blockchain-transaction-speed-34-000-tx-s-5cc25a4dab74",
+      "img": "/assets/images/news/4.png"
+    },
+    {
+      "title": "Blockchain Ecosystem: What is it About?",
+      "text": "As the spark of blockchain revolution is engulfing the world, the technology is becoming more sophisticated as the day goes by. Blockchain engineers the world over are putting thought into turning their product into an engineering marvel and such ideas give rise to buzzwords of the day. Getting a hold on these buzzwords becomes imperative for C-level execs as well as investors so that the knowledge remains perceptible and nothing becomes arcane.",
+      "href": "https://blog.apla.io/blockchain-ecosystem-what-is-it-about-3abefc8153d9",
+      "img": "/assets/images/news/2.png"
+    }
+  ],
+  "NEWS_SAV": [
+    {
+      "title": "Apla Blockchain Database Transaction Speed: 34,000 tx/s",
+      "text": "Following testing, Apla’s blockchain platform has managed to achieve a staggering database transaction speed of 34,000 tx/s. This is by no means the limit. Soon Apla will run much faster. For now, we would like to show you the benchmark database, which is integrating into the platform.",
+      "href": "https://blog.apla.io/apla-blockchain-transaction-speed-34-000-tx-s-5cc25a4dab74",
+      "img": "/assets/images/news/4.png"
+    },
     {
       "title": "Blockchain Ecosystem: What is it About?",
       "text": "As the spark of blockchain revolution is engulfing the world, the technology is becoming more sophisticated as the day goes by. Blockchain engineers the world over are putting thought into turning their product into an engineering marvel and such ideas give rise to buzzwords of the day. Getting a hold on these buzzwords becomes imperative for C-level execs as well as investors so that the knowledge remains perceptible and nothing becomes arcane.",
@@ -1219,6 +1635,13 @@
       "IMG": "/assets/images/team/ab.png",
       "SHORT": "Alexander is a futurologist and a blockchain architect",
       "DESCR": "Alexander is a philosopher, analyst, and member of the Association of Russian Futurologists. His primary areas of interest and research are: global evolutionism, temporal ontology, philosophy of artificial intelligence, and futurology. In recent years, he has worked on the creation of a subjectevent approach to complex systems modeling."
+    },
+    {
+      "NAME": "Dmitry Brovkin",
+      "POSITION": "Speaker/Presenter and technology expert",
+      "IMG": "/assets/images/team/db.png",
+      "SHORT": "Dmitry represents Apla at international conferences, gives product presentations, trains Apla's software integration partners, and promotes the platform among blockchain software developers.",
+      "DESCR": "Speaker/Presenter and technology expert, Dmitry represents Apla at international conferences, gives product presentations, trains Apla's software integration partners in Europe and Asia, and promotes the platform among blockchain software developers. Since 2011, he has independently run his own business offering translation, interpreting, and software localization services. An entrepreneurial spirit combined with extensive practice as an international business trainer from 2010 through 2013, in additon to software development experience in the past, makes Dmitry a valuable asset for Apla in IT, public speaking and educational areas."
     }
   ],
   "TEAM_OLD": [
@@ -1275,18 +1698,25 @@
       "DESCR": "Alexander is a philosopher, analyst, and member of the Association of Russian Futurologists. His primary areas of research are: global evolutionism, temporal ontology, philosophy of artificial intelligence, and futurology. Works on the creation of a subject-event approach to complex systems modeling. Alexander created the concept of Smart Laws, developed an ideology for smart contracts and a number of Apla’s dApps and digital ecosystems. He is one of our key speakers at European events like Future Tech (St. Petersburg), Blockchain Weekend and #Decenter Cryptoevent (Moscow), Blockchain Conference (Kiev)."
     },
     {
-      "NAME": "Igor Chertov",
-      "POSITION": "Lead Front End Developer",
-      "IMG": "/assets/images/team/ich.png",
-      "SHORT": "A gifted developer and blockchain enthusiast.",
-      "DESCR": "Igor is a gifted developer and blockchain enthusiast. Has a deep knowledge of the full cycle development of cross-platform, hybrid mobile applications for web and desktop environments, as well as in relational SQL and document-based data stores. Igor received a degree in Information Technology and has since acquired the title of Microsoft-Certified Solutions Developer (MCSD)."
-    },
-    {
       "NAME": "Yuriy Lomakin",
       "POSITION": "Front End Developer, Tester",
       "IMG2": "/assets/images/team/yul.png",
       "SHORT": "UX/UI developer, JavaScript, Angular and jQuery ninja, HTML5 and CSS guru.",
       "DESCR": "Yuriy has over 15 years of development experience. A UX/UI developer, JavaScript, Angular and jQuery ninja, HTML5 and CSS guru: he has solid skills and is a highly efficient team member. Yuriy has previously worked for major news portals and top advertising agencies with a very intense and diversified workload."
+    },
+    {
+      "NAME": "Dmitry Chertkov",
+      "POSITION": "Team lead",
+      "IMG": "/assets/images/team/dch.png",
+      "SHORT": "Outstanding professional in  PHP, Node.js and Golang with over 12 years’ experience.",
+      "DESCR": "With more than 12 years of experience in programming, Dmitry is an outstanding professional in  PHP, Node.js and Golang. He developed digital content for a major Russian telecom businesses and has more than 5 years of experience in leading programmers team."
+    },
+    {
+      "NAME": "Roman Potekhin",
+      "POSITION": "Back-end Tech Lead",
+      "IMG": "/assets/images/team/rp.png",
+      "SHORT": "Experienced Python 2.x, Erlang, and Golang programmer and NoSQL and column-store database specialist.",
+      "DESCR": "Roman has over 10 years of experience as a Python 2.x, Erlang, and Golang programmer, and as a relational, NoSQL and column-store database specialist. He implemented several highload projects for major companies throughout the CIS. At Apla, Roman is developing the platform architecture, making technical decisions and solving major tech problems."
     },
     {
       "NAME": "Alexey Krivonogov",
@@ -1296,13 +1726,6 @@
       "DESCR": "After 25 years of self-perfection in programming, Alexey created essential solutions that provide the basis for Apla’s main benefits: its high usability and rapid application development. He constructed the programming languages Simvolio and Protypo, and the entire platform programming interface. Alexey became a co-developer of Apla’s predecessor project, DCoin cryptocurrency. Has a degree in Mathematics and Applied Mathematics."
     },
     {
-      "NAME": "Roman Potekhin",
-      "POSITION": "Tech Lead",
-      "IMG": "/assets/images/team/rp.png",
-      "SHORT": "Experienced Python 2.x, Erlang, and Golang programmer and NoSQL and column-store database specialist.",
-      "DESCR": "Roman has over 10 years of experience as a Python 2.x, Erlang, and Golang programmer, and as a relational, NoSQL and column-store database specialist. He implemented several highload projects for major companies throughout the CIS. At Apla, Roman is developing the platform architecture, making technical decisions and solving major tech problems."
-    },
-    {
       "NAME": "Vasily Starovetskiy",
       "POSITION": "Platform Applications Developer",
       "IMG": "/assets/images/team/vs.png",
@@ -1310,11 +1733,109 @@
       "DESCR": "Master of C++, PL/SQL, Unity (C#). Vasily has a degree in Engineering and Security of Information Systems. Before Apla, he worked as a programmer for an energy giant and the leader of sustainable energy market of CIS countries."
     },
     {
-      "NAME": "Dmitry Chertkov",
-      "POSITION": "Senior Backend Developer",
-      "IMG": "/assets/images/team/dch.png",
-      "SHORT": "Outstanding professional in  PHP, Node.js and Golang with over 12 years’ experience.",
-      "DESCR": "With more than 12 years of experience in programming, Dmitry is an outstanding professional in  PHP, Node.js and Golang. He developed digital content for a major Russian telecom businesses and has more than 5 years of experience in leading programmers team."
+      "NAME": "Igor Chertov",
+      "POSITION": "Lead Front End Developer",
+      "IMG": "/assets/images/team/ich.png",
+      "SHORT": "A gifted developer and blockchain enthusiast.",
+      "DESCR": "Igor is a gifted developer and blockchain enthusiast. Has a deep knowledge of the full cycle development of cross-platform, hybrid mobile applications for web and desktop environments, as well as in relational SQL and document-based data stores. Igor received a degree in Information Technology and has since acquired the title of Microsoft-Certified Solutions Developer (MCSD)."
+    },
+    {
+      "NAME": "Elena Konkina",
+      "POSITION": "Quality Assurance Tech Lead",
+      "IMG": "/assets/images/team/ek.png",
+      "SHORT": "Elena is a software testing specialist with over 10 years of experience.",
+      "DESCR": "Elena is a software testing specialist with over 10 years of experience in high-loaded systems such as banking software, in addition to testing messengers at Mail.ru group. Her experience was pivotal in building the testing integration process on Apla's platform. Under her management, Apla's core was covered with autotests and each branch is checked automatically between merging. Moreover, Elena develops load and performance tests."
+    },
+    {
+      "NAME": "Evgeny Lerner",
+      "POSITION": "Back-end Developer",
+      "IMG": "/assets/images/team/yl.png",
+      "SHORT": "Evgeny is a professional back-end developer with 12 years' experience.",
+      "DESCR": "Evgeny is a professional back-end developer with 12 years' experience and a background in being a systems administrator, a lead programmer and a systems engineer. He participated in the building of the software architecture and developed the database sharding system for the GLONASSSoft group. At Apla, he is refactoring the MVP to the level of the end product. He has a master degree in Mathematics methods and information protection software and is the author of a scientific paper entitled: 'Sufficient condition of finite projective plane's existence'. Master of  C#, MS Visual Studio, Git, MS SQL, Cassandra, MySQL, WCF, linq2db, C++"
+    },
+    {
+      "NAME": "Artem Kuzmenko",
+      "POSITION": "QA Automation Engineer",
+      "IMG": "/assets/images/team/akz.png",
+      "SHORT": "Artem is a skilled professional who is involved in the manual and automatic testing.",
+      "DESCR": "Artem is a skilled professional who is involved in the manual and automatic testing of both front and back-end, in addition to applications themselves. He participated in the testing of a high-loaded government project in Russia (GIS Housing and utilities: dom.gosuslugi.ru)."
+    },
+    {
+      "NAME": "Alexey Kondratev",
+      "POSITION": "Platform Application Developer",
+      "IMG": "/assets/images/team/akd.png",
+      "SHORT": "Alexey has a degree in Informatics and Computer Facilities.",
+      "DESCR": "Alexey has a degree in Informatics and Computer Facilities. His professional skills lie in HTML, CSS, javascript, java, hibernate, JBoss, Tomcat, MySQL, Adobe, with UI/UX contributing to the successful development of platform applications. He devotes his spare time to perfecting his existing skills for creating website layouts and interfaces."
+    },
+    {
+      "NAME": "Аlexander Zatynaiko",
+      "POSITION": "Platform Application Developer",
+      "IMG": "/assets/images/team/az.png",
+      "SHORT": "Alexander is a gifted platform application developer.",
+      "DESCR": "Alexander is a gifted platform application developer. He has experience working in the trade-desk of one of the top three banks in Russia and with a finance key player on the Russian market. He has skills in HTML5 / CSS3, ECMAScript(js), NodeJS, and experience using NoSQL, Neo4j and Cypher. "
+    },
+    {
+      "NAME": "Andrey Voronkov",
+      "POSITION": "Platform Application Developer",
+      "IMG": "/assets/images/team/avv.png",
+      "SHORT": "Two years' experience as a full stack programmer (php5, js: Angular1, Vue2, Laravel5).",
+      "DESCR": "Two years' experience as a full stack programmer (php5, js: Angular1, Vue2, Laravel5) and self-taught expertise make Andrey a skillful platform application developer. At Apla, one of his main achievements is creating an extension for Apla's languages (Symvolio and Protypo) in Visual Studio Code."
+    },
+    {
+      "NAME": "Aleksey Voskresenskiy",
+      "POSITION": "Frontend developer",
+      "IMG": "/assets/images/team/av.png",
+      "SHORT": "Alexey is a front-end developer with a wealth of experience in web-development that totals over 17 years.",
+      "DESCR": "Alexey is a front-end developer with a wealth of experience in web-development that totals over 17 years. He is enthusiastic about web programming and programming for embedded devices. Also, Alexey has a startup project in cloud CCTV monitoring called 'WebGlazok'."
+    },
+    {
+      "NAME": "Nikolay Krasnykh",
+      "POSITION": "QA Automation Engineer",
+      "IMG": "/assets/images/team/nk.png",
+      "SHORT": "Nikolay is a QA automation engineer for the back and front-end sides of the platform.",
+      "DESCR": "Nikolay is a QA automation engineer for the back and front-end sides of the platform, with 8 years of experience. He has skills in Python, JavaScript, Java. He participated in the development of unique and global SDN solutions for Brain4net company, also developing the HR recordkeeping system for the Russian Office for Foreign Affairs, in addition to solutions for the Russian Border Guard Service. Nikolay is a speaker for the well-known QA Guild podcast, along with other leading professionals in this sphere."
+    },
+    {
+      "NAME": "Roman Poletaev",
+      "POSITION": "Back-end Developer",
+      "IMG": "/assets/images/team/rpl2.png",
+      "SHORT": "Roman is a gifted developer with 8 years of experience in programming.",
+      "DESCR": "Roman is a gifted developer with 8 years of experience in programming. His skills in .NET and Golang, in addition to efficiency and deep understanding of technical issues make him a key team member. "
+    },
+    {
+      "NAME": "Viktor Kosach",
+      "POSITION": "Platform Application Developer",
+      "IMG": "/assets/images/team/vk.png",
+      "SHORT": "Victor is a gifted developer with a variety of skills in HTML, CSS, Javascript, MySQL, react, react-native, PHP.",
+      "DESCR": "Victor is a gifted developer with a variety of skills in HTML, CSS, Javascript, MySQL, react, react-native, PHP. His experience as a systems administrator in government entities and a developer of customized websites contributes to his role in Apla. Victor has a master degree in Artificial Intelligence Systems."
+    },
+    {
+      "NAME": "Dmitrij Galitskij",
+      "POSITION": "Back-end Developer",
+      "IMG": "/assets/images/team/nope.png",
+      "SHORT": "Dmitrij is a gifted back-end developer.",
+      "DESCR": "Dmitrij is a gifted back-end developer. His diligence, result-orientedness and responsibile attitude serve as a solid basis in the development and integration of the Apla platform database. Before Apla, he was building the trading platforms and services for p2p credit."
+    },
+    {
+      "NAME": "Maxym Lysenko",
+      "POSITION": "front-end developer",
+      "IMG": "/assets/images/team/ml.png",
+      "SHORT": "Maxym has extensive experience as a front-end developer.",
+      "DESCR": "Maxym has extensive experience as a front-end developer. He participated in the developing apps such as People.io and Xendera, working both on a web admin panel and on the mobile application. His skills cover all necessary libraries and technologies required in the development apps."
+    },
+    {
+      "NAME": "Lukman Nul Hakim",
+      "POSITION": "Media and PR",
+      "IMG": "/assets/images/team/lnh.png",
+      "SHORT": "Blockchain Creative Publisher, working in mineral Laboratory for government mining company.",
+      "DESCR": "Blockchain Creative Publisher, Working in mineral Laboratory for government mining company, Passionated for blockchain implementation, 3 year experience in creative writing for blockchain development and promotion."
+    },
+    {
+      "NAME": "Anton Zuev",
+      "POSITION": "Business Analyst",
+      "IMG": "/assets/images/team/azv.png",
+      "SHORT": "Anton worked in the quality assurance department of a large Russian mobile broadband services provider.",
+      "DESCR": "Before joining Apla, Anton worked in the quality assurance department of a large Russian mobile broadband services provider. Additionally, he has been working on creating PhantomOS software in collaboration with an influential leader in the Russian IT industry. Master of Python, nodejs, Java, JavaScript, web. He received a qualification in machine learning and data analysis, and also took part in the Kaspersky Summer Lab. Anton is a regular participator and winner of blockchain hackathons."
     },
     {
       "NAME": "Alexandra Khasirdzeva",

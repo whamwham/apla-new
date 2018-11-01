@@ -15,7 +15,7 @@
   <link rel="shortcut icon" href="/favicons/favicon.ico?v=123421">
   <meta name="msapplication-config" content="/favicons/browserconfig.xml">
   <meta name="theme-color" content="#ffffff">
-  <link href="/css/style.min.css?1539193618" rel="stylesheet">
+  <link href="/css/style.min.css?1541062123" rel="stylesheet">
   <script>var curr_lang_code = "en";
     var lang_codes = {};lang_codes["en"] = "en";lang_codes["de"] = "de";lang_codes["fr"] = "fr";lang_codes["hr"] = "hr";lang_codes["ru"] = "ru";lang_codes["zh"] = "zh";lang_codes["ko"] = "ko";lang_codes["ja"] = "ja";lang_codes["th"] = "th";lang_codes["es"] = "es";lang_codes["pt"] = "pt";
   </script>
@@ -23,7 +23,7 @@
 <body class="en">
   <app-header><a class="logo" href="/" data-click="isActive = false"></a><a name="top"></a>
     <section>
-      <nav><a href="/private/business">For Business</a><a href="/private/government">For Government</a><a href="/private/developers">For Developers</a><a href="/private/cases">Use Cases</a><a href="/private/about">About Us</a><a href="https://blog.apla.io/" target="_blank">Blog</a>
+      <nav><a href="/private/business">For Business</a><a href="/private/government">For Government</a><a href="/private/developers">For Developers</a><a href="/private/cases">Pilot projects</a><a href="/private/about">About Us</a><a href="https://blog.apla.io/" target="_blank">Blog</a>
       </nav>
       <!--button.btn.openpopupform(type='button')!= $i18n.GETSTARTED--><a class="btn" href="/public">Public Network</a>
       <div class="language">
@@ -126,9 +126,9 @@
         <p>Leadership in innovations makes an impact on a global scale. Multicultural, multidisciplinary and diverse top-management allows Apla to speak in one language with worldwide leaders from prime ministers to CIOs.<br><br>Our leaders eat last. Creating a workplace of the future: bureaucracy free, with a greater purpose, based on constant learning and individuality at its core.</p>
         <app-team>
           <section class="team-rotator">
-            <div class="swiper-container team-style">
+            <div class="swiper-container team-style" id="topmanagement_scroller">
               <div class="swiper-wrapper">
-                <div class="swiper-slide v2">
+                <div class="swiper-slide v2" data-idx="0">
                   <article>
                     <div class="thumb mask mask-black2"><img src="/assets/images/team/os.png" alt=""/></div>
                     <h4>Oleg <br>Strelenko</h4><small>Founder/CTO</small>
@@ -136,7 +136,7 @@
                   </article>
                   <div class="descr-ov">Oleg is an expert in computer sciences with more than 10 years of professional experience in programming and managing IT projects. He was leading the team to develop the new coding languages for the blockchain platform called «Symvolio» & «Ptotypo». The team of Apla programmers under the Oleg’s leadership is ready to launch the original blockchain platform after 6 years of hard work. Oleg studied at the Saint - Petersburg State Marine Technical University. He is known in the blockchain community as one of the leading IT professionals.</div>
                 </div>
-                <div class="swiper-slide v2">
+                <div class="swiper-slide v2" data-idx="1">
                   <article>
                     <div class="thumb mask mask-black2"><img src="/assets/images/team/vb.png" alt=""/></div>
                     <h4>Vitaly <br>Bondar</h4><small>Chief Executive Officer/Legal</small>
@@ -144,7 +144,7 @@
                   </article>
                   <div class="descr-ov">Vitaly specializes in e-commerce and private international law matters. Over the past 15 years, he has held senior positions at large international law firms and industrial companies with a focus on cross-border mergers and acquisitions, and transaction structuring. Vitaly holds a postgraduate diploma (L.L.M) in International Banking and Commercial Law in 2001 from Queen Mary University in London.</div>
                 </div>
-                <div class="swiper-slide v2">
+                <div class="swiper-slide v2" data-idx="2">
                   <article>
                     <div class="thumb mask mask-black2"><img src="/assets/images/team/jpg.png" alt=""/></div>
                     <h4>Jesus<br/>Pena-Garcia</h4><small>COO</small>
@@ -152,7 +152,7 @@
                   </article>
                   <div class="descr-ov">Jesus is a blockchain enthusiast, serial entrepreneur and cybersecurity expert with more than 10 years of experience in the IT field. He is heading the Grant Thornton Technology HUB in Luxembourg and Founder/CEO of Bitvalley SARL. Jesus worked for the Spanish Ministry of Defence and homeland security as a cybersecurity expert in the Centro Nacional de Inteligencia (Spanish National Intelligence Service). He holds a BSC in Computer Sciences and BTS diploma in Electronics Engineering.</div>
                 </div>
-                <div class="swiper-slide v2">
+                <div class="swiper-slide v2" data-idx="3">
                   <article>
                     <div class="thumb mask mask-black2"><img src="/assets/images/team/cb.png" alt=""/></div>
                     <h4>Chris<br/>Bruck</h4><small>CMO</small>
@@ -160,7 +160,7 @@
                   </article>
                   <div class="descr-ov">Chris can be described as a Media Entrepreneur and Global Top 100 Brand-Image Marketing Executive, Innovator, and his interest is International Business Development. As a top digital strategist and innovator, he initiated and led the Global Digital Initiative of Rolex from 2005 to 2009. Chris holds a Ph.D. in Business and Commerce as well as a J.D in International Law.</div>
                 </div>
-                <div class="swiper-slide v2">
+                <div class="swiper-slide v2" data-idx="4">
                   <article>
                     <div class="thumb mask mask-black2"><img src="/assets/images/team/fr.png" alt=""/></div>
                     <h4>Fouad<br/>Rathle</h4><small>Head of government relation</small>
@@ -168,7 +168,7 @@
                   </article>
                   <div class="descr-ov">Fouad has 30 years of experience in working in management positions. Before joining the team of Apla Blockchain, he held the position of Branch Manager at Garanti Bank Luxembourg. In addition, he has been a Board member of The Association of Bankers & Banks of мLuxembourg for 15 years, and a member of the ABBL negotiation committee for 10 years, and president of the Banking Academy (IFBL) 12 years.</div>
                 </div>
-                <div class="swiper-slide v2">
+                <div class="swiper-slide v2" data-idx="5">
                   <article>
                     <div class="thumb mask mask-black2"><img src="/assets/images/team/mha.png" alt=""/></div>
                     <h4>Muhammed <br>Arafath</h4><small>Sales Director</small>
@@ -176,7 +176,7 @@
                   </article>
                   <div class="descr-ov">A graduate of Southern Cross University in Australia, Muhammed is a certified Blockchain business analyst and has 10+ years of experience working with diverse verticals, industries and international markets. He is currently exploring the intersection between artificial intelligence, blockchains, and the internet of things. He actively works with governmental and private organizations to help them adopt blockchain technology.</div>
                 </div>
-                <div class="swiper-slide v2">
+                <div class="swiper-slide v2" data-idx="6">
                   <article>
                     <div class="thumb mask mask-black2"><img src="/assets/images/team/dnb.png" alt=""/></div>
                     <h4>Denis <br>Bondar</h4><small>CFO</small>
@@ -184,7 +184,7 @@
                   </article>
                   <div class="descr-ov">Over 15 years of business support and finance experience with multinational market leaders and fintech startups. Denis has also been engaged in the development of Online Fintech Academy. Denis holds a Master of Business Administration from Webster University and has completed the Global Fintech Program at Saїd Business School (University of Oxford) this year.</div>
                 </div>
-                <div class="swiper-slide v2">
+                <div class="swiper-slide v2" data-idx="7">
                   <article>
                     <div class="thumb mask mask-black2"><img src="/assets/images/team/ma-2.png" alt=""/></div>
                     <h4>Michael <br>Aprossine</h4><small>Chief Business Development Officer</small>
@@ -192,13 +192,21 @@
                   </article>
                   <div class="descr-ov">Michael is a blockchain evangelist and a serial entrepreneur with more than 20 years’ experience in IT. Extensive industry knowledge and the desire to shake things up compelled Michael to launch a number of online startups from dotcoms to the internet of things and blockchain. An expert in strategic planning and new business model incorporation, Michael is developing Apla partnership programs and attracting customers around the world. He holds an Executive MBA and is a bachelor of Social Science. Worked as a co-founder and CEO of USDC SlotLogic S.A.R.L., as a marketing director at Korston Group, as BDO at FTS Maconomy and Ciscom.</div>
                 </div>
-                <div class="swiper-slide v2">
+                <div class="swiper-slide v2" data-idx="8">
                   <article>
                     <div class="thumb mask mask-black2"><img src="/assets/images/team/ab.png" alt=""/></div>
                     <h4>Alexander <br>Boldachev</h4><small>System Architect</small>
                     <div class="descr">Alexander is a futurologist and a blockchain architect</div>
                   </article>
                   <div class="descr-ov">Alexander is a philosopher, analyst, and member of the Association of Russian Futurologists. His primary areas of interest and research are: global evolutionism, temporal ontology, philosophy of artificial intelligence, and futurology. In recent years, he has worked on the creation of a subjectevent approach to complex systems modeling.</div>
+                </div>
+                <div class="swiper-slide v2" data-idx="9">
+                  <article>
+                    <div class="thumb mask mask-black2"><img src="/assets/images/team/db.png" alt=""/></div>
+                    <h4>Dmitry<br/>Brovkin</h4><small>Speaker/Presenter and technology expert</small>
+                    <div class="descr">Dmitry represents Apla at international conferences, gives product presentations, trains Apla's software integration partners, and promotes the platform among blockchain software developers.</div>
+                  </article>
+                  <div class="descr-ov">Speaker/Presenter and technology expert, Dmitry represents Apla at international conferences, gives product presentations, trains Apla's software integration partners in Europe and Asia, and promotes the platform among blockchain software developers. Since 2011, he has independently run his own business offering translation, interpreting, and software localization services. An entrepreneurial spirit combined with extensive practice as an international business trainer from 2010 through 2013, in additon to software development experience in the past, makes Dmitry a valuable asset for Apla in IT, public speaking and educational areas.</div>
                 </div>
               </div>
               <div class="swiper-pagination"></div>
@@ -211,17 +219,25 @@
         <p>Welcome to the world where everyone&rsquo;s invited to form deep, meaningful connections.</p>
         <app-team>
           <section class="team-rotator">
-            <div class="swiper-container team-style">
+            <div class="swiper-container team-style" id="team_scroller">
               <div class="swiper-wrapper">
-                <div class="swiper-slide v2">
+                <div class="swiper-slide v2" data-idx="0">
                   <article>
-                    <div class="thumb mask mask-black2"><img src="/assets/images/team/ich.png" alt=""/></div>
-                    <h4>Igor<br/>Chertov</h4><small>Lead Front End Developer</small>
-                    <div class="descr">A gifted developer and blockchain enthusiast.</div>
+                    <div class="thumb mask mask-black2"><img src="/assets/images/team/dch.png" alt=""/></div>
+                    <h4>Dmitry<br/>Chertkov</h4><small>Team lead</small>
+                    <div class="descr">Outstanding professional in  PHP, Node.js and Golang with over 12 years’ experience.</div>
                   </article>
-                  <div class="descr-ov">Igor is a gifted developer and blockchain enthusiast. Has a deep knowledge of the full cycle development of cross-platform, hybrid mobile applications for web and desktop environments, as well as in relational SQL and document-based data stores. Igor received a degree in Information Technology and has since acquired the title of Microsoft-Certified Solutions Developer (MCSD).</div>
+                  <div class="descr-ov">With more than 12 years of experience in programming, Dmitry is an outstanding professional in  PHP, Node.js and Golang. He developed digital content for a major Russian telecom businesses and has more than 5 years of experience in leading programmers team.</div>
                 </div>
-                <div class="swiper-slide v2">
+                <div class="swiper-slide v2" data-idx="1">
+                  <article>
+                    <div class="thumb mask mask-black2"><img src="/assets/images/team/rp.png" alt=""/></div>
+                    <h4>Roman<br/>Potekhin</h4><small>Back-end Tech Lead</small>
+                    <div class="descr">Experienced Python 2.x, Erlang, and Golang programmer and NoSQL and column-store database specialist.</div>
+                  </article>
+                  <div class="descr-ov">Roman has over 10 years of experience as a Python 2.x, Erlang, and Golang programmer, and as a relational, NoSQL and column-store database specialist. He implemented several highload projects for major companies throughout the CIS. At Apla, Roman is developing the platform architecture, making technical decisions and solving major tech problems.</div>
+                </div>
+                <div class="swiper-slide v2" data-idx="2">
                   <article>
                     <div class="thumb mask mask-black2"><img src="/assets/images/team/ak.png" alt=""/></div>
                     <h4>Alexey<br/>Krivonogov</h4><small>Lead Back End Developer</small>
@@ -229,15 +245,7 @@
                   </article>
                   <div class="descr-ov">After 25 years of self-perfection in programming, Alexey created essential solutions that provide the basis for Apla’s main benefits: its high usability and rapid application development. He constructed the programming languages Simvolio and Protypo, and the entire platform programming interface. Alexey became a co-developer of Apla’s predecessor project, DCoin cryptocurrency. Has a degree in Mathematics and Applied Mathematics.</div>
                 </div>
-                <div class="swiper-slide v2">
-                  <article>
-                    <div class="thumb mask mask-black2"><img src="/assets/images/team/rp.png" alt=""/></div>
-                    <h4>Roman<br/>Potekhin</h4><small>Tech Lead</small>
-                    <div class="descr">Experienced Python 2.x, Erlang, and Golang programmer and NoSQL and column-store database specialist.</div>
-                  </article>
-                  <div class="descr-ov">Roman has over 10 years of experience as a Python 2.x, Erlang, and Golang programmer, and as a relational, NoSQL and column-store database specialist. He implemented several highload projects for major companies throughout the CIS. At Apla, Roman is developing the platform architecture, making technical decisions and solving major tech problems.</div>
-                </div>
-                <div class="swiper-slide v2">
+                <div class="swiper-slide v2" data-idx="3">
                   <article>
                     <div class="thumb mask mask-black2"><img src="/assets/images/team/vs.png" alt=""/></div>
                     <h4>Vasily<br/>Starovetskiy</h4><small>Platform Applications Developer</small>
@@ -245,15 +253,127 @@
                   </article>
                   <div class="descr-ov">Master of C++, PL/SQL, Unity (C#). Vasily has a degree in Engineering and Security of Information Systems. Before Apla, he worked as a programmer for an energy giant and the leader of sustainable energy market of CIS countries.</div>
                 </div>
-                <div class="swiper-slide v2">
+                <div class="swiper-slide v2" data-idx="4">
                   <article>
-                    <div class="thumb mask mask-black2"><img src="/assets/images/team/dch.png" alt=""/></div>
-                    <h4>Dmitry<br/>Chertkov</h4><small>Senior Backend Developer</small>
-                    <div class="descr">Outstanding professional in  PHP, Node.js and Golang with over 12 years’ experience.</div>
+                    <div class="thumb mask mask-black2"><img src="/assets/images/team/ich.png" alt=""/></div>
+                    <h4>Igor<br/>Chertov</h4><small>Lead Front End Developer</small>
+                    <div class="descr">A gifted developer and blockchain enthusiast.</div>
                   </article>
-                  <div class="descr-ov">With more than 12 years of experience in programming, Dmitry is an outstanding professional in  PHP, Node.js and Golang. He developed digital content for a major Russian telecom businesses and has more than 5 years of experience in leading programmers team.</div>
+                  <div class="descr-ov">Igor is a gifted developer and blockchain enthusiast. Has a deep knowledge of the full cycle development of cross-platform, hybrid mobile applications for web and desktop environments, as well as in relational SQL and document-based data stores. Igor received a degree in Information Technology and has since acquired the title of Microsoft-Certified Solutions Developer (MCSD).</div>
                 </div>
-                <div class="swiper-slide v2">
+                <div class="swiper-slide v2" data-idx="5">
+                  <article>
+                    <div class="thumb mask mask-black2"><img src="/assets/images/team/ek.png" alt=""/></div>
+                    <h4>Elena<br/>Konkina</h4><small>Quality Assurance Tech Lead</small>
+                    <div class="descr">Elena is a software testing specialist with over 10 years of experience.</div>
+                  </article>
+                  <div class="descr-ov">Elena is a software testing specialist with over 10 years of experience in high-loaded systems such as banking software, in addition to testing messengers at Mail.ru group. Her experience was pivotal in building the testing integration process on Apla's platform. Under her management, Apla's core was covered with autotests and each branch is checked automatically between merging. Moreover, Elena develops load and performance tests.</div>
+                </div>
+                <div class="swiper-slide v2" data-idx="6">
+                  <article>
+                    <div class="thumb mask mask-black2"><img src="/assets/images/team/yl.png" alt=""/></div>
+                    <h4>Evgeny<br/>Lerner</h4><small>Back-end Developer</small>
+                    <div class="descr">Evgeny is a professional back-end developer with 12 years' experience.</div>
+                  </article>
+                  <div class="descr-ov">Evgeny is a professional back-end developer with 12 years' experience and a background in being a systems administrator, a lead programmer and a systems engineer. He participated in the building of the software architecture and developed the database sharding system for the GLONASSSoft group. At Apla, he is refactoring the MVP to the level of the end product. He has a master degree in Mathematics methods and information protection software and is the author of a scientific paper entitled: 'Sufficient condition of finite projective plane's existence'. Master of  C#, MS Visual Studio, Git, MS SQL, Cassandra, MySQL, WCF, linq2db, C++</div>
+                </div>
+                <div class="swiper-slide v2" data-idx="7">
+                  <article>
+                    <div class="thumb mask mask-black2"><img src="/assets/images/team/akz.png" alt=""/></div>
+                    <h4>Artem<br/>Kuzmenko</h4><small>QA Automation Engineer</small>
+                    <div class="descr">Artem is a skilled professional who is involved in the manual and automatic testing.</div>
+                  </article>
+                  <div class="descr-ov">Artem is a skilled professional who is involved in the manual and automatic testing of both front and back-end, in addition to applications themselves. He participated in the testing of a high-loaded government project in Russia (GIS Housing and utilities: dom.gosuslugi.ru).</div>
+                </div>
+                <div class="swiper-slide v2" data-idx="8">
+                  <article>
+                    <div class="thumb mask mask-black2"><img src="/assets/images/team/akd.png" alt=""/></div>
+                    <h4>Alexey<br/>Kondratev</h4><small>Platform Application Developer</small>
+                    <div class="descr">Alexey has a degree in Informatics and Computer Facilities.</div>
+                  </article>
+                  <div class="descr-ov">Alexey has a degree in Informatics and Computer Facilities. His professional skills lie in HTML, CSS, javascript, java, hibernate, JBoss, Tomcat, MySQL, Adobe, with UI/UX contributing to the successful development of platform applications. He devotes his spare time to perfecting his existing skills for creating website layouts and interfaces.</div>
+                </div>
+                <div class="swiper-slide v2" data-idx="9">
+                  <article>
+                    <div class="thumb mask mask-black2"><img src="/assets/images/team/az.png" alt=""/></div>
+                    <h4>Аlexander<br/>Zatynaiko</h4><small>Platform Application Developer</small>
+                    <div class="descr">Alexander is a gifted platform application developer.</div>
+                  </article>
+                  <div class="descr-ov">Alexander is a gifted platform application developer. He has experience working in the trade-desk of one of the top three banks in Russia and with a finance key player on the Russian market. He has skills in HTML5 / CSS3, ECMAScript(js), NodeJS, and experience using NoSQL, Neo4j and Cypher. </div>
+                </div>
+                <div class="swiper-slide v2" data-idx="10">
+                  <article>
+                    <div class="thumb mask mask-black2"><img src="/assets/images/team/avv.png" alt=""/></div>
+                    <h4>Andrey<br/>Voronkov</h4><small>Platform Application Developer</small>
+                    <div class="descr">Two years' experience as a full stack programmer (php5, js: Angular1, Vue2, Laravel5).</div>
+                  </article>
+                  <div class="descr-ov">Two years' experience as a full stack programmer (php5, js: Angular1, Vue2, Laravel5) and self-taught expertise make Andrey a skillful platform application developer. At Apla, one of his main achievements is creating an extension for Apla's languages (Symvolio and Protypo) in Visual Studio Code.</div>
+                </div>
+                <div class="swiper-slide v2" data-idx="11">
+                  <article>
+                    <div class="thumb mask mask-black2"><img src="/assets/images/team/av.png" alt=""/></div>
+                    <h4>Aleksey<br/>Voskresenskiy</h4><small>Frontend developer</small>
+                    <div class="descr">Alexey is a front-end developer with a wealth of experience in web-development that totals over 17 years.</div>
+                  </article>
+                  <div class="descr-ov">Alexey is a front-end developer with a wealth of experience in web-development that totals over 17 years. He is enthusiastic about web programming and programming for embedded devices. Also, Alexey has a startup project in cloud CCTV monitoring called 'WebGlazok'.</div>
+                </div>
+                <div class="swiper-slide v2" data-idx="12">
+                  <article>
+                    <div class="thumb mask mask-black2"><img src="/assets/images/team/nk.png" alt=""/></div>
+                    <h4>Nikolay<br/>Krasnykh</h4><small>QA Automation Engineer</small>
+                    <div class="descr">Nikolay is a QA automation engineer for the back and front-end sides of the platform.</div>
+                  </article>
+                  <div class="descr-ov">Nikolay is a QA automation engineer for the back and front-end sides of the platform, with 8 years of experience. He has skills in Python, JavaScript, Java. He participated in the development of unique and global SDN solutions for Brain4net company, also developing the HR recordkeeping system for the Russian Office for Foreign Affairs, in addition to solutions for the Russian Border Guard Service. Nikolay is a speaker for the well-known QA Guild podcast, along with other leading professionals in this sphere.</div>
+                </div>
+                <div class="swiper-slide v2" data-idx="13">
+                  <article>
+                    <div class="thumb mask mask-black2"><img src="/assets/images/team/rpl2.png" alt=""/></div>
+                    <h4>Roman<br/>Poletaev</h4><small>Back-end Developer</small>
+                    <div class="descr">Roman is a gifted developer with 8 years of experience in programming.</div>
+                  </article>
+                  <div class="descr-ov">Roman is a gifted developer with 8 years of experience in programming. His skills in .NET and Golang, in addition to efficiency and deep understanding of technical issues make him a key team member. </div>
+                </div>
+                <div class="swiper-slide v2" data-idx="14">
+                  <article>
+                    <div class="thumb mask mask-black2"><img src="/assets/images/team/vk.png" alt=""/></div>
+                    <h4>Viktor<br/>Kosach</h4><small>Platform Application Developer</small>
+                    <div class="descr">Victor is a gifted developer with a variety of skills in HTML, CSS, Javascript, MySQL, react, react-native, PHP.</div>
+                  </article>
+                  <div class="descr-ov">Victor is a gifted developer with a variety of skills in HTML, CSS, Javascript, MySQL, react, react-native, PHP. His experience as a systems administrator in government entities and a developer of customized websites contributes to his role in Apla. Victor has a master degree in Artificial Intelligence Systems.</div>
+                </div>
+                <div class="swiper-slide v2" data-idx="15">
+                  <article>
+                    <div class="thumb mask mask-black2"><img src="/assets/images/team/nope.png" alt=""/></div>
+                    <h4>Dmitrij<br/>Galitskij</h4><small>Back-end Developer</small>
+                    <div class="descr">Dmitrij is a gifted back-end developer.</div>
+                  </article>
+                  <div class="descr-ov">Dmitrij is a gifted back-end developer. His diligence, result-orientedness and responsibile attitude serve as a solid basis in the development and integration of the Apla platform database. Before Apla, he was building the trading platforms and services for p2p credit.</div>
+                </div>
+                <div class="swiper-slide v2" data-idx="16">
+                  <article>
+                    <div class="thumb mask mask-black2"><img src="/assets/images/team/ml.png" alt=""/></div>
+                    <h4>Maxym<br/>Lysenko</h4><small>front-end developer</small>
+                    <div class="descr">Maxym has extensive experience as a front-end developer.</div>
+                  </article>
+                  <div class="descr-ov">Maxym has extensive experience as a front-end developer. He participated in the developing apps such as People.io and Xendera, working both on a web admin panel and on the mobile application. His skills cover all necessary libraries and technologies required in the development apps.</div>
+                </div>
+                <div class="swiper-slide v2" data-idx="17">
+                  <article>
+                    <div class="thumb mask mask-black2"><img src="/assets/images/team/lnh.png" alt=""/></div>
+                    <h4>Lukman<br/>Nul Hakim</h4><small>Media and PR</small>
+                    <div class="descr">Blockchain Creative Publisher, working in mineral Laboratory for government mining company.</div>
+                  </article>
+                  <div class="descr-ov">Blockchain Creative Publisher, Working in mineral Laboratory for government mining company, Passionated for blockchain implementation, 3 year experience in creative writing for blockchain development and promotion.</div>
+                </div>
+                <div class="swiper-slide v2" data-idx="18">
+                  <article>
+                    <div class="thumb mask mask-black2"><img src="/assets/images/team/azv.png" alt=""/></div>
+                    <h4>Anton<br/>Zuev</h4><small>Business Analyst</small>
+                    <div class="descr">Anton worked in the quality assurance department of a large Russian mobile broadband services provider.</div>
+                  </article>
+                  <div class="descr-ov">Before joining Apla, Anton worked in the quality assurance department of a large Russian mobile broadband services provider. Additionally, he has been working on creating PhantomOS software in collaboration with an influential leader in the Russian IT industry. Master of Python, nodejs, Java, JavaScript, web. He received a qualification in machine learning and data analysis, and also took part in the Kaspersky Summer Lab. Anton is a regular participator and winner of blockchain hackathons.</div>
+                </div>
+                <div class="swiper-slide v2" data-idx="19">
                   <article>
                     <div class="thumb mask mask-black2"><img src="/assets/images/team/akh.png" alt=""/></div>
                     <h4>Alexandra<br/>Khasirdzeva</h4><small>Business Analyst</small>
@@ -261,7 +381,7 @@
                   </article>
                   <div class="descr-ov">A global citizen who lived in Moscow, Jordan, Dubai and LA working in startups. Developing content on innovation and emerging tech, Alexandra had a chance to interact with many industry leaders and visionaries. Later she succeeded in developing new business strategies for expansion, and created a global startup accelerator program in the UAE. Alexandra studied at the University of Edinburgh and the University of Southern California, with a BA in Economics.</div>
                 </div>
-                <div class="swiper-slide v2">
+                <div class="swiper-slide v2" data-idx="20">
                   <article>
                     <div class="thumb mask mask-black2"><img src="/assets/images/team/ay.png" alt=""/></div>
                     <h4>Adam<br/>Yates</h4><small>Content Lead</small>
@@ -356,7 +476,7 @@
         <p><small><a href="/private/business">For Business</a></small></p>
         <p><small><a href="/private/government">For Government</a></small></p>
         <p><small><a href="/private/developers">For Developers</a></small></p>
-        <p><small><a href="/private/cases">Use Cases</a></small></p>
+        <p><small><a href="/private/cases">Pilot projects</a></small></p>
         <p><small><a href="/private/about">About Us</a></small></p>
         <p><small><a href="https://blog.apla.io/" target="_blank">Blog</a></small></p>
       </nav>
@@ -377,8 +497,9 @@
       </footer>
     </div>
   </app-footer>
-  <!--script(src="//code.jquery.com/jquery-1.11.2.min.js")-->
+  <div class="team-rotator-popup"></div>
   <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
   <script src="/js/main.bundle.js"></script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106094666-1"></script><script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'UA-106094666-1');</script>
   <app-popupform>

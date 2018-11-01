@@ -1,0 +1,161 @@
+mixin nav-menu-item( item )
+    a(href!=item.href target!=item.target)!= item.title
+
+mixin side-menu-item( item )
+    li
+        if(item.href)
+            a(href!=item.href target!=item.target)!= item.title
+        else if (item.id)
+            a.page-scroll(href!="#"+item.id)!= item.title
+
+
+mixin developers-learn-about-item( item )
+    if(item.href)
+        a.article(href!=item.href target!=item.target)
+            .img
+                img(src!=item.img)
+            .title!= item.title
+
+    else if (item.id)
+        a.article.page-scroll(href!="#" + item.id)
+            .img
+                img(src!=item.img)
+            .title!= item.title
+    else
+        .article
+            .img
+                img(src!=item.img)
+        .title!= item.title
+
+mixin developers-molis-download-item( item )
+    a.article(href!=item.href target!=item.target)
+        img(src!=item.img)
+        .title!=item.title
+
+mixin developers-map-item( item, idx )
+    a.im(class=("im-"+(idx+1)) href!=item.href target!=item.target)
+
+mixin footer-menu-item( item )
+    p
+        small
+            a(href!=item.href target!=item.target)!= item.title
+
+
+mixin footer-socials-item( item )
+    a.btn-icon.btn-icon-black(href!=item.url target='_blank')
+        i.fa(class!=item.icon aria-hidden='true')
+
+
+
+mixin team-list( listSelector )
+    -
+        var list=[], src = $i18n[listSelector]
+        for (var i=0;i<src.length;i++)
+            if(src[i].IMG) list.push(src[i])
+
+        for (i=0;i<list.length;i++)
+            if(!list[i].NAMED) list[i].NAMED = list[i].NAME.replace( ' ', '<br/>' )
+        for (i=0;i<list.length;i++)
+            if(!list[i].SHORT) list[i].SHORT = list[i].DESCR.substring(0, 100 )
+    app-team
+        section.team-rotator
+            .swiper-container.team-style
+                .swiper-wrapper
+                    each item in list
+                        +team-item( item )
+                .swiper-pagination
+                button.swiper-button-prev(type='button')
+                    span.arrow.arrow-left-w.arrow-lg
+                        em
+                button.swiper-button-next(type='button')
+                    span.arrow.arrow-right-w.arrow-lg
+                        em
+
+mixin team-item( item )
+    .swiper-slide.v2
+        article
+            .thumb.mask.mask-black2
+                img(src!=item.IMG alt='')
+            h4!=item.NAMED
+            small!=item.POSITION
+            .descr!=item.SHORT
+        .descr-ov!=item.DESCR
+
+
+
+mixin cases-main-list-item(item)
+    if(!item.hide)
+        a(href!=item.href style!="background-image: url("+item.main_img+")")
+            h4!=item.title
+            p!=item.descr
+            span.btn READ THE STORY
+
+mixin cases-inline-list-item(item)
+    -
+        if(!item.alt_title) item.alt_title = item.title
+    a(href!=item.href)
+        h3!=item.alt_title
+        span.btn read the case
+        img.lazy(data-src!=item.alt_img alt="")
+
+
+mixin clients-gov-list-item(item)
+    a.top(href!=item.href target='_blank')
+        img.mat-icon(src!=item.img alt='')
+        h4!=item.title
+
+mixin clients-business-list-item(item)
+    a.top(href!=item.href target='_blank' class!=item.class style!=item.style)
+        img(src!=item.img alt='')
+
+
+mixin vacancy-item(item, town)
+    article
+        small
+            span!=item.DEPARTMENT
+            span!=town.TOWN+", " + town.COUNTRY
+        h4!=item.TITLE
+        p!=item.PREAMBLE
+        button.btn.btn-more(type="button")
+            | READ DESCRIPTION
+            em
+
+mixin main-news-item( item )
+    article
+        a(href!=item.href target='_blank')
+            img(src!=item.img alt='')
+            h4
+                span!=item.title
+                span.arrow.arrow-right
+                    em
+            p!=item.text
+
+
+
+
+
+mixin mat-tab-label(town, id, index, length)
+    .mat-tab-label.mat-ripple(id!=id class!=( index==0 ? "mat-tab-label-active" : "" ) data-idx=index data-len=length )
+        .mat-tab-label-content!=town
+
+
+mixin vacancy-list()
+    .mat-tab-group
+        .mat-tab-header
+            .mat-tab-label-container
+                    .mat-tab-list
+                        .mat-tab-labels
+                            each location, index in $i18n.VACANCIES
+                                +mat-tab-label(location.TOWN, "vacancy_"+index, index, $i18n.VACANCIES.length )
+                        mat-ink-bar.mat-ink-bar
+        .mat-tab-body-wrapper
+            each location, index in $i18n.VACANCIES
+                .mat-tab-body(class!=( index==0 ? "mat-tab-body-active" : "" ) id="tab_body_"+index data-idx=index)
+                    .mat-tab-body-content
+                        section
+                            each item in location.VACANCY
+                                +vacancy-item(item, location)
+
+
+mixin lang-js-list-item( item )
+    | lang_codes["!{item.code}"] = "!{item.id}";

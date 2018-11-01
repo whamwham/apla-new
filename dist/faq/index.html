@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <title>Apla - Blockchain Platform for accelerating technological progress</title>
+  <base href="/">
+  <meta name="keywords" content="">
+  <meta name="description" content="Public blockchain platform for building digital ecosystems">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
+  <link rel="manifest" href="/favicons/manifest.json">
+  <link rel="mask-icon" href="/favicons/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="/favicons/favicon.ico?v=123421">
+  <meta name="msapplication-config" content="/favicons/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+  <link href="/css/style.min.css?1541062120" rel="stylesheet">
+  <script>var curr_lang_code = "en";
+    var lang_codes = {};lang_codes["en"] = "en";lang_codes["de"] = "de";lang_codes["fr"] = "fr";lang_codes["hr"] = "hr";lang_codes["ru"] = "ru";lang_codes["zh"] = "zh";lang_codes["ko"] = "ko";lang_codes["ja"] = "ja";lang_codes["th"] = "th";lang_codes["es"] = "es";lang_codes["pt"] = "pt";
+  </script>
+</head>
+<body class="en">
+  <app-header><a class="logo" href="/" data-click="isActive = false"></a><a name="top"></a>
+    <section>
+      <nav><a href="/developers">For Developers</a><a href="/public">Public network</a><a href="/private">Private solutions</a><a href="/use-cases">Cases</a><a href="/resources">Resources</a><a href="/faq">FAQ</a>
+      </nav>
+      <!--button.btn.openpopupform(type='button')!= $i18n.GETSTARTED-->
+      <!--a.btn(href="/public") Public Network-->
+      <div class="language">
+        <button mat-icon-button="MenuStatus() ? 'active' : ''">!= $i18n.LANGUAGE<span class="arrow arrow-down"><em></em></span></button>
+      </div>
+    </section>
+    <div class="menu" data-click="ShowMenu()">
+      <div class="patty"></div>
+    </div>
+  </app-header>
+  <faq>
+    <div class="screen-faq">
+      <div class="container">
+        <h2>FAQ</h2>
+        <section>
+          <div class="item">
+            <h4>What is Apla?</h4>
+            <p>Apla is an open source (public & private) blockchain platform based on a peer-to-peer network and built on the original blockchain protocol developed by Apla. Apla blockchain provides a secure, simple and compliant blockchain infrastructure for a fast-growing global collaborative economy segment.</p>
+          </div>
+          <div class="item">
+            <h4>Does the Apla platform work on the Bitcoin, Ethereum, or some other blockchain?</h4>
+            <p>No, Apla is built on the basis of being its own original blockchain.</p>
+          </div>
+          <div class="item">
+            <h4>What are the main differences between Apla and other public blockchain platforms with built-in mechanisms for the execution of smart contracts, such as Ethereum, Qtum, and those still being designed, including Tezos and EOS?</h4>
+            <p>Apla features unique functions that cannot be found in the aforementioned blockchain platforms, such as:<ul><li>Integrated application development environment implemented in a single client software;<li>Specialized template language for the design of interfaces, harmonized with the contract-building language;<li>Multi-level system for the management of access rights to data, contracts, and interfaces where rights can be granted to persons, member roles, and contracts;<li>Ecosystems – autonomous software environments for the creation of blockchain applications and user interactions with them;<li>Legal system – a set of regulations, codified in smart laws (specialized smart contracts), which regulate relations between the platform users, define the protocol parameters changing procedures, that are used to solve problems.</p>
+          </div>
+          <div class="item">
+            <h4>What is an Apla dApp?</h4>
+            <p>An application built on the Apla platform is a system of tables, contracts, and interfaces with pre-configured permissions. Applications are built to perform a certain function or provide a service. An application does not require the presence of a unifying, coordinating contract (master contract); contracts are executed by user activities, and the results of their operation are recorded in tables.</p>
+          </div>
+          <div class="item">
+            <h4>What is a node on the Apla platform?</h4>
+            <p>An Apla node is a computer on the Apla network that stores a complete version of the blockchain and a database that contains the current (most up-to-date) state of the platform. Nodes validate transactions received from the network, include them into blocks, and modify the current state of the database.</p>
+          </div>
+          <div class="item">
+            <h4>What are Apla ecosystems?</h4>
+            <p>Ecosystems are virtually autonomous software environments for the creation of blockchain applications and user operations within them.</p>
+          </div>
+          <div class="item">
+            <h4>Who can create an ecosystem?</h4>
+            <p>Any user of the platform can create a new ecosystem.</p>
+          </div>
+          <div class="item">
+            <h4>How can a user become a member of an ecosystem?</h4>
+            <p>Registration in the platform network can take place in any existing ecosystem. There can be different procedures for membership admission, which are defined by the ecosystems’ policies: from posting information about a new ecosystem in a specialized catalog to sending out public keys.</p>
+          </div>
+          <div class="item">
+            <h4>Can one user create more than one ecosystem?</h4>
+            <p>Yes, every user can create any number of ecosystems, and be a member of any number of ecosystems at the same time.</p>
+          </div>
+          <div class="item">
+            <h4>Where is data stored in the Apla blockchain?</h4>
+            <p>Application data is stored in a common data storage environment: an unlimited set of tables of the platform's database. Tables with application data are not in any way bound to any particular smart contract and can be used by any and all applications of the ecosystem, based on the configured access rights.</p>
+          </div>
+          <div class="item">
+            <h4>What is a smart contract on Apla?</h4>
+            <p>Smart contracts are the basic elements for the implementation of algorithms in applications on the Apla platform. Contracts are final portions of code that perform the following functions: (1) receipt of information from user interfaces or other contracts ('data' section); (2) analysis of data validity ('conditions' section); and (3) execution of required transactions – updating database records ('actions'). Apla contracts are written using a proprietary Turing-complete scripting language called Simvolio. The language includes the required set of functions to create data processing algorithms and conduct operations with database values. The contracts are created and modified using a special editor in the Molis software client. Operations involving data in the blockchain are performed by the current (most recent) versions of contracts. The complete history of changes made to contracts is saved in the blockchain and is available from the software client.</p>
+          </div>
+          <div class="item">
+            <h4>Which software is used for creating applications and user interaction with them?</h4>
+            <p>Applications are written and executed in Molis – the single software client. No other software is required.</p>
+          </div>
+          <div class="item">
+            <h4>Can platform contracts access data using third-party API interfaces?</h4>
+            <p>No, contracts can only directly access the data stored in the blockchain. Specialized oracles are used to work with external data sources.</p>
+          </div>
+          <div class="item">
+            <h4>Can a contract saved in the blockchain be edited later?</h4>
+            <p>Yes, contracts are editable. Rights to edit contracts are established by their creators, who can deny any changes or grant rights to make changes to contracts, to specific persons, or configure a complex set of conditions in a specialized smart law. The Molis software client provides access to all contract versions.</p>
+          </div>
+          <div class="item">
+            <h4>What is a smart law?</h4>
+            <p>A smart law is a contract that is created to control and restrict the operation of regular contracts, and thus the activities of the ecosystems’ members. A set of smart laws can be regarded as an ecosystem’s legal system.</p>
+          </div>
+          <div class="item">
+            <h4>Can a contract call/execute another contract?</h4>
+            <p>Yes, contracts can execute other contracts by way of directly addressing another contract and providing parameters to it, or by way of calling a contract by link (name) (see contract language description).</p>
+          </div>
+          <div class="item">
+            <h4>Can applications be localized to different languages?</h4>
+            <p>Yes, the software client has a built-in mechanism for localization support, allowing for the creation of interfaces in any language.</p>
+          </div>
+          <div class="item">
+            <h4>Can interfaces be created without using the Protypo template language?</h4>
+            <p>Yes, the platform API can be used for that.</p>
+          </div>
+          <div class="item">
+            <h4>Are interface pages stored in the blockchain?</h4>
+            <p>Yes, pages and contracts are stored in the blockchain, which protects them from falsification.</p>
+          </div>
+          <div class="item">
+            <h4>What types of data banks can be used for the operation of contracts?</h4>
+            <p>The Molis software client includes instruments for the creation of database tables (PostgreSQL is used at the moment, but we may change that later), and the Simvolio contracts language has all the functions required for reading and writing of data. The Protypo template language includes the functions for reading data from tables.</p>
+          </div>
+          <div class="item">
+            <h4>Is there any payment for the operation of applications?</h4>
+            <p>Yes, the use of resources of validating nodes should be paid for in platform tokens.</p>
+          </div>
+          <div class="item">
+            <h4>Who pays for the operation of applications?</h4>
+            <p>An account (binding account), which the tokens for payment of resources are debited from, is set by the contract creator on its activation. It can be defined using an ecosystem’s smart laws, whether or not the ecosystem members will pay to work with the application and, if so, what method of payment is required (contributions or otherwise)..</p>
+          </div>
+          <div class="item">
+            <h4>How are applications within ecosystems protected from exploitation of any vulnerabilities?</h4>
+            <p>The platform team understands that there is no way to completely avoid mistakes in the program code of applications, especially given that applications can be written by any user. That’s why we decided to create a mechanism that eliminates the consequences of vulnerability exploitation. The platform has a legal system (a set of smart laws), that allows to suspend the operation of an application and make a number of transactions to restore the status quo where wrongful actions take place. The rights to execute such contracts and voting procedures to grant these rights are defined in the smart laws of the platform’s legal system.</p>
+          </div>
+          <div class="item">
+            <h4>Is a master contract required for applications to work?</h4>
+            <p>No, it’s not. Contracts are autonomous program modules that execute some functions. Each contract is configured to receive specific data, properly check these data, and execute some action, which will be recorded as a transition in the database.</p>
+          </div>
+          <div class="item">
+            <h4>How many nodes can an Apla blockchain network be comprised of?</h4>
+            <p>Full blockchain data can be stored across any number of nodes, but a minimum of three nodes are required for the consensus algorithm to operate as intended. Depending upon client requirements, we can create any number of nodes for private blockchains. The more nodes that make up the network, the more secure the blockchain.</p>
+          </div>
+          <div class="item">
+            <h4>How can a new node join an existing network?</h4>
+            <p>Any network node with sufficient processing power and fault tolerance can become a validating node. A node becomes a validating node based on the voting of ecosystems, but only ecosystems that are endorsed by investors as genuinely functioning (by platform tokens owners) can participate in such voting. Therefore, the platform network implements a new consensus algorithm – Delegated Proof of Authority (DPoA). With this algorithm, it is most likely that the validating nodes will be run by major ecosystems, since it is in their best interest to maintain the network operation.</p>
+          </div>
+          <div class="item">
+            <h4>What happens when a transaction is sent to the Apla blockchain?</h4>
+            <p>The transaction is checked by a validating node and included in a block, which is then sent to the network. The block is received by every node. Nodes execute all transactions from the blockchain in the sequence they were placed in the queue. Smart contracts are then executed with parameters passed to them in transactions, thus changing the state of the database simultaneously on all nodes of the Apla blockchain network.</p>
+          </div>
+          <div class="item">
+            <h4>Can we delete data in Apla Blockchain?</h4>
+            <p>No, no data can be deleted from the Apla Blockchain. In the future, and in accordance with GDPR requirements, Apla will implement the option to remove data from the blockchain.</p>
+          </div>
+          <div class="item">
+            <h4>What is a private key on Apla?</h4>
+            <p>A private key is a way to identify users on the Apla network. Every transaction is signed by a private key, which allows to precisely identify each transaction initiator.</p>
+          </div>
+          <div class="item">
+            <h4>Why do users need passwords to work with the Apla platform?</h4>
+            <p>User passwords are required to prevent unauthorized persons from entering the network from your computer with your private key.</p>
+          </div>
+          <div class="item">
+            <h4>Can users change their passwords?</h4>
+            <p>Yes, users can change their passwords at any time.</p>
+          </div>
+          <div class="item">
+            <h4>Who can modify data on the Apla blockchain?</h4>
+            <p>Rights to add or edit data can be provided to specific users, user roles, or smart contracts.</p>
+          </div>
+          <div class="item">
+            <h4>Can a hacker change data in the blockchain?</h4>
+            <p>To change the data, a hacker would need to take control of at least 51% of the validating nodes, which is highly improbable.</p>
+          </div>
+          <div class="item">
+            <h4>Is there any block explorer for the Apla blockchain?</h4>
+            <p>Yes, the block explorer is available by opening the URL – application URL:8080. For example, if the URL of the application developed on the Apla blockchain is myshopping.com then we can find the block explorer at myshopping.com:8080</p>
+          </div>
+          <div class="item">
+            <h4>Can we move data from a database of an existing traditional web application to an Apla application?</h4>
+            <p>Yes, we can transfer the data from existing databases to the Apla blockchain. This will be implemented by way of sending database records as transactions to the blockchain network. After that, Apla dApps will be able to use this data according with the established access rights.</p>
+          </div>
+          <div class="item">
+            <h4>Where are files sent to the blockchain stored?</h4>
+            <p>Files are stored in special tables as binary data.</p>
+          </div>
+        </section>
+      </div>
+    </div>
+    <app-newsletter>
+      <div class="container">
+        <div>
+          <h4>Want to see more projects?</h4>
+          <p>Get exclusive content delivered right into your inbox.</p><a class="privacy" href="/download/Privacy_and_Cookies_Policy.pdf">Privacy policy</a>
+        </div>
+        <form id="subscribeForm" novalidate="">
+          <div class="form-body">
+            <div class="form-group"><small class="form-control-feedback"><span *ngif="email.errors.required">E-mail is required.</span><span *ngif="email.errors.pattern">Incorrect e-mail address!</span></small>
+              <input class="form-control" placeholder="E-mail" type="email" name="email" required><span class="form-control-focus"></span>
+            </div>
+            <button class="btn" type="submit" disabled>SUBSCRIBE</button>
+          </div>
+          <div class="form-process">Please wait...
+          </div>
+          <div class="form-success">Thank you!
+          </div>
+          <div class="form-duplicate"><small>You are already subscribed to newsletter!</small>
+          </div>
+          <div class="form-error">Error... <small>Please try again later</small>
+          </div>
+        </form>
+      </div>
+    </app-newsletter>
+    <app-footer>
+      <div class="screen-map" *ngif="map">
+        <div class="container">
+          <h2>Contact us</h2>
+          <agm-map [latitude]="false">
+            <!--agm-marker(*ngfor='let m of markers; let i = index' (markerclick)='clickedMarker(m.label, i)' [latitude]='m.lat' [longitude]='m.lng' [iconurl]='m.iconUrl' [markerdraggable]='m.draggable')
+            agm-info-window([maxwidth]='150')
+                strong {{ m.info }}
+            -->
+          </agm-map>
+        </div>
+      </div>
+      <div class="container">
+        <nav><a class="logo" href="/"></a>
+          <p><small><a href="/private/business">For Business</a></small></p>
+          <p><small><a href="/private/government">For Government</a></small></p>
+          <p><small><a href="/private/developers">For Developers</a></small></p>
+          <p><small><a href="/private/cases">Pilot projects</a></small></p>
+          <p><small><a href="/private/about">About Us</a></small></p>
+          <p><small><a href="https://blog.apla.io/" target="_blank">Blog</a></small></p>
+        </nav>
+        <section>
+          <article>
+            <h5>Dubai</h5><small>TechnoHub 1, Dubai Silicon<br>Oasis Authority, Dubai<br><a href="mailto:dubai@apla.io">dubai@apla.io</a></small>
+          </article>
+          <article>
+            <h5>Luxembourg</h5><small>20 rue de Bitbourg, L1273<br>Luxembourg<br><a href="mailto:luxembourg@apla.io">luxembourg@apla.io</a></small>
+          </article>
+          <article>
+            <h5>Moscow</h5><small>Mikluho-Maklaya 34, Office 76,<br>117279, Moscow, Russia<br><a href="mailto:moscow@apla.io">moscow@apla.io</a></small>
+          </article>
+        </section>
+        <footer>
+          <div class="soc"><a class="btn-icon btn-icon-black" href="https://www.facebook.com/AplaBlockchain/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a><a class="btn-icon btn-icon-black" href="https://twitter.com/AplaBlockchain" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a><a class="btn-icon btn-icon-black" href="https://blog.apla.io/" target="_blank"><i class="fa fa-medium" aria-hidden="true"></i></a><a class="btn-icon btn-icon-black" href="https://t.me/apla_project" target="_blank"><i class="fa fa-paper-plane" aria-hidden="true"></i></a><a class="btn-icon btn-icon-black" href="https://github.com/AplaProject/go-apla/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a><a class="btn-icon btn-icon-black" href="https://www.youtube.com/channel/UCLAccwf_YvWGnxSIVgGtl7g" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a><a class="btn-icon btn-icon-black" href="https://www.linkedin.com/company/apla-blockchain/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+          </div><small>&copy; 2018 Apla, All Rights Reserved.</small>
+        </footer>
+      </div>
+    </app-footer>
+    <div class="team-rotator-popup"></div>
+    <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script src="/js/main.bundle.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106094666-1"></script><script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'UA-106094666-1');</script>
+    <app-popupform>
+      <div class="popup-form-wrapper">
+        <div class="backdrop"></div>
+        <div class="popup-form">
+          <form id="getstarted" novalidate="">
+            <div class="head">
+              <h4>Tell us about your needs</h4>
+              <p>and we will come up with a personalized solution</p>
+            </div>
+            <div class="form-body">
+              <div class="form-group"><small class="form-control-feedback"><span class="required">Name is required.</span></small>
+                <input class="form-control" placeholder="Your name *" type="text" name="name" required><span class="form-control-focus"></span>
+              </div>
+              <div class="form-group"><small class="form-control-feedback"><span class="required">Email is required.</span><span class="incorrect">Incorrect email address!</span></small>
+                <input class="form-control email-input" placeholder="Your email *" type="email" name="email" required pattern="\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+"><span class="form-control-focus"></span>
+              </div>
+              <div class="form-group"><small class="form-control-feedback"><span class="required">Message is required.</span></small>
+                <textarea class="form-control" rows="5" placeholder="Your message *" name="message" required></textarea><span class="form-control-focus"></span>
+              </div>
+              <button class="btn" type="submit" disabled>Send message</button>
+            </div>
+            <div class="form-process">Please wait...
+            </div>
+            <div class="form-success">Thank you!
+            </div>
+            <div class="form-duplicate">
+            </div>
+            <div class="form-error">Error... <small>Please try again later</small>
+            </div>
+          </form>
+        </div>
+      </div>
+    </app-popupform>
+  </faq>
+</body>

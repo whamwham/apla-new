@@ -120,7 +120,6 @@
 					}
 				}
 			}
-
 		}
 		&.arrow-right {
 			&:before {
@@ -213,6 +212,25 @@
 				background-size: 15px 14px;
 			}
 		}
+		&-w {
+			&:before {
+				background-image: url(/assets/icons/small-arrow-right-hover.svg);
+			}
+			&:after {
+				background-image: url(/assets/icons/small-arrow-right-pressed.svg);
+			}
+			em {
+				&:before {
+					background-image: url(/assets/icons/small-arrow-right-white.svg);
+					background-size: 15px 14px;
+				}
+				&:after {
+					background-image: url(/assets/icons/small-arrow-right.svg);
+					background-size: 15px 14px;
+				}
+			}
+		}
+
 	}
 	@include min($btablet) {
 		*:hover > & {

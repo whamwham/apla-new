@@ -20,43 +20,52 @@ body(class=$i18n.lang)
                 h4!= $i18n.NEW_MAIN.SHOWREEL.TEXT
 
 
-        .screen-experience
+        .screen-tiles
             .container
                 section
-                    article
-                        h1 7
-                        p years of blockchain development
-                    article
-                        h1 45
-                        p people are contributing to our mission
-                    article
-                        h1 20
-                        p successful proof-of-concepts
+                    a.article(href="/developers")
+                        .img
+                            img.icon(src="/assets/icons/icon-sprocket.svg")
+                        .aplafor Apla for
+                        h2
+                            | Developers
+                        .arrow.arrow-right-w
+                            em
+                        p Explore and apply the full advantages of Apla and create a goverment of the future.
 
-        .screen-5
+                    a.article(href="/private/business")
+                        .img
+                            img.icon(src="/assets/icons/icon-eye-2.svg")
+                        .aplafor Apla for
+                        h2
+                            | Business
+                        .arrow.arrow-right-w
+                            em
+                        p Make your business to work more effectively: downsize bureaucracy, cut middleman.
+
+                    a.article(href="/private/government")
+                        .img
+                            img.icon(src="/assets/icons/icon-lock-white.svg")
+                        .aplafor Apla for
+                        h2
+                            | Government
+                        .arrow.arrow-right-w
+                            em
+                        p Blockchain powered government brings a whole new dimension to innovation.
+
+        .screen-invention
             .container
-                article(href='/public')
-                    small!= $i18n.NEW_MAIN.APLAFOR.SUBHEAD
-                    h3
-                        a(href='/public')
-                            != $i18n.NEW_MAIN.APLAFOR[1].TITLE
-                            span.arrow.arrow-right
-                                em
-                    p!= $i18n.NEW_MAIN.APLAFOR[1].TEXT
-                article(href='/private')
-                    small!= $i18n.NEW_MAIN.APLAFOR.SUBHEAD
-                    h3
-                        a(href='/private')
-                            != $i18n.NEW_MAIN.APLAFOR[2].TITLE
-                            span.arrow.arrow-right
-                                em
-                    p!= $i18n.NEW_MAIN.APLAFOR[2].TEXT
+                h2!= $i18n.NEW_MAIN.INVENTION.TITLE
+                .img
+                    img.lazy(data-src!=$i18n.NEW_MAIN.INVENTION.IMG alt='')
+                section
+                    each item in $i18n.NEW_MAIN.INVENTION.LIST
+                        +invention-list-item(item)
 
-
-        #mission_container.screen-mission
+        #mission_container.screen-mission.black
             .overlay
             #mission_object.container
-                article
+                article2
                     h2 Our mission
                     p
                         | &#x9;&#x9;&#x9;&#x9;Smart implementation of blockchain redefines the trust we place in each other, making interactions more transparent, fair and reliable. This is why we will impact on the World Happiness Index, giving everyone access to knowledge, integrating developing countries into the global economy and
@@ -67,6 +76,43 @@ body(class=$i18n.lang)
                 img.img-3(src='/assets/images/about/mission-3.png' alt='')
                 img.img-4(src='/assets/images/about/mission-4.png' alt='')
 
+        .screen-use-cases
+            .container
+                h2 Use cases
+                section
+                    each item in $i18n.USE_CASES
+                        +use-cases-main-list-item(item)
+
+        app-cases
+            .cases.pilot
+                .container
+                    h1 Pilot projects
+                    h4
+                        | Apla is a blockchain platform that helps governments, businesses &amp; communities benefit from the digital
+                        | economy.
+                    section
+                        each item in $i18n.CASES
+                            +cases-main-list-item(item)
+        .screen-news
+            .container
+                h2 Latest news
+                section
+                    each item in $i18n.NEWS
+                        +main-news-item(item)
+        //.screen-clients
+            .container
+                h2!= $i18n.MAIN.CLIENTS.TITLE
+                section
+
+                    //h3 Governments
+                    //each item in $i18n.CLIENTS.GOV
+                        +clients-gov-list-item(item)
+                    div
+                        h3 Businesses
+                        each item in $i18n.CLIENTS.BUSINESS
+                            +clients-business-list-item(item)
+
+
         #team.screen-team
             .container
                 h2 Leadership
@@ -75,19 +121,66 @@ body(class=$i18n.lang)
                     br
                     br
                     | Our leaders eat last. Creating a workplace of the future: bureaucracy free, with a greater purpose, based on constant learning and individuality at its core.
-                +team-list('TOPMANAGMENT')
+                +team-list('TOPMANAGMENT', "topmanagement_scroller")
                 h2 Team is everything
                 p
                     | Welcome to the world where everyone&rsquo;s invited to form deep, meaningful connections.
-                +team-list('TEAM')
-        .screen-news
+                +team-list('TEAM', "team_scroller")
+
+
+        .screen-history(style="display:none")
             .container
-                h2 Latest news
-                section
-                    each item in $i18n.NEWS
-                        +main-news-item(item)
+                h2
+                    | Here is our history
+                    small Drag it
+                .swiper-container.history-story
+                    .swiper-wrapper
+                        article.swiper-slide
+                            h4 2011
+                            p
+                                | Oleg Strelenko, the founder of the project, started creating his own cryptocurrency: DCoin.
+                        article.swiper-slide
+                            h4 April 2014
+                            p
+                                | Release of DCoin: a cryptocurrency viable without exchanges, banks and other mediators. 66 types of transactions, 77 currencies, video identification and an integrated exchange system for converting DCoin into cash.
+                        article.swiper-slide
+                            h4 December 2014
+                            p
+                                | DCoin rewritten from PHP to Go (more than 73,000 lines of code). Works on Win (64/32), OSX (64/32), Linux (64/32), FreeBSD (64/32), Android, IOS, supports PostgreSQL, SQLite, MySQL.
+                        article.swiper-slide
+                            h4 January 2016
+                            p DCoin attracts its first investor.
+                        article.swiper-slide
+                            h4 June 2016
+                            p
+                                | Work starts on creating the first blockchain platform prototype as part of the Daylight project. The first office opens in Moscow.
+                        article.swiper-slide
+                            h4 October 2016
+                            p
+                                | The first versions of the web system, plus Simvolio and Prototypo programming languages are created. The project is renamed as eGaaS (electronic Government as a Service).
+                        article.swiper-slide
+                            h4 Spring 2017
+                            p
+                                | The test network is launched. The concept and ideology of smart contracts alongside a platform legal system is developed. The proof of concept for the first projects is validated for the UAE, India and Luxembourg.
+                        article.swiper-slide
+                            h4 July 2017
+                            p An office is opened in Luxembourg.
+                        article.swiper-slide
+                            h4 August 2017
+                            p
+                                | The platform&rsquo;s application is expanded so that it may be implemented outside of eGovernment. Apla is born: a team of experts for developing and integrating blockchain solutions. eGaaS is accepted into the Luxembourg centre for fintech.
+                        article.swiper-slide
+                            h4 Autumn 2017
+                            p
+                                | Proprietary products (programming client, Simvolo and Protypo languages) are perfected. The visual editor and builder for interfaces is created.
+                        article.swiper-slide
+                            h4 By 2018
+                            p
+                                | Apla Enterprise Network (AEN) blockchain network is launched for business. The network speed is increased by 5-10 times (to 1,500 tx/s). Offices open in Dubai, Singapore and New York.
+
         include includes/banner
         include includes/newsletter
+
 
         include includes/popupform
         include includes/footer-main

@@ -1,0 +1,110 @@
+include includes/common.pug
+include includes/data.pug
+
+-
+    var currPage = {
+        htmlAttrs: $i18n.htmlAttrs,
+        navIsWhite: false
+    };
+    htmlAttrs = currPage.htmlAttrs;
+
+
+
+include includes/head
+body(class=$i18n.lang)
+    include includes/header-main
+    app-home-new
+        .screen-main
+            .container
+                h1!= $i18n.NEW_MAIN.SHOWREEL.TITLE
+                h4!= $i18n.NEW_MAIN.SHOWREEL.TEXT
+
+
+        .screen-experience
+            .container
+                section
+                    article
+                        h1 7
+                        p years of blockchain development
+                    article
+                        h1 45
+                        p people are contributing to our mission
+                    article
+                        h1 20
+                        p successful proof-of-concepts
+
+        .screen-5
+            .container
+                article(href='/public')
+                    small!= $i18n.NEW_MAIN.APLAFOR.SUBHEAD
+                    h3
+                        a(href='/public')
+                            != $i18n.NEW_MAIN.APLAFOR[1].TITLE
+                            span.arrow.arrow-right
+                                em
+                    p!= $i18n.NEW_MAIN.APLAFOR[1].TEXT
+                article(href='/private')
+                    small!= $i18n.NEW_MAIN.APLAFOR.SUBHEAD
+                    h3
+                        a(href='/private')
+                            != $i18n.NEW_MAIN.APLAFOR[2].TITLE
+                            span.arrow.arrow-right
+                                em
+                    p!= $i18n.NEW_MAIN.APLAFOR[2].TEXT
+
+
+        #mission_container.screen-mission
+            .overlay
+            #mission_object.container
+                article
+                    h2 Our mission
+                    p
+                        | &#x9;&#x9;&#x9;&#x9;Smart implementation of blockchain redefines the trust we place in each other, making interactions more transparent, fair and reliable. This is why we will impact on the World Happiness Index, giving everyone access to knowledge, integrating developing countries into the global economy and
+                        strong &nbsp; bringing joy to people&rsquo;s lives
+                        | .
+                img.img-1.lazy(data-src='/assets/images/about/mission-1.png' alt='')
+                img.img-2.lazy(data-src='/assets/images/about/mission-2.png' alt='')
+                img.img-3(src='/assets/images/about/mission-3.png' alt='')
+                img.img-4(src='/assets/images/about/mission-4.png' alt='')
+
+        #team.screen-team
+            .container
+                h2 Leadership
+                p
+                    | Leadership in innovations makes an impact on a global scale. Multicultural, multidisciplinary and diverse top-management allows Apla to speak in one language with worldwide leaders from prime ministers to CIOs.
+                    br
+                    br
+                    | Our leaders eat last. Creating a workplace of the future: bureaucracy free, with a greater purpose, based on constant learning and individuality at its core.
+                +team-list('TOPMANAGMENT')
+                h2 Team is everything
+                p
+                    | Welcome to the world where everyone&rsquo;s invited to form deep, meaningful connections.
+                +team-list('TEAM')
+        .screen-news
+            .container
+                h2 Latest news
+                section
+                    each item in $i18n.NEWS
+                        +main-news-item(item)
+        include includes/banner
+        include includes/newsletter
+
+        include includes/popupform
+        include includes/footer-main
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

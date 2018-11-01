@@ -15,6 +15,46 @@
 				display: block;
 			}
 		}
+
+
+
+		.video-js2 {
+			color: #fff;
+			font-size: 14px;
+			.vjs-poster {
+				background-size: contain;
+				opacity: 0.85;
+			}
+
+			&.vjs-ended .vjs-poster,
+			&.vjs-paused .vjs-poster {
+				display: block;
+				background: url("/assets/images/video-bkg-sm-t.svg") top left no-repeat !important;
+				background-size: cover;
+				&:after {
+					opacity: 1;
+				}
+			}
+
+			.vjs-poster {
+				&:after {
+					position: absolute;
+					display: block;
+					left: 0;
+					right: 0;
+					top: 0;
+					bottom: 0;
+					background: url("/assets/images/video-bkg-sm-t.svg") top left no-repeat;
+					background-size: cover;
+					content: " ";
+				}
+			}
+		}
+
+
+
+
+
 		.vjs-big-play-button {
 			display: none;
 		}
@@ -37,5 +77,92 @@
 		{
 			background: #3AC28B;
 		}
+	}
+}
+
+
+
+.video2 {
+
+	.video-js {
+		color: #fff;
+		font-size: 14px;
+		.vjs-poster {
+			background-size: contain;
+			opacity: 0.85;
+		}
+
+		&.vjs-ended .vjs-poster,
+		&.vjs-paused .vjs-poster {
+			display: block;
+			background: url("/images/video-bkg-2.svg") top left no-repeat !important;
+			background-size: cover;
+			&:after {
+				opacity: 1;
+			}
+		}
+
+		.vjs-poster {
+			&:after {
+				position: absolute;
+				display: block;
+				left: 0;
+				right: 0;
+				top: 0;
+				bottom: 0;
+				background: url("/images/video-bkg-2.svg") top left no-repeat;
+				background-size: cover;
+				content: " ";
+			}
+		}
+	}
+	.vjs-big-play-button {
+		//display: none;
+		top: 45%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		width: 70px;
+		height: 70px;
+		border-radius: 50%;
+		border: 5px solid #243bff;
+		font-size: 2em;
+		line-height: 2.25em;
+		color: #243bff;
+		background: transparent;
+	}
+
+	.vjs-has-started .vjs-big-play-button {
+		opacity: 0.7;
+	}
+	&:hover .vjs-big-play-button, .vjs-big-play-button:hover {
+		border: 5px solid #243bff;
+		font-size: 2em;
+		line-height: 2.25em;
+		color: #243bff;
+		background: transparent;
+		opacity: 1;
+		transition: 0.3s;
+	}
+
+	.vjs-paused .vjs-big-play-button {
+		display: block;
+
+	}
+
+	.vjs-control-bar {
+		background-color: rgba(51, 51, 51, .7);
+	}
+	.vjs-slider {
+		background: #ccc;
+	}
+	.vjs-load-progress {
+		//background: rgba(133,133,133,.5);
+	}
+	.vjs-fullscreen-control {
+		color: #2239ff;
+	}
+	.vjs-volume-level,
+	.vjs-play-progress {
+		background: #2239ff;
 	}
 }

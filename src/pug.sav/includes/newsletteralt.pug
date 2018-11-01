@@ -1,0 +1,24 @@
+app-newsletter
+    .container
+        div
+            h4!= $i18n.NEWSLETTER.TITLEALT
+            p!= $i18n.NEWSLETTER.TEXT
+            a.privacy(href!=$i18n.NEWSLETTER.PRIVACY.href)!=$i18n.NEWSLETTER.PRIVACY.title
+        form#subscribeForm(novalidate='')
+            .form-body
+                .form-group
+                    small.form-control-feedback
+                        span(*ngif='email.errors.required')!= $i18n.NEWSLETTER.SUBSCRIBE.REQUIRED
+                        span(*ngif='email.errors.pattern')!= $i18n.NEWSLETTER.SUBSCRIBE.INCORRECT
+                    input.form-control(placeholder!= $i18n.NEWSLETTER.SUBSCRIBE.PLACEHOLDER type='email' name='email' required)
+                    span.form-control-focus
+                button.btn(type='submit' disabled)!= $i18n.NEWSLETTER.BUTTON
+            .form-process
+                !=$i18n.NEWSLETTER.PROCESS
+            .form-success
+                !=$i18n.NEWSLETTER.READY
+            .form-duplicate
+                !=$i18n.NEWSLETTER.DUPLICATE
+            .form-error
+                !=$i18n.NEWSLETTER.ERROR
+
