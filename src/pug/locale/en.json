@@ -553,7 +553,7 @@
     },
     {
       "q": "Who pays for the operation of applications?",
-      "a": "An account (binding account), which the tokens for payment of resources are debited from, is set by the contract creator on its activation. It can be defined using an ecosystem’s smart laws, whether or not the ecosystem members will pay to work with the application and, if so, what method of payment is required (contributions or otherwise).."
+      "a": "An account (binding account), which the tokens for payment of resources are debited from, is set by the contract creator on its activation. It can be defined using an ecosystem’s smart laws, whether or not the ecosystem members will pay to work with the application and, if so, what method of payment is required (contributions or otherwise)."
     },
     {
       "q": "How are applications within ecosystems protected from exploitation of any vulnerabilities?",
@@ -569,11 +569,11 @@
     },
     {
       "q": "How can a new node join an existing network?",
-      "a": "Any network node with sufficient processing power and fault tolerance can become a validating node. A node becomes a validating node based on the voting of ecosystems, but only ecosystems that are endorsed by investors as genuinely functioning (by platform tokens owners) can participate in such voting. Therefore, the platform network implements a new consensus algorithm – Delegated Proof of Authority (DPoA). With this algorithm, it is most likely that the validating nodes will be run by major ecosystems, since it is in their best interest to maintain the network operation."
+      "a": "Any network node with sufficient processing power and fault tolerance can become a validating node. A node becomes a validating node based on the voting of ecosystems, but only ecosystems that are endorsed by investors(platform tokens owners) as genuinely functioning can participate in such voting. Therefore, the platform network implements a new consensus algorithm – Delegated Proof of Authority (DPoA). With this algorithm, it is most likely that the validating nodes will be run by major ecosystems, since it is in their best interest to maintain the network operation."
     },
     {
       "q": "What happens when a transaction is sent to the Apla blockchain?",
-      "a": "The transaction is checked by a validating node and included in a block, which is then sent to the network. The block is received by every node. Nodes execute all transactions from the blockchain in the sequence they were placed in the queue. Smart contracts are then executed with parameters passed to them in transactions, thus changing the state of the database simultaneously on all nodes of the Apla blockchain network."
+      "a": "The transaction is checked by a validating node and included in a block, which is then sent to the network. The block is received by every node. Nodes execute all transactions from the block in the sequence they were placed in the queue. Smart contracts are then executed with parameters passed to them in transactions, thus changing the state of the database simultaneously on all nodes of the Apla blockchain network."
     },
     {
       "q": "Can we delete data in Apla Blockchain?",
@@ -605,7 +605,7 @@
     },
     {
       "q": "Can we move data from a database of an existing traditional web application to an Apla application?",
-      "a": "Yes, we can transfer the data from existing databases to the Apla blockchain. This will be implemented by way of sending database records as transactions to the blockchain network. After that, Apla dApps will be able to use this data according with the established access rights."
+      "a": "Yes, we can transfer the data from existing databases to the Apla blockchain. This will be implemented by way of sending database records as transactions to the blockchain network. After that, Apla dApps will be able to use this data in accordance with the established access rights."
     },
     {
       "q": "Where are files sent to the blockchain stored?",
