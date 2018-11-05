@@ -721,7 +721,7 @@
         {
           "icon": "",
           "title": "Decentralisation",
-          "p": "All the resources - including data, smart-contracts and user interfaces - are stored on every node inside the network. Any change to data can only be made via smart contract execution. This makes it impossible for anyone in network to tamper with the data."
+          "p": "All the resources — including data, smart-contracts and user interfaces - are stored on every node inside the network. Any change to data can only be made via smart contract execution. This makes it impossible for anyone in network to tamper with the data."
         },
         {
           "icon": "",
