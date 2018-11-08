@@ -1640,7 +1640,7 @@
       align-items: flex-start;
       div {
         flex: 50%;
-        display: flex;
+        //display: flex;
         flex-flow: row wrap;
         justify-content: left;
         @include max($btablet) {
@@ -1656,11 +1656,12 @@
           }
         }
         article, a {
-          flex: 50%;
-          align-content: flex-start;
-          align-items: flex-start;
+          //flex: 25%;
+          //align-content: flex-start;
+          //align-items: flex-start;
           padding-left: 0px;
           padding-right: 25px;
+          width:20%;
         }
         @include max($btablet) {
           & + div {
@@ -1669,18 +1670,18 @@
         }
       }
       article, a {
-        flex: 25%;
-        display: flex;
-        flex-flow: column nowrap;
-        justify-content: center;
-        align-content: center;
-        align-items: center;
+        //flex: 25%;
+        //display: flex;
+        //flex-flow: column nowrap;
+        //justify-content: center;
+        //align-content: center;
+        //align-items: center;
         padding-left: 10px;
         padding-right: 10px;
         margin-top: 80px;
         text-decoration: none;
         @include max($btablet) {
-          flex: 50%;
+          //flex: 50%;
           max-width: 50%;
           margin-top: 40px;
         }
@@ -1688,8 +1689,9 @@
           justify-content: flex-start;
         }
         img {
-          display: block;
+          display: inline-block;
           max-width: 100%;
+          max-height: 4vh;
         }
         .mat-icon {
           display: block;
@@ -1708,6 +1710,37 @@
         max-width:21%;margin-top: 20px;
         @include max($btablet) {
           max-width:38%;margin-top: 20px;
+        }
+      }
+    }
+  }
+  &-clients2 {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    @include max($btablet) {
+      padding-top: 60px;
+      padding-bottom: 60px;
+    }
+    section {
+      display: flex;
+      flex-wrap: wrap;
+      a {
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-top: 80px;
+        text-decoration: none;
+        flex:25%;
+        @include max($btablet) {
+          flex: 50%;
+          margin-top: 40px;
+        }
+        img {
+          width: 100%;
+          //max-width: 25%;
+          //max-height: 4vh;
+        }
+        h4 {
+          margin-top: 15px;
         }
       }
     }

@@ -81,6 +81,8 @@ body(class=$i18n.lang)
                     each item in $i18n.USE_CASES
                         +use-cases-main-list-item(item)
 
+
+
         app-cases
             .cases.pilot
                 .container
@@ -97,19 +99,15 @@ body(class=$i18n.lang)
                 section
                     each item in $i18n.NEWS
                         +main-news-item(item)
-        //.screen-clients
+        .screen-clients2
             .container
-                h2!= $i18n.MAIN.CLIENTS.TITLE
+                h2 Partners
                 section
-
                     //h3 Governments
                     //each item in $i18n.CLIENTS.GOV
                         +clients-gov-list-item(item)
-                    div
-                        h3 Businesses
-                        each item in $i18n.CLIENTS.BUSINESS
-                            +clients-business-list-item(item)
-
+                    each item in $i18n.CLIENTS.BUSINESS
+                        +clients-business-list-item(item)
 
         #team.screen-team
             .container

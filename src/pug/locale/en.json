@@ -1323,31 +1323,61 @@
     ],
     "BUSINESS": [
       {
-        "title": "Bearing Point",
-        "href": "https://www.bearingpoint.com/",
-        "img": "/assets/images/clients/BrP_Logo_RGB_PS.png"
-      },
-      {
         "title": "SnapSwap",
         "href": "https://snapswap.eu/",
-        "img": "/assets/images/clients/EY-snapswap-logo.png"
+        "img": "/assets/images/clients/ss.png"
       },
       {
         "title": "Grant Thornton",
         "href": "https://www.grantthornton.com/",
-        "img": "/assets/images/clients/grant-thornton-logo.png"
+        "img": "/assets/images/clients/gt.png"
       },
       {
         "title": "Finesse Direct",
         "href": "http://finessedirect.com/",
-        "img": "/assets/images/clients/Finesse-LOGO-H-with-add1.png"
+        "img": "/assets/images/clients/fss.png"
       },
       {
-        "title": "Gazprom",
-        "href": "http://www.gazprom.com/",
+        "title": "Ipe-lab",
+        "href": "https://ipe-lab.com/",
+        "img": "/assets/images/clients/il.png"
+      },
+      {
+        "title": "Red Hat Linux",
+        "href": "https://www.redhat.com/en",
+        "img": "/assets/images/clients/rhl.png"
+      },
+      {
+        "title": "Huawei",
+        "href": "https://www.huawei.com/en/",
+        "img": "/assets/images/clients/hw.png"
+      },
+      {
+        "title": "Sadad Bahrein",
+        "href": "https://www.sadadbahrain.com/",
         "style": "",
-        "class": "gazprom",
-        "img": "/assets/images/clients/Gazprom.jpg"
+        "class": "",
+        "img": "/assets/images/clients/sdb.png"
+      },
+      {
+        "title": "Systematica Africa",
+        "href": "http://systematica-africa.com/",
+        "img": "/assets/images/clients/sst.png"
+      },
+      {
+        "title": "Dicetek",
+        "href": "http://www.dicetek.net/",
+        "img": "/assets/images/clients/dct.png"
+      },
+      {
+        "title": "Atos",
+        "href": "https://atos.net/en-gb/united-kingdom",
+        "img": "/assets/images/clients/at.png"
+      },
+      {
+        "title": "Centre for Good Governance",
+        "href": "https://cgg.gov.in/",
+        "img": "/assets/images/clients/cgg.png"
       }
     ]
   },
