@@ -1145,6 +1145,39 @@
       }
     }
   },
+  "MOLIS": {
+    "h2": "Meet Molis",
+    "text": "​​The official Apla client software for creating and accessing your wallet on the Apla Platform.",
+    "link": {
+      "href": "https://github.com/AplaProject/apla-front/releases/",
+      "target": "_blank",
+      "title": "Learn more about Molis"
+    },
+    "DOWNLOAD": {
+      "h4": "Download Molis for Apla Mainnet",
+      "LIST": [
+        {
+          "href": "https://github.com/AplaProject/apla-front/releases/download/v0.10.2/apla-front-setup-0.10.2.exe",
+          "img": "/assets/icons/windows.svg",
+          "target": "_blank",
+          "title": "Windows"
+        },
+        {
+          "href": "https://github.com/AplaProject/apla-front/releases/download/v0.10.2/apla-front-0.10.2-x86_64.AppImage",
+          "img": "/assets/icons/linux.svg",
+          "target": "_blank",
+          "title": "Linux"
+        },
+        {
+          "href": "https://github.com/AplaProject/apla-front/releases/download/v0.10.2/Apla-0.10.2.dmg",
+          "img": "/assets/icons/apple.svg",
+          "target": "_blank",
+          "title": "Mac OS"
+        }
+      ]
+    }
+  },
+
   "DEVELOPERS_PUBLIC": {
     "h2": "Learn about Apla Platform",
     "MAP": [

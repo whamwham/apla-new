@@ -15,7 +15,7 @@
   <link rel="shortcut icon" href="/favicons/favicon.ico?v=123421">
   <meta name="msapplication-config" content="/favicons/browserconfig.xml">
   <meta name="theme-color" content="#ffffff">
-  <link href="/css/style.min.css?1542381691" rel="stylesheet">
+  <link href="/css/style.min.css?1542381694" rel="stylesheet">
   <script>var curr_lang_code = "en";
     var lang_codes = {};lang_codes["en"] = "en";lang_codes["de"] = "de";lang_codes["fr"] = "fr";lang_codes["hr"] = "hr";lang_codes["ru"] = "ru";lang_codes["zh"] = "zh";lang_codes["ko"] = "ko";lang_codes["ja"] = "ja";lang_codes["th"] = "th";lang_codes["es"] = "es";lang_codes["pt"] = "pt";
   </script>
@@ -23,9 +23,10 @@
 <body class="en">
   <app-header><a class="logo" href="/" data-click="isActive = false"></a><a name="top"></a>
     <section>
-      <nav><a href="/private/business">For Business</a><a href="/private/government">For Government</a><a href="/private/developers">For Developers</a><a href="/private/cases">Pilot projects</a><a href="/private/about">About Us</a><a href="https://blog.apla.io/" target="_blank">Blog</a>
+      <nav><a href="/download/White_Paper.pdf" target="_blank">White paper</a><a href="/download/Apla_Legal.pdf" target="_blank">Legal paper</a><a href="/public/#team">Team</a><a href="/public/developers">For Developers</a><a href="https://github.com/AplaProject/apla-front/releases" target="_blank">Testnet</a><a href="https://blog.apla.io/" target="_blank">News</a><a href="https://apla.readthedocs.io/en/latest/" target="_blank">Docs</a>
       </nav>
-      <!--button.btn.openpopupform(type='button')!= $i18n.GETSTARTED--><a class="btn" href="/public">Public Network</a>
+      <!--button.btn.openpopupform(type='button')!= $i18n.GETSTARTED-->
+      <!--a.btn(href="/public") Public Network-->
       <div class="language">
         <button mat-icon-button="MenuStatus() ? 'active' : ''">!= $i18n.LANGUAGE<span class="arrow arrow-down"><em></em></span></button>
       </div>
@@ -34,56 +35,26 @@
       <div class="patty"></div>
     </div>
   </app-header>
-  <use-cases>
-    <div class="screen-use-cases">
-      <div class="container">
-        <h2>Use cases</h2>
-        <section><a class="article" href="/use-cases/land-registry">
-            <h4>Land registry</h4>
-            <div class="arrow arrow-right"><em></em></div></a><a class="article" href="/use-cases/vehicle-registry">
-            <h4>Vehicle registry</h4>
-            <div class="arrow arrow-right"><em></em></div></a><a class="article" href="/use-cases/supply-chain">
-            <h4>Supply chain management</h4>
-            <div class="arrow arrow-right"><em></em></div></a><a class="article" href="/use-cases/attestation">
-            <h4>Attestation</h4>
-            <div class="arrow arrow-right"><em></em></div></a><a class="article" href="/use-cases/certificate-issuance">
-            <h4>Certificate Issuance</h4>
-            <div class="arrow arrow-right"><em></em></div></a><a class="article" href="/use-cases/business-license-issuance">
-            <h4>Business License Issuance</h4>
-            <div class="arrow arrow-right"><em></em></div></a><a class="article" href="/use-cases/birth-certificates">
-            <h4>Birth Certificates</h4>
-            <div class="arrow arrow-right"><em></em></div></a><a class="article" href="/use-cases/voting">
-            <h4>Voting</h4>
-            <div class="arrow arrow-right"><em></em></div></a><a class="article" href="/use-cases/token-transfer">
-            <h4>Token Transfer</h4>
-            <div class="arrow arrow-right"><em></em></div></a>
-        </section>
-      </div>
-    </div>
-    <app-newsletter>
-      <div class="container">
-        <div>
-          <h4>Want to see more projects?</h4>
-          <p>Get exclusive content delivered right into your inbox.</p><a class="privacy" href="/download/Privacy_and_Cookies_Policy.pdf">Privacy policy</a>
-        </div>
-        <form id="subscribeForm" novalidate="">
-          <div class="form-body">
-            <div class="form-group"><small class="form-control-feedback"><span *ngif="email.errors.required">E-mail is required.</span><span *ngif="email.errors.pattern">Incorrect e-mail address!</span></small>
-              <input class="form-control" placeholder="E-mail" type="email" name="email" required><span class="form-control-focus"></span>
+  <app-developers class="public">
+    <section>
+      <div class="screen-meet-molis standalone">
+        <div class="container"><br>&nbsp;<br>&nbsp;
+          <h2>Meet Molis</h2>
+          <section>
+            <div class="text">​​The official Apla client software for creating and accessing your wallet on the Apla Platform.</div>
+            <!--a.link(href!=$i18n.DEVELOPERS_PUBLIC.MOLIS.link.href target!=$i18n.DEVELOPERS_PUBLIC.MOLIS.link.target)!=$i18n.DEVELOPERS_PUBLIC.MOLIS.link.title-->
+            <h4>Download Molis for Apla Mainnet</h4>
+            <div class="list"><a class="article" href="https://github.com/AplaProject/apla-front/releases/download/v0.10.2/apla-front-setup-0.10.2.exe" target="_blank"><img src="/assets/icons/windows.svg"/>
+                <div class="title">Windows</div></a><a class="article" href="https://github.com/AplaProject/apla-front/releases/download/v0.10.2/apla-front-0.10.2-x86_64.AppImage" target="_blank"><img src="/assets/icons/linux.svg"/>
+                <div class="title">Linux</div></a><a class="article" href="https://github.com/AplaProject/apla-front/releases/download/v0.10.2/Apla-0.10.2.dmg" target="_blank"><img src="/assets/icons/apple.svg"/>
+                <div class="title">Mac OS</div></a>
             </div>
-            <button class="btn" type="submit" disabled>SUBSCRIBE</button>
-          </div>
-          <div class="form-process">Please wait...
-          </div>
-          <div class="form-success">Thank you!
-          </div>
-          <div class="form-duplicate"><small>You are already subscribed to newsletter!</small>
-          </div>
-          <div class="form-error">Error... <small>Please try again later</small>
-          </div>
-        </form>
+          </section>
+        </div>
       </div>
-    </app-newsletter>
+    </section>
+    <!--include /pug/includes/banner-->
+    <!--include /pug/includes/newsletter-->
     <app-footer>
       <div class="screen-map" *ngif="map">
         <div class="container">
@@ -98,12 +69,13 @@
       </div>
       <div class="container">
         <nav><a class="logo" href="/"></a>
-          <p><small><a href="/private/business">For Business</a></small></p>
-          <p><small><a href="/private/government">For Government</a></small></p>
-          <p><small><a href="/private/developers">For Developers</a></small></p>
-          <p><small><a href="/private/cases">Pilot projects</a></small></p>
-          <p><small><a href="/private/about">About Us</a></small></p>
-          <p><small><a href="https://blog.apla.io/" target="_blank">Blog</a></small></p>
+          <p><small><a href="/download/White_Paper.pdf" target="_blank">White paper</a></small></p>
+          <p><small><a href="/download/Apla_Legal.pdf" target="_blank">Legal paper</a></small></p>
+          <p><small><a href="/public/#team">Team</a></small></p>
+          <p><small><a href="/public/developers">For Developers</a></small></p>
+          <p><small><a href="https://github.com/AplaProject/apla-front/releases" target="_blank">Testnet</a></small></p>
+          <p><small><a href="https://blog.apla.io/" target="_blank">News</a></small></p>
+          <p><small><a href="https://apla.readthedocs.io/en/latest/" target="_blank">Docs</a></small></p>
         </nav>
         <section>
           <article>
@@ -160,5 +132,5 @@
         </div>
       </div>
     </app-popupform>
-  </use-cases>
+  </app-developers>
 </body>

@@ -325,6 +325,7 @@
       &-meet-molis {
         padding: 90px 0;
 
+
         h2 {
           padding-bottom: 40px;
         }
@@ -340,6 +341,17 @@
             text-decoration: underline;
           }
         }
+
+        &.standalone {
+          padding: 190px 0;
+
+          .text {
+            max-width: unset;
+          }
+        }
+
+
+
 
         section {
           max-width: 900px;
