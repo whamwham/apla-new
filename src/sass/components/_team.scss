@@ -131,6 +131,8 @@
   .swiper-container {
     //max-width: 765px;
     //margin: 0px auto;
+    min-width: 100%;
+    width: 100%;
     .swiper-wrapper {
       align-items: baseline;
       margin-bottom: 35px;
