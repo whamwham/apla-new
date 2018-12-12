@@ -1559,7 +1559,7 @@
       ]
     }
   ],
-  "ADVISIRS": [
+  "ADVISORS": [
     {
       "NAME": "Dr. Godwin Caruana",
       "NAMED": "Dr. Godwin <br>Caruana",
@@ -1585,32 +1585,6 @@
       "DESCR": "Dr. Waangila is a Director (Head of ICT &Innovation) at National Transport And Safety Authority. He holds a Ph.D. in Business Innovation and Technology Management and also holds a Master of Science degree in ICT Policy and regulation, He has 15 years experience in strategic directing, managing, and delivering large-scale, complex ICT programmes for government departments and private organizations in Africa. He has Expertise in developing and implementing ICT Strategic Plans, Proven leadership ability to successfully deliver and maintain high-quality ICT operations over a large geographical area."
     }
 
-  ],
-  "ADVISERS": [
-    {
-      "NAME": "Dr. Godwin Caruana",
-      "NAMED": "Dr. Godwin <br>Caruana",
-      "POSITION": "Advisor",
-      "IMG": "/assets/images/team/gw.png",
-      "SHORT": "Dr. Caruana has served the @MITA (Malta Information Technology Agency) for more than 25 years with the last 8 years in the capacity of the CTO.",
-      "DESCR": "Dr. Caruana has served the @MITA (Malta Information Technology Agency) for more than 25 years with the last 8 years in the capacity of the CTO, he has pretty much overlooked a large number of technologies in place today at the Maltese Government. He is currently the CTO at 1923Investments. The company holds three groups of companies – Harvest Technology, iSpot Holdings and Hili Logistics. PhD in High-Performance Computing, Algorithms & Machine Learning/AI"
-    },
-    {
-      "NAME": "Dr Ioannis Karamitsos",
-      "NAMED": "Dr Ioannis <br>Karamitsos",
-      "POSITION": "Advisor",
-      "IMG": "/assets/images/team/km.png",
-      "SHORT": "A technology expert with over two decades’ experience in IT and over 30 technical papers published.",
-      "DESCR": "Ph.D., CEH, CBE. Dr. Karamitsos has 23 years+ of experience in ICT and he is an expert in the fields of Cybersecurity, Cryptography, Post-quantum computing, Blockchain Algorithms, Smart Contracts, AI, Machine Learning, SDN/DC, Machine learning, Cloud Computing and IoT. He is author of over 30 papers and technical reports, a member of IEEE since 1997, and he is serving as a reviewer in several engineering journals, and conferences. His current research concerns telecommunication systems and networks, security, provisioning of services in next generation cloud networks, data-center networking to support services, IoT and M2M technologies, and techno-economic aspects of smart cities."
-    },
-    {
-      "NAME": "Dr. Fernando Wangila",
-      "NAMED": "Dr. Fernando <br>Wangila",
-      "POSITION": "Advisor",
-      "IMG2": "/assets/images/team/wg.png",
-      "SHORT": "Dr. Waangila is a Director (Head of ICT &Innovation) at National Transport And Safety Authority.",
-      "DESCR": "Dr. Waangila is a Director (Head of ICT &Innovation) at National Transport And Safety Authority. He holds a Ph.D. in Business Innovation and Technology Management and also holds a Master of Science degree in ICT Policy and regulation, He has 15 years experience in strategic directing, managing, and delivering large-scale, complex ICT programmes for government departments and private organizations in Africa. He has Expertise in developing and implementing ICT Strategic Plans, Proven leadership ability to successfully deliver and maintain high-quality ICT operations over a large geographical area."
-    }
   ],
   "TOPMANAGMENT2": [
     {
@@ -1981,6 +1955,22 @@
       "name": "linkedin",
       "url": "https://www.linkedin.com/company/apla-blockchain/",
       "icon": "fa-linkedin"
+    }
+  ],
+  "TESTIMONIALS": [
+    {
+      "title": "Apla: an outside perspective (Nasir Zubairi)",
+      "description": "CEO of the Luxembourg House of Financial Technology (LHoFT), Nasir Zubairi explains what makes Luxembourg a fintech centre and how he thinks blockchain will have a profound effect on all sectors, not just in finance. Watch on to hear Nasir's views on Apla's CEO and how the Apla platform makes blockchain a viable business instrument.",
+      "yt_id": "zXdrEYPq2Z4",
+      "video": "/assets/videos/Nasir_Zubairi.mp4",
+      "thumb": "/assets/videos/Nasir_Zubairi.jpg"
+    },
+    {
+      "title": "Apla: an outside perspective (Olivier Zephir)",
+      "description": "Business Advisor Olivier Zephir explains how digital creators can convert their creations into digital assets on the Apla blockchain, why the platform is a viable choice for the digital creative industry.",
+      "yt_id": "7j2aTY8YJ3k",
+      "video": "/assets/videos/Olivier_Zephir.mp4",
+      "thumb": "/assets/videos/Olivier_Zephir.jpg"
     }
   ]
 }

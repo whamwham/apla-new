@@ -135,6 +135,45 @@ window.anim = {};
 
     });
 
+
+
+    $('.swiper-container.hor-videos-style .swiper-wrapper').slick({
+        infinite: false,
+        autoplay: false,
+        dots: false,
+        speed: 700,
+        slidesToShow: 2,
+        slidesToScroll: 2,
+        prevArrow: '.swiper-button-prev',
+        nextArrow: '.swiper-button-next',
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }, {
+                breakpoint: 800,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }, {
+                breakpoint: 450,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                    //,
+                    //centerMode: true
+                }
+            }
+        ]
+    });
+
+
+
+
     $('.swiper-container.team-style').each(function (index, el) {
         const uid = $(el).attr('id');
         $('.swiper-container.team-style#' + uid + ' .swiper-wrapper').slick({
