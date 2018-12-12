@@ -1581,7 +1581,7 @@
       "NAMED": "Dr. Fernando <br>Wangila",
       "POSITION": "Advisor",
       "IMG": "/assets/images/team/wg.png",
-      "SHORT": "Dr. Waangila is a Director (Head of ICT &Innovation) at National Transport And Safety Authority.",
+      "SHORT": "Dr. Waangila is a Director (Head of ICT &Innovation) at National Transport And Safety Authority of Kenya.",
       "DESCR": "Dr. Waangila is a Director (Head of ICT &Innovation) at National Transport And Safety Authority. He holds a Ph.D. in Business Innovation and Technology Management and also holds a Master of Science degree in ICT Policy and regulation, He has 15 years experience in strategic directing, managing, and delivering large-scale, complex ICT programmes for government departments and private organizations in Africa. He has Expertise in developing and implementing ICT Strategic Plans, Proven leadership ability to successfully deliver and maintain high-quality ICT operations over a large geographical area."
     }
 
@@ -1862,13 +1862,6 @@
       "IMG": "/assets/images/team/vk.png",
       "SHORT": "Victor is a gifted developer with a variety of skills in HTML, CSS, Javascript, MySQL, react, react-native, PHP.",
       "DESCR": "Victor is a gifted developer with a variety of skills in HTML, CSS, Javascript, MySQL, react, react-native, PHP. His experience as a systems administrator in government entities and a developer of customized websites contributes to his role in Apla. Victor has a master degree in Artificial Intelligence Systems."
-    },
-    {
-      "NAME": "Dmitrij Galitskij",
-      "POSITION": "Back-end Developer",
-      "IMG": "/assets/images/team/nope.png",
-      "SHORT": "Dmitrij is a gifted back-end developer.",
-      "DESCR": "Dmitrij is a gifted back-end developer. His diligence, result-orientedness and responsibile attitude serve as a solid basis in the development and integration of the Apla platform database. Before Apla, he was building the trading platforms and services for p2p credit."
     },
     {
       "NAME": "Maxym Lysenko",
