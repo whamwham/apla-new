@@ -356,6 +356,66 @@
         "keywords": ""
       }
     },
+
+    {
+      "title": "e-Commerce Marketplace",
+      "descr": "Blockchain-based e-commerce platform for redundant assets, offering a transparent trading mechanism for auctions and allowing buyers and sellers to quickly and securely enter into a sales agreement.",
+      "href": "/use-cases/marketplace",
+      "benefits": [
+        "Transactions signed with cryptographic keys, reducing the possibility of fraud",
+        "Platform built with simplicity at its core",
+        "Fully functioning e-commerce platform for auctions and straight sales",
+        "Utilizes blockchain’s distributed nature for enhanced security"
+      ],
+      "video": "/assets/videos/auction_poc.mp4",
+      "htmlAttrs": {
+        "title": "Apla - Blockchain Platform for accelerating technological progress",
+        "description": "Public blockchain platform for building digital ecosystems",
+        "keywords": ""
+      }
+    },
+    {
+      "title": "Contract Management",
+      "descr": "Blockchain app to optimize public sector employee work, contract management efficiency and transparency.",
+      "href": "/use-cases/contract-management",
+      "benefits": [
+        "Significant reduction in paper usage",
+        "Full history of actions taken for heightened accountability",
+        "100% non-falsifiable contracts and contract management",
+        "Reduction in opportunities for corruption by implementing a fully transparent system",
+        "Full contract management history on a single screen",
+        "Makes contract completion and tracking more efficient"
+      ],
+      "video": "/assets/videos/contract_management_poc.mp4",
+      "htmlAttrs": {
+        "title": "Apla - Blockchain Platform for accelerating technological progress",
+        "description": "Public blockchain platform for building digital ecosystems",
+        "keywords": ""
+      }
+    },
+    {
+      "title": "Lease Contracts",
+      "descr": "Contract management solution on blockchain to streamline the whole process of leasing a property.",
+      "href": "/use-cases/lease-contracts",
+      "benefits": [
+        "Significant decrease in contract registration time",
+        "Full history of actions completed with immutable data",
+        "Cryptographically secured e-documents which can serve as a legal basis on which further contracts can be concluded",
+        "Make changes to the agreement within the platform",
+        "Transparent process from pre-agreement to conclusion and approval by the authorities",
+        "Single environment for all relevant documents"
+      ],
+      "video": "/assets/videos/lease_contract_poc.mp4",
+      "htmlAttrs": {
+        "title": "Apla - Blockchain Platform for accelerating technological progress",
+        "description": "Public blockchain platform for building digital ecosystems",
+        "keywords": ""
+      }
+    },
+
+
+
+
     {
       "title": "Attestation",
       "descr": "Blockchain system to verify the validity of education certificates and diplomas, improve data security and transparency, reduce fraud, and increase operational and economic efficiency for government, universities, students, and recruiters.",

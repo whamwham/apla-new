@@ -2,143 +2,83 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>https://apla.io/</loc>
-        <lastmod>2018-12-14T16:40:19.826Z</lastmod>
+        <lastmod>2018-12-19T12:03:45.357Z</lastmod>
     </url>
     <url>
         <loc>https://apla.io/index2.html</loc>
-        <lastmod>2018-12-14T16:40:21.654Z</lastmod>
-    </url>
-    <url>
-        <loc>https://apla.io/developers</loc>
-        <lastmod>2018-12-14T16:40:21.807Z</lastmod>
-    </url>
-    <url>
-        <loc>https://apla.io/faq</loc>
-        <lastmod>2018-12-14T16:40:22.131Z</lastmod>
-    </url>
-    <url>
-        <loc>https://apla.io/resources</loc>
-        <lastmod>2018-12-14T16:40:22.448Z</lastmod>
+        <lastmod>2018-12-19T12:03:45.522Z</lastmod>
     </url>
     <url>
         <loc>https://apla.io/cases</loc>
-        <lastmod>2018-12-14T16:40:22.697Z</lastmod>
+        <lastmod>2018-12-19T12:03:45.854Z</lastmod>
     </url>
     <url>
-        <loc>https://apla.io/public</loc>
-        <lastmod>2018-12-14T16:40:22.830Z</lastmod>
+        <loc>https://apla.io/developers</loc>
+        <lastmod>2018-12-19T12:03:49.672Z</lastmod>
     </url>
     <url>
-        <loc>https://apla.io/use-cases</loc>
-        <lastmod>2018-12-14T16:40:23.160Z</lastmod>
+        <loc>https://apla.io/faq</loc>
+        <lastmod>2018-12-19T12:03:49.317Z</lastmod>
     </url>
     <url>
         <loc>https://apla.io/private</loc>
-        <lastmod>2018-12-14T16:40:22.288Z</lastmod>
+        <lastmod>2018-12-19T12:03:49.839Z</lastmod>
+    </url>
+    <url>
+        <loc>https://apla.io/public</loc>
+        <lastmod>2018-12-19T12:03:49.998Z</lastmod>
+    </url>
+    <url>
+        <loc>https://apla.io/resources</loc>
+        <lastmod>2018-12-19T12:03:50.168Z</lastmod>
+    </url>
+    <url>
+        <loc>https://apla.io/use-cases</loc>
+        <lastmod>2018-12-19T12:03:50.352Z</lastmod>
     </url>
     <url>
         <loc>https://apla.io/cases/business-licensing</loc>
-        <lastmod>2018-12-14T16:40:24.706Z</lastmod>
+        <lastmod>2018-12-19T12:03:50.658Z</lastmod>
     </url>
     <url>
         <loc>https://apla.io/cases/land-registry</loc>
-        <lastmod>2018-12-14T16:40:25.035Z</lastmod>
+        <lastmod>2018-12-19T12:03:50.853Z</lastmod>
     </url>
     <url>
         <loc>https://apla.io/cases/land-registry/index3.html</loc>
-        <lastmod>2018-12-14T16:40:25.175Z</lastmod>
+        <lastmod>2018-12-19T12:03:51.293Z</lastmod>
     </url>
     <url>
         <loc>https://apla.io/cases/supply-chain</loc>
-        <lastmod>2018-12-14T16:40:25.502Z</lastmod>
-    </url>
-    <url>
-        <loc>https://apla.io/cases/vehicle-registry</loc>
-        <lastmod>2018-12-14T16:40:25.745Z</lastmod>
-    </url>
-    <url>
-        <loc>https://apla.io/cases/vehicle-registry/index3.html</loc>
-        <lastmod>2018-12-14T16:40:25.864Z</lastmod>
+        <lastmod>2018-12-19T12:03:51.452Z</lastmod>
     </url>
     <url>
         <loc>https://apla.io/cases/survey-poll</loc>
-        <lastmod>2018-12-14T16:40:25.647Z</lastmod>
+        <lastmod>2018-12-19T12:03:51.631Z</lastmod>
     </url>
     <url>
-        <loc>https://apla.io/public/developers</loc>
-        <lastmod>2018-12-14T16:40:26.083Z</lastmod>
+        <loc>https://apla.io/cases/vehicle-registry</loc>
+        <lastmod>2018-12-19T12:03:52.356Z</lastmod>
     </url>
     <url>
-        <loc>https://apla.io/public/developers/index2.html</loc>
-        <lastmod>2018-09-21T23:10:37.232Z</lastmod>
-    </url>
-    <url>
-        <loc>https://apla.io/public/get-wallet</loc>
-        <lastmod>2018-12-14T16:40:26.350Z</lastmod>
-    </url>
-    <url>
-        <loc>https://apla.io/use-cases/attestation</loc>
-        <lastmod>2018-12-14T16:40:25.963Z</lastmod>
-    </url>
-    <url>
-        <loc>https://apla.io/use-cases/birth-certificates</loc>
-        <lastmod>2018-12-14T16:40:26.200Z</lastmod>
-    </url>
-    <url>
-        <loc>https://apla.io/use-cases/birth-death-certificates</loc>
-        <lastmod>2018-10-13T14:20:05.118Z</lastmod>
-    </url>
-    <url>
-        <loc>https://apla.io/use-cases/business-license-issuance</loc>
-        <lastmod>2018-12-14T16:40:26.448Z</lastmod>
-    </url>
-    <url>
-        <loc>https://apla.io/use-cases/certificate-issuance</loc>
-        <lastmod>2018-12-14T16:40:26.542Z</lastmod>
-    </url>
-    <url>
-        <loc>https://apla.io/use-cases/land-registry</loc>
-        <lastmod>2018-12-14T16:40:27.045Z</lastmod>
-    </url>
-    <url>
-        <loc>https://apla.io/use-cases\land-registry — копия</loc>
-        <lastmod>2018-10-13T09:28:04.005Z</lastmod>
-    </url>
-    <url>
-        <loc>https://apla.io/use-cases/supply-chain</loc>
-        <lastmod>2018-12-14T16:40:26.752Z</lastmod>
-    </url>
-    <url>
-        <loc>https://apla.io/use-cases/vehicle-registry</loc>
-        <lastmod>2018-12-14T16:40:27.311Z</lastmod>
-    </url>
-    <url>
-        <loc>https://apla.io/use-cases/voting</loc>
-        <lastmod>2018-12-14T16:40:27.436Z</lastmod>
-    </url>
-    <url>
-        <loc>https://apla.io/use-cases/token-transfer</loc>
-        <lastmod>2018-12-14T16:40:26.907Z</lastmod>
-    </url>
-    <url>
-        <loc>https://apla.io/private/business</loc>
-        <lastmod>2018-12-14T16:40:24.247Z</lastmod>
+        <loc>https://apla.io/cases/vehicle-registry/index3.html</loc>
+        <lastmod>2018-12-19T12:03:52.500Z</lastmod>
     </url>
     <url>
         <loc>https://apla.io/private/about</loc>
-        <lastmod>2018-12-14T16:40:23.865Z</lastmod>
+        <lastmod>2018-12-19T12:03:52.661Z</lastmod>
     </url>
     <url>
-        <loc>https://apla.io/private/government</loc>
-        <lastmod>2018-12-14T16:40:24.481Z</lastmod>
+        <loc>https://apla.io/private/business</loc>
+        <lastmod>2018-12-19T12:03:52.792Z</lastmod>
     </url>
     <url>
         <loc>https://apla.io/private/career</loc>
-        <lastmod>2018-12-14T16:40:24.007Z</lastmod>
+        <lastmod>2018-12-19T12:03:52.915Z</lastmod>
     </url>
     <url>
         <loc>https://apla.io/private/cases</loc>
-        <lastmod>2018-12-14T16:40:27.634Z</lastmod>
+        <lastmod>2018-12-19T12:03:53.183Z</lastmod>
     </url>
     <url>
         <loc>https://apla.io/private\developers\index — копия.html</loc>
@@ -146,27 +86,87 @@
     </url>
     <url>
         <loc>https://apla.io/private/developers</loc>
-        <lastmod>2018-12-14T16:40:27.840Z</lastmod>
+        <lastmod>2018-12-19T12:03:53.537Z</lastmod>
     </url>
     <url>
         <loc>https://apla.io/private/developers/index2.html</loc>
-        <lastmod>2018-12-14T16:40:27.849Z</lastmod>
+        <lastmod>2018-12-19T12:03:53.820Z</lastmod>
     </url>
     <url>
         <loc>https://apla.io/private/developers/index22.html</loc>
-        <lastmod>2018-12-14T16:40:27.851Z</lastmod>
+        <lastmod>2018-12-19T12:03:53.987Z</lastmod>
+    </url>
+    <url>
+        <loc>https://apla.io/private/government</loc>
+        <lastmod>2018-12-19T12:03:54.098Z</lastmod>
+    </url>
+    <url>
+        <loc>https://apla.io/public/developers</loc>
+        <lastmod>2018-12-19T12:03:54.163Z</lastmod>
+    </url>
+    <url>
+        <loc>https://apla.io/public/developers/index2.html</loc>
+        <lastmod>2018-09-21T23:10:37.232Z</lastmod>
+    </url>
+    <url>
+        <loc>https://apla.io/public/get-wallet</loc>
+        <lastmod>2018-12-19T12:03:54.308Z</lastmod>
+    </url>
+    <url>
+        <loc>https://apla.io/use-cases/attestation</loc>
+        <lastmod>2018-12-19T12:13:18.374Z</lastmod>
+    </url>
+    <url>
+        <loc>https://apla.io/use-cases/birth-certificates</loc>
+        <lastmod>2018-12-19T12:13:18.376Z</lastmod>
+    </url>
+    <url>
+        <loc>https://apla.io/use-cases/business-license-issuance</loc>
+        <lastmod>2018-12-19T12:13:18.376Z</lastmod>
+    </url>
+    <url>
+        <loc>https://apla.io/use-cases/certificate-issuance</loc>
+        <lastmod>2018-12-19T12:13:18.376Z</lastmod>
+    </url>
+    <url>
+        <loc>https://apla.io/use-cases/contract-management</loc>
+        <lastmod>2018-12-19T12:13:18.378Z</lastmod>
+    </url>
+    <url>
+        <loc>https://apla.io/use-cases/land-registry</loc>
+        <lastmod>2018-12-19T12:13:18.374Z</lastmod>
+    </url>
+    <url>
+        <loc>https://apla.io/use-cases/lease-contracts</loc>
+        <lastmod>2018-12-19T12:13:18.378Z</lastmod>
+    </url>
+    <url>
+        <loc>https://apla.io/use-cases/marketplace</loc>
+        <lastmod>2018-12-19T12:13:18.374Z</lastmod>
+    </url>
+    <url>
+        <loc>https://apla.io/use-cases/supply-chain</loc>
+        <lastmod>2018-12-19T12:13:18.377Z</lastmod>
+    </url>
+    <url>
+        <loc>https://apla.io/use-cases/token-transfer</loc>
+        <lastmod>2018-12-19T12:13:18.377Z</lastmod>
+    </url>
+    <url>
+        <loc>https://apla.io/use-cases/vehicle-registry</loc>
+        <lastmod>2018-12-19T12:13:18.377Z</lastmod>
+    </url>
+    <url>
+        <loc>https://apla.io/use-cases/voting</loc>
+        <lastmod>2018-12-19T12:13:18.379Z</lastmod>
     </url>
     <url>
         <loc>https://apla.io/private/cases/business-licensing</loc>
-        <lastmod>2018-12-14T16:40:27.853Z</lastmod>
-    </url>
-    <url>
-        <loc>https://apla.io/private/cases/supply-chain</loc>
-        <lastmod>2018-12-14T16:40:27.863Z</lastmod>
+        <lastmod>2018-12-19T12:03:54.453Z</lastmod>
     </url>
     <url>
         <loc>https://apla.io/private/cases/land-registry</loc>
-        <lastmod>2018-12-14T16:40:27.899Z</lastmod>
+        <lastmod>2018-12-19T12:03:54.564Z</lastmod>
     </url>
     <url>
         <loc>https://apla.io/private/cases/land-registry/index2.html</loc>
@@ -174,15 +174,19 @@
     </url>
     <url>
         <loc>https://apla.io/private/cases/land-registry/index3.html</loc>
-        <lastmod>2018-12-14T16:40:27.912Z</lastmod>
+        <lastmod>2018-12-19T12:03:54.735Z</lastmod>
+    </url>
+    <url>
+        <loc>https://apla.io/private/cases/supply-chain</loc>
+        <lastmod>2018-12-19T12:03:54.905Z</lastmod>
     </url>
     <url>
         <loc>https://apla.io/private/cases/survey-poll</loc>
-        <lastmod>2018-12-14T16:40:27.880Z</lastmod>
+        <lastmod>2018-12-19T12:03:55.063Z</lastmod>
     </url>
     <url>
         <loc>https://apla.io/private/cases/vehicle-registry</loc>
-        <lastmod>2018-12-14T16:40:27.927Z</lastmod>
+        <lastmod>2018-12-19T12:03:55.202Z</lastmod>
     </url>
     <url>
         <loc>https://apla.io/private/cases/vehicle-registry/index2.html</loc>
@@ -190,6 +194,6 @@
     </url>
     <url>
         <loc>https://apla.io/private/cases/vehicle-registry/index3.html</loc>
-        <lastmod>2018-12-14T16:40:27.939Z</lastmod>
+        <lastmod>2018-12-19T12:03:55.220Z</lastmod>
     </url>
 </urlset>

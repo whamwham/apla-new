@@ -9,11 +9,14 @@ var vinylSourceStream = require('vinyl-source-stream');
 var es = require('event-stream');
 var $ = require('gulp-load-plugins')();
 var pugI18n = require('gulp-pug-i18n');
+var fs = require('fs');
 
 const imagemin = require('gulp-imagemin');
 
 var gulp = require('gulp');
 var sitemap = require('gulp-sitemap');
+var rename = require('gulp-rename');
+var log = require('fancy-log');
 
 
 var postcssPlugins = [
@@ -102,6 +105,40 @@ gulp.task('jade', function () {
         .pipe(gulp.dest('dist'))
         .pipe(browserSync.stream({once: true}));
 });
+
+
+
+
+gulp.task('usecases', function () {
+    let lang = JSON.parse( fs.readFileSync('./src/pug/locale/en.json'));
+    let cases = lang.USE_CASES;
+
+    for (let i=0; i< cases.length; i++){
+        let useCase = cases[i];
+        //log(post);
+        gulp.src('src/pug/includes/use-case.pug')
+            .pipe($.pug({
+                pretty: true,
+                basedir: "./src",
+                data: {
+                    'cases': cases,
+                    'useCase' : useCase,
+                    '$i18n': lang
+                }
+            }))
+            .on('error', $.notify.onError({ title: "Jade Error", message: "<%= error.message %>"}) )
+            .pipe(rename({
+                dirname: "."+useCase.href,
+                basename: 'index',
+                extname: '.html'
+            }))
+            .pipe(gulp.dest('dist')); // tell gulp our output folder
+    }
+} );
+
+
+
+
 
 gulp.task('sass-build', function () {
   gulp.src(['src/sass/**/*.sass', 'src/sass/**/*.scss'])
@@ -234,5 +271,5 @@ gulp.task('sitemap', function () {
         .pipe(gulp.dest('./dist'));
 });
 
-gulp.task('build', ['jade', 'sitemap', 'sass-build', 'uglify', 'copy-favicons', 'copy-fonts', 'copy-files']);
+gulp.task('build', ['jade', 'usecases', 'sitemap', 'sass-build', 'uglify', 'copy-favicons', 'copy-fonts', 'copy-files']);
 gulp.task('default', ['serve']);
